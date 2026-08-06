@@ -3,7 +3,7 @@
 	"category": "redstone",
 	"key": {
 		"#": "minecraft:copper_ingot",
-		"c": "minecraft:note_block"
+		"c": "minecraft:lightning_rod"
 	},
 	"pattern": [
 		"###",

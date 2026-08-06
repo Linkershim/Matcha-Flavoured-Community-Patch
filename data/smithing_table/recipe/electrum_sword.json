@@ -18,7 +18,10 @@
 					"italic": false
 				}
 			],
-			"minecraft:item_name": "Electrum Sword",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.electrum_sword",
+				"color": "yellow"
+			},
 			"minecraft:attribute_modifiers": [
 				{
 					"type": "minecraft:attack_damage",
@@ -43,7 +46,7 @@
 			"minecraft:enchantments": {
 				"minecraft:looting": 2,
 				"minecraft:smite": 2,
-				"main:warding_armor": 1
+				"main:warding2": 1
 			},
 			"minecraft:enchantment_glint_override": false,
 			"minecraft:repairable": {

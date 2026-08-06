@@ -5,8 +5,10 @@
 	"result": {
 		"id": "minecraft:stone_sword",
 		"components": {
-			"minecraft:item_name": "Steel Sword",
-			"minecraft:max_damage": 1500,
+			"minecraft:item_name": {
+				"translate": "item.kleispack.steel_sword"
+			},
+			"minecraft:max_damage": 3000,
 			"minecraft:attribute_modifiers": [
 				{
 					"type": "minecraft:attack_damage",
@@ -101,7 +103,6 @@
 			},
 			"minecraft:repairable": {
 				"items": [
-					"minecraft:iron_nugget",
 					"minecraft:iron_ingot"
 				]
 			}

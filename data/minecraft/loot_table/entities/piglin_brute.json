@@ -2,6 +2,39 @@
 	"type": "minecraft:entity",
 	"pools": [
 		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:turtle_scute",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:rarity": "epic",
+								"minecraft:enchantment_glint_override": true
+							}
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:killed_by_player"
+				},
+				{
+					"condition": "minecraft:random_chance_with_enchanted_bonus",
+					"unenchanted_chance": 0.25,
+					"enchanted_chance": {
+						"type": "minecraft:linear",
+						"base": 0.35,
+						"per_level_above_first": 0.1
+					},
+					"enchantment": "minecraft:looting"
+				}
+			]
+		},
+		{
 			"bonus_rolls": 0,
 			"conditions": [
 				{
@@ -9,8 +42,12 @@
 				},
 				{
 					"condition": "minecraft:random_chance_with_enchanted_bonus",
-					"unenchanted_chance": 0.75,
-					"enchanted_chance": 0.05,
+					"unenchanted_chance": 0.65,
+					"enchanted_chance": {
+						"type": "minecraft:linear",
+						"base": 0.75,
+						"per_level_above_first": 0.08
+					},
 					"enchantment": "minecraft:looting"
 				}
 			],

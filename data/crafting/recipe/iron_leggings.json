@@ -22,7 +22,8 @@
 				"hidden_components": [
 					"minecraft:attribute_modifiers"
 				]
-			}
+			},
+			"minecraft:max_damage": 350
 		},
 		"count": 1,
 		"id": "minecraft:iron_leggings"

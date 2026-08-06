@@ -19,7 +19,9 @@
     "minecraft:chainmail_chestplate",
     "minecraft:chainmail_leggings",
     "minecraft:chainmail_boots",
-    "minecraft:raw_iron"
+    "minecraft:raw_iron",
+    "minecraft:iron_nautilus_armor",
+    "minecraft:iron_spear"
   ],
   "result": {
     "id": "minecraft:iron_ingot"

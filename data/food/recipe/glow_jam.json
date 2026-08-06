@@ -8,7 +8,7 @@
 		"minecraft:glass_bottle"
 	],
 	"result": {
-		"id": "minecraft:honey_bottle",
+		"id": "minecraft:poisonous_potato",
 		"components": {
 			"minecraft:item_model": "minecraft:glow_jam",
 			"minecraft:item_name": "Glow Berry Jam",

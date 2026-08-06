@@ -5,7 +5,7 @@
 	"result": {
 		"id": "minecraft:diamond_helmet",
 		"components": {
-			"minecraft:max_damage": 450,
+			"minecraft:max_damage": 1000,
 			"minecraft:lore": [
 				{
 					"text": "⛊ 3",
@@ -19,7 +19,7 @@
 				}
 			],
 			"minecraft:item_name": {
-				"text": "Electrum Helmet",
+				"translate": "item.kleispack.electrum_helmet",
 				"color": "yellow"
 			},
 			"minecraft:attribute_modifiers": [
@@ -52,7 +52,7 @@
 				"slot": "head",
 				"asset_id": "minecraft:electrum"
 			},
-      		"minecraft:repairable": {
+			"minecraft:repairable": {
 				"items": [
 					"minecraft:diamond",
 					"minecraft:gold_ingot"

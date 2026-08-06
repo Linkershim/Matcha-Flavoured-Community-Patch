@@ -23,7 +23,7 @@
 				"damage_per_block": 1
 			},
 			"minecraft:item_name": {
-				"text": "Palatinate Dolabra",
+				"translate": "item.kleispack.shakudo_dolabra",
 				"color": "#c96691"
 			},
 			"minecraft:item_model": "minecraft:shakudo_dolabra",
@@ -69,8 +69,7 @@
 			},
 			"minecraft:repairable": {
 				"items": [
-					"minecraft:copper_ingot",
-					"minecraft:copper_nugget"
+					"minecraft:copper_ingot"
 				]
 			}
 		}

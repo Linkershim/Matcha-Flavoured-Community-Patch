@@ -163,29 +163,6 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:book",
-					"conditions": [],
-					"functions": [
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:item_name": "The Key of Solomon",
-								"minecraft:rarity": "epic",
-								"minecraft:max_stack_size": 64,
-								"minecraft:item_model": "minecraft:solomon",
-								"minecraft:lore": [
-									{
-										"text": "by King Solomon",
-										"color": "gray",
-										"italic": false
-									}
-								]
-							}
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
 					"name": "minecraft:poisonous_potato",
 					"functions": [
 						{

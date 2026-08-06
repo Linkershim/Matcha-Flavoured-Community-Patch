@@ -18,7 +18,7 @@
 				"damage_per_block": 1
 			},
 			"minecraft:item_name": {
-				"text": "Palatinate Shovel",
+				"translate": "item.kleispack.shakudo_shovel",
 				"color": "#c96691"
 			},
 			"minecraft:item_model": "minecraft:shakudo_shovel",
@@ -66,8 +66,7 @@
 			],
 			"minecraft:repairable": {
 				"items": [
-					"minecraft:copper_ingot",
-					"minecraft:copper_nugget"
+					"minecraft:copper_ingot"
 				]
 			}
 		}

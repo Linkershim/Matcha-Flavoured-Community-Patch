@@ -4,49 +4,79 @@
 		"steel_axe": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "recipes_equipment:steel_axe"
+				"recipe_id": "smithing_table:steel_axe"
 			}
 		},
 		"steel_pickaxe": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "recipes_equipment:steel_pickaxe"
+				"recipe_id": "smithing_table:steel_pickaxe"
 			}
 		},
 		"steel_shovel": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "recipes_equipment:steel_shovel"
+				"recipe_id": "smithing_table:steel_shovel"
 			}
 		},
 		"steel_hoe": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "recipes_equipment:steel_hoe"
+				"recipe_id": "smithing_table:steel_hoe"
 			}
 		},
 		"steel_sword": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "recipes_equipment:steel_sword"
+				"recipe_id": "smithing_table:steel_sword"
 			}
 		},
 		"steel_dolabra": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "recipes_equipment:steel_dolabra"
+				"recipe_id": "smithing_table:steel_dolabra"
 			}
 		},
 		"steel_mattock": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "recipes_equipment:steel_mattock"
+				"recipe_id": "smithing_table:steel_mattock"
+			}
+		},
+		"steel_spear": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:steel_spear"
+			}
+		},
+		"steel_chestplate": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:steel_chestplate"
+			}
+		},
+		"steel_leggings": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:steel_leggings"
+			}
+		},
+		"steel_helmet": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:steel_helmet"
+			}
+		},
+		"steel_boots": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:steel_boots"
 			}
 		}
 	},
 	"display": {
 		"description": {
-			"text": "Craft a Steel Tool"
+			"text": "Smith a piece of Steel Equipment"
 		},
 		"icon": {
 			"components": {
@@ -69,7 +99,12 @@
 			"steel_hoe",
 			"steel_sword",
 			"steel_dolabra",
-			"steel_mattock"
+			"steel_mattock",
+			"steel_spear",
+			"steel_helmet",
+			"steel_chestplate",
+			"steel_leggings",
+			"steel_boots"
 		]
 	]
 }

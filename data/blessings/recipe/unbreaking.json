@@ -15,7 +15,7 @@
 	"result": {
 		"components": {
 			"minecraft:stored_enchantments": {
-				"minecraft:unbreaking": 1
+				"minecraft:unbreaking": 2
 			},
 			"minecraft:rarity": "rare",
 			"minecraft:item_name": "Blessing",

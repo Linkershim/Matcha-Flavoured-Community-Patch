@@ -5,9 +5,9 @@
 	"result": {
 		"id": "minecraft:stone_spear",
 		"components": {
-			"minecraft:max_damage": 300,
+			"minecraft:max_damage": 3000,
 			"minecraft:item_name": {
-				"text": "Steel Spear"
+				"translate": "item.kleispack.steel_spear"
 			},
 			"minecraft:item_model": "minecraft:steel_spear",
 			"minecraft:attribute_modifiers": [
@@ -57,8 +57,7 @@
 			},
 			"minecraft:repairable": {
 				"items": [
-					"minecraft:iron_ingot",
-					"minecraft:iron_nugget"
+					"minecraft:iron_ingot"
 				]
 			},
 			"minecraft:enchantments": {},
@@ -66,4 +65,4 @@
 		}
 	},
 	"template": "minecraft:iron_ingot"
-}	
+}

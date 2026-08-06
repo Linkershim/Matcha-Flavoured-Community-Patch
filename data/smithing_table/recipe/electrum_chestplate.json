@@ -5,7 +5,7 @@
 	"result": {
 		"id": "minecraft:diamond_chestplate",
 		"components": {
-			"minecraft:max_damage": 628,
+			"minecraft:max_damage": 1000,
 			"minecraft:lore": [
 				{
 					"text": "⛊ 8",
@@ -19,7 +19,7 @@
 				}
 			],
 			"minecraft:item_name": {
-				"text": "Electrum Chestplate",
+				"translate": "item.kleispack.electrum_chestplate",
 				"color": "yellow"
 			},
 			"minecraft:attribute_modifiers": [
@@ -52,7 +52,7 @@
 				"slot": "chest",
 				"asset_id": "minecraft:electrum"
 			},
-      		"minecraft:repairable": {
+			"minecraft:repairable": {
 				"items": [
 					"minecraft:diamond",
 					"minecraft:gold_ingot"

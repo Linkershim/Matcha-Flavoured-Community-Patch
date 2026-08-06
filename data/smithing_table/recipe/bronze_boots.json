@@ -5,7 +5,7 @@
 	"result": {
 		"id": "minecraft:copper_boots",
 		"components": {
-			"minecraft:max_damage": 229,
+			"minecraft:max_damage": 500,
 			"minecraft:lore": [
 				{
 					"text": "⛊ 2",
@@ -19,7 +19,7 @@
 				}
 			],
 			"minecraft:item_name": {
-				"text": "Bronze Boots",
+				"translate": "item.kleispack.bronze_boots",
 				"color": "#ac7b5c"
 			},
 			"minecraft:attribute_modifiers": [
@@ -36,17 +36,6 @@
 					"amount": 2,
 					"operation": "add_value",
 					"slot": "feet"
-				},
-				"",
-				{
-					"text": "Repaired with:",
-					"color": "gray",
-					"italic": false
-				},
-				{
-					"text": "  Copper Ingot",
-					"color": "dark_gray",
-					"italic": false
 				}
 			],
 			"minecraft:tooltip_display": {

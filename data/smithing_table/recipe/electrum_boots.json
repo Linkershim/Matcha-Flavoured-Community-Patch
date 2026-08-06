@@ -5,7 +5,7 @@
 	"result": {
 		"id": "minecraft:diamond_boots",
 		"components": {
-			"minecraft:max_damage": 529,
+			"minecraft:max_damage": 1000,
 			"minecraft:lore": [
 				{
 					"text": "⛊ 3",
@@ -19,7 +19,7 @@
 				}
 			],
 			"minecraft:item_name": {
-				"text": "Electrum Boots",
+				"translate": "item.kleispack.electrum_boots",
 				"color": "yellow"
 			},
 			"minecraft:attribute_modifiers": [
@@ -52,7 +52,7 @@
 				"slot": "feet",
 				"asset_id": "minecraft:electrum"
 			},
-      		"minecraft:repairable": {
+			"minecraft:repairable": {
 				"items": [
 					"minecraft:diamond",
 					"minecraft:gold_ingot"

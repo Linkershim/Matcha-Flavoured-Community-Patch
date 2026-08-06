@@ -10,14 +10,14 @@
 	],
 	"result": {
 		"components": {
-			"minecraft:max_damage": 285,
+			"minecraft:max_damage": 200,
 			"minecraft:lore": [
 				{
 					"text": "⛊ 1",
 					"color": "dark_green",
 					"italic": false
 				},
-        {
+				{
 					"text": "⬇⛊ 1",
 					"color": "dark_green",
 					"italic": false
@@ -37,7 +37,11 @@
 					"operation": "add_value",
 					"slot": "head"
 				}
-			]
+			],
+			"minecraft:item_name": {
+				"translate": "item.minecraft.leather_helmet",
+				"color": "white"
+			}
 		},
 		"count": 1,
 		"id": "minecraft:leather_helmet"

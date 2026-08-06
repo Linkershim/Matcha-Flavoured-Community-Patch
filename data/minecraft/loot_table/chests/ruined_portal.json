@@ -1,0 +1,224 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 2,
+								"min": 1
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:obsidian",
+					"weight": 40
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 4,
+								"min": 1
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:flint",
+					"weight": 40
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 18,
+								"min": 9
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:iron_nugget",
+					"weight": 40
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:flint_and_steel",
+					"weight": 40
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:fire_charge",
+					"weight": 40
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:golden_apple",
+					"weight": 15
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 24,
+								"min": 4
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:gold_nugget",
+					"weight": 15
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:golden_horse_armor",
+					"weight": 5
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:lore": [
+									{
+										"text": "❤",
+										"color": "red",
+										"italic": false
+									},
+									{
+										"text": "👁 Night Vision (0:30)",
+										"color": "green",
+										"italic": false
+									}
+								],
+								"minecraft:consumable": {
+									"consume_seconds": 1.6,
+									"has_consume_particles": false,
+									"on_consume_effects": [
+										{
+											"type": "minecraft:apply_effects",
+											"effects": [
+												{
+													"id": "minecraft:regeneration",
+													"amplifier": 3,
+													"duration": 15,
+													"show_particles": false,
+													"show_icon": false
+												},
+												{
+													"id": "minecraft:night_vision",
+													"amplifier": 0,
+													"duration": 600,
+													"show_particles": false,
+													"show_icon": false
+												}
+											],
+											"probability": 1
+										}
+									]
+								},
+								"minecraft:food": {
+									"nutrition": 0,
+									"saturation": 0,
+									"can_always_eat": true
+								}
+							}
+						},
+						{
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 12,
+								"min": 4
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:golden_carrot",
+					"weight": 5
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:clock",
+					"weight": 5
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 8,
+								"min": 2
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:gold_ingot",
+					"weight": 5
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:enchanted_golden_apple"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 2,
+								"min": 1
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:gold_block"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:chests/equipment/gold",
+					"weight": 80
+				}
+			],
+			"rolls": {
+				"type": "minecraft:uniform",
+				"max": 12,
+				"min": 10
+			}
+		},
+		{
+			"entries": [
+				{
+					"type": "minecraft:empty"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 2,
+								"min": 1
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:lodestone",
+					"weight": 2
+				}
+			],
+			"rolls": 1
+		}
+	],
+	"random_sequence": "minecraft:chests/ruined_portal"
+}

@@ -18,7 +18,7 @@
 				"damage_per_block": 1
 			},
 			"minecraft:item_name": {
-				"text": "Palatinate Axe",
+				"translate": "item.kleispack.shakudo_axe",
 				"color": "#c96691"
 			},
 			"minecraft:item_model": "minecraft:shakudo_axe",
@@ -66,8 +66,7 @@
 			},
 			"minecraft:repairable": {
 				"items": [
-					"minecraft:copper_ingot",
-					"minecraft:copper_nugget"
+					"minecraft:copper_ingot"
 				]
 			}
 		}

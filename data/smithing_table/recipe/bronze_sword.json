@@ -5,9 +5,9 @@
 	"result": {
 		"id": "minecraft:stone_sword",
 		"components": {
-			"minecraft:max_damage": 600,
+			"minecraft:max_damage": 1000,
 			"minecraft:item_name": {
-				"text": "Bronze Sword",
+				"translate": "item.kleispack.bronze_sword",
 				"color": "#ac7b5c"
 			},
 			"minecraft:item_model": "minecraft:bronze_sword",
@@ -72,17 +72,6 @@
 					"text": "25% Projectile Blocking",
 					"color": "blue",
 					"italic": false
-				},
-				"",
-				{
-					"text": "Repaired with:",
-					"color": "gray",
-					"italic": false
-				},
-				{
-					"text": "  Copper Ingot",
-					"color": "dark_gray",
-					"italic": false
 				}
 			],
 			"minecraft:tooltip_display": {
@@ -120,6 +109,11 @@
 			},
 			"minecraft:enchantments": {
 				"main:riposte": 1
+			},
+			"minecraft:repairable": {
+				"items": [
+					"minecraft:copper_ingot"
+				]
 			},
 			"minecraft:enchantment_glint_override": false
 		}

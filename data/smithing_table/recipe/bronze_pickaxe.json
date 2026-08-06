@@ -37,21 +37,10 @@
 					"text": "🏃 +0.005",
 					"color": "dark_green",
 					"italic": false
-				},
-				"",
-				{
-					"text": "Repaired with:",
-					"color": "gray",
-					"italic": false
-				},
-				{
-					"text": "  Copper Ingot",
-					"color": "dark_gray",
-					"italic": false
 				}
 			],
 			"minecraft:item_name": {
-				"text": "Bronze Pickaxe",
+				"translate": "item.kleispack.bronze_pickaxe",
 				"color": "#ac7b5c"
 			},
 			"minecraft:item_model": "minecraft:bronze_pickaxe",
@@ -81,6 +70,11 @@
 			"minecraft:tooltip_display": {
 				"hidden_components": [
 					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:repairable": {
+				"items": [
+					"minecraft:copper_ingot"
 				]
 			}
 		}

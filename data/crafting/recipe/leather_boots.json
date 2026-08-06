@@ -10,7 +10,7 @@
 	],
 	"result": {
 		"components": {
-			"minecraft:max_damage": 285,
+			"minecraft:max_damage": 200,
 			"minecraft:lore": [
 				{
 					"text": "⛊ 1",
@@ -40,6 +40,10 @@
 			],
 			"minecraft:enchantments": {
 				"minecraft:feather_falling": 2
+			},
+			"minecraft:item_name": {
+				"translate": "item.minecraft.leather_boots",
+				"color": "white"
 			}
 		},
 		"count": 1,

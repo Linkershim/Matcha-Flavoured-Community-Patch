@@ -5,7 +5,7 @@
 	"result": {
 		"id": "minecraft:copper_leggings",
 		"components": {
-			"minecraft:max_damage": 395,
+			"minecraft:max_damage": 500,
 			"minecraft:lore": [
 				{
 					"text": "⛊ 5",
@@ -16,21 +16,10 @@
 					"text": "🏃 +0.008",
 					"color": "dark_green",
 					"italic": false
-				},
-				"",
-				{
-					"text": "Repaired with:",
-					"color": "gray",
-					"italic": false
-				},
-				{
-					"text": "  Copper Ingot",
-					"color": "dark_gray",
-					"italic": false
 				}
 			],
 			"minecraft:item_name": {
-				"text": "Bronze Leggings",
+				"translate": "item.kleispack.bronze_leggings",
 				"color": "#ac7b5c"
 			},
 			"minecraft:attribute_modifiers": [

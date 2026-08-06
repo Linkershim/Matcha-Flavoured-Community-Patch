@@ -26,22 +26,6 @@
 					"text": "💥🚫 1",
 					"color": "dark_green",
 					"italic": false
-				},
-				"",
-				{
-					"text": "Repaired with:",
-					"color": "gray",
-					"italic": false
-				},
-				{
-					"text": "  Diamond Block",
-					"color": "dark_gray",
-					"italic": false
-				},
-				{
-					"text": "  Gold Block",
-					"color": "dark_gray",
-					"italic": false
 				}
 			],
 			"minecraft:tooltip_display": {
@@ -56,9 +40,8 @@
 				]
 			},
 			"minecraft:item_name": {
-				"text": "Adamant Helmet",
-				"color": "gold",
-				"italic": false
+				"translate": "item.minecraft.netherite_helmet",
+				"color": "gold"
 			}
 		}
 	},

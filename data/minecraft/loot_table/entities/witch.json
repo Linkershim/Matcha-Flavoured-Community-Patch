@@ -154,7 +154,12 @@
 				"type": "minecraft:uniform",
 				"max": 3,
 				"min": 1
-			}
+			},
+			"conditions": [
+				{
+					"condition": "minecraft:killed_by_player"
+				}
+			]
 		},
 		{
 			"bonus_rolls": 0,
@@ -184,7 +189,12 @@
 					"name": "minecraft:glowstone_dust"
 				}
 			],
-			"rolls": 1
+			"rolls": 1,
+			"conditions": [
+				{
+					"condition": "minecraft:killed_by_player"
+				}
+			]
 		}
 	],
 	"random_sequence": "minecraft:entities/witch"

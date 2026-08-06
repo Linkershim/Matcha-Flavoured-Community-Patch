@@ -1,0 +1,30 @@
+{
+	"criteria": {
+		"on_sulfur": {
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"minecraft:stepping_on": {
+								"block": {
+									"blocks": "minecraft:nether_quartz_ore"
+								}
+							}
+						}
+					}
+				]
+			},
+			"trigger": "minecraft:location"
+		}
+	},
+	"requirements": [
+		[
+			"on_sulfur"
+		]
+	],
+	"rewards": {
+		"function": "main:particle/sulfurous_hellstone"
+	}
+}

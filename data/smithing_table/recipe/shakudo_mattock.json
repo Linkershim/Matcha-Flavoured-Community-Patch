@@ -40,7 +40,7 @@
 				}
 			],
 			"minecraft:item_name": {
-				"text": "Palatinate Mattock",
+				"translate": "item.kleispack.shakudo_mattock",
 				"color": "#c96691"
 			},
 			"minecraft:item_model": "minecraft:shakudo_mattock",
@@ -71,8 +71,7 @@
 			],
 			"minecraft:repairable": {
 				"items": [
-					"minecraft:copper_ingot",
-					"minecraft:copper_nugget"
+					"minecraft:copper_ingot"
 				]
 			}
 		}

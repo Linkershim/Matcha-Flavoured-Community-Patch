@@ -29,7 +29,12 @@
 					"name": "minecraft:rabbit_hide"
 				}
 			],
-			"rolls": 1
+			"rolls": 1,
+			"conditions": [
+				{
+					"condition": "minecraft:killed_by_player"
+				}
+			]
 		},
 		{
 			"bonus_rolls": 0,
@@ -59,7 +64,12 @@
 					"name": "minecraft:gold_nugget"
 				}
 			],
-			"rolls": 1
+			"rolls": 1,
+			"conditions": [
+				{
+					"condition": "minecraft:killed_by_player"
+				}
+			]
 		},
 		{
 			"bonus_rolls": 0,

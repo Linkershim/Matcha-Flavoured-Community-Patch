@@ -154,7 +154,12 @@
 					"name": "minecraft:tide_armor_trim_smithing_template"
 				}
 			],
-			"rolls": 1
+			"rolls": 1,
+			"conditions": [
+				{
+					"condition": "minecraft:killed_by_player"
+				}
+			]
 		},
 		{
 			"rolls": 1,
@@ -172,6 +177,11 @@
 							}
 						}
 					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:killed_by_player"
 				}
 			]
 		}

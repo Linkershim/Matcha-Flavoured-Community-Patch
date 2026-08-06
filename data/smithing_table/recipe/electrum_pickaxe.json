@@ -34,7 +34,10 @@
 					"italic": false
 				}
 			],
-			"minecraft:item_name": "Electrum Pickaxe",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.electrum_pickaxe",
+				"color": "yellow"
+			},
 			"minecraft:item_model": "minecraft:electrum_pickaxe",
 			"minecraft:attribute_modifiers": [
 				{
@@ -59,7 +62,7 @@
 			},
 			"minecraft:enchantments": {
 				"minecraft:fortune": 3,
-				"main:warding_armor": 1
+				"main:warding1": 1
 			},
 			"minecraft:enchantment_glint_override": false,
 			"minecraft:repairable": {

@@ -29,11 +29,21 @@
 						}
 					]
 				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:killed_by_player"
+				}
 			]
 		},
 		{
 			"rolls": 1,
 			"bonus_rolls": 0,
+			"conditions": [
+				{
+					"condition": "minecraft:killed_by_player"
+				}
+			],
 			"entries": [
 				{
 					"type": "minecraft:item",
@@ -160,6 +170,11 @@
 							}
 						}
 					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:killed_by_player"
 				}
 			]
 		}

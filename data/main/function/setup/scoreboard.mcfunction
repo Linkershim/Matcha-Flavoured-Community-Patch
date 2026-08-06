@@ -35,3 +35,5 @@ stopwatch create 3s
 stopwatch create 2s
 stopwatch create 1s
 stopwatch create 0.5s
+
+scoreboard objectives add boating minecraft.custom:minecraft.boat_one_cm

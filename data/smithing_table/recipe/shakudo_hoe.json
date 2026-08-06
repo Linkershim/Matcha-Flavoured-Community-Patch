@@ -18,7 +18,7 @@
 				"damage_per_block": 1
 			},
 			"minecraft:item_name": {
-				"text": "Palatinate Hoe",
+				"translate": "item.kleispack.shakudo_hoe",
 				"color": "#c96691"
 			},
 			"minecraft:item_model": "minecraft:shakudo_hoe",
@@ -59,8 +59,7 @@
 			],
 			"minecraft:repairable": {
 				"items": [
-					"minecraft:copper_ingot",
-					"minecraft:copper_nugget"
+					"minecraft:copper_ingot"
 				]
 			}
 		}

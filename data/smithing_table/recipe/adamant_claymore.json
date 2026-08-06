@@ -5,11 +5,10 @@
 	"result": {
 		"id": "minecraft:netherite_sword",
 		"components": {
-			"minecraft:max_damage": 2500,
+			"minecraft:max_damage": 5000,
 			"minecraft:item_name": {
-				"text": "Adamant Claymore",
-				"color": "gold",
-				"italic": false
+				"translate": "item.kleispack.adamant_claymore",
+				"color": "gold"
 			},
 			"minecraft:item_model": "minecraft:adamant_claymore",
 			"minecraft:enchantments": {
@@ -80,7 +79,8 @@
 			"minecraft:repairable": {
 				"items": [
 					"minecraft:diamond_block",
-					"minecraft:gold_block"
+					"minecraft:gold_block",
+					"minecraft:netherite_scrap"
 				]
 			},
 			"minecraft:attribute_modifiers": [

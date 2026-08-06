@@ -42,18 +42,48 @@
 			"conditions": {
 				"recipe_id": "smithing_table:electrum_mattock"
 			}
+		},
+		"electrum_spear": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:electrum_spear"
+			}
+		},
+		"electrum_helmet": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:electrum_helmet"
+			}
+		},
+		"electrum_chestplate": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:electrum_chestplate"
+			}
+		},
+		"electrum_leggings": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:electrum_leggings"
+			}
+		},
+		"electrum_boots": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:electrum_boots"
+			}
 		}
 	},
 	"display": {
 		"description": {
-			"text": "Craft an Electrum Tool"
+			"text": "Smith a piece of Electrum Equipment"
 		},
 		"icon": {
 			"components": {
 				"minecraft:item_model": "minecraft:electrum_sword"
 			},
 			"count": 1,
-			"id": "minecraft:wooden_sword"
+			"id": "minecraft:stone_sword"
 		},
 		"title": {
 			"text": "Electric Electrum"
@@ -69,7 +99,12 @@
 			"electrum_hoe",
 			"electrum_sword",
 			"electrum_dolabra",
-			"electrum_mattock"
+			"electrum_mattock",
+			"electrum_spear",
+			"electrum_helmet",
+			"electrum_chestplate",
+			"electrum_leggings",
+			"electrum_boots"
 		]
 	]
 }

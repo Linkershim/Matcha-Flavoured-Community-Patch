@@ -5,12 +5,13 @@
 	"result": {
 		"id": "minecraft:shears",
 		"components": {
-			"minecraft:item_name": "Steel Shears",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.steel_shears"
+			},
 			"minecraft:max_damage": 3000,
 			"minecraft:item_model": "minecraft:steel_shears",
 			"minecraft:repairable": {
 				"items": [
-					"minecraft:iron_nugget",
 					"minecraft:iron_ingot"
 				]
 			}

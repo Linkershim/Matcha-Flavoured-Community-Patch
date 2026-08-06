@@ -1,59 +1,89 @@
 {
 	"parent": "main:tutorial/obtain_smithing_table",
 	"criteria": {
-		"rose_axe": {
+		"shakudo_axe": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
 				"recipe_id": "smithing_table:shakudo_axe"
 			}
 		},
-		"rose_pickaxe": {
+		"shakudo_pickaxe": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
 				"recipe_id": "smithing_table:shakudo_pickaxe"
 			}
 		},
-		"rose_shovel": {
+		"shakudo_shovel": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
 				"recipe_id": "smithing_table:shakudo_shovel"
 			}
 		},
-		"rose_hoe": {
+		"shakudo_hoe": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
 				"recipe_id": "smithing_table:shakudo_hoe"
 			}
 		},
-		"rose_sword": {
+		"shakudo_sword": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
 				"recipe_id": "smithing_table:shakudo_sword"
 			}
 		},
-		"rose_dolabra": {
+		"shakudo_dolabra": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
 				"recipe_id": "smithing_table:shakudo_dolabra"
 			}
 		},
-		"rose_mattock": {
+		"shakudo_mattock": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
 				"recipe_id": "smithing_table:shakudo_mattock"
+			}
+		},
+		"shakudo_spear": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:shakudo_spear"
+			}
+		},
+		"shakudo_helmet": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:shakudo_helmet"
+			}
+		},
+		"shakudo_chestplate": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:shakudo_chestplate"
+			}
+		},
+		"shakudo_leggings": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:shakudo_leggings"
+			}
+		},
+		"shakudo_boots": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:shakudo_boots"
 			}
 		}
 	},
 	"display": {
 		"description": {
-			"text": "Craft any piece of Palatinate Equipment"
+			"text": "Craft a piece of Palatinate Equipment"
 		},
 		"icon": {
 			"components": {
 				"minecraft:item_model": "minecraft:shakudo_axe"
 			},
 			"count": 1,
-			"id": "minecraft:wooden_axe"
+			"id": "minecraft:wooden_axe"	
 		},
 		"title": {
 			"text": "Palatinate Perfection"
@@ -63,13 +93,18 @@
 	},
 	"requirements": [
 		[
-			"rose_axe",
-			"rose_pickaxe",
-			"rose_shovel",
-			"rose_hoe",
-			"rose_sword",
-			"rose_dolabra",
-			"rose_mattock"
+			"shakudo_axe",
+			"shakudo_pickaxe",
+			"shakudo_shovel",
+			"shakudo_hoe",
+			"shakudo_sword",
+			"shakudo_dolabra",
+			"shakudo_spear",
+			"shakudo_helmet",
+			"shakudo_chestplate",
+			"shakudo_leggings",
+			"shakudo_boots",
+			"shakudo_mattock"
 		]
 	]
 }

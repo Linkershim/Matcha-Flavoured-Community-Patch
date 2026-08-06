@@ -1,8 +1,7 @@
 {
 	"anvil_cost": 0,
 	"description": {
-		"text": "Cleanse",
-		"type": "text"
+		"text": "✨ Cleanses:"
 	},
 	"effects": {
 		"minecraft:tick": [

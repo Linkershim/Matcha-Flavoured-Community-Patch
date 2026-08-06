@@ -67,16 +67,16 @@
 				"recipe_id": "smithing_table:bronze_boots"
 			}
 		},
-		"bronze_horse_armor": {
+		"bronze_spear": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "smithing_table:bronze_horse_armor"
+				"recipe_id": "smithing_table:bronze_spear"
 			}
 		}
 	},
 	"display": {
 		"description": {
-			"text": "Craft any piece of Bronze Equipment"
+			"text": "Smith a piece of Bronze Equipment"
 		},
 		"icon": {
 			"components": {
@@ -104,7 +104,7 @@
 			"bronze_chestplate",
 			"bronze_leggings",
 			"bronze_boots",
-			"bronze_horse_armor"
+			"bronze_spear"
 		]
 	]
 }

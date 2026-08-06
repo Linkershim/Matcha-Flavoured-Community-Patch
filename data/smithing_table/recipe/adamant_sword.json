@@ -5,11 +5,10 @@
 	"result": {
 		"id": "minecraft:netherite_sword",
 		"components": {
-			"minecraft:max_damage": 2500,
+			"minecraft:max_damage": 5000,
 			"minecraft:item_name": {
-				"text": "Adamant Sword",
-				"color": "gold",
-				"italic": false
+				"translate": "item.minecraft.netherite_sword",
+				"color": "gold"
 			},
 			"minecraft:enchantments": {
 				"main:divinity": 1,
@@ -25,22 +24,6 @@
 					"text": "🕒 1.6",
 					"color": "dark_green",
 					"italic": false
-				},
-				"",
-				{
-					"text": "Repaired with:",
-					"color": "gray",
-					"italic": false
-				},
-				{
-					"text": "  Diamond Block",
-					"color": "dark_gray",
-					"italic": false
-				},
-				{
-					"text": "  Gold Block",
-					"color": "dark_gray",
-					"italic": false
 				}
 			],
 			"minecraft:tooltip_display": {
@@ -51,7 +34,8 @@
 			"minecraft:repairable": {
 				"items": [
 					"minecraft:diamond_block",
-					"minecraft:gold_block"
+					"minecraft:gold_block",
+					"minecraft:netherite_scrap"
 				]
 			}
 		}

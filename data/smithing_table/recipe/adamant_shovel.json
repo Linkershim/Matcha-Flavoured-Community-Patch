@@ -19,7 +19,7 @@
 			},
 			"minecraft:enchantments": {
 				"main:divinity": 1,
-				"minecraft:unbreaking": 1
+				"minecraft:unbreaking": 2
 			},
 			"minecraft:lore": [
 				{
@@ -36,22 +36,6 @@
 					"text": "🕒 1",
 					"color": "dark_green",
 					"italic": false
-				},
-				"",
-				{
-					"text": "Repaired with:",
-					"color": "gray",
-					"italic": false
-				},
-				{
-					"text": "  Diamond Block",
-					"color": "dark_gray",
-					"italic": false
-				},
-				{
-					"text": "  Gold Block",
-					"color": "dark_gray",
-					"italic": false
 				}
 			],
 			"minecraft:tooltip_display": {
@@ -62,13 +46,13 @@
 			"minecraft:repairable": {
 				"items": [
 					"minecraft:diamond_block",
-					"minecraft:gold_block"
+					"minecraft:gold_block",
+					"minecraft:netherite_scrap"
 				]
 			},
 			"minecraft:item_name": {
-				"text": "Adamant Shovel",
-				"color": "gold",
-				"italic": false
+				"translate": "item.minecraft.netherite_shovel",
+				"color": "gold"
 			}
 		}
 	},
