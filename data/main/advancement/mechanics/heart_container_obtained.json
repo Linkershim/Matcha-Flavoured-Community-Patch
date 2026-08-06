@@ -20,6 +20,6 @@
 		]
 	],
 	"rewards": {
-		"function": "main:mechanic/hpup"
+		"function": "main:mechanic/process_heart_container"
 	}
 }
