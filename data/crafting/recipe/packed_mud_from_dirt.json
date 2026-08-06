@@ -3,7 +3,7 @@
 	"category": "building",
 	"group": "packed_mud",
 	"ingredients": [
-		"minecraft:tall_dry_grass",
+		"minecraft:short_dry_grass",
 		"minecraft:dirt"
 	],
 	"result": {

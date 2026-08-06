@@ -4,37 +4,37 @@
 		"copper_dolabra": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "recipes_equipment:copper_dolabra"
+				"recipe_id": "crafting:copper_dolabra"
 			}
 		},
 		"copper_mattock": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "recipes_equipment:copper_mattock"
+				"recipe_id": "crafting:copper_mattock"
 			}
 		},
-		"wrought_iron_dolabra": {
+		"iron_dolabra": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "recipes_equipment:wrought_iron_dolabra"
+				"recipe_id": "crafting:iron_dolabra"
 			}
 		},
-		"wrought_iron_mattock": {
+		"iron_mattock": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "recipes_equipment:wrought_iron_mattock"
+				"recipe_id": "crafting:iron_mattock"
 			}
 		},
-		"titanium_dolabra": {
+		"diamond_dolabra": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "recipes_equipment:titanium_dolabra"
+				"recipe_id": "crafting:diamond_dolabra"
 			}
 		},
-		"titanium_mattock": {
+		"diamond_mattock": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "recipes_equipment:titanium_mattock"
+				"recipe_id": "crafting:diamond_mattock"
 			}
 		}
 	},
@@ -57,10 +57,10 @@
 	},
 	"requirements": [
 		[
-			"titanium_mattock",
-			"titanium_dolabra",
-			"wrought_iron_dolabra",
-			"wrought_iron_mattock",
+			"diamond_mattock",
+			"diamond_dolabra",
+			"iron_dolabra",
+			"iron_mattock",
 			"copper_dolabra",
 			"copper_mattock"
 		]

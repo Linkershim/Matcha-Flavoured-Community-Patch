@@ -529,9 +529,6 @@
 			"path": "recipe/item_frame.json"
 		},{
 			"namespace": "minecraft",
-			"path": "recipe/chest.json"
-		},{
-			"namespace": "minecraft",
 			"path": "recipe/moss_carpet.json"
 		},{
 			"namespace": "minecraft",

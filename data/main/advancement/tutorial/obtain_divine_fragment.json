@@ -1,5 +1,5 @@
 {
-	"parent": "main:tutorial/obtain_heart",
+	"parent": "main:tutorial/obtain_estus",
 	"criteria": {
 		"get_heart": {
 			"trigger": "minecraft:inventory_changed",
@@ -23,7 +23,7 @@
 		"title": {
 			"text": "Spark of Divinity"
 		},
-		"frame": "challenge",
+		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false

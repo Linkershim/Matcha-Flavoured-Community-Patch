@@ -26,18 +26,6 @@
 						},
 						{
 							"type": "minecraft:item",
-							"name": "minecraft:short_grass",
-							"conditions": [
-								{
-									"condition": "minecraft:match_tool",
-									"predicate": {
-										"items": "#minecraft:hoes"
-									}
-								}
-							]
-						},
-						{
-							"type": "minecraft:item",
 							"conditions": [
 								{
 									"chance": 0.125,
@@ -64,6 +52,18 @@
 								}
 							],
 							"name": "minecraft:wheat_seeds"
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:short_grass",
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"items": "#minecraft:hoes"
+									}
+								}
+							]
 						}
 					]
 				}

@@ -5,7 +5,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:lapis_lazuli"
+						"items": "minecraft:prismarine"
 					}
 				]
 			},
@@ -19,8 +19,7 @@
 	],
 	"rewards": {
 		"recipes": [
-			"crafting:nazar",
-			"crafting:blue_dye"
+			"crafting:dark_prismarine"
 		]
 	}
 }

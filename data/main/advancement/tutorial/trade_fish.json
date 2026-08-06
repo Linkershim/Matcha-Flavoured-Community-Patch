@@ -1,5 +1,5 @@
 {
-	"parent": "main:tutorial/obtain_dry_grass",
+	"parent": "main:tutorial/catch_fish",
 	"criteria": {
 		"traded": {
 			"trigger": "minecraft:villager_trade",

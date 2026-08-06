@@ -31,7 +31,8 @@
 			"crafting:wooden_shovel",
 			"crafting:wooden_hoe",
 			"crafting:wooden_sword",
-			"crafting:wooden_spear"
+			"crafting:wooden_spear",
+			"crafting:vanilla_chest_from_planks"
 		]
 	}
 }

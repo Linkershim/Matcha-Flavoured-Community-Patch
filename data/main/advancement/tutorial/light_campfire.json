@@ -25,14 +25,14 @@
 	},
 	"display": {
 		"description": {
-			"text": "Light Kindling using a Flint or Stick Fire Starter"
+			"text": "Light Kindling using Tinder or a Flint Firestarter."
 		},
 		"icon": {
 			"count": 1,
 			"id": "minecraft:campfire"
 		},
 		"title": {
-			"text": "Fire Starter"
+			"text": "Prometheus be Damned"
 		},
 		"hidden": false
 	},

@@ -48,6 +48,25 @@
 							"name": "minecraft:short_grass"
 						},
 						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:survives_explosion"
+								},
+								{
+									"chance": 0.125,
+									"condition": "minecraft:random_chance"
+								},
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"items": "#minecraft:hoes"
+									}
+								}
+							],
+							"name": "minecraft:wheat_seeds"
+						},
+						{
 							"type": "minecraft:alternatives",
 							"children": [
 								{
@@ -69,25 +88,6 @@
 									]
 								}
 							]
-						},
-						{
-							"type": "minecraft:item",
-							"conditions": [
-								{
-									"condition": "minecraft:survives_explosion"
-								},
-								{
-									"chance": 0.125,
-									"condition": "minecraft:random_chance"
-								},
-								{
-									"condition": "minecraft:match_tool",
-									"predicate": {
-										"items": "#minecraft:hoes"
-									}
-								}
-							],
-							"name": "minecraft:wheat_seeds"
 						}
 					]
 				}
@@ -141,6 +141,25 @@
 							"name": "minecraft:short_grass"
 						},
 						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:survives_explosion"
+								},
+								{
+									"chance": 0.125,
+									"condition": "minecraft:random_chance"
+								},
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"items": "#minecraft:hoes"
+									}
+								}
+							],
+							"name": "minecraft:wheat_seeds"
+						},
+						{
 							"type": "minecraft:alternatives",
 							"children": [
 								{
@@ -162,25 +181,6 @@
 									]
 								}
 							]
-						},
-						{
-							"type": "minecraft:item",
-							"conditions": [
-								{
-									"condition": "minecraft:survives_explosion"
-								},
-								{
-									"chance": 0.125,
-									"condition": "minecraft:random_chance"
-								},
-								{
-									"condition": "minecraft:match_tool",
-									"predicate": {
-										"items": "#minecraft:hoes"
-									}
-								}
-							],
-							"name": "minecraft:wheat_seeds"
 						}
 					]
 				}
