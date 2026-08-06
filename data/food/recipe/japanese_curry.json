@@ -3,7 +3,7 @@
 	"category": "food",
 	"cookingtime": 300,
 	"experience": 0.35,
-	"ingredient": "minecraft:mushroom_stew",
+	"ingredient": "minecraft:strider_spawn_egg",
 	"result": {
 		"id": "minecraft:poisonous_potato",
 		"components": {
@@ -40,8 +40,7 @@
 								"show_particles": false,
 								"show_icon": true
 							}
-						],
-						"probability": 1
+						]
 					}
 				]
 			},

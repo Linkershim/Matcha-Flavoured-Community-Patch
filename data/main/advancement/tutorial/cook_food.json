@@ -31,7 +31,7 @@
 				"items": [
 					{
 						"components": {
-							"minecraft:item_model": "minecraft:buttered_apple"
+							"minecraft:item_model": "minecraft:fermented_spider_eye"
 						}
 					}
 				]
@@ -43,7 +43,7 @@
 				"items": [
 					{
 						"components": {
-							"minecraft:item_model": "minecraft:tomato_soup"
+							"minecraft:item_model": "minecraft:grilled_tomatoes"
 						}
 					}
 				]
@@ -55,7 +55,7 @@
 				"items": [
 					{
 						"components": {
-							"minecraft:item_model": "minecraft:glow_mash"
+							"minecraft:item_model": "minecraft:rotten_flesh"
 						}
 					}
 				]
@@ -77,7 +77,7 @@
 				"items": [
 					{
 						"components": {
-							"minecraft:item_model": "minecraft:sweet_berry_mash"
+							"minecraft:item_model": "minecraft:magma_cream"
 						}
 					}
 				]
@@ -101,7 +101,7 @@
 				"items": [
 					{
 						"components": {
-							"minecraft:item_model": "minecraft:chocolate"
+							"minecraft:item_model": "minecraft:mushroom_stew"
 						}
 					}
 				]
@@ -113,7 +113,19 @@
 				"items": [
 					{
 						"components": {
-							"minecraft:item_model": "minecraft:pumpkin_slice"
+							"minecraft:item_model": "minecraft:breeze_rod"
+						}
+					}
+				]
+			}
+		},
+		"cook_red_mushroom": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"components": {
+							"minecraft:item_model": "minecraft:braised_red_mushroom"
 						}
 					}
 				]
@@ -147,7 +159,8 @@
 			"cook_sweet_berries",
 			"cook_honey",
 			"cook_cocoa",
-			"cook_pumpkin"
+			"cook_pumpkin",
+			"cook_red_mushroom"
 		]
 	]
 }

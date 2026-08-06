@@ -11,7 +11,7 @@
         "text": "\n"
       },
       {
-        "text": "0.6 for 26.2",
+        "text": "0.7 for 26.2",
         "color": "#908b8b"
       }
     ]
@@ -203,6 +203,21 @@
 		},{
 			"namespace": "minecraft",
 			"path": "recipe/bread.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/dried_kelp.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/dried_kelp_from_campfire_cooking.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/dried_kelp_from_smelting.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/dried_kelp_from_smoking.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/cake.json"
 		},{
 			"namespace": "minecraft",
 			"path": "recipe/leather_chestplate.json"
@@ -992,6 +1007,60 @@
 		},{
 			"namespace": "minecraft",
 			"path": "recipe/chiseled_polished_blackstone.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/mushroom_stew.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/suspicious_stew_from_allium.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/suspicious_stew_from_azure_bluet.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/suspicious_stew_from_blue_orchid.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/suspicious_stew_from_closed_eyeblossom.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/suspicious_stew_from_cornflower.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/suspicious_stew_from_dandelion.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/suspicious_stew_from_golden_dandelion.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/suspicious_stew_from_lily_of_the_valley.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/suspicious_stew_from_open_eyeblossom.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/suspicious_stew_from_orange_tulip.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/suspicious_stew_from_oxeye_daisy.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/suspicious_stew_from_pink_tulip.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/suspicious_stew_from_poppy.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/suspicious_stew_from_red_tulip.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/suspicious_stew_from_torchflower.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/suspicious_stew_from_white_tulip.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/suspicious_stew_from_wither_rose.json"
 		}]
 	}
 }

@@ -1,13 +1,10 @@
 {
 	"type": "minecraft:crafting_shapeless",
 	"ingredients": [
-		"cocoa_beans",
-		"minecraft:cocoa_beans",
-		"minecraft:cocoa_beans",
+		"minecraft:mushroom_stew",
+		"minecraft:mushroom_stew",
 		"minecraft:sugar",
-		"minecraft:sugar",
-		"minecraft:sugar",
-		"minecraft:rotten_flesh"
+		"minecraft:shulker_spawn_egg"
 	],
 	"result": {
 		"id": "minecraft:poisonous_potato",
@@ -41,7 +38,8 @@
 								"id": "minecraft:haste",
 								"amplifier": 1,
 								"duration": 3000,
-								"show_particles": false
+								"show_particles": false,
+								"show_icon": true
 							}
 						],
 						"probability": 1

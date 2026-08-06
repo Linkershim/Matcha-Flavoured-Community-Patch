@@ -47,13 +47,15 @@
 								"id": "minecraft:regeneration",
 								"amplifier": 0,
 								"duration": 600,
-								"show_particles": false
+								"show_particles": false,
+								"show_icon": true
 							},
 							{
 								"id": "minecraft:absorption",
 								"amplifier": 0,
 								"duration": 2400,
-								"show_particles": false
+								"show_particles": false,
+								"show_icon": true
 							}
 						],
 						"probability": 1

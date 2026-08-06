@@ -2,10 +2,10 @@
 	"type": "minecraft:crafting_shapeless",
 	"category": "misc",
 	"ingredients": [
-		"minecraft:apple",
+		"minecraft:fermented_spider_eye",
 		"minecraft:sugar",
 		"minecraft:glowstone_dust",
-		"minecraft:rotten_flesh"
+		"minecraft:shulker_spawn_egg"
 	],
 	"result": {
 		"id": "minecraft:poisonous_potato",

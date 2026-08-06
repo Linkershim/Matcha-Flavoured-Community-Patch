@@ -3,7 +3,6 @@
 	"category": "misc",
 	"ingredients": [
 		"minecraft:golden_apple",
-		"minecraft:golden_apple",
 		"minecraft:sugar",
 		"minecraft:glass_bottle"
 	],
@@ -38,14 +37,14 @@
 								"amplifier": 1,
 								"duration": 400,
 								"show_particles": false,
-								"show_icon": false
+								"show_icon": true
 							},
 							{
 								"id": "minecraft:absorption",
 								"amplifier": 1,
 								"duration": 2400,
 								"show_particles": false,
-								"show_icon": false
+								"show_icon": true
 							}
 						]
 					}

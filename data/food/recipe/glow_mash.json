@@ -5,7 +5,7 @@
 	"experience": 0.35,
 	"ingredient": "minecraft:glow_berries",
 	"result": {
-		"id": "minecraft:poisonous_potato",
+		"id": "minecraft:rotten_flesh",
 		"components": {
 			"minecraft:lore": [
 				{
@@ -37,10 +37,6 @@
 						"probability": 1
 					}
 				]
-			},
-			"minecraft:item_model": "minecraft:glow_mash",
-			"minecraft:item_name": {
-				"translate": "item.kleispack.cooked_glow_berry"
 			},
 			"minecraft:food": {
 				"nutrition": 0,

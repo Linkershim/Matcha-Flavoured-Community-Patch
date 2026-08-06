@@ -3,11 +3,10 @@
 	"category": "misc",
 	"ingredients": [
 		"minecraft:golden_carrot",
-		"minecraft:golden_carrot",
 		"minecraft:sugar",
-		"minecraft:glowstone_dust",
+		"glowstone_dust",
 		"minecraft:cocoa_beans",
-		"minecraft:rotten_flesh"
+		"minecraft:shulker_spawn_egg"
 	],
 	"result": {
 		"id": "minecraft:poisonous_potato",

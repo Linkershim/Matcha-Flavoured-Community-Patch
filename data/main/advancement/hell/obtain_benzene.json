@@ -6,7 +6,7 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:magma_cream"
+            "items": "minecraft:endermite_spawn_egg"
           }
         ]
       }
@@ -18,7 +18,7 @@
     },
     "icon": {
       "count": 1,
-      "id": "minecraft:magma_cream"
+      "id": "minecraft:endermite_spawn_egg"
     },
     "title": {
       "text": "Forbidden Chemistry"

@@ -1,7 +1,7 @@
 {
 	"type": "minecraft:campfire_cooking",
 	"category": "food",
-	"cookingtime": 400,
+	"cookingtime": 200,
 	"experience": 0.35,
 	"ingredient": "minecraft:carrot",
 	"result": {
@@ -38,7 +38,7 @@
 								"amplifier": 0,
 								"duration": 200,
 								"show_particles": false,
-								"show_icon": false
+								"show_icon": true
 							}
 						],
 						"probability": 1

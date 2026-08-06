@@ -2,12 +2,10 @@
 	"type": "minecraft:crafting_shapeless",
 	"category": "misc",
 	"ingredients": [
-		"minecraft:glow_berries",
-		"minecraft:glow_berries",
+		"minecraft:rotten_flesh",
 		"minecraft:sugar",
-		"minecraft:sugar_cane",
 		"minecraft:beetroot_soup",
-		"minecraft:rotten_flesh"
+		"minecraft:shulker_spawn_egg"
 	],
 	"result": {
 		"id": "minecraft:poisonous_potato",

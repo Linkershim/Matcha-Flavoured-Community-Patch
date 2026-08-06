@@ -20,7 +20,6 @@
 				}
 			],
 			"minecraft:consumable": {
-				"consume_seconds": 1.2,
 				"has_consume_particles": true,
 				"on_consume_effects": [
 					{
@@ -38,7 +37,7 @@
 								"amplifier": 0,
 								"duration": 200,
 								"show_particles": false,
-								"show_icon": false
+								"show_icon": true
 							}
 						],
 						"probability": 1

@@ -2,7 +2,7 @@
 	"type": "minecraft:crafting_shapeless",
 	"category": "misc",
 	"ingredients": [
-		"minecraft:bread",
+		"minecraft:shulker_spawn_egg",
 		"minecraft:cookie",
 		[
 			"minecraft:cooked_porkchop",

@@ -2,8 +2,7 @@
 	"type": "minecraft:crafting_shapeless",
 	"category": "misc",
 	"ingredients": [
-		"minecraft:pumpkin",
-		"minecraft:pumpkin",
+		"minecraft:breeze_rod",
 		"minecraft:sugar",
 		"minecraft:glass_bottle"
 	],

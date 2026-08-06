@@ -66,6 +66,30 @@
 			"conditions": {
 				"recipe_id": "food:pumpkin_jam"
 			}
+		},
+		"pickled_mushrooms": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "food:pickled_mushrooms"
+			}
+		},
+		"pickled_red_mushrooms": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "food:pickled_red_mushrooms"
+			}
+		},
+		"pickled_warped_fungus": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "food:pickled_warped_fungus"
+			}
+		},
+		"pickled_crimson_fungus": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "food:pickled_crimson_fungus"
+			}
 		}
 	},
 	"display": {
@@ -118,6 +142,18 @@
 		],
 		[
 			"sweet_berry_jam"
+		],
+		[
+			"pickled_mushrooms"
+		],
+		[
+			"pickled_red_mushrooms"
+		],
+		[
+			"pickled_warped_fungus"
+		],
+		[
+			"pickled_crimson_fungus"
 		]
 	]
 }

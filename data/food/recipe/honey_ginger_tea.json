@@ -43,7 +43,8 @@
 							{
 								"id": "minecraft:speed",
 								"duration": 600,
-								"show_particles": false
+								"show_particles": false,
+								"show_icon": true
 							}
 						],
 						"probability": 1
@@ -52,14 +53,17 @@
 						"type": "minecraft:remove_effects",
 						"effects": [
 							"minecraft:poison",
+							"minecraft:mining_fatigue",
 							"minecraft:wither",
 							"minecraft:weakness",
-							"minecraft:slowness",
+							"minecraft:bad_omen",
 							"minecraft:blindness",
 							"minecraft:darkness",
 							"minecraft:infested",
 							"minecraft:weaving",
-							"minecraft:mining_fatigue"
+							"minecraft:nausea",
+							"minecraft:oozing",
+							"minecraft:slowness"
 						]
 					}
 				]

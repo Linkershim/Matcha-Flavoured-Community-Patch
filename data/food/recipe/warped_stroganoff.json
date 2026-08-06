@@ -4,7 +4,7 @@
 	"ingredients": [
 		"minecraft:warped_fungus",
 		"minecraft:cooked_beef",
-		"minecraft:rotten_flesh",
+		"minecraft:shulker_spawn_egg",
 		"minecraft:beetroot_soup",
 		"minecraft:bowl"
 	],
@@ -32,7 +32,7 @@
 								"amplifier": 0,
 								"duration": 12000,
 								"show_particles": false,
-								"show_icon": false
+								"show_icon": true
 							},
 							{
 								"id": "minecraft:regeneration",

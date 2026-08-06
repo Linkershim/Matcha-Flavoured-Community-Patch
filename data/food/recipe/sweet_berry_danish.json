@@ -2,12 +2,10 @@
 	"type": "minecraft:crafting_shapeless",
 	"category": "misc",
 	"ingredients": [
-		"minecraft:sweet_berries",
-		"minecraft:sweet_berries",
-		"minecraft:sugar",
+		"minecraft:magma_cream",
 		"minecraft:sugar",
 		"minecraft:cookie",
-		"minecraft:bread"
+		"minecraft:shulker_spawn_egg"
 	],
 	"result": {
 		"id": "minecraft:poisonous_potato",
@@ -32,7 +30,7 @@
 								"amplifier": 1,
 								"duration": 9600,
 								"show_particles": false,
-								"show_icon": false
+								"show_icon": true
 							},
 							{
 								"id": "minecraft:regeneration",

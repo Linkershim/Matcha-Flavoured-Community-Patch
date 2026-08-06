@@ -38,7 +38,7 @@
                 "amplifier": 0,
                 "duration": 200,
                 "show_particles": false,
-                "show_icon": false
+                "show_icon": true
               }
             ],
             "probability": 1

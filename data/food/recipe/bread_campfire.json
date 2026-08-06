@@ -1,9 +1,9 @@
 {
 	"type": "minecraft:campfire_cooking",
 	"category": "food",
-	"cookingtime": 400,
+	"cookingtime": 200,
 	"experience": 0.35,
-	"ingredient": "minecraft:rotten_flesh",
+	"ingredient": "minecraft:shulker_spawn_egg",
 	"result": {
 		"id": "minecraft:bread",
 		"components": {
@@ -12,10 +12,32 @@
 					"text": "❤❤",
 					"color": "red",
 					"italic": false
+				},
+				{
+					"text": "✨ Cleanse Maleffect",
+					"color": "gray",
+					"italic": false
 				}
 			],
 			"minecraft:consumable": {
 				"on_consume_effects": [
+					{
+						"type": "minecraft:remove_effects",
+						"effects": [
+							"minecraft:poison",
+							"minecraft:mining_fatigue",
+							"minecraft:wither",
+							"minecraft:weakness",
+							"minecraft:bad_omen",
+							"minecraft:blindness",
+							"minecraft:darkness",
+							"minecraft:infested",
+							"minecraft:weaving",
+							"minecraft:nausea",
+							"minecraft:oozing",
+							"minecraft:slowness"
+						]
+					},
 					{
 						"type": "minecraft:apply_effects",
 						"effects": [

@@ -3,7 +3,7 @@
   "group": "slime_ball",
   "category": "misc",
   "ingredients": [
-    "minecraft:rotten_flesh",
+    "minecraft:shulker_spawn_egg",
     "minecraft:lime_dye"
   ],
   "result": {

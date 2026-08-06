@@ -3,7 +3,7 @@
 	"category": "food",
 	"cookingtime": 100,
 	"experience": 0.35,
-	"ingredient": "minecraft:rotten_flesh",
+	"ingredient": "minecraft:shulker_spawn_egg",
 	"result": {
 		"id": "minecraft:bread",
 		"components": {

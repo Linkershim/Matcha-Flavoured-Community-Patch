@@ -37,7 +37,8 @@
 								"id": "minecraft:levitation",
 								"amplifier": 2,
 								"duration": 60,
-								"show_particles": false
+								"show_particles": false,
+								"show_icon": true
 							}
 						],
 						"probability": 1

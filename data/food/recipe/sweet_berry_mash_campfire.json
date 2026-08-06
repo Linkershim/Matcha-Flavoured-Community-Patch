@@ -1,11 +1,11 @@
 {
 	"type": "minecraft:campfire_cooking",
 	"category": "food",
-	"cookingtime": 400,
+	"cookingtime": 200,
 	"experience": 0.35,
 	"ingredient": "minecraft:sweet_berries",
 	"result": {
-		"id": "minecraft:poisonous_potato",
+		"id": "minecraft:magma_cream",
 		"components": {
 			"minecraft:lore": [
 				{
@@ -38,16 +38,12 @@
 								"amplifier": 0,
 								"duration": 200,
 								"show_particles": false,
-								"show_icon": false
+								"show_icon": true
 							}
 						],
 						"probability": 1
 					}
 				]
-			},
-			"minecraft:item_model": "minecraft:sweet_berry_mash",
-			"minecraft:item_name": {
-				"translate": "item.kleispack.sweet_berry_mash"
 			},
 			"minecraft:food": {
 				"nutrition": 0,

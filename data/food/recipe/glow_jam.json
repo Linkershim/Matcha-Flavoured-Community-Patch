@@ -2,8 +2,7 @@
 	"type": "minecraft:crafting_shapeless",
 	"category": "misc",
 	"ingredients": [
-		"minecraft:glow_berries",
-		"minecraft:glow_berries",
+		"minecraft:rotten_flesh",
 		"minecraft:sugar",
 		"minecraft:glass_bottle"
 	],

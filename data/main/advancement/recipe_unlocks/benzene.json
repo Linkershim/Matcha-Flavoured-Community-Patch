@@ -5,7 +5,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:magma_cream"
+						"items": "minecraft:endermite_spawn_egg"
 					}
 				]
 			},
@@ -26,27 +26,7 @@
 	],
 	"rewards": {
 		"recipes": [
-			"recipes_using_water_bottles:stabilised_estus",
-			"potions:infested",
-			"potions:invisibility",
-			"potions:oozing",
-			"potions:pitch",
-			"potions:poison",
-			"potions:slowness",
-			"potions:weakness",
-			"potions:weaving",
-			"potions:wind_charged",
-			"potions:wither",
-			"potions:splash_infested",
-			"potions:splash_invisibility",
-			"potions:splash_oozing",
-			"potions:splash_pitch",
-			"potions:splash_poison",
-			"potions:splash_slowness",
-			"potions:splash_weakness",
-			"potions:splash_weaving",
-			"potions:splash_wind_charged",
-			"potions:splash_wither"
+			"crafting:stabilised_estus"
 		]
 	}
 }

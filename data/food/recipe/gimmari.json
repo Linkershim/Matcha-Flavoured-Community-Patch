@@ -4,9 +4,9 @@
 	"ingredients": [
 		"minecraft:dried_kelp",
 		"minecraft:carrot",
-		"minecraft:dried_kelp",
 		"minecraft:sugar",
-		"minecraft:rotten_flesh"
+		"#minecraft:eggs",
+		"minecraft:enderman_spawn_egg"
 	],
 	"result": {
 		"id": "minecraft:poisonous_potato",

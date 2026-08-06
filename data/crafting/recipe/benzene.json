@@ -10,7 +10,10 @@
 		"minecraft:gunpowder"
 	],
 	"result": {
-		"id": "minecraft:magma_cream",
+		"id": "minecraft:endermite_spawn_egg",
+		"components": {
+			"!minecraft:entity_data": {}
+		},
 		"count": 1
 	}
 }

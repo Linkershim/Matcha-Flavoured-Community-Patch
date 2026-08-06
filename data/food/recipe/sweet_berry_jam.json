@@ -2,8 +2,7 @@
 	"type": "minecraft:crafting_shapeless",
 	"category": "misc",
 	"ingredients": [
-		"minecraft:sweet_berries",
-		"minecraft:sweet_berries",
+		"minecraft:magma_cream",
 		"minecraft:sugar",
 		"minecraft:glass_bottle"
 	],
@@ -39,7 +38,7 @@
 								"amplifier": 0,
 								"duration": 3600,
 								"show_particles": false,
-								"show_icon": false
+								"show_icon": true
 							}
 						]
 					}

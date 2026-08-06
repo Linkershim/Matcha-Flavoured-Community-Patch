@@ -2,8 +2,7 @@
 	"type": "minecraft:crafting_shapeless",
 	"category": "misc",
 	"ingredients": [
-		"minecraft:apple",
-		"minecraft:apple",
+		"minecraft:fermented_spider_eye",
 		"minecraft:sugar",
 		"minecraft:glass_bottle"
 	],

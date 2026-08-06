@@ -508,7 +508,21 @@
 		"made_dough_from_water": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "crafting:dough_from_water"
+				"recipe_id": "food:dough_from_water"
+			}
+			
+		},
+		"made_cake": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "food:cake"
+			}
+			
+		},
+		"made_hell_bound_book": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "blessings:hell_bound_book"
 			}
 			
 		}
@@ -587,7 +601,9 @@
 			"clone_orange_tulip",
 			"clone_pink_tulip",
 			"clone_white_tulip",
-			"made_dough_from_water"
+			"made_dough_from_water",
+			"made_cake",
+			"made_hell_bound_book"
 		]
 	],
 	"rewards": {

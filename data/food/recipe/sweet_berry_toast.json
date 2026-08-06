@@ -32,12 +32,12 @@
 								"amplifier": 1,
 								"duration": 9600,
 								"show_particles": false,
-								"show_icon": false
+								"show_icon": true
 							},
 							{
 								"id": "minecraft:regeneration",
 								"amplifier": 2,
-								"duration": 96,
+								"duration": 120,
 								"show_particles": false,
 								"show_icon": false
 							}
@@ -48,7 +48,7 @@
 			"minecraft:max_stack_size": 64,
 			"minecraft:lore": [
 				{
-					"text": "❤❤❤❤",
+					"text": "❤❤❤❤❤",
 					"color": "red",
 					"italic": false
 				},
