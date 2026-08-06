@@ -1,6 +1,6 @@
 {
   "pack": {
-    "min_format":88,
+    "min_format":88.0,
     "max_format":107.1,
     "description": [
       {
@@ -11,7 +11,7 @@
         "text": "\n"
       },
       {
-        "text": "1.0 for 26.2",
+        "text": "1.01 for 26.2",
         "color": "#908b8b"
       }
     ]
@@ -340,9 +340,6 @@
 			"path": "recipe/dark_prismarine.json"
 		},{
 			"namespace": "minecraft",
-			"path": "recipe/dark_prismarine_stairs.json"
-		},{
-			"namespace": "minecraft",
 			"path": "recipe/sea_lantern.json"
 		},{
 			"namespace": "minecraft",
@@ -506,9 +503,6 @@
 		},{
 			"namespace": "minecraft",
 			"path": "recipe/diamond_boots.json"
-		},{
-			"namespace": "minecraft",
-			"path": "recipe/spruce_stairs.json"
 		},{
 			"namespace": "minecraft",
 			"path": "recipe/coal_block.json"
@@ -761,6 +755,9 @@
 		},{
 			"namespace": "minecraft",
 			"path": "recipe/copper_lantern.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/copper_chain.json"
 		},{
 			"namespace": "minecraft",
 			"path": "recipe/copper_chestplate.json"
