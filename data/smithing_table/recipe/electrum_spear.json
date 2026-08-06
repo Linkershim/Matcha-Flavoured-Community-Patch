@@ -47,8 +47,7 @@
 					"minecraft:gold_ingot",
 					"minecraft:diamond"
 				]
-			},
-			"minecraft:enchantment_glint_override": false
+			}
 		}
 	},
 	"template": "minecraft:diamond"

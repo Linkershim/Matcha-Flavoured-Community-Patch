@@ -4,8 +4,7 @@
   "group": "carpet",
   "key": {
     "#": [
-      "minecraft:yellow_wool",
-      "minecraft:hay_block"
+      "minecraft:yellow_wool"
     ]
   },
   "pattern": [

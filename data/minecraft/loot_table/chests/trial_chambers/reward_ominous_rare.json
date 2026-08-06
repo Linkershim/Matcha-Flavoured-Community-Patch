@@ -89,6 +89,11 @@
 					"type": "minecraft:loot_table",
 					"value": "minecraft:chests/equipment/diamond",
 					"weight": 6
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:kleis_items/divine_fragment",
+					"weight": 1
 				}
 			],
 			"rolls": 1

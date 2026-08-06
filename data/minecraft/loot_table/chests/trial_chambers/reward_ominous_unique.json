@@ -10,20 +10,17 @@
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:flow_armor_trim_smithing_template"
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:flow_banner_pattern"
-				},
-				{
-					"type": "minecraft:item",
 					"name": "minecraft:music_disc_creator"
 				},
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:heavy_core",
 					"quality": 2
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:kleis_items/divine_fragment",
+					"weight": 1
 				}
 			],
 			"rolls": 1

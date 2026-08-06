@@ -37,7 +37,7 @@
 				]
 			},
 			"minecraft:enchantments": {
-				"main:warding2": 1
+				"main:warding1": 1
 			},
 			"minecraft:item_name": "Warding Shield"
 		}

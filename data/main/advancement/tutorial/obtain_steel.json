@@ -1,5 +1,5 @@
 {
-  "parent": "main:tutorial/obtain_iron_ingot",
+  "parent": "main:tutorial/obtain_carbon_rich_iron",
   "criteria": {
     "get_steel": {
       "trigger": "minecraft:inventory_changed",
@@ -14,7 +14,7 @@
   },
   "display": {
     "description": {
-      "text": "Made by blasting Iron, Steel grants Iron Equipment Knockback and greatly increased Durability"
+      "text": "Made by blasting Carbon-Rich Iron, Steel grants Iron Equipment Knockback and greatly increased Durability"
     },
     "icon": {
       "count": 1,

@@ -1,9 +1,9 @@
 {
   "type": "minecraft:blasting",
   "category": "misc",
-  "cookingtime": 300,
+  "cookingtime": 100,
   "experience": 0.7,
-  "ingredient": "minecraft:iron_ingot",
+  "ingredient": "minecraft:piglin_brute_spawn_egg",
   "result": {
     "id": "minecraft:resin_brick"
   }

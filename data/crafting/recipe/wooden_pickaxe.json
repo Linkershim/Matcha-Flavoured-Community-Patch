@@ -36,6 +36,16 @@
 						"correct_for_drops": true
 					},
 					{
+						"blocks": "minecraft:mud_bricks",
+						"speed": 3,
+						"correct_for_drops": true
+					},
+					{
+						"blocks": "minecraft:packed_mud",
+						"speed": 3,
+						"correct_for_drops": true
+					},
+					{
 						"blocks": "#minecraft:mineable/pickaxe",
 						"speed": 3,
 						"correct_for_drops": false

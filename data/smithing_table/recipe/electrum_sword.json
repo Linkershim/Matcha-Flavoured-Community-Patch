@@ -48,7 +48,6 @@
 				"minecraft:smite": 2,
 				"main:warding2": 1
 			},
-			"minecraft:enchantment_glint_override": false,
 			"minecraft:repairable": {
 				"items": [
 					"minecraft:diamond",

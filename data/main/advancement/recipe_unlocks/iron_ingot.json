@@ -46,14 +46,13 @@
 			"crafting:iron_bars",
 			"crafting:iron_dolabra",
 			"crafting:iron_shears",
-			"crafting:steel_alloy",
+			"crafting:carbon_rich_iron",
 			"crafting:anvil",
 			"crafting:hopper_from_iron",
 			"crafting:detector_rail_from_iron",
 			"crafting:cauldron_from_iron",
 			"crafting:bucket_from_iron",
-			"crafting:activator_rail_from_iron",
-			"blasting:steel_alloy"
+			"crafting:activator_rail_from_iron"
 		]
 	}
 }

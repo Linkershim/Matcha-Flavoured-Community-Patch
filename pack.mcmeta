@@ -11,7 +11,7 @@
         "text": "\n"
       },
       {
-        "text": "1.01 for 26.2",
+        "text": "1.03 for 26.2",
         "color": "#908b8b"
       }
     ]
@@ -223,6 +223,9 @@
 			"path": "recipe/leather_chestplate.json"
 		},{
 			"namespace": "minecraft",
+			"path": "recipe/chest.json"
+		},{
+			"namespace": "minecraft",
 			"path": "recipe/leather_leggings.json"
 		},{
 			"namespace": "minecraft",
@@ -380,9 +383,6 @@
 		},{
 			"namespace": "minecraft",
 			"path": "recipe/diamond_spear.json"
-		},{
-			"namespace": "minecraft",
-			"path": "recipe/netherite_spear.json"
 		},{
 			"namespace": "minecraft",
 			"path": "recipe/golden_spear.json"
@@ -748,6 +748,12 @@
 			"path": "recipe/soul_lantern.json"
 		},{
 			"namespace": "minecraft",
+			"path": "recipe/soul_campfire.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/soul_torch.json"
+		},{
+			"namespace": "minecraft",
 			"path": "recipe/diorite.json"
 		},{
 			"namespace": "minecraft",
@@ -823,22 +829,34 @@
 			"path": "recipe/netherite_ingot.json"
 		},{
 			"namespace": "minecraft",
-			"path": "recipe/netherite_sword.json"
+			"path": "recipe/netherite_sword_smithing.json"
 		},{
 			"namespace": "minecraft",
-			"path": "recipe/netherite_pickaxe.json"
+			"path": "recipe/netherite_pickaxe_smithing.json"
 		},{
 			"namespace": "minecraft",
-			"path": "recipe/netherite_axe.json"
+			"path": "recipe/netherite_axe_smithing.json"
 		},{
 			"namespace": "minecraft",
-			"path": "recipe/netherite_shovel.json"
+			"path": "recipe/netherite_shovel_smithing.json"
 		},{
 			"namespace": "minecraft",
-			"path": "recipe/netherite_hoe.json"
+			"path": "recipe/netherite_hoe_smithing.json"
 		},{
 			"namespace": "minecraft",
-			"path": "recipe/netherite_spear.json"
+			"path": "recipe/netherite_spear_smithing.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/netherite_helmet_smithing.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/netherite_chestplate_smithing.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/netherite_leggings_smithing.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/netherite_boots_smithing.json"
 		},{
 			"namespace": "minecraft",
 			"path": "recipe/cooked_porkchop.json"

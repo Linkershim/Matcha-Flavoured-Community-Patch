@@ -56,6 +56,13 @@
 					"id": "attack_damage",
 					"amount": 5,
 					"operation": "add_value"
+				},
+				{
+					"type": "minecraft:attack_speed",
+					"id": "attack_speed",
+					"amount": -3.1,
+					"operation": "add_value",
+					"slot": "mainhand"
 				}
 			],
 			"minecraft:tooltip_display": {
