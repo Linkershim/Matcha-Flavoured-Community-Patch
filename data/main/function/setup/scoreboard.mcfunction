@@ -35,8 +35,15 @@ stopwatch create 3s
 stopwatch create 2s
 stopwatch create 1s
 stopwatch create 0.5s
+stopwatch create eerie
+
+scoreboard objectives add eerie dummy
+scoreboard players set 1 eerie 1
 
 scoreboard objectives add boating minecraft.custom:minecraft.boat_one_cm
+
+scoreboard objectives add anvil_interaction minecraft.custom:minecraft.interact_with_anvil
+scoreboard players set 1 anvil_interaction 1
 
 scoreboard objectives add gamerule_safe_surface dummy
 

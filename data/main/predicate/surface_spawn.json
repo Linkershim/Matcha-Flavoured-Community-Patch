@@ -5,8 +5,7 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"location": {
-					"dimension": "minecraft:overworld",
+				"minecraft:location": {
 					"can_see_sky": true
 				}
 			}
@@ -15,14 +14,13 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"location": {
+				"minecraft:location": {
 					"position": {
 						"y": {
 							"min": 63,
 							"max": 350
 						}
-					},
-					"dimension": "minecraft:overworld"
+					}
 				}
 			}
 		}

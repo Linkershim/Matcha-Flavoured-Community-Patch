@@ -25,7 +25,7 @@
 		"made_cheese": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "crafting:cheese"
+				"recipe_id": "food:cheese"
 			}
 			
 		},

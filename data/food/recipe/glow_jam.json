@@ -22,7 +22,7 @@
 			"minecraft:consumable": {
 				"animation": "drink",
 				"sound": "minecraft:item.honey_bottle.drink",
-				"has_consume_particles": false,
+				"has_consume_particles": true,
 				"on_consume_effects": [
 					{
 						"type": "minecraft:apply_effects",

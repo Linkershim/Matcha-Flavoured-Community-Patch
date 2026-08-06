@@ -1,5 +1,6 @@
 {
 	"type": "minecraft:crafting_shaped",
+	"group": "cauldron",
 	"category": "misc",
 	"key": {
 		"#": "minecraft:resin_brick"
@@ -10,7 +11,7 @@
 		"###"
 	],
 	"result": {
-		"count": 2,
+		"count": 4,
 		"id": "minecraft:cauldron"
 	}
 }

@@ -21,6 +21,7 @@
 					"WardingStone"
 				],
 				"Invisible": true,
+				"Small": true,
 				"DisabledSlots": 4144959
 			},
 			"minecraft:item_name": {

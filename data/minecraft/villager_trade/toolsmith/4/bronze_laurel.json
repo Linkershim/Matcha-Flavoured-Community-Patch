@@ -53,7 +53,8 @@
 			"minecraft:equippable": {
 				"slot": "head",
 				"asset_id": "minecraft:bronze_laurel"
-			}
+			},
+			"minecraft:unbreakable": {}
 		},
 		"count": 1
 	},

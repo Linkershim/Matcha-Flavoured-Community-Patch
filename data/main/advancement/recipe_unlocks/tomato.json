@@ -28,7 +28,7 @@
 		"recipes": [
 			"crafting:tomato_seeds_from_tomato",
 			"crafting:red_dye_from_tomato",
-			"food:tomato_soup"
+			"food:grilled_tomatoes"
 		]
 	}
 }

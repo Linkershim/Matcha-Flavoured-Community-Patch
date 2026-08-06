@@ -19,7 +19,7 @@
 				}
 			],
 			"minecraft:item_name": {
-				"text": "Bronze Elytra",
+				"translate": "item.kleispack.bronze_elytra",
 				"color": "#ac7b5c"
 			},
 			"minecraft:attribute_modifiers": [

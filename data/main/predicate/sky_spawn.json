@@ -1,10 +1,14 @@
 {
-	"condition": "minecraft:entity_properties",
-	"entity": "this",
-	"predicate": {
-		"location": {
-			"dimension": "minecraft:overworld",
-			"can_see_sky": true
+	"condition": "minecraft:all_of",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"minecraft:location": {
+					"can_see_sky": true
+				}
+			}
 		}
-	}
+	]
 }

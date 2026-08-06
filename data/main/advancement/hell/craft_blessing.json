@@ -79,6 +79,12 @@
 				"recipe_id": "blessings:warding"
 			}
 		},
+		"frost_walker_frost_protection": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "blessings:frost_walker_frost_protection"
+			}
+		},
 		"wind_burst_anemos": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
@@ -119,6 +125,7 @@
 			"efficiency_unbreaking",
 			"feather_falling",
 			"flame_fire_aspect_fire_protection",
+			"frost_walker_frost_protection",
 			"infinity",
 			"mending",
 			"reach",

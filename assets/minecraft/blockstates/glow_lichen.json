@@ -1,0 +1,220 @@
+{
+	"multipart": [
+		{
+			"apply": [
+				{
+					"model": "minecraft:block/glow_lichen",
+					"uvlock": false
+				},
+				{
+					"model": "minecraft:block/glow_lichen1",
+					"uvlock": false
+				}
+			],
+			"when": {
+				"north": "true"
+			}
+		},
+		{
+			"apply": {
+				"model": "minecraft:block/glow_lichen"
+			},
+			"when": {
+				"down": "false",
+				"east": "false",
+				"north": "false",
+				"south": "false",
+				"up": "false",
+				"west": "false"
+			}
+		},
+		{
+			"apply": [
+				{
+					"model": "minecraft:block/glow_lichen",
+					"uvlock": false,
+					"y": 90
+				},
+				{
+					"model": "minecraft:block/glow_lichen1",
+					"uvlock": false,
+					"y": 90
+				}
+			],
+			"when": {
+				"east": "true"
+			}
+		},
+		{
+			"apply": {
+				"model": "minecraft:block/glow_lichen",
+				"uvlock": false,
+				"y": 90
+			},
+			"when": {
+				"down": "false",
+				"east": "false",
+				"north": "false",
+				"south": "false",
+				"up": "false",
+				"west": "false"
+			}
+		},
+		{
+			"apply": [
+				{
+					"model": "minecraft:block/glow_lichen",
+					"uvlock": false,
+					"y": 180
+				},
+				{
+					"model": "minecraft:block/glow_lichen1",
+					"uvlock": false,
+					"y": 180
+				}
+			],
+			"when": {
+				"south": "true"
+			}
+		},
+		{
+			"apply": {
+				"model": "minecraft:block/glow_lichen",
+				"uvlock": false,
+				"y": 180
+			},
+			"when": {
+				"down": "false",
+				"east": "false",
+				"north": "false",
+				"south": "false",
+				"up": "false",
+				"west": "false"
+			}
+		},
+		{
+			"apply": [
+				{
+					"model": "minecraft:block/glow_lichen",
+					"uvlock": false,
+					"y": 270
+				},
+				{
+					"model": "minecraft:block/glow_lichen1",
+					"uvlock": false,
+					"y": 270
+				}
+			],
+			"when": {
+				"west": "true"
+			}
+		},
+		{
+			"apply": {
+				"model": "minecraft:block/glow_lichen",
+				"uvlock": false,
+				"y": 270
+			},
+			"when": {
+				"down": "false",
+				"east": "false",
+				"north": "false",
+				"south": "false",
+				"up": "false",
+				"west": "false"
+			}
+		},
+		{
+			"apply": [
+				{
+					"model": "minecraft:block/glow_lichen_ceiling",
+					"uvlock": false,
+					"x": 0,
+					"weight": 1
+				},
+				{
+					"model": "minecraft:block/glow_lichen_ceiling1",
+					"uvlock": false,
+					"x": 0,
+					"weight": 2
+				},
+				{
+					"model": "minecraft:block/glow_lichen_ceiling2",
+					"uvlock": false,
+					"x": 0,
+					"weight": 1
+				}
+			],
+			"when": {
+				"up": "true"
+			}
+		},
+		{
+			"apply": {
+				"model": "minecraft:block/glow_lichen",
+				"uvlock": false,
+				"x": 270
+			},
+			"when": {
+				"down": "false",
+				"east": "false",
+				"north": "false",
+				"south": "false",
+				"up": "false",
+				"west": "false"
+			}
+		},
+		{
+			"apply": [
+				{
+					"model": "minecraft:block/glow_lichen_ground",
+					"uvlock": false,
+					"x": 0,
+					"weight": 2
+				},
+				{
+					"model": "minecraft:block/glow_lichen_ground_1",
+					"uvlock": false,
+					"x": 0,
+					"weight": 2
+				},
+				{
+					"model": "minecraft:block/glow_lichen_ground_2",
+					"uvlock": false,
+					"x": 0,
+					"weight": 2
+				},
+				{
+					"model": "minecraft:block/glow_lichen_ground_3",
+					"uvlock": false,
+					"x": 0,
+					"weight": 1
+				},
+				{
+					"model": "minecraft:block/glow_lichen_ground_4",
+					"uvlock": false,
+					"x": 0,
+					"weight": 1
+				}
+			],
+			"when": {
+				"down": "true"
+			}
+		},
+		{
+			"apply": {
+				"model": "minecraft:block/glow_lichen",
+				"uvlock": false,
+				"x": 90
+			},
+			"when": {
+				"down": "false",
+				"east": "false",
+				"north": "false",
+				"south": "false",
+				"up": "false",
+				"west": "false"
+			}
+		}
+	]
+}

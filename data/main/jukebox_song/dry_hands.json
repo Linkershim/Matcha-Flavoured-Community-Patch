@@ -1,0 +1,8 @@
+{
+	"comparator_output": 1,
+	"description": "C418 - Dry Hands",
+	"length_in_seconds": 69,
+	"sound_event": {
+		"sound_id": "minecraft:music_disc.dry_hands"
+	}
+}

@@ -11,7 +11,7 @@
         "text": "\n"
       },
       {
-        "text": "0.5 for 26.2",
+        "text": "0.6 for 26.2",
         "color": "#908b8b"
       }
     ]
@@ -97,6 +97,108 @@
 			"path": "recipe/copper_nugget_from_smelting.json"
 		},{
 			"namespace": "minecraft",
+			"path": "recipe/coal_from_blasting_coal_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/coal_from_blasting_deepslate_coal_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/coal_from_smelting_coal_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/coal_from_smelting_deepslate_coal_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/gold_ingot_from_blasting_gold_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/gold_ingot_from_blasting_deepslate_gold_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/gold_ingot_from_smelting_gold_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/gold_ingot_from_blasting_nether_gold_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/gold_ingot_from_smelting_nether_gold_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/gold_ingot_from_smelting_deepslate_gold_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/copper_ingot_from_blasting_copper_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/copper_ingot_from_blasting_deepslate_copper_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/copper_ingot_from_smelting_copper_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/copper_ingot_from_smelting_deepslate_copper_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/iron_ingot_from_blasting_iron_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/iron_ingot_from_blasting_deepslate_iron_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/iron_ingot_from_smelting_iron_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/iron_ingot_from_smelting_deepslate_iron_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/diamond_from_blasting_diamond_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/diamond_from_blasting_deepslate_diamond_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/diamond_from_smelting_diamond_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/diamond_from_smelting_deepslate_diamond_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/emerald_from_blasting_emerald_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/emerald_from_blasting_deepslate_emerald_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/emerald_from_smelting_emerald_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/emerald_from_smelting_deepslate_emerald_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/lapis_lazuli_from_blasting_lapis_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/lapis_lazuli_from_blasting_deepslate_lapis_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/lapis_lazuli_from_smelting_lapis_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/lapis_lazuli_from_smelting_deepslate_lapis_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/redstone_from_blasting_redstone_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/redstone_from_blasting_deepslate_redstone_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/redstone_from_smelting_redstone_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/redstone_from_smelting_deepslate_redstone_ore.json"
+		},{
+			"namespace": "minecraft",
 			"path": "recipe/brewing_stand.json"
 		},{
 			"namespace": "minecraft",
@@ -119,6 +221,27 @@
 		},{
 			"namespace": "minecraft",
 			"path": "recipe/iron_chain.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/minecart.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/bucket.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/iron_bars.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/hopper.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/iron_door.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/cauldron.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/iron_trapdoor.json"
 		},{
 			"namespace": "minecraft",
 			"path": "recipe/shulker_box.json"
@@ -158,9 +281,6 @@
 		},{
 			"namespace": "minecraft",
 			"path": "recipe/redstone.json"
-		},{
-			"namespace": "minecraft",
-			"path": "recipe/hopper.json"
 		},{
 			"namespace": "minecraft",
 			"path": "recipe/slime_ball.json"
@@ -328,16 +448,13 @@
 			"path": "recipe/wooden_hoe.json"
 		},{
 			"namespace": "minecraft",
+			"path": "recipe/wooden_spear.json"
+		},{
+			"namespace": "minecraft",
 			"path": "recipe/wooden_shovel.json"
 		},{
 			"namespace": "minecraft",
 			"path": "recipe/wooden_sword.json"
-		},{
-			"namespace": "minecraft",
-			"path": "recipe/iron_bars.json"
-		},{
-			"namespace": "minecraft",
-			"path": "recipe/hopper.json"
 		},{
 			"namespace": "minecraft",
 			"path": "recipe/cookie.json"
@@ -818,6 +935,63 @@
 		},{
 			"namespace": "minecraft",
 			"path": "recipe/end_rod.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/chiseled_tuff.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/chiseled_tuff_bricks.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/chiseled_stone_bricks.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/chiseled_deepslate.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/chiseled_sandstone.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/chiseled_resin_bricks.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/purpur_pillar.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/chiseled_quartz_block.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/chiseled_copper.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/waxed_exposed_chiseled_copper.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/exposed_chiseled_copper.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/waxed_weathered_chiseled_copper.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/weathered_chiseled_copper.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/waxed_oxidized_chiseled_copper.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/oxidized_chiseled_copper.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/waxed_chiseled_copper.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/chiseled_nether_bricks.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/chiseled_red_sandstone.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/chiseled_polished_blackstone.json"
 		}]
 	}
 }
