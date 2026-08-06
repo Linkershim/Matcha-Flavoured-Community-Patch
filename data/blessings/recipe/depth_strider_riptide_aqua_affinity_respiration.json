@@ -18,15 +18,17 @@
 				"minecraft:aqua_affinity": 1,
 				"minecraft:respiration": 2
 			},
-			"minecraft:rarity": "rare",
-			"minecraft:item_name": "Blessing",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.blessing"
+			},
 			"minecraft:lore": [
 				{
-					"text": "Prayer of Yamm",
+					"translate": "item.kleispack.blessing.yamm",
 					"color": "dark_gray",
 					"italic": false
 				}
-			]
+			],
+			"minecraft:item_model": "minecraft:blessing_yamm"
 		},
 		"count": 1,
 		"id": "minecraft:enchanted_book"

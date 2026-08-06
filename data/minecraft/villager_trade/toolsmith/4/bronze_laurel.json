@@ -25,7 +25,7 @@
 				}
 			],
 			"minecraft:item_name": {
-				"text": "Bronze Laurel",
+				"translate": "item.kleispack.bronze_laurel",
 				"color": "#ac7b5c"
 			},
 			"minecraft:attribute_modifiers": [

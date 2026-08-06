@@ -19,10 +19,12 @@
 				"minecraft:smite": 2
 			},
 			"minecraft:rarity": "rare",
-			"minecraft:item_name": "Blessing",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.blessing"
+			},
 			"minecraft:lore": [
 				{
-					"text": "Prayer of Man",
+					"translate": "item.kleispack.blessing.man",
 					"color": "dark_gray",
 					"italic": false
 				}

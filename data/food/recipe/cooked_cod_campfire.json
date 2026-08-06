@@ -32,7 +32,6 @@
 				]
 			},
 			"minecraft:item_model": "minecraft:cooked_cod",
-			"minecraft:item_name": "Cooked Fish",
 			"minecraft:food": {
 				"nutrition": 0,
 				"saturation": 0,

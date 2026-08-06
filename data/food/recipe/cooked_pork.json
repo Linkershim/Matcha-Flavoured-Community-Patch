@@ -32,7 +32,6 @@
 				]
 			},
 			"minecraft:item_model": "minecraft:cooked_porkchop",
-			"minecraft:item_name": "Cooked Porkchop",
 			"minecraft:food": {
 				"nutrition": 0,
 				"saturation": 0,

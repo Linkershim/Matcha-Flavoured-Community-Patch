@@ -10,7 +10,7 @@
 		"S": "minecraft:spectral_arrow",
 		"B": "minecraft:enchanted_book",
 		"F": "minecraft:gold_ingot",
-		"b": "#minecraft:creeper_drop_music_discs"
+		"b": "minecraft:disc_fragment_5"
 	},
 	"result": {
 		"components": {
@@ -18,15 +18,17 @@
 				"minecraft:impaling": 3,
 				"minecraft:piercing": 2
 			},
-			"minecraft:rarity": "rare",
-			"minecraft:item_name": "Blessing",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.blessing"
+			},
 			"minecraft:lore": [
 				{
-					"text": "Prayer of Apollo",
+					"translate": "item.kleispack.blessing.apollo",
 					"color": "dark_gray",
 					"italic": false
 				}
-			]
+			],
+			"minecraft:item_model": "minecraft:blessing_apollo"
 		},
 		"count": 1,
 		"id": "minecraft:enchanted_book"

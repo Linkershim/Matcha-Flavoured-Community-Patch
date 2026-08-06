@@ -22,15 +22,17 @@
 				"minecraft:lunge": 2,
 				"minecraft:breach": 2
 			},
-			"minecraft:rarity": "rare",
-			"minecraft:item_name": "Blessing",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.blessing"
+			},
 			"minecraft:lore": [
 				{
-					"text": "Prayer of Ares",
+					"translate": "item.kleispack.blessing.ares",
 					"color": "dark_gray",
 					"italic": false
 				}
-			]
+			],
+			"minecraft:item_model": "minecraft:blessing_ares"
 		},
 		"count": 1,
 		"id": "minecraft:enchanted_book"

@@ -13,7 +13,9 @@
   "result": {
     "components": {
       "minecraft:item_model": "minecraft:copper_compass",
-      "minecraft:item_name": "Copper Compass"
+      "minecraft:item_name": {
+        "translate": "item.kleispack.copper_compass"
+      }
     },
     "count": 1,
     "id": "minecraft:compass"

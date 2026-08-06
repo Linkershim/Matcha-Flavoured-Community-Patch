@@ -1,6 +1,8 @@
 {
 	"anvil_cost": 0,
-	"description": "Traversal",
+	"description": {
+		"translate": "enchantment.kleispack.traversal"
+	},
 	"effects": {
 		"minecraft:location_changed": [
 			{

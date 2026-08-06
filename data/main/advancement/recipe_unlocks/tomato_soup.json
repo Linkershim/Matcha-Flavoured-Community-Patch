@@ -2,10 +2,16 @@
 	"parent": "minecraft:recipes/root",
 	"criteria": {
 		"cooked_the_food": {
+			"trigger": "minecraft:inventory_changed",
 			"conditions": {
-				"recipe_id": "food:tomato_soup"
-			},
-			"trigger": "minecraft:recipe_crafted"
+				"items": [
+					{
+						"components": {
+							"minecraft:item_model": "tomato_soup"
+						}
+					}
+				]
+			}
 		}
 	},
 	"requirements": [

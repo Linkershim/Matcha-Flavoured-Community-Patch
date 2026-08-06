@@ -1,19 +1,20 @@
 {
   "values": [
-    "minecraft:fisherman/1/arapaima",
-    "minecraft:fisherman/1/armoured_catfish",
-    "minecraft:fisherman/1/bass",
+    "minecraft:fisherman/1/alaska_blackfish",
+    "minecraft:fisherman/1/anchovy",
     "minecraft:fisherman/1/bluegill",
-    "minecraft:fisherman/1/carp",
-    "minecraft:fisherman/1/catfish",
+    "minecraft:fisherman/1/bujurqui",
+    "minecraft:fisherman/1/cod",
     "minecraft:fisherman/1/crappie",
+    "minecraft:fisherman/1/freshwater_pufferfish",
     "minecraft:fisherman/1/guppy",
-    "minecraft:fisherman/1/lamprey",
+    "minecraft:fisherman/1/humpback_whitefish",
     "minecraft:fisherman/1/mediterranean_killifish",
-    "minecraft:fisherman/1/muskellunge",
-    "minecraft:fisherman/1/piranha",
+    "minecraft:fisherman/1/pufferfish",
+    "minecraft:fisherman/1/rainbow_wrasse",
+    "minecraft:fisherman/1/salmon",
+    "minecraft:fisherman/1/shad",
     "minecraft:fisherman/1/striped_perch",
-    "minecraft:fisherman/1/tunisian_barb",
-    "minecraft:fisherman/1/walleye"
+    "minecraft:fisherman/1/tropical_fish"
   ]
 }

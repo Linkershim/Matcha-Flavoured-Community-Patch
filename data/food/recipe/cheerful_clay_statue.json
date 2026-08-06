@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:glowstone_dust"
+	],
+	"result": {
+		"id": "minecraft:goat_horn",
+		"components": {
+			"minecraft:item_model": "minecraft:cheerful_clay_statue",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.cheerful_clay_statue"
+			},
+			"minecraft:instrument": {
+				"sound_event": "minecraft:ambient.soul_sand_valley.mood",
+				"range": 16,
+				"use_duration": 30,
+				"description": "item.kleispack.cheerful_clay_statue.desc"
+			}
+		},
+		"count": 1
+	}
+}

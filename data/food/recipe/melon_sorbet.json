@@ -12,7 +12,9 @@
 		"id": "minecraft:poisonous_potato",
 		"components": {
 			"minecraft:item_model": "minecraft:melon_sorbet",
-			"minecraft:item_name": "Melon Sorbet",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.melon_sorbet"
+			},
 			"minecraft:food": {
 				"nutrition": 0,
 				"saturation": 0,

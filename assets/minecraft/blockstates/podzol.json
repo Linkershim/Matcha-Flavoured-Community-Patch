@@ -1,0 +1,22 @@
+{
+    "variants": {
+        "": [
+            { "model": "block/podzol" },
+            { "model": "block/podzol", "y": 90 },
+            { "model": "block/podzol", "y": 180 },
+            { "model": "block/podzol", "y": 270 },
+            { "model": "block/podzol_1" },
+            { "model": "block/podzol_1", "y": 90 },
+            { "model": "block/podzol_1", "y": 180 },
+            { "model": "block/podzol_1", "y": 270 },
+            { "model": "block/podzol_2" },
+            { "model": "block/podzol_2", "y": 90 },
+            { "model": "block/podzol_2", "y": 180 },
+            { "model": "block/podzol_2", "y": 270 },
+            { "model": "block/podzol_3" },
+            { "model": "block/podzol_3", "y": 90 },
+            { "model": "block/podzol_3", "y": 180 },
+            { "model": "block/podzol_3", "y": 270 }
+        ]
+    }
+}

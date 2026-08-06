@@ -18,15 +18,17 @@
 				"minecraft:swift_sneak": 2,
 				"minecraft:soul_speed": 2
 			},
-			"minecraft:rarity": "rare",
-			"minecraft:item_name": "Blessing",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.blessing"
+			},
 			"minecraft:lore": [
 				{
-					"text": "Prayer of Cronus",
+					"translate": "item.kleispack.blessing.cronus",
 					"color": "dark_gray",
 					"italic": false
 				}
-			]
+			],
+			"minecraft:item_model": "minecraft:blessing_cronus"
 		},
 		"count": 1,
 		"id": "minecraft:enchanted_book"

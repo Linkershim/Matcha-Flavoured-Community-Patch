@@ -14,7 +14,9 @@
 		"id": "minecraft:pumpkin_pie",
 		"components": {
 			"minecraft:item_model": "minecraft:raw_paneer_makhani",
-			"minecraft:item_name": "Uncooked Paneer Curry",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.raw_paneer_makhani"
+			},
 			"minecraft:food": {
 				"nutrition": 0,
 				"saturation": 0,

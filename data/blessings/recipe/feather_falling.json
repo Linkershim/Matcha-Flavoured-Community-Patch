@@ -15,17 +15,19 @@
 	"result": {
 		"components": {
 			"minecraft:stored_enchantments": {
-				"minecraft:feather_falling": 1
+				"minecraft:feather_falling": 2
 			},
-			"minecraft:rarity": "rare",
-			"minecraft:item_name": "Blessing",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.blessing"
+			},
 			"minecraft:lore": [
 				{
-					"text": "Prayer of Icarus",
+					"translate": "item.kleispack.blessing.icarus",
 					"color": "dark_gray",
 					"italic": false
 				}
-			]
+			],
+			"minecraft:item_model": "minecraft:blessing_icarus"
 		},
 		"count": 1,
 		"id": "minecraft:enchanted_book"

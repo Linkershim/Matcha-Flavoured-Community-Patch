@@ -1,4 +1,4 @@
-execute at @a if entity @p[advancements={main:end/kill_dragon=true}] run function main:mechanic/safe_surface
+execute if score gamerule gamerule_safe_surface matches 1 run function main:mechanic/safe_surface
 execute as @e[type=minecraft:creeper,tag=!SpawnChecked] run execute if predicate main:sky_spawn run tag @s add SpawnForbiden
 # execute as @e[type=minecraft:creeper,tag=!SpawnChecked] run tag @s add SpawnChecked
 execute as @e[type=minecraft:spider,tag=!SpawnChecked] run execute if predicate main:sky_spawn run tag @s add SpawnForbiden

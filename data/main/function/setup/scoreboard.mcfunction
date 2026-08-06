@@ -37,3 +37,12 @@ stopwatch create 1s
 stopwatch create 0.5s
 
 scoreboard objectives add boating minecraft.custom:minecraft.boat_one_cm
+
+scoreboard objectives add gamerule_safe_surface dummy
+
+scoreboard objectives add motion_x1 dummy
+scoreboard objectives add motion_x2 dummy
+scoreboard objectives add motion_y1 dummy
+scoreboard objectives add motion_y2 dummy
+scoreboard objectives add motion_z1 dummy
+scoreboard objectives add motion_z2 dummy

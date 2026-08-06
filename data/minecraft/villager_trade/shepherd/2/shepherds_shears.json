@@ -3,7 +3,9 @@
 		"id": "minecraft:shears",
 		"components": {
 			"minecraft:item_model": "minecraft:bronze_shears",
-			"minecraft:item_name": "Shepherd's Shears",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.shepherds_shears"
+			},
 			"minecraft:max_damage": 3000,
 			"minecraft:repairable": {
 				"items": [

@@ -18,11 +18,12 @@
 				"minecraft:smite": 3,
 				"minecraft:channeling": 1
 			},
-			"minecraft:rarity": "rare",
-			"minecraft:item_name": "Blessing",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.blessing"
+			},
 			"minecraft:lore": [
 				{
-					"text": "Prayer of the God-King",
+					"translate": "item.kleispack.blessing.god_king",
 					"color": "dark_gray",
 					"italic": false
 				}

@@ -9,16 +9,18 @@
 					"count": 64
 				}
 			},
-			"minecraft:item_name": "Bulk Diorite",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.trade.bulk_diorite"
+			},
 			"minecraft:item_model": "minecraft:diorite",
 			"minecraft:lore": [
 				{
-					"text": "x64 Diorite",
+					"translate": "item.kleispack.trade.bulk_diorite.desc",
 					"color": "gray",
 					"italic": false
 				},
 				{
-					"text": "Click on ground to unload",
+					"translate": "item.kleispack.trade.bulk.desc",
 					"color": "dark_gray",
 					"italic": false
 				}

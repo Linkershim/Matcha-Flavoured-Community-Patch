@@ -32,7 +32,6 @@
 				]
 			},
 			"minecraft:item_model": "minecraft:cooked_salmon",
-			"minecraft:item_name": "Cooked Large Fish",
 			"minecraft:food": {
 				"nutrition": 0,
 				"saturation": 0,

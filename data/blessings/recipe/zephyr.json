@@ -14,15 +14,15 @@
 	},
 	"result": {
 		"components": {
-			
 			"minecraft:stored_enchantments": {
 				"main:zephyr": 1
 			},
-			"minecraft:rarity": "rare",
-			"minecraft:item_name": "Blessing",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.blessing"
+			},
 			"minecraft:lore": [
 				{
-					"text": "Prayer of Hyacinthus",
+					"translate": "item.kleispack.blessing.hyacinthus",
 					"color": "dark_gray",
 					"italic": false
 				}

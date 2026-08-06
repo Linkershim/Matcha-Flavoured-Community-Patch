@@ -9,16 +9,18 @@
 					"count": 64
 				}
 			},
-			"minecraft:item_name": "Bulk Limestone",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.trade.bulk_stone"
+			},
 			"minecraft:item_model": "minecraft:stone",
 			"minecraft:lore": [
 				{
-					"text": "x64 Limestone",
+					"translate": "item.kleispack.trade.bulk_stone.desc",
 					"color": "gray",
 					"italic": false
 				},
 				{
-					"text": "Click on ground to unload",
+					"translate": "item.kleispack.trade.bulk.desc",
 					"color": "dark_gray",
 					"italic": false
 				}

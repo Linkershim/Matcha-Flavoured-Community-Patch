@@ -13,7 +13,9 @@
 	"result": {
 		"components": {
 			"minecraft:item_model": "minecraft:golden_compass",
-			"minecraft:item_name": "Golden Compass"
+			"minecraft:item_name": {
+				"translate": "item.kleispack.golden_compass"
+			}
 		},
 		"count": 1,
 		"id": "minecraft:compass"

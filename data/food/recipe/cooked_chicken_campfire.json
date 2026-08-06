@@ -32,7 +32,6 @@
 				]
 			},
 			"minecraft:item_model": "minecraft:cooked_chicken",
-			"minecraft:item_name": "Cooked Chicken",
 			"minecraft:food": {
 				"nutrition": 0,
 				"saturation": 0,

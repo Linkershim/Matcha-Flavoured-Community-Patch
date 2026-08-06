@@ -4,7 +4,7 @@
 		"components": {
 			"minecraft:item_model": "mushy_bundle",
 			"minecraft:item_name": {
-				"text": "Mushy Bundle"
+				"translate": "item.kleispack.bundle.mushroom"
 			},
 			"minecraft:bundle_contents": [
 				{

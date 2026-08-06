@@ -19,7 +19,9 @@
 				"fuse": 80,
 				"explosion_power": 4
 			},
-			"minecraft:item_name": "Bedrock Buster",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.bedrock_buster"
+			},
 			"minecraft:rarity": "rare",
 			"minecraft:item_model": "minecraft:bedrock_buster"
 		}

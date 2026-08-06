@@ -15,7 +15,9 @@
 		"id": "minecraft:poisonous_potato",
 		"components": {
 			"minecraft:item_model": "minecraft:puerquito",
-			"minecraft:item_name": "Puerquito",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.puerquito"
+			},
 			"minecraft:food": {
 				"nutrition": 0,
 				"saturation": 0,

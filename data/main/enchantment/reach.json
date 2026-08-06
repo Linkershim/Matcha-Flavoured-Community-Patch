@@ -1,6 +1,8 @@
 {
 	"anvil_cost": 0,
-	"description": "Reach",
+	"description": {
+		"translate": "enchantment.kleispack.reach"
+	},
 	"effects": {
 		"minecraft:attributes": [
 			{

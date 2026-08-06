@@ -47,47 +47,9 @@
 					"weight": 5
 				},
 				{
-					"type": "minecraft:item",
-					"functions": [
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:lore": [
-									{
-										"text": "❣",
-										"color": "red",
-										"italic": false
-									}
-								],
-								"minecraft:consumable": {
-									"on_consume_effects": [
-										{
-											"type": "minecraft:apply_effects",
-											"effects": [
-												{
-													"id": "minecraft:regeneration",
-													"amplifier": 2,
-													"duration": 20,
-													"show_particles": false,
-													"show_icon": false
-												}
-											],
-											"probability": 1
-										}
-									]
-								}
-							}
-						},
-						{
-							"count": {
-								"type": "minecraft:uniform",
-								"max": 5,
-								"min": 3
-							},
-							"function": "minecraft:set_count"
-						}
-					],
-					"name": "minecraft:carrot",
+					"type": "minecraft:loot_table",
+					"value": "minecraft:food/carrot",
+					"functions": [],
 					"weight": 5
 				}
 			],

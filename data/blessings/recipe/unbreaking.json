@@ -17,11 +17,12 @@
 			"minecraft:stored_enchantments": {
 				"minecraft:unbreaking": 2
 			},
-			"minecraft:rarity": "rare",
-			"minecraft:item_name": "Blessing",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.blessing"
+			},
 			"minecraft:lore": [
 				{
-					"text": "Prayer of Prometheus",
+					"translate": "item.kleispack.blessing.prometheus",
 					"color": "dark_gray",
 					"italic": false
 				}

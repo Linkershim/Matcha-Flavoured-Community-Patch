@@ -15,17 +15,19 @@
 	"result": {
 		"components": {
 			"minecraft:stored_enchantments": {
-				"matcha_main:traversal": 1
+				"main:traversal": 3
 			},
-			"minecraft:rarity": "rare",
-			"minecraft:item_name": "Blessing",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.blessing"
+			},
 			"minecraft:lore": [
 				{
-					"text": "Prayer of St. Clement",
+					"translate": "item.kleispack.blessing.clement",
 					"color": "dark_gray",
 					"italic": false
 				}
-			]
+			],
+			"minecraft:item_model": "minecraft:blessing_clement"
 		},
 		"count": 1,
 		"id": "minecraft:enchanted_book"

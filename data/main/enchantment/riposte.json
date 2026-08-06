@@ -1,7 +1,7 @@
 {
 	"anvil_cost": 2,
 	"description": {
-		"text": "Riposte"
+		"translate": "enchantment.kleispack.riposte"
 	},
 	"effects": {
 		"minecraft:post_attack": [

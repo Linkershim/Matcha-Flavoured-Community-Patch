@@ -11,45 +11,6 @@
 					"type": "minecraft:item",
 					"functions": [
 						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:item_model": "minecraft:bluegill",
-								"minecraft:item_name": "Bluegill"
-							}
-						},
-						{
-							"count": {
-								"type": "minecraft:uniform",
-								"max": 2,
-								"min": 1
-							},
-							"function": "minecraft:set_count"
-						}
-					],
-					"name": "minecraft:cod",
-					"weight": 2
-				},
-				{
-					"type": "minecraft:item",
-					"functions": [
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:item_model": "minecraft:carp",
-								"minecraft:item_name": "Carp"
-							}
-						},
-						{
-							"count": 1,
-							"function": "minecraft:set_count"
-						}
-					],
-					"name": "minecraft:salmon"
-				},
-				{
-					"type": "minecraft:item",
-					"functions": [
-						{
 							"count": {
 								"type": "minecraft:uniform",
 								"max": 3,
@@ -107,9 +68,18 @@
 			],
 			"rolls": {
 				"type": "minecraft:uniform",
-				"max": 8,
-				"min": 5
+				"max": 5,
+				"min": 3
 			}
+		},
+		{
+			"rolls": 3,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:gameplay/fishing"
+				}
+			]
 		}
 	],
 	"random_sequence": "minecraft:chests/village/village_fisher"

@@ -4,7 +4,9 @@
 		"minecraft:stone_spear"
 	],
 	"anvil_cost": 0,
-	"description": "Sanguine",
+	"description": {
+		"translate": "enchantment.kleispack.sanguine"
+	},
 	"effects": {
 		"minecraft:post_attack": [
 			{

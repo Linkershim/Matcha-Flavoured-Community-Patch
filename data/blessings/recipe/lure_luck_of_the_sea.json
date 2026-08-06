@@ -18,15 +18,17 @@
 				"minecraft:lure": 3,
 				"minecraft:loyalty": 1
 			},
-			"minecraft:rarity": "rare",
-			"minecraft:item_name": "Blessing",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.blessing"
+			},
 			"minecraft:lore": [
 				{
-					"text": "Prayer of Glaucus",
+					"translate": "item.kleispack.blessing.glaucus",
 					"color": "dark_gray",
 					"italic": false
 				}
-			]
+			],
+			"minecraft:item_model": "minecraft:blessing_glaucus"
 		},
 		"count": 1,
 		"id": "minecraft:enchanted_book"

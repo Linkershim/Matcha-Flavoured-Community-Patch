@@ -38,17 +38,9 @@
 					"name": "minecraft:map"
 				},
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:compass",
-					"functions": [
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:item_model": "minecraft:titanium_compass",
-								"minecraft:item_name": "Titanium Compass"
-							}
-						}
-					]
+					"type": "minecraft:loot_table",
+					"value": "minecraft:chests/equipment/special_compass",
+					"weight": 1
 				},
 				{
 					"type": "minecraft:item",
@@ -85,27 +77,9 @@
 			},
 			"entries": [
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:book",
-					"conditions": [],
-					"functions": [
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:item_name": "The Key of Solomon",
-								"minecraft:rarity": "epic",
-								"minecraft:max_stack_size": 64,
-								"minecraft:item_model": "minecraft:solomon",
-								"minecraft:lore": [
-									{
-										"text": "by King Solomon",
-										"color": "gray",
-										"italic": false
-									}
-								]
-							}
-						}
-					]
+					"type": "minecraft:loot_table",
+					"value": "minecraft:kleis_items/solomon",
+					"weight": 1
 				}
 			]
 		}

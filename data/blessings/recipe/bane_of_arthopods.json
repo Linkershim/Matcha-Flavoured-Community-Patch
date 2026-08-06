@@ -15,15 +15,17 @@
 			"minecraft:stored_enchantments": {
 				"minecraft:bane_of_arthropods": 5
 			},
-			"minecraft:rarity": "rare",
-			"minecraft:item_name": "Blessing",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.blessing"
+			},
 			"minecraft:lore": [
 				{
-					"text": "Prayer of Arachne",
+					"translate": "item.kleispack.blessing.arachnae",
 					"color": "dark_gray",
 					"italic": false
 				}
-			]
+			],
+			"minecraft:item_model": "minecraft:blessing_arachnae"
 		},
 		"count": 1,
 		"id": "minecraft:enchanted_book"

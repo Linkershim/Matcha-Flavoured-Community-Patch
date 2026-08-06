@@ -11,7 +11,7 @@
         "text": "\n"
       },
       {
-        "text": "0.4 for 26.2",
+        "text": "0.5 for 26.2",
         "color": "#908b8b"
       }
     ]
@@ -815,6 +815,9 @@
 		},{
 			"namespace": "minecraft",
 			"path": "recipe/potent_sulfur.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/end_rod.json"
 		}]
 	}
 }

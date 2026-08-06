@@ -11,7 +11,9 @@
 		"id": "minecraft:poisonous_potato",
 		"components": {
 			"minecraft:item_model": "minecraft:glow_jam",
-			"minecraft:item_name": "Glow Berry Jam",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.glow_berry_jam"
+			},
 			"minecraft:food": {
 				"nutrition": 0,
 				"saturation": 0,
@@ -48,7 +50,10 @@
 					"color": "#0fffa3",
 					"italic": false
 				}
-			]
+			],
+			"minecraft:use_remainder": {
+				"id": "minecraft:glass_bottle"
+			}
 		},
 		"count": 1
 	}

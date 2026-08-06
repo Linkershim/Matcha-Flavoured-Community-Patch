@@ -1,6 +1,8 @@
 {
 	"anvil_cost": 0,
-	"description": "Faint Warding",
+	"description": {
+		"translate": "enchantment.kleispack.warding0"
+	},
 	"effects": {
 		"minecraft:tick": [
 			{

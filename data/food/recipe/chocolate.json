@@ -43,7 +43,9 @@
 				]
 			},
 			"minecraft:item_model": "minecraft:chocolate",
-			"minecraft:item_name": "Dark Chocolate",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.cooked_cocoa_beans"
+			},
 			"minecraft:food": {
 				"nutrition": 0,
 				"saturation": 0,

@@ -1,11 +1,1 @@
-function main:mechanic/sleep
-function main:mechanic/manage_hunger
-function main:environmental/freezing_water
-function main:mechanic/water_bottle_stacking
-function main:mechanic/warding_stone
-function main:mechanic/only_undead_surface
-function main:mechanic_permanent_xp
-function main:mechanic/hpdown
-function main:particle/divine_favour_falling
-function main:particle/riding_boat
-function main:stopwatches
+function main:setup/ticking_functions

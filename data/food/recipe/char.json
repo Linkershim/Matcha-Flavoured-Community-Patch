@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:smoking",
+	"category": "misc",
+	"cookingtime": 50,
+	"experience": 0.35,
+	"ingredient": [
+		"minecraft:carrot",
+		"minecraft:beetroot",
+		"minecraft:glow_berries",
+		"minecraft:sweet_berries",
+		"minecraft:apple",
+		"minecraft:golden_apple",
+		"minecraft:melon_slice",
+		"minecraft:pumpkin",
+		"minecraft:honey_bottle"
+	],
+	"result": {
+		"id": "minecraft:black_dye",
+		"components": {
+			"minecraft:item_model": "minecraft:char",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.char"
+			}
+		}
+	}
+}

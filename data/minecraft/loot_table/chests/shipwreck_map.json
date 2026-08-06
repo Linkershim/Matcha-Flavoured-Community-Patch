@@ -29,20 +29,6 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:compass",
-					"conditions": [],
-					"functions": [
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:item_model": "minecraft:titanium_compass",
-								"minecraft:item_name": "Titanium Compass"
-							}
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
 					"name": "minecraft:map"
 				},
 				{
@@ -120,7 +106,7 @@
 			"entries": [
 				{
 					"type": "minecraft:empty",
-					"weight": 148
+					"weight": 100
 				},
 				{
 					"type": "minecraft:item",
@@ -168,6 +154,15 @@
 				}
 			],
 			"rolls": 1
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:chests/equipment/special_compass"
+				}
+			]
 		}
 	],
 	"random_sequence": "minecraft:chests/shipwreck_map"

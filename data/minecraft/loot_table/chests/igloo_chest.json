@@ -25,7 +25,9 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:item_model": "minecraft:tallow",
-								"minecraft:item_name": "Tallow"
+								"minecraft:item_name": {
+									"translate": "item.kleispack.tallow"
+								}
 							}
 						},
 						{
@@ -84,8 +86,8 @@
 		{
 			"entries": [
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:golden_apple"
+					"type": "minecraft:loot_table",
+					"value": "minecraft:food/golden_apple"
 				}
 			],
 			"rolls": 1

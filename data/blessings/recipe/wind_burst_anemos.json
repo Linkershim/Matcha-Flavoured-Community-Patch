@@ -17,11 +17,12 @@
 				"main:anemos": 1,
 				"minecraft:wind_burst": 3
 			},
-			"minecraft:rarity": "rare",
-			"minecraft:item_name": "Blessing",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.blessing"
+			},
 			"minecraft:lore": [
 				{
-					"text": "Prayer of Aeolus",
+					"translate": "item.kleispack.blessing.aeolus",
 					"color": "dark_gray",
 					"italic": false
 				}

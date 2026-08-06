@@ -13,7 +13,7 @@
 		"components": {
 			"minecraft:item_model": "minecraft:chorus_mochi",
 			"minecraft:item_name": {
-				"text": "Chorus Mochi",
+				"translate": "item.kleispack.chorus_mochi",
 				"color": "#ae6cbc"
 			},
 			"minecraft:food": {

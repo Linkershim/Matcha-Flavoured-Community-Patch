@@ -1,7 +1,7 @@
 {
 	"anvil_cost": 0,
 	"description": {
-		"text": "Slaughter"
+		"translate": "enchantment.kleispack.slaughter"
 	},
 	"effects": {
 		"minecraft:damage": [

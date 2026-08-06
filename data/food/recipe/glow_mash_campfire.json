@@ -39,7 +39,9 @@
 				]
 			},
 			"minecraft:item_model": "minecraft:glow_mash",
-			"minecraft:item_name": "Glow Berry Mash",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.cooked_glow_berry"
+			},
 			"minecraft:food": {
 				"nutrition": 0,
 				"saturation": 0,

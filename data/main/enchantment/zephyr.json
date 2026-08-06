@@ -1,6 +1,8 @@
 {
 	"anvil_cost": 0,
-	"description": "Zephyr",
+	"description": {
+		"translate": "enchantment.kleispack.zephyr"
+	},
 	"effects": {
 		"minecraft:tick": [
 			{

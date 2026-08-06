@@ -21,56 +21,9 @@
 					"weight": 10
 				},
 				{
-					"type": "minecraft:item",
-					"functions": [
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:lore": [
-									{
-										"text": "❤❤",
-										"color": "red",
-										"italic": false
-									}
-								],
-								"minecraft:consumable": {
-									"on_consume_effects": [
-										{
-											"type": "minecraft:apply_effects",
-											"effects": [
-												{
-													"id": "minecraft:regeneration",
-													"amplifier": 2,
-													"duration": 48,
-													"show_particles": false,
-													"show_icon": false
-												}
-											],
-											"probability": 1
-										}
-									]
-								},
-								"minecraft:item_model": "minecraft:bread",
-								"minecraft:item_name": "Bread",
-								"minecraft:food": {
-									"nutrition": 0,
-									"saturation": 0,
-									"can_always_eat": true
-								}
-							}
-						},
-						{
-							"add": false,
-							"count": {
-								"type": "minecraft:uniform",
-								"max": 2,
-								"min": 1
-							},
-							"function": "minecraft:set_count"
-						}
-					],
-					"name": "minecraft:bread",
-					"weight": 12
+					"type": "minecraft:loot_table",
+					"value": "minecraft:food/bread",
+					"weight": 10
 				},
 				{
 					"type": "minecraft:item",
@@ -124,76 +77,26 @@
 			"rolls": {
 				"type": "minecraft:uniform",
 				"max": 8,
-				"min": 3
+				"min": 5
 			}
 		},
 		{
 			"rolls": 1,
 			"entries": [
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:book",
-					"weight": 1,
-					"conditions": [],
-					"functions": [
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:item_name": "The Quran",
-								"minecraft:rarity": "rare",
-								"minecraft:max_stack_size": 64,
-								"minecraft:item_model": "minecraft:quran",
-								"minecraft:lore": [
-									{
-										"text": "القرآن",
-										"color": "gray",
-										"italic": false
-									}
-								]
-							}
-						}
-					]
+					"type": "minecraft:loot_table",
+					"value": "minecraft:kleis_items/tanakh",
+					"weight": 1
 				},
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:book",
-					"weight": 1,
-					"conditions": [],
-					"functions": [
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:item_name": "The Tanakh",
-								"minecraft:rarity": "rare",
-								"minecraft:max_stack_size": 64,
-								"minecraft:item_model": "minecraft:tanakh",
-								"minecraft:lore": [
-									{
-										"text": "התנך",
-										"color": "gray",
-										"italic": false
-									}
-								]
-							}
-						}
-					]
+					"type": "minecraft:loot_table",
+					"value": "minecraft:kleis_items/avesta",
+					"weight": 1
 				},
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:book",
-					"weight": 1,
-					"conditions": [],
-					"functions": [
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:item_name": "The Avesta",
-								"minecraft:rarity": "rare",
-								"minecraft:max_stack_size": 64,
-								"minecraft:item_model": "minecraft:avesta"
-							}
-						}
-					]
+					"type": "minecraft:loot_table",
+					"value": "minecraft:kleis_items/quran",
+					"weight": 1
 				}
 			]
 		}

@@ -16,7 +16,9 @@
 		"id": "minecraft:rabbit_stew",
 		"components": {
 			"minecraft:item_model": "minecraft:raw_green_curry",
-			"minecraft:item_name": "Uncooked Fish Curry",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.raw_green_curry"
+			},
 			"minecraft:food": {
 				"nutrition": 0,
 				"saturation": 0,

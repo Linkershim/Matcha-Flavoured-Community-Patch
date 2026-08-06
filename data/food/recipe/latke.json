@@ -12,7 +12,9 @@
 		"id": "minecraft:poisonous_potato",
 		"components": {
 			"minecraft:item_model": "minecraft:latke",
-			"minecraft:item_name": "Latke",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.latke"
+			},
 			"minecraft:food": {
 				"nutrition": 0,
 				"saturation": 0,

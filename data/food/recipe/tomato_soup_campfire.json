@@ -1,7 +1,7 @@
 {
 	"type": "minecraft:campfire_cooking",
 	"category": "food",
-	"cookingtime": 600,
+	"cookingtime": 400,
 	"experience": 0.35,
 	"ingredient": "minecraft:beetroot",
 	"result": {
@@ -47,7 +47,9 @@
 				]
 			},
 			"minecraft:item_model": "minecraft:tomato_soup",
-			"minecraft:item_name": "Tomato Soup",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.tomato_soup"
+			},
 			"minecraft:food": {
 				"nutrition": 0,
 				"saturation": 0,

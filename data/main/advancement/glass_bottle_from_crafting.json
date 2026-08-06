@@ -504,6 +504,13 @@
 				"recipe_id": "food:chorus_mochi"
 			}
 			
+		},
+		"made_dough_from_water": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:dough_from_water"
+			}
+			
 		}
 	},
 	"requirements": [
@@ -579,7 +586,8 @@
 			"clone_red_tulip",
 			"clone_orange_tulip",
 			"clone_pink_tulip",
-			"clone_white_tulip"
+			"clone_white_tulip",
+			"made_dough_from_water"
 		]
 	],
 	"rewards": {

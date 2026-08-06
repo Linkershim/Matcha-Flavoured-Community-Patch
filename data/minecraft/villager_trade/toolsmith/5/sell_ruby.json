@@ -4,7 +4,8 @@
 		"components": {
 			"minecraft:item_model": "minecraft:ruby",
 			"minecraft:item_name": {
-				"text": "Ruby"
+				"translate": "item.kleispack.ruby",
+				"color": "red"
 			}
 		}
 	},

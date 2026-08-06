@@ -24,9 +24,8 @@
 				"DisabledSlots": 4144959
 			},
 			"minecraft:item_name": {
-				"text": "Warding Stone",
-				"color": "aqua",
-				"italic": false
+				"translate": "item.kleispack.warding_stone",
+				"color": "aqua"
 			},
 			"minecraft:item_model": "minecraft:warding_stone"
 		},

@@ -16,7 +16,9 @@
 		"id": "minecraft:suspicious_stew",
 		"components": {
 			"minecraft:item_model": "minecraft:raw_ramen",
-			"minecraft:item_name": "Uncooked Ramen",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.raw_ramen"
+			},
 			"minecraft:food": {
 				"nutrition": 0,
 				"saturation": 0,

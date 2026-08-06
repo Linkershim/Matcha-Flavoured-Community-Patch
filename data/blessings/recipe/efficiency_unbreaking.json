@@ -20,15 +20,17 @@
 				"minecraft:efficiency": 3,
 				"minecraft:unbreaking": 3
 			},
-			"minecraft:rarity": "rare",
-			"minecraft:item_name": "Blessing",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.blessing"
+			},
 			"minecraft:lore": [
 				{
-					"text": "Prayer of Daedalus",
+					"translate": "item.kleispack.blessing.daedalus",
 					"color": "dark_gray",
 					"italic": false
 				}
-			]
+			],
+			"minecraft:item_model": "minecraft:blessing_daedalus"
 		},
 		"count": 1,
 		"id": "minecraft:enchanted_book"

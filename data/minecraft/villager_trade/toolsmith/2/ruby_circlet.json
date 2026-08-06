@@ -8,12 +8,13 @@
 		"components": {
 			"minecraft:item_model": "minecraft:ruby",
 			"minecraft:item_name": {
-				"text": "Ruby"
+				"translate": "item.kleispack.ruby",
+				"color": "red"
 			}
 		}
 	},
 	"gives": {
-		"id": "minecraft:copper_helmet",
+		"id": "minecraft:leather_helmet",
 		"components": {
 			"minecraft:max_damage": 250,
 			"minecraft:lore": [
@@ -24,7 +25,7 @@
 				}
 			],
 			"minecraft:item_name": {
-				"text": "Ruby Circlet",
+				"translate": "item.kleispack.ruby_circlet",
 				"color": "#e63d5f"
 			},
 			"minecraft:attribute_modifiers": [

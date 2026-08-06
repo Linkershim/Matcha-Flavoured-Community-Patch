@@ -1,7 +1,7 @@
 {
 	"anvil_cost": 0,
 	"description": {
-		"text": "✨ Cleanses:"
+		"translate": "enchantment.kleispack.cleanses"
 	},
 	"effects": {
 		"minecraft:tick": [
@@ -13,7 +13,7 @@
 				},
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "main:enchantment_cleanse_armor_legs"
+					"function": "main:enchantment_effects/cleanse_armor_legs"
 				}
 			}
 		]

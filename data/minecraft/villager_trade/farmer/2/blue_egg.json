@@ -9,7 +9,7 @@
 				"variant": "minecraft:cold"
 			},
 			"minecraft:item_name": {
-				"text": "Fertilised Blue Egg"
+				"translate": "item.kleispack.fertilised_blue_egg"
 			}
 		},
 		"count": 1

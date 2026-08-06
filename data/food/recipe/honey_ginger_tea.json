@@ -19,7 +19,7 @@
 					"italic": false
 				},
 				{
-					"text": "✨ Cleanse Poison",
+					"text": "✨ Cleanse Maleffect",
 					"color": "gray",
 					"italic": false
 				}
@@ -65,7 +65,9 @@
 				]
 			},
 			"minecraft:item_model": "minecraft:honey_ginger_tea",
-			"minecraft:item_name": "Honey Ginger Tea",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.honey_ginger_tea"
+			},
 			"minecraft:food": {
 				"nutrition": 0,
 				"saturation": 0,

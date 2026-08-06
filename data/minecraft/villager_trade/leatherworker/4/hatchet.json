@@ -32,7 +32,10 @@
 				"default_mining_speed": 1,
 				"damage_per_block": 1
 			},
-			"minecraft:item_name": "Hatchet",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.hatchet",
+				"color": "white"
+			},
 			"minecraft:tooltip_display": {
 				"hidden_components": [
 					"minecraft:attribute_modifiers"

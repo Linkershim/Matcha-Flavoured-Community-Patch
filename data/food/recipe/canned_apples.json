@@ -11,7 +11,9 @@
 		"id": "minecraft:poisonous_potato",
 		"components": {
 			"minecraft:item_model": "minecraft:canned_apples",
-			"minecraft:item_name": "Canned Apples",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.canned_apples"
+			},
 			"minecraft:food": {
 				"nutrition": 0,
 				"saturation": 0,

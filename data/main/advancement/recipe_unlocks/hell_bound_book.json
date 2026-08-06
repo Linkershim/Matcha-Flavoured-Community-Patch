@@ -17,27 +17,26 @@
 		"recipes": [
 			"blessings:bane_of_arthopods",
 			"blessings:channeling_smite",
+			"blessings:density_knockback_punch",
 			"blessings:depth_strider_riptide_aqua_affinity_respiration",
 			"blessings:efficiency_unbreaking",
 			"blessings:feather_falling",
 			"blessings:flame_fire_aspect_fire_protection",
+			"blessings:frost_walker_frost_protection",
 			"blessings:infinity",
+			"blessings:lunge_breach",
+			"blessings:lure_luck_of_the_sea",
 			"blessings:mending",
+			"blessings:piercing_impaling",
+			"blessings:power_multishot",
 			"blessings:reach",
 			"blessings:silk_touch",
+			"blessings:swift_sneak_soul_speed",
 			"blessings:traversal",
 			"blessings:unbreaking",
 			"blessings:warding",
 			"blessings:wind_burst_anemos",
-			"blessings:zephyr",
-			"blessings:swift_sneak_soul_speed",
-			"blessings:lunge_breach",
-			"blessings:lure_luck_of_the_sea",
-			"blessings:piercing_impaling",
-			"blessings:power_multishot",
-			"blessings:knockback_punch",
-			"blessings:frost_walker",
-			"blessings:density"
+			"blessings:zephyr"
 		]
 	}
 }

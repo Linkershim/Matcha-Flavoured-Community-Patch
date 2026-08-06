@@ -13,7 +13,9 @@
 		"id": "minecraft:poisonous_potato",
 		"components": {
 			"minecraft:item_model": "minecraft:pupusa",
-			"minecraft:item_name": "Pupusa",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.pupusa"
+			},
 			"minecraft:food": {
 				"nutrition": 0,
 				"saturation": 0,

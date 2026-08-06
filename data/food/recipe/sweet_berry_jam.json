@@ -8,10 +8,12 @@
 		"minecraft:glass_bottle"
 	],
 	"result": {
-		"id": "minecraft:honey_bottle",
+		"id": "minecraft:poisonous_potato",
 		"components": {
 			"minecraft:item_model": "minecraft:sweet_berry_jam",
-			"minecraft:item_name": "Sweet Berry Jam",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.sweet_berry_jam"
+			},
 			"minecraft:food": {
 				"nutrition": 0,
 				"saturation": 0,
@@ -55,7 +57,10 @@
 					"color": "gray",
 					"italic": false
 				}
-			]
+			],
+			"minecraft:use_remainder": {
+				"id": "minecraft:glass_bottle"
+			}
 		},
 		"count": 1
 	}

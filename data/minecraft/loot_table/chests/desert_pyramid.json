@@ -116,13 +116,13 @@
 					"weight": 20
 				},
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:golden_apple",
+					"type": "minecraft:loot_table",
+					"value": "minecraft:food/golden_apple",
 					"weight": 20
 				},
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:enchanted_golden_apple",
+					"type": "minecraft:loot_table",
+					"value": "minecraft:food/enchanted_golden_apple",
 					"weight": 2
 				},
 				{
@@ -218,20 +218,8 @@
 			},
 			"entries": [
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:book",
-					"conditions": [],
-					"functions": [
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:item_name": "The Avesta",
-								"minecraft:rarity": "rare",
-								"minecraft:max_stack_size": 64,
-								"minecraft:item_model": "minecraft:avesta"
-							}
-						}
-					]
+					"type": "minecraft:loot_table",
+					"value": "minecraft:kleis_items/avesta"
 				}
 			]
 		}

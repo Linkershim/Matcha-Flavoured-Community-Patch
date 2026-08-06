@@ -1,6 +1,8 @@
 {
 	"anvil_cost": 0,
-	"description": "Warding",
+	"description": {
+		"translate": "enchantment.kleispack.warding2"
+	},
 	"effects": {
 		"minecraft:tick": [
 			{
@@ -11,7 +13,7 @@
 				},
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "main:enchantment_warding2"
+					"function": "main:enchantment_effects/warding2"
 				}
 			}
 		]

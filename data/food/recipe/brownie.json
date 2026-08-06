@@ -49,7 +49,9 @@
 				]
 			},
 			"minecraft:item_model": "minecraft:brownie",
-			"minecraft:item_name": "Brownie",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.brownie"
+			},
 			"minecraft:food": {
 				"nutrition": 0,
 				"saturation": 0,

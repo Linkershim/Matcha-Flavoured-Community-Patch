@@ -44,7 +44,7 @@
 				]
 			},
 			"minecraft:enchantments": {
-				"main:warding_armor": 1
+				"main:warding_armour": 1
 			},
 			"minecraft:enchantment_glint_override": false,
 			"minecraft:item_model": "minecraft:electrum_leggings",

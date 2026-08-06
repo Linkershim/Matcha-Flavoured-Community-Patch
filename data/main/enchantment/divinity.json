@@ -13,7 +13,7 @@
 	],
 	"anvil_cost": 0,
 	"description": {
-		"text": "❤❤",
+		"translate": "enchantment.kleispack.divinity",
 		"color": "aqua"
 	},
 	"effects": {
@@ -21,7 +21,7 @@
 			{
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "main:enchantment_divinity"
+					"function": "main:enchantment_effects/divinity"
 				}
 			}
 		]

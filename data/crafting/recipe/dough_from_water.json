@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "dough",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:potion",
+		"minecraft:wheat_seeds"
+	],
+	"result": {
+		"count": 1,
+		"id": "minecraft:rotten_flesh"
+	}
+}

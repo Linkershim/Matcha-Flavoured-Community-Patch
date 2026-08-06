@@ -8,12 +8,13 @@
 		"components": {
 			"minecraft:item_model": "minecraft:opal",
 			"minecraft:item_name": {
-				"text": "Opal"
+				"translate": "item.kleispack.opal",
+				"color": "#ab85ad"
 			}
 		}
 	},
 	"gives": {
-		"id": "minecraft:copper_helmet",
+		"id": "minecraft:iron_helmet",
 		"components": {
 			"minecraft:max_damage": 250,
 			"minecraft:lore": [
@@ -24,7 +25,8 @@
 				}
 			],
 			"minecraft:item_name": {
-				"text": "Opal Earrings"
+				"translate": "item.kleispack.opal_earrings",
+				"color": "#ab85ad"
 			},
 			"minecraft:attribute_modifiers": [
 				{

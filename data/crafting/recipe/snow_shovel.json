@@ -12,11 +12,13 @@
 	],
 	"result": {
 		"components": {
-			"minecraft:item_name": "Snow Shovel",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.snow_shovel"
+			},
 			"minecraft:max_damage": 5000,
 			"minecraft:tooltip_display": {
 				"hidden_components": [
-					"minecraft:tooltip_display"
+					"minecraft:attribute_modifiers"
 				]
 			},
 			"minecraft:lore": [
@@ -33,11 +35,6 @@
 				{
 					"text": "🕒 1",
 					"color": "dark_green",
-					"italic": false
-				},
-				{
-					"text": "Insta-mines only snow",
-					"color": "dark_gray",
 					"italic": false
 				}
 			],

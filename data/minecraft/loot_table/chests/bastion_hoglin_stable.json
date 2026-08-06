@@ -5,17 +5,8 @@
 			"rolls": 1,
 			"entries": [
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:fermented_spider_eye",
-					"functions": [
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:item_model": "minecraft:ruby",
-								"minecraft:item_name": "Ruby"
-							}
-						}
-					]
+					"type": "minecraft:loot_table",
+					"value": "minecraft:kleis_items/ruby"
 				}
 			]
 		},

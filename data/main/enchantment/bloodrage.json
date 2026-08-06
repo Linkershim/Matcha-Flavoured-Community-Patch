@@ -1,7 +1,9 @@
 {
 	"primary_items": "#minecraft:axes",
 	"anvil_cost": 0,
-	"description": "Bloodrage",
+	"description": {
+		"translate": "enchantment.kleispack.bloodrage"
+	},
 	"effects": {
 		"minecraft:tick": [
 			{

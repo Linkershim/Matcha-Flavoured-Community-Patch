@@ -20,7 +20,7 @@
 				}
 			],
 			"minecraft:consumable": {
-				"consume_seconds": 3.0,
+				"consume_seconds": 3,
 				"animation": "drink",
 				"has_consume_particles": true,
 				"on_consume_effects": [
@@ -46,7 +46,9 @@
 				]
 			},
 			"minecraft:item_model": "minecraft:japanese_curry",
-			"minecraft:item_name": "Japanese Curry",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.japanese_curry"
+			},
 			"minecraft:food": {
 				"nutrition": 0,
 				"saturation": 0,

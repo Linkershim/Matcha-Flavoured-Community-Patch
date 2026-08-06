@@ -9,7 +9,7 @@
 				"variant": "minecraft:temperate"
 			},
 			"minecraft:item_name": {
-				"text": "Fertilised White Egg"
+				"translate": "item.kleispack.fertilised_egg"
 			}
 		},
 		"count": 1

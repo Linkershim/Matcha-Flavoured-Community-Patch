@@ -11,7 +11,9 @@
 		"id": "minecraft:poisonous_potato",
 		"components": {
 			"minecraft:item_model": "minecraft:pickled_carrots",
-			"minecraft:item_name": "Pickled Carrots",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.pickled_carrots"
+			},
 			"minecraft:food": {
 				"nutrition": 0,
 				"saturation": 0,

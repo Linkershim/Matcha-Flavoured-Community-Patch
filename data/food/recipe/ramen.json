@@ -20,7 +20,7 @@
 				}
 			],
 			"minecraft:consumable": {
-				"consume_seconds": 3.0,
+				"consume_seconds": 3,
 				"animation": "drink",
 				"has_consume_particles": true,
 				"on_consume_effects": [
@@ -47,7 +47,9 @@
 				]
 			},
 			"minecraft:item_model": "minecraft:ramen",
-			"minecraft:item_name": "Tonkotsu Ramen",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.ramen"
+			},
 			"minecraft:food": {
 				"nutrition": 0,
 				"saturation": 0,

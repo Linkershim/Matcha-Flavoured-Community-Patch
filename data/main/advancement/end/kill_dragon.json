@@ -8,7 +8,7 @@
 						"condition": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {
-							"type": "minecraft:ender_dragon"
+							"minecraft:entity_type": "minecraft:ender_dragon"
 						}
 					}
 				]
@@ -35,6 +35,6 @@
 		]
 	],
 	"rewards": {
-		"function": "main:mechanic_first_dragon_killed_reward"
+		"function": "main:mechanic/first_dragon_killed_reward"
 	}
 }

@@ -18,10 +18,17 @@
 				"minecraft:mending": 1
 			},
 			"minecraft:item_name": {
-				"text": "Prayer of Lu Ban",
-				"color": "light_purple",
-				"italic": false
-			}
+				"translate": "item.kleispack.blessing"
+			},
+			"minecraft:rarity": "epic",
+			"minecraft:lore": [
+				{
+					"translate": "item.kleispack.blessing.lu_ban",
+					"color": "dark_gray",
+					"italic": false
+				}
+			],
+			"minecraft:item_model": "minecraft:blessing_lu_ban"
 		},
 		"count": 1,
 		"id": "minecraft:enchanted_book"

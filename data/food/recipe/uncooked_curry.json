@@ -18,7 +18,9 @@
 		"id": "minecraft:mushroom_stew",
 		"components": {
 			"minecraft:item_model": "minecraft:raw_curry",
-			"minecraft:item_name": "Uncooked Curry",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.raw_curry"
+			},
 			"minecraft:food": {
 				"nutrition": 0,
 				"saturation": 0,

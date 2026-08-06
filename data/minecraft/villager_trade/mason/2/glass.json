@@ -9,16 +9,18 @@
 					"count": 64
 				}
 			},
-			"minecraft:item_name": "Bulk Glass",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.trade.bulk_glass"
+			},
 			"minecraft:item_model": "minecraft:glass",
 			"minecraft:lore": [
 				{
-					"text": "x64 Glass",
+					"translate": "item.kleispack.trade.bulk_glass.desc",
 					"color": "gray",
 					"italic": false
 				},
 				{
-					"text": "Click on ground to unload",
+					"translate": "item.kleispack.trade.bulk.desc",
 					"color": "dark_gray",
 					"italic": false
 				}

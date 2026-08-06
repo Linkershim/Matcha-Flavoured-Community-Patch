@@ -13,10 +13,20 @@
 	},
 	"result": {
 		"components": {
-			"minecraft:item_name": "Prayer of Paris",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.blessing"
+			},
 			"minecraft:stored_enchantments": {
 				"minecraft:infinity": 1
-			}
+			},
+			"minecraft:lore": [
+				{
+					"translate": "item.kleispack.blessing.paris",
+					"color": "dark_gray",
+					"italic": false
+				}
+			],
+			"minecraft:item_model": "minecraft:blessing_paris"
 		},
 		"count": 1,
 		"id": "minecraft:enchanted_book"

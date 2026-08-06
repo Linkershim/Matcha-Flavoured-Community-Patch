@@ -7,7 +7,7 @@
 	"result": {
 		"components": {
 			"minecraft:enchantment_glint_override": true,
-			"minecraft:rarity": "epic"
+			"minecraft:rarity": "rare"
 		},
 		"count": 9,
 		"id": "minecraft:turtle_scute"

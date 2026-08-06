@@ -17,18 +17,19 @@
 							"function": "minecraft:set_count"
 						}
 					],
-					"name": "minecraft:iron_ingot",
-					"weight": 20
+					"name": "minecraft:book",
+					"weight": 10
 				},
 				{
 					"type": "minecraft:item",
+					"quality": 1,
 					"functions": [
 						{
 							"add": false,
 							"count": {
 								"type": "minecraft:uniform",
-								"max": 8,
-								"min": 4
+								"max": 21,
+								"min": 12
 							},
 							"function": "minecraft:set_count"
 						}
@@ -51,6 +52,36 @@
 					],
 					"name": "minecraft:tnt",
 					"weight": 5
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_block",
+					"quality": 1,
+					"conditions": [],
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 4
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_ingot",
+					"weight": 10,
+					"conditions": [],
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 10,
+								"max": 22
+							}
+						}
+					]
 				}
 			],
 			"rolls": {
@@ -64,6 +95,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
+					"quality": 2,
 					"functions": [
 						{
 							"add": false,
@@ -96,17 +128,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"functions": [
-						{
-							"add": false,
-							"count": {
-								"type": "minecraft:uniform",
-								"max": 3,
-								"min": 1
-							},
-							"function": "minecraft:set_count"
-						}
-					],
+					"quality": 3,
+					"functions": [],
 					"name": "minecraft:prismarine_crystals",
 					"weight": 5
 				}
@@ -121,28 +144,13 @@
 			"bonus_rolls": 0,
 			"entries": [
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:potion"
-				}
-			],
-			"functions": [
-				{
-					"function": "minecraft:set_potion",
-					"id": "minecraft:water_breathing"
-				}
-			],
-			"rolls": {
-				"type": "minecraft:uniform",
-				"max": 2,
-				"min": 0
-			}
-		},
-		{
-			"bonus_rolls": 0,
-			"entries": [
-				{
 					"type": "minecraft:empty",
-					"weight": 148
+					"weight": 30
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:chests/equipment/trident",
+					"weight": 5
 				},
 				{
 					"type": "minecraft:item",
@@ -199,52 +207,12 @@
 			"rolls": 1,
 			"entries": [
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:book",
-					"weight": 10,
-					"conditions": [],
-					"functions": [
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:item_name": "Paradise Lost",
-								"minecraft:rarity": "uncommon",
-								"minecraft:max_stack_size": 64,
-								"minecraft:item_model": "minecraft:paradise_lost",
-								"minecraft:lore": [
-									{
-										"text": "by John Milton",
-										"color": "gray",
-										"italic": false
-									}
-								]
-							}
-						}
-					]
+					"type": "minecraft:loot_table",
+					"value": "minecraft:kleis_items/paradise_lost"
 				},
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:book",
-					"weight": 10,
-					"conditions": [],
-					"functions": [
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:item_name": "The Divine Comedy",
-								"minecraft:rarity": "uncommon",
-								"minecraft:max_stack_size": 64,
-								"minecraft:item_model": "minecraft:divine_comedy",
-								"minecraft:lore": [
-									{
-										"text": "by Dante Alighieri",
-										"color": "gray",
-										"italic": false
-									}
-								]
-							}
-						}
-					]
+					"type": "minecraft:loot_table",
+					"value": "minecraft:kleis_items/divine_comedy"
 				}
 			]
 		}

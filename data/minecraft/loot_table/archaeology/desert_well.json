@@ -28,6 +28,10 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:string"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:archaeology/statues"
 				}
 			],
 			"rolls": 1

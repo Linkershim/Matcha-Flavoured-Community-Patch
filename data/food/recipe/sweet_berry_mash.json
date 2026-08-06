@@ -46,7 +46,9 @@
 				]
 			},
 			"minecraft:item_model": "minecraft:sweet_berry_mash",
-			"minecraft:item_name": "Sweet Berry Mash",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.sweet_berry_mash"
+			},
 			"minecraft:food": {
 				"nutrition": 0,
 				"saturation": 0,

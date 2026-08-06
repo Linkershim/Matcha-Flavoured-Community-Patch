@@ -19,7 +19,8 @@
 	],
 	"rewards": {
 		"recipes": [
-			"food:bokguk"
+			"food:bokguk",
+			"food:cooked_pufferfish"
 		]
 	}
 }

@@ -6,8 +6,10 @@
 		"id": "minecraft:brush",
 		"components": {
 			"minecraft:unbreakable": {},
-			"minecraft:item_model": "archeologists_brush",
-			"minecraft:item_name": "Archeologist's Brush"
+			"minecraft:item_model": "archaeologists_brush",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.archaeologists_brush"
+			}
 		}
 	},
 	"max_uses": 999,

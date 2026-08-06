@@ -1,7 +1,7 @@
 {
 	"type": "minecraft:campfire_cooking",
 	"category": "food",
-	"cookingtime": 600,
+	"cookingtime": 400,
 	"experience": 0.35,
 	"ingredient": "minecraft:cocoa_beans",
 	"result": {
@@ -43,7 +43,9 @@
 				]
 			},
 			"minecraft:item_model": "minecraft:chocolate",
-			"minecraft:item_name": "Dark Chocolate",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.cooked_cocoa_beans"
+			},
 			"minecraft:food": {
 				"nutrition": 0,
 				"saturation": 0,

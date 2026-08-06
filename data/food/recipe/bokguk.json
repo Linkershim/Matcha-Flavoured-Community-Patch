@@ -16,7 +16,9 @@
 		"id": "minecraft:poisonous_potato",
 		"components": {
 			"minecraft:item_model": "minecraft:bokguk",
-			"minecraft:item_name": "Bokguk",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.bokguk"
+			},
 			"minecraft:food": {
 				"nutrition": 0,
 				"saturation": 0,

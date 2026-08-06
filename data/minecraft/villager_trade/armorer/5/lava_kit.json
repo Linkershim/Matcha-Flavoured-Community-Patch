@@ -31,7 +31,9 @@
 					"count": 8
 				}
 			],
-			"minecraft:item_name": "Lava Kit"
+			"minecraft:item_name": {
+				"translate": "item.kleispack.bundle.lava_kit"
+			}
 		}
 	},
 	"max_uses": 999,

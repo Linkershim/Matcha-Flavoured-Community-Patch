@@ -6,12 +6,14 @@
 		"id": "minecraft:paper",
 		"components": {
 			"minecraft:item_model": "minecraft:warped_stroganoff_recipe",
-			"minecraft:item_name": "Cooking Recipe",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.cooking_recipe"
+			},
 			"minecraft:lore": [
 				{
-				"text": "Warped Stroganoff",
-				"color": "#3cc6c8",
-				"italic": false
+					"translate": "item.kleispack.warped_stroganoff",
+					"color": "#3cc6c8",
+					"italic": false
 				}
 			]
 		}

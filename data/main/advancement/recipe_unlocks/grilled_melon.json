@@ -2,10 +2,16 @@
 	"parent": "minecraft:recipes/root",
 	"criteria": {
 		"cooked_the_food": {
+			"trigger": "minecraft:inventory_changed",
 			"conditions": {
-				"recipe_id": "food:grilled_melon"
-			},
-			"trigger": "minecraft:recipe_crafted"
+				"items": [
+					{
+						"components": {
+							"minecraft:item_model": "grilled_melon"
+						}
+					}
+				]
+			}
 		}
 	},
 	"requirements": [

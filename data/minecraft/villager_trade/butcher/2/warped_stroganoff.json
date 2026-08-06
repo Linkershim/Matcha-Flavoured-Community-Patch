@@ -7,7 +7,7 @@
 		"components": {
 			"minecraft:item_model": "minecraft:warped_stroganoff",
 			"minecraft:item_name": {
-				"text": "Warped Stroganoff",
+				"translate": "item.kleispack.warped_stroganoff",
 				"color": "#3cc6c8"
 			},
 			"minecraft:food": {

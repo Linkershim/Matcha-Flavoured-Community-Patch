@@ -1,0 +1,36 @@
+{
+	"parent": "main:tutorial/obtain_divine_fragment",
+	"criteria": {
+		"get_shard": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:echo_shard"
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"description": {
+			"text": "Do you think it remebers?"
+		},
+		"icon": {
+			"count": 1,
+			"id": "minecraft:echo_shard"
+		},
+		"title": {
+			"text": "Echoes"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+	"requirements": [
+		[
+			"get_shard"
+		]
+	]
+}

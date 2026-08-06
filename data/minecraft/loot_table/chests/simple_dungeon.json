@@ -21,13 +21,13 @@
 					"weight": 20
 				},
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:golden_apple",
+					"type": "minecraft:loot_table",
+					"value": "minecraft:food/golden_apple",
 					"weight": 15
 				},
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:enchanted_golden_apple",
+					"type": "minecraft:loot_table",
+					"value": "minecraft:food/enchanted_golden_apple",
 					"weight": 2
 				},
 				{
@@ -124,47 +124,9 @@
 					"weight": 5
 				},
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:bread",
-					"weight": 20,
-					"functions": [
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:lore": [
-									{
-										"text": "❤❤",
-										"color": "red",
-										"italic": false
-									}
-								],
-								"minecraft:consumable": {
-									"on_consume_effects": [
-										{
-											"type": "minecraft:apply_effects",
-											"effects": [
-												{
-													"id": "minecraft:regeneration",
-													"amplifier": 2,
-													"duration": 48,
-													"show_particles": false,
-													"show_icon": false
-												}
-											],
-											"probability": 1
-										}
-									]
-								},
-								"minecraft:item_model": "minecraft:bread",
-								"minecraft:item_name": "Bread",
-								"minecraft:food": {
-									"nutrition": 0,
-									"saturation": 0,
-									"can_always_eat": true
-								}
-							}
-						}
-					]
+					"type": "minecraft:loot_table",
+					"value": "minecraft:food/bread",
+					"weight": 20
 				},
 				{
 					"type": "minecraft:item",
@@ -335,42 +297,14 @@
 			},
 			"entries": [
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:book",
-					"conditions": [],
-					"functions": [
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:item_name": "The Book of Enoch",
-								"minecraft:rarity": "rare",
-								"minecraft:max_stack_size": 64,
-								"minecraft:item_model": "minecraft:enoch",
-								"minecraft:lore": [
-									{
-										"text": "ספר חנוך",
-										"color": "gray",
-										"italic": false
-									}
-								]
-							}
-						}
-					]
+					"type": "minecraft:loot_table",
+					"value": "minecraft:kleis_items/enoch",
+					"weight": 1
 				},
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:poisonous_potato",
-					"functions": [
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:item_model": "minecraft:heart_container",
-								"minecraft:item_name": "Crystal Heart",
-								"minecraft:rarity": "rare",
-								"minecraft:enchantment_glint_override": true
-							}
-						}
-					]
+					"type": "minecraft:loot_table",
+					"value": "minecraft:kleis_items/crystal_heart",
+					"weight": 1
 				}
 			]
 		}

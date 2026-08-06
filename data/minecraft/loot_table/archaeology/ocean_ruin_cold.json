@@ -74,6 +74,11 @@
 					"type": "minecraft:item",
 					"name": "minecraft:gold_nugget",
 					"weight": 2
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:chests/equipment/trident",
+					"quality": 2
 				}
 			],
 			"rolls": 1
