@@ -1,0 +1,19 @@
+{
+	"layers": {
+		"humanoid": [
+			{
+				"texture": "minecraft:electrum"
+			}
+		],
+		"humanoid_leggings": [
+			{
+				"texture": "minecraft:electrum"
+			}
+		],
+		"horse_body": [
+			{
+				"texture": "minecraft:electrum"
+			}
+		]
+	}
+}

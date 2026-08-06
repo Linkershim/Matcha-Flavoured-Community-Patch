@@ -1,0 +1,5 @@
+execute unless entity @s[nbt={active_effects: [{id: "minecraft:unluck"}]}] run execute as @p at @p anchored eyes run summon wind_charge ^ ^ ^.75 {Tags:["motion_projectile"]}
+#execute unless entity @s[nbt={active_effects: [{id: "minecraft:unluck"}]}] run execute as @p at @p anchored eyes run summon wind_charge ^ ^ ^.75 {Tags:["motion_projectile"]}
+execute unless entity @s[nbt={active_effects: [{id: "minecraft:unluck"}]}] run execute as @e[tag=motion_projectile] at @s rotated as @p run function main:backend_apply_motion
+execute unless entity @s[nbt={active_effects: [{id: "minecraft:unluck"}]}] run xp add @s -1
+execute unless entity @s[nbt={active_effects: [{id: "minecraft:unluck"}]}] run effect give @s unluck 1 0 false

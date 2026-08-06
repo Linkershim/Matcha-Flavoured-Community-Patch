@@ -1,0 +1,153 @@
+{
+	"parent": "main:tutorial/obtain_dry_grass",
+	"criteria": {
+		"cook_melon": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"components": {
+							"minecraft:item_model": "minecraft:grilled_melon"
+						}
+					}
+				]
+			}
+		},
+		"cook_carrot": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"components": {
+							"minecraft:item_model": "minecraft:steamed_carrots"
+						}
+					}
+				]
+			}
+		},
+		"cook_apple": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"components": {
+							"minecraft:item_model": "minecraft:buttered_apple"
+						}
+					}
+				]
+			}
+		},
+		"cook_tomatoes": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"components": {
+							"minecraft:item_model": "minecraft:tomato_soup"
+						}
+					}
+				]
+			}
+		},
+		"cook_glow_berries": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"components": {
+							"minecraft:item_model": "minecraft:glow_mash"
+						}
+					}
+				]
+			}
+		},
+		"cook_kelp": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:dried_kelp"
+					}
+				]
+			}
+		},
+		"cook_sweet_berries": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"components": {
+							"minecraft:item_model": "minecraft:sweet_berry_mash"
+						}
+					}
+				]
+			}
+		},
+		"cook_honey": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"components": {
+							"minecraft:item_model": "minecraft:honey_ginger_tea"
+						}
+					}
+				]
+			}
+		},
+		"cook_cocoa": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"components": {
+							"minecraft:item_model": "minecraft:chocolate"
+						}
+					}
+				]
+			}
+		},
+		"cook_pumpkin": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"components": {
+							"minecraft:item_model": "minecraft:pumpkin_slice"
+						}
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"description": {
+			"text": "Reveal the hidden aspect of a food by cooking it"
+		},
+		"icon": {
+			"components": {
+				"minecraft:item_model": "minecraft:grilled_melon"
+			},
+			"count": 1,
+			"id": "minecraft:poisonous_potato"
+		},
+		"title": {
+			"text": "Powerful Flavours"
+		},
+		"hidden": false
+	},
+	"requirements": [
+		[
+			"cook_melon",
+			"cook_carrot",
+			"cook_apple",
+			"cook_tomatoes",
+			"cook_glow_berries",
+			"cook_kelp",
+			"cook_sweet_berries",
+			"cook_honey",
+			"cook_cocoa",
+			"cook_pumpkin"
+		]
+	]
+}

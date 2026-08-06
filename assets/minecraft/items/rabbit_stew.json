@@ -1,0 +1,61 @@
+{
+    "model":{
+      "type": "select",
+      "property": "custom_model_data",
+      "fallback": {
+        "type": "model",
+        "model": "item/rabbit_stew"
+      },
+      "cases": [
+        {
+          "when": "squid_ink_pasta",
+          "model": {
+            "type": "model",
+            "model": "item/squid_ink_pasta"
+          }
+        },
+        {
+          "when": "ramen",
+          "model": {
+            "type": "model",
+            "model": "item/ramen"
+          }
+        },
+        {
+          "when": "vegetable_noodles",
+          "model": {
+            "type": "model",
+            "model": "item/vegetable_noodles"
+          }
+        },
+        {
+          "when": "green_curry",
+          "model": {
+            "type": "model",
+            "model": "item/green_curry"
+          }
+        },
+        {
+          "when": "curry_vindaloo",
+          "model": {
+            "type": "model",
+            "model": "item/curry_vindaloo"
+          }
+        },
+        {
+          "when": "chicken_noodle_soup",
+          "model": {
+            "type": "model",
+            "model": "item/chicken_noodle_soup"
+          }
+        },
+        {
+          "when": "paneer_makhani",
+          "model": {
+            "type": "model",
+            "model": "item/paneer_makhani"
+          }
+        }
+      ]
+    }
+  }

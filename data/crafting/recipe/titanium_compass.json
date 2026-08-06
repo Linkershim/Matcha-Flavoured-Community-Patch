@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": "minecraft:diamond",
+		"X": "minecraft:iron_nugget"
+	},
+	"pattern": [
+		" # ",
+		"#X#",
+		" # "
+	],
+	"result": {
+		"components": {
+			"minecraft:item_model": "minecraft:titanium_compass",
+			"minecraft:item_name": "Titanium Compass"
+		},
+		"count": 1,
+		"id": "minecraft:compass"
+	}
+}

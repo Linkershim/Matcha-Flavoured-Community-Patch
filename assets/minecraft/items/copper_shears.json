@@ -1,0 +1,66 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:damage",
+    "value": {
+      "damage": {
+        "min": 0,
+        "max": 60
+      }
+    },
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/copper_shears"
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:damage",
+      "value": {
+        "damage": {
+          "min": 61,
+          "max": 120
+        }
+      },
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/copper_shears_exposed"
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:damage",
+        "value": {
+          "damage": {
+            "min": 121,
+            "max": 180
+          }
+        },
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/copper_shears_weathered"
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:damage",
+          "value": {
+            "damage": {
+              "min": 181,
+              "max": 999
+            }
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/copper_shears_oxidized"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/copper_shears"
+          }
+        }
+      }
+    }
+  }
+}

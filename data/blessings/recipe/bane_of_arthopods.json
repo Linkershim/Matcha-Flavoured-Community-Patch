@@ -1,0 +1,31 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		" S ",
+		"SBS",
+		" S "
+	],
+	"key": {
+		"S": "minecraft:spider_eye",
+		"B": "minecraft:enchanted_book"
+	},
+	"result": {
+		"components": {
+			"minecraft:stored_enchantments": {
+				"minecraft:bane_of_arthropods": 5
+			},
+			"minecraft:rarity": "rare",
+			"minecraft:item_name": "Blessing",
+			"minecraft:lore": [
+				{
+					"text": "Prayer of Arachne",
+					"color": "dark_gray",
+					"italic": false
+				}
+			]
+		},
+		"count": 1,
+		"id": "minecraft:enchanted_book"
+	}
+}

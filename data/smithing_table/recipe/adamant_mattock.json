@@ -1,0 +1,82 @@
+{
+	"type": "minecraft:smithing_transform",
+	"addition": "minecraft:netherite_ingot",
+	"base": "minecraft:diamond_hoe",
+	"result": {
+		"id": "minecraft:netherite_hoe",
+		"components": {
+			"minecraft:max_damage": 5000,
+			"minecraft:tool": {
+				"rules": [
+					{
+						"blocks": "#minecraft:mineable/hoe",
+						"speed": 13,
+						"correct_for_drops": true
+					},
+					{
+						"blocks": "#minecraft:mineable/shovel",
+						"speed": 13,
+						"correct_for_drops": true
+					}
+				],
+				"default_mining_speed": 1,
+				"damage_per_block": 1
+			},
+			"minecraft:enchantments": {
+				"main:divinity": 1,
+				"minecraft:unbreaking": 1
+			},
+			"minecraft:lore": [
+				{
+					"text": "⛏ 13",
+					"color": "blue",
+					"italic": false
+				},
+				{
+					"text": "🗡 1",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": "🕒 4",
+					"color": "dark_green",
+					"italic": false
+				},
+				"",
+				{
+					"text": "Repaired with:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "  Diamond Block",
+					"color": "dark_gray",
+					"italic": false
+				},
+				{
+					"text": "  Gold Block",
+					"color": "dark_gray",
+					"italic": false
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:repairable": {
+				"items": [
+					"minecraft:diamond_block",
+					"minecraft:gold_block"
+				]
+			},
+			"minecraft:item_name": {
+				"text": "Adamant Mattock",
+				"color": "gold",
+				"italic": false
+			},
+			"minecraft:item_model": "minecraft:adamant_mattock"
+		}
+	},
+	"template": "minecraft:netherite_upgrade_smithing_template"
+}

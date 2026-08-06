@@ -1,0 +1,66 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:damage",
+    "value": {
+      "damage": {
+        "min": 0,
+        "max": 87
+      }
+    },
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/copper_sword"
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:damage",
+      "value": {
+        "damage": {
+          "min": 88,
+          "max": 176
+        }
+      },
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/copper_sword_exposed"
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:damage",
+        "value": {
+          "damage": {
+            "min": 177,
+            "max": 262
+          }
+        },
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/copper_sword_weathered"
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:damage",
+          "value": {
+            "damage": {
+              "min": 263,
+              "max": 999
+            }
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/copper_sword_oxidized"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/copper_sword"
+          }
+        }
+      }
+    }
+  }
+}

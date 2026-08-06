@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"ASA",
+		"ABA",
+		"AAA"
+	],
+	"key": {
+		"S": "minecraft:ender_pearl",
+		"B": "minecraft:enchanted_book",
+		"A": "minecraft:spectral_arrow"
+	},
+	"result": {
+		"components": {
+			"minecraft:item_name": "Prayer of Paris",
+			"minecraft:stored_enchantments": {
+				"minecraft:infinity": 1
+			}
+		},
+		"count": 1,
+		"id": "minecraft:enchanted_book"
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"gives": {
+		"id": "minecraft:glistering_melon_slice",
+		"components": {
+			"minecraft:item_model": "minecraft:heart_container",
+			"minecraft:rarity": "uncommon",
+			"minecraft:item_name": "Heart Container"
+		},
+		"count": 1
+	},
+	"given_item_modifiers": [],
+	"max_uses": 999,
+	"reputation_discount": 0,
+	"wants": {
+		"count": 4,
+		"id": "minecraft:emerald"
+	},
+	"xp": 10
+}

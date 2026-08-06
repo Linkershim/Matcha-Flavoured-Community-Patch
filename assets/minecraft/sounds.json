@@ -1,0 +1,11 @@
+{
+	"music_disc.labyrinthine": {
+		"sounds": [
+			{
+				"name": "music/game/swamp/labyrinthine",
+				"volume": 1.0,
+				"stream": true
+			}
+		]
+	}
+}

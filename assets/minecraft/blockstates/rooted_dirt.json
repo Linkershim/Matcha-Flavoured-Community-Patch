@@ -1,0 +1,20 @@
+{
+    "variants": {
+        "": [
+            { "model": "block/rooted_dirt" },
+            { "model": "block/rooted_dirt", "x": 180 },
+            { "model": "block/rooted_dirt_1", "x": 270 },
+            { "model": "block/rooted_dirt_1", "x": 90 },
+            { "model": "block/rooted_dirt", "y": 90, "x": 180 },
+            { "model": "block/rooted_dirt", "y": 90, "x": 270 },
+            { "model": "block/rooted_dirt_1", "y": 90, "x": 90 },
+            { "model": "block/rooted_dirt_1", "y": 180 },
+            { "model": "block/rooted_dirt", "y": 180, "x": 180 },
+            { "model": "block/rooted_dirt", "y": 180, "x": 90 },
+            { "model": "block/rooted_dirt", "y": 270 },
+            { "model": "block/rooted_dirt_1", "y": 270, "x": 180 },
+            { "model": "block/rooted_dirt_1", "y": 270, "x": 270 },
+            { "model": "block/rooted_dirt", "y": 270, "x": 90 }
+        ]
+    }
+}

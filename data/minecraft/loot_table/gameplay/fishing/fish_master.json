@@ -1,0 +1,124 @@
+{
+	"type": "minecraft:fishing",
+	"pools": [
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:salmon",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_name": "Catfish",
+								"minecraft:item_model": "catfish"
+							}
+						}
+					]
+				},
+        {
+					"type": "minecraft:item",
+					"name": "minecraft:salmon",
+					"weight": 8,
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_name": "Carp",
+								"minecraft:item_model": "carp"
+							}
+						}
+					]
+				},
+        {
+					"type": "minecraft:item",
+					"name": "minecraft:salmon",
+					"weight": 12,
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_name": "Walleye",
+								"minecraft:item_model": "walleye"
+							}
+						}
+					]
+				},
+        {
+					"type": "minecraft:item",
+					"name": "minecraft:salmon",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_name": "Muskellunge",
+								"minecraft:item_model": "muskellunge"
+							}
+						}
+					]
+				},
+        {
+					"type": "minecraft:item",
+					"name": "minecraft:cod",
+					"weight": 18,
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_name": "Striped Perch",
+								"minecraft:item_model": "striped_perch"
+							}
+						}
+					]
+				},
+        {
+					"type": "minecraft:item",
+					"name": "minecraft:cod",
+					"weight": 12,
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_name": "Guppy",
+								"minecraft:item_model": "guppy"
+							}
+						}
+					]
+				},
+        {
+					"type": "minecraft:item",
+					"name": "minecraft:cod",
+					"weight": 12,
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_name": "Bluegill",
+								"minecraft:item_model": "bluegill"
+							}
+						}
+					]
+				},
+        {
+					"type": "minecraft:item",
+					"name": "minecraft:cod",
+					"weight": 16,
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_name": "Crappie",
+								"minecraft:item_model": "crappie"
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "minecraft:gameplay/fishing/freshwater_fish"
+}

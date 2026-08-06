@@ -1,0 +1,26 @@
+{
+  "model":{
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/netherite_axe"
+    },
+    "cases": [
+      {
+        "when": "vermeil_axe",
+        "model": {
+          "type": "model",
+          "model": "item/vermeil_axe"
+        }
+      },
+      {
+        "when": "vermeil_dolabra",
+        "model": {
+          "type": "model",
+          "model": "item/vermeil_dolabra"
+        }
+      }
+    ]
+  }
+}

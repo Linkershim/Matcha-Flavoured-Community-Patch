@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "": [
+			{ "model": "block/lily_pad" },
+			{ "model": "block/lily_pad_1" },
+			{ "model": "block/lily_pad_2" },
+			{ "model": "block/lily_pad_3" }
+		]
+    }
+}

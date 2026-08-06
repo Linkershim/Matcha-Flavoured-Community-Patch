@@ -1,0 +1,18 @@
+{
+	"gives": {
+		"id": "minecraft:emerald",
+		"count": 1
+	},
+	"given_item_modifiers": [],
+	"max_uses": 999,
+	"wants": {
+		"components": {
+			"minecraft:item_model": "bluegill",
+			"minecraft:item_name": "Bluegill"
+		},
+		"count": 16,
+		"id": "minecraft:cod"
+	},
+	"reputation_discount": 0,
+	"xp": 10
+}

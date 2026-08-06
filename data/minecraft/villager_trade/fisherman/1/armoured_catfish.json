@@ -1,0 +1,18 @@
+{
+	"gives": {
+		"id": "minecraft:emerald",
+		"count": 1
+	},
+	"given_item_modifiers": [],
+	"max_uses": 999,
+	"wants": {
+		"components": {
+			"minecraft:item_model": "armoured_catfish",
+			"minecraft:item_name": "Armored Catfish"
+		},
+		"count": 8,
+		"id": "minecraft:salmon"
+	},
+	"reputation_discount": 0,
+	"xp": 20
+}

@@ -1,0 +1,3 @@
+If you have music youd like to contibute to the project let me know!
+
+I want to be able to craft custom discs with music for them. I think it would be very fun

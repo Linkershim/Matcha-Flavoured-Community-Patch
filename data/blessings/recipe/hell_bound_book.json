@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"b",
+		"E",
+		"B"
+	],
+	"key": {
+		"B": "minecraft:book",
+		"E": "minecraft:blaze_rod",
+		"b": "magma_cream"
+	},
+	"result": {
+		"components": {
+			"minecraft:max_stack_size": 64,
+			"minecraft:stored_enchantments": {
+				"minecraft:binding_curse": 1
+			}
+		},
+		"count": 1,
+		"id": "minecraft:enchanted_book"
+	}
+}

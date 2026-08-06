@@ -1,0 +1,75 @@
+{
+	"parent": "main:tutorial/obtain_smithing_table",
+	"criteria": {
+		"steel_axe": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "recipes_equipment:steel_axe"
+			}
+		},
+		"steel_pickaxe": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "recipes_equipment:steel_pickaxe"
+			}
+		},
+		"steel_shovel": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "recipes_equipment:steel_shovel"
+			}
+		},
+		"steel_hoe": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "recipes_equipment:steel_hoe"
+			}
+		},
+		"steel_sword": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "recipes_equipment:steel_sword"
+			}
+		},
+		"steel_dolabra": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "recipes_equipment:steel_dolabra"
+			}
+		},
+		"steel_mattock": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "recipes_equipment:steel_mattock"
+			}
+		}
+	},
+	"display": {
+		"description": {
+			"text": "Craft a Steel Tool"
+		},
+		"icon": {
+			"components": {
+				"minecraft:item_model": "minecraft:steel_shovel"
+			},
+			"count": 1,
+			"id": "minecraft:iron_shovel"
+		},
+		"title": {
+			"text": "Sturdy Steel"
+		},
+		"frame": "goal",
+		"hidden": false
+	},
+	"requirements": [
+		[
+			"steel_axe",
+			"steel_pickaxe",
+			"steel_shovel",
+			"steel_hoe",
+			"steel_sword",
+			"steel_dolabra",
+			"steel_mattock"
+		]
+	]
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "main:hell/root",
+  "criteria": {
+    "get_benzene": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:magma_cream"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Obtain Reagents Forbidden by the Old Laws"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:magma_cream"
+    },
+    "title": {
+      "text": "Forbidden Chemistry"
+    },
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "get_benzene"
+    ]
+  ]
+}

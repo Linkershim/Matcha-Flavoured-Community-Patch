@@ -1,0 +1,250 @@
+{
+	"variants": {
+		"type=bottom": [
+			{
+				"model": "minecraft:block/petrified_oak_slab",
+				"y": 0,
+				"weight": 25
+			},
+			{
+				"model": "minecraft:block/petrified_oak_slab",
+				"y": 90,
+				"weight": 25
+			},
+			{
+				"model": "minecraft:block/petrified_oak_slab",
+				"y": 180,
+				"weight": 25
+			},
+			{
+				"model": "minecraft:block/petrified_oak_slab",
+				"y": 270,
+				"weight": 25
+			},
+			{
+				"model": "minecraft:block/petrified_oak_slab_1",
+				"y": 0,
+				"weight": 25
+			},
+			{
+				"model": "minecraft:block/petrified_oak_slab_1",
+				"y": 90,
+				"weight": 25
+			},
+			{
+				"model": "minecraft:block/petrified_oak_slab_1",
+				"y": 180,
+				"weight": 25
+			},
+			{
+				"model": "minecraft:block/petrified_oak_slab_1",
+				"y": 270,
+				"weight": 25
+			},
+			{
+				"model": "minecraft:block/petrified_oak_slab_2",
+				"y": 0,
+				"weight": 25
+			},
+			{
+				"model": "minecraft:block/petrified_oak_slab_2",
+				"y": 90,
+				"weight": 25
+			},
+			{
+				"model": "minecraft:block/petrified_oak_slab_2",
+				"y": 180,
+				"weight": 25
+			},
+			{
+				"model": "minecraft:block/petrified_oak_slab_2",
+				"y": 270,
+				"weight": 25
+			},
+			{
+				"model": "minecraft:block/petrified_oak_slab_3",
+				"y": 0,
+				"weight": 25
+			},
+			{
+				"model": "minecraft:block/petrified_oak_slab_3",
+				"y": 90,
+				"weight": 25
+			},
+			{
+				"model": "minecraft:block/petrified_oak_slab_3",
+				"y": 180,
+				"weight": 25
+			},
+			{
+				"model": "minecraft:block/petrified_oak_slab_3",
+				"y": 270,
+				"weight": 25
+			}
+		],
+		"type=double": [
+			{
+				"model": "minecraft:block/coarse_dirt",
+				"y": 0,
+				"weight": 25
+			},
+			{
+				"model": "minecraft:block/coarse_dirt",
+				"y": 90,
+				"weight": 25
+			},
+			{
+				"model": "minecraft:block/coarse_dirt",
+				"y": 180,
+				"weight": 25
+			},
+			{
+				"model": "minecraft:block/coarse_dirt",
+				"y": 270,
+				"weight": 25
+			},
+			{
+				"model": "minecraft:block/coarse_dirt_1",
+				"y": 0,
+				"weight": 25
+			},
+			{
+				"model": "minecraft:block/coarse_dirt_1",
+				"y": 90,
+				"weight": 25
+			},
+			{
+				"model": "minecraft:block/coarse_dirt_1",
+				"y": 180,
+				"weight": 25
+			},
+			{
+				"model": "minecraft:block/coarse_dirt_1",
+				"y": 270,
+				"weight": 25
+			},
+			{
+				"model": "minecraft:block/coarse_dirt_2",
+				"y": 0,
+				"weight": 25
+			},
+			{
+				"model": "minecraft:block/coarse_dirt_2",
+				"y": 90,
+				"weight": 25
+			},
+			{
+				"model": "minecraft:block/coarse_dirt_2",
+				"y": 180,
+				"weight": 25
+			},
+			{
+				"model": "minecraft:block/coarse_dirt_2",
+				"y": 270,
+				"weight": 25
+			},
+			{
+				"model": "minecraft:block/coarse_dirt_3",
+				"y": 0,
+				"weight": 25
+			},
+			{
+				"model": "minecraft:block/coarse_dirt_3",
+				"y": 90,
+				"weight": 25
+			},
+			{
+				"model": "minecraft:block/coarse_dirt_3",
+				"y": 180,
+				"weight": 25
+			},
+			{
+				"model": "minecraft:block/coarse_dirt_3",
+				"y": 270,
+				"weight": 25
+			}
+		],
+		"type=top": [
+			{
+				"model": "minecraft:block/petrified_oak_slab_top",
+				"y": 0,
+				"weight": 25
+			},
+			{
+				"model": "minecraft:block/petrified_oak_slab_top",
+				"y": 90,
+				"weight": 25
+			},
+			{
+				"model": "minecraft:block/petrified_oak_slab_top",
+				"y": 180,
+				"weight": 25
+			},
+			{
+				"model": "minecraft:block/petrified_oak_slab_top",
+				"y": 270,
+				"weight": 25
+			},
+			{
+				"model": "minecraft:block/petrified_oak_slab_top_1",
+				"y": 0,
+				"weight": 25
+			},
+			{
+				"model": "minecraft:block/petrified_oak_slab_top_1",
+				"y": 90,
+				"weight": 25
+			},
+			{
+				"model": "minecraft:block/petrified_oak_slab_top_1",
+				"y": 180,
+				"weight": 25
+			},
+			{
+				"model": "minecraft:block/petrified_oak_slab_top_1",
+				"y": 270,
+				"weight": 25
+			},
+			{
+				"model": "minecraft:block/petrified_oak_slab_top_2",
+				"y": 0,
+				"weight": 25
+			},
+			{
+				"model": "minecraft:block/petrified_oak_slab_top_2",
+				"y": 90,
+				"weight": 25
+			},
+			{
+				"model": "minecraft:block/petrified_oak_slab_top_2",
+				"y": 180,
+				"weight": 25
+			},
+			{
+				"model": "minecraft:block/petrified_oak_slab_top_2",
+				"y": 270,
+				"weight": 25
+			},
+			{
+				"model": "minecraft:block/petrified_oak_slab_top_3",
+				"y": 0,
+				"weight": 25
+			},
+			{
+				"model": "minecraft:block/petrified_oak_slab_top_3",
+				"y": 90,
+				"weight": 25
+			},
+			{
+				"model": "minecraft:block/petrified_oak_slab_top_3",
+				"y": 180,
+				"weight": 25
+			},
+			{
+				"model": "minecraft:block/petrified_oak_slab_top_3",
+				"y": 270,
+				"weight": 25
+			}
+		]
+	}
+}

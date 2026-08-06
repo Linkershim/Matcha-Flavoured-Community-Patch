@@ -1,0 +1,43 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"made_hell_bound_book": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "blessings:hell_bound_book"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"made_hell_bound_book"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"blessings:bane_of_arthopods",
+			"blessings:channeling_smite",
+			"blessings:depth_strider_riptide_aqua_affinity_respiration",
+			"blessings:efficiency_unbreaking",
+			"blessings:feather_falling",
+			"blessings:flame_fire_aspect_fire_protection",
+			"blessings:infinity",
+			"blessings:mending",
+			"blessings:reach",
+			"blessings:silk_touch",
+			"blessings:traversal",
+			"blessings:unbreaking",
+			"blessings:warding",
+			"blessings:wind_burst_anemos",
+			"blessings:zephyr",
+			"blessings:swift_sneak_soul_speed",
+			"blessings:lunge_breach",
+			"blessings:lure_luck_of_the_sea",
+			"blessings:piercing_impaling",
+			"blessings:power_multishot",
+			"blessings:knockback_punch",
+			"blessings:frost_walker",
+			"blessings:density"
+		]
+	}
+}

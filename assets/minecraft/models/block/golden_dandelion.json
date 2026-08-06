@@ -1,0 +1,7 @@
+{
+    "parent": "block/cross",
+    "textures": {
+        "particle": "block/golden_dandelion",
+        "cross": "block/golden_dandelion"
+    }
+}

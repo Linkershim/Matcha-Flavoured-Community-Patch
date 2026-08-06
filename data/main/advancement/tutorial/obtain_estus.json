@@ -1,0 +1,33 @@
+{
+  "parent": "main:tutorial/root",
+  "criteria": {
+    "get_ash": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:glowstone_dust"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "text": "The Dead seem to be powered by a Stange Ash, it could prove useful"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:glowstone_dust"
+    },
+    "title": {
+      "text": "Hellish Powder"
+    },
+    "hidden": true
+  },
+  "requirements": [
+    [
+      "get_ash"
+    ]
+  ]
+}

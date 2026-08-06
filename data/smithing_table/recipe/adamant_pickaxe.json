@@ -1,0 +1,76 @@
+{
+	"type": "minecraft:smithing_transform",
+	"addition": "minecraft:netherite_ingot",
+	"base": "minecraft:diamond_pickaxe",
+	"result": {
+		"id": "minecraft:netherite_pickaxe",
+		"components": {
+			"minecraft:max_damage": 5000,
+			"minecraft:tool": {
+				"rules": [
+					{
+						"blocks": "#minecraft:mineable/pickaxe",
+						"speed": 15,
+						"correct_for_drops": true
+					}
+				],
+				"default_mining_speed": 1,
+				"damage_per_block": 1
+			},
+			"minecraft:enchantments": {
+				"main:divinity": 1,
+				"minecraft:unbreaking": 2
+			},
+			"minecraft:lore": [
+				{
+					"text": "⛏ 15",
+					"color": "blue",
+					"italic": false
+				},
+				{
+					"text": "🗡 6",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": "🕒 1.2",
+					"color": "dark_green",
+					"italic": false
+				},
+				"",
+				{
+					"text": "Repaired with:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "  Diamond Block",
+					"color": "dark_gray",
+					"italic": false
+				},
+				{
+					"text": "  Gold Block",
+					"color": "dark_gray",
+					"italic": false
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:repairable": {
+				"items": [
+					"minecraft:diamond_block",
+					"minecraft:gold_block"
+				]
+			},
+			"minecraft:item_name": {
+				"text": "Adamant Pickaxe",
+				"color": "gold",
+				"italic": false
+			}
+		}
+	},
+	"template": "minecraft:diamond"
+}

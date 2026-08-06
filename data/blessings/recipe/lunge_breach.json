@@ -1,0 +1,38 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		" b ",
+		"aBc",
+		" F "
+	],
+	"key": {
+		"B": "minecraft:enchanted_book",
+		"F": "minecraft:iron_helmet",
+		"b": "minecraft:red_dye",
+		"a": [
+			"minecraft:iron_sword",
+			"minecraft:iron_spear"
+		],
+		"c": "minecraft:shield"
+	},
+	"result": {
+		"components": {
+			"minecraft:stored_enchantments": {
+				"minecraft:lunge": 2,
+				"minecraft:breach": 2
+			},
+			"minecraft:rarity": "rare",
+			"minecraft:item_name": "Blessing",
+			"minecraft:lore": [
+				{
+					"text": "Prayer of Ares",
+					"color": "dark_gray",
+					"italic": false
+				}
+			]
+		},
+		"count": 1,
+		"id": "minecraft:enchanted_book"
+	}
+}

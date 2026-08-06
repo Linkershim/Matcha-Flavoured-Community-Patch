@@ -1,0 +1,32 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"ASA",
+		"SBS",
+		"ASA"
+	],
+	"key": {
+		"S": "minecraft:shulker_shell",
+		"B": "minecraft:enchanted_book",
+		"A": "minecraft:glowstone_dust"
+	},
+	"result": {
+		"components": {
+			"minecraft:stored_enchantments": {
+				"minecraft:silk_touch": 1
+			},
+			"minecraft:rarity": "rare",
+			"minecraft:item_name": "Blessing",
+			"minecraft:lore": [
+				{
+					"text": "Prayer of Eros",
+					"color": "dark_gray",
+					"italic": false
+				}
+			]
+		},
+		"count": 1,
+		"id": "minecraft:enchanted_book"
+	}
+}

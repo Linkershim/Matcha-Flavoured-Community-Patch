@@ -1,0 +1,35 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"SHS",
+		"FBF",
+		"SFS"
+	],
+	"key": {
+		"S": "minecraft:wind_charge",
+		"B": "minecraft:enchanted_book",
+		"F": "minecraft:feather",
+		"H": "minecraft:allium"
+	},
+	"result": {
+		"components": {
+			
+			"minecraft:stored_enchantments": {
+				"main:zephyr": 1
+			},
+			"minecraft:rarity": "rare",
+			"minecraft:item_name": "Blessing",
+			"minecraft:lore": [
+				{
+					"text": "Prayer of Hyacinthus",
+					"color": "dark_gray",
+					"italic": false
+				}
+			],
+			"minecraft:item_model": "minecraft:blessing_hyacinthus"
+		},
+		"count": 1,
+		"id": "minecraft:enchanted_book"
+	}
+}

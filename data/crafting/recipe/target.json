@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "target",
+	"category": "redstone",
+	"pattern": [
+		"SHS",
+		"HRH",
+		"SHS"
+	],
+	"key": {
+		"H": "minecraft:copper_ingot",
+		"R": "minecraft:redstone",
+		"S": [
+			"minecraft:stone_bricks"
+		]
+	},
+	"result": {
+		"id": "minecraft:target",
+		"count": 4
+	}
+}

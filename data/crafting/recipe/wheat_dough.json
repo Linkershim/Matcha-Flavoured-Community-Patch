@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      "egg",
+      "minecraft:blue_egg",
+      "brown_egg"
+    ],
+    "minecraft:wheat_seeds",
+    "minecraft:wheat_seeds",
+    "minecraft:wheat_seeds"
+  ],
+  "result": {
+    "count": 3,
+    "id": "minecraft:rotten_flesh"
+  }
+}

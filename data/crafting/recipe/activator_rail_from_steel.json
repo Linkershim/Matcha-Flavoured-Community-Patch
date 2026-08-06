@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "activator_rail",
+  "category": "redstone",
+  "pattern": [
+    "XSX",
+    "X#X",
+    "XSX"
+  ],
+  "key": {
+    "#": "minecraft:redstone_torch",
+    "S": "minecraft:stick",
+    "X": "minecraft:resin_brick"
+  },
+  "result": {
+    "id": "minecraft:activator_rail",
+    "count": 32
+  }
+}

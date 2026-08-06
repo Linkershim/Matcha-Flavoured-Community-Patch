@@ -1,0 +1,68 @@
+{
+	"parent": "main:tutorial/obtain_copper",
+	"criteria": {
+		"copper_dolabra": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "recipes_equipment:copper_dolabra"
+			}
+		},
+		"copper_mattock": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "recipes_equipment:copper_mattock"
+			}
+		},
+		"wrought_iron_dolabra": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "recipes_equipment:wrought_iron_dolabra"
+			}
+		},
+		"wrought_iron_mattock": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "recipes_equipment:wrought_iron_mattock"
+			}
+		},
+		"titanium_dolabra": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "recipes_equipment:titanium_dolabra"
+			}
+		},
+		"titanium_mattock": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "recipes_equipment:titanium_mattock"
+			}
+		}
+	},
+	"display": {
+		"description": {
+			"text": "Mattocks and Dolabras work as two tools in one, but mine slower than their base tools"
+		},
+		"icon": {
+			"components": {
+				"minecraft:item_model": "copper_dolabra"
+			},
+			"count": 1,
+			"id": "minecraft:stone_axe"
+		},
+		"title": {
+			"text": "Two in One"
+		},
+		"frame": "goal",
+		"hidden": false
+	},
+	"requirements": [
+		[
+			"titanium_mattock",
+			"titanium_dolabra",
+			"wrought_iron_dolabra",
+			"wrought_iron_mattock",
+			"copper_dolabra",
+			"copper_mattock"
+		]
+	]
+}

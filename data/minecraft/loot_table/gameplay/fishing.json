@@ -1,0 +1,235 @@
+{
+	"type": "minecraft:fishing",
+	"pools": [
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:gameplay/fishing/junk",
+					"weight": 10,
+					"quality": -2
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:gameplay/fishing/treasure",
+					"weight": 5,
+					"quality": 2,
+					"conditions": [
+						{
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"type_specific": {
+									"type": "minecraft:fishing_hook",
+									"in_open_water": true
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:gameplay/fishing/freshwater_cold",
+					"weight": 85,
+					"quality": -1,
+					"conditions": [
+						{
+							"condition": "minecraft:location_check",
+							"predicate": {
+								"biomes": [
+									"minecraft:snowy_plains",
+									"minecraft:snowy_taiga",
+									"minecraft:frozen_river",
+									"minecraft:grove",
+									"minecraft:snowy_slopes",
+									"minecraft:snowy_beach",
+									"minecraft:ice_spikes",
+									"minecraft:jagged_peaks",
+									"minecraft:frozen_peaks"
+								]
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:gameplay/fishing/freshwater_cool",
+					"weight": 85,
+					"quality": -1,
+					"conditions": [
+						{
+							"condition": "minecraft:location_check",
+							"predicate": {
+								"biomes": [
+									"minecraft:taiga",
+									"minecraft:birch_forest",
+									"minecraft:old_growth_birch_forest",
+									"minecraft:dark_forest",
+									"minecraft:pale_garden",
+									"minecraft:meadow",
+									"minecraft:stony_shore",
+									"minecraft:old_growth_pine_taiga",
+									"minecraft:windswept_hills",
+									"minecraft:windswept_forest",
+									"minecraft:windswept_gravelly_hills",
+									"minecraft:stony_peaks"
+								]
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:gameplay/fishing/freshwater_temperate",
+					"weight": 85,
+					"quality": -1,
+					"conditions": [
+						{
+							"condition": "minecraft:location_check",
+							"predicate": {
+								"biomes": [
+									"minecraft:forest",
+									"minecraft:plains",
+									"minecraft:river",
+									"minecraft:sunflower_plains",
+									"minecraft:flower_forest",
+									"minecraft:cherry_grove"
+								]
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:gameplay/fishing/freshwater_hot_wet",
+					"weight": 85,
+					"quality": -1,
+					"conditions": [
+						{
+							"condition": "minecraft:location_check",
+							"predicate": {
+								"biomes": [
+									"minecraft:jungle",
+									"minecraft:sparse_jungle",
+									"minecraft:swamp",
+									"minecraft:bamboo_jungle",
+									"minecraft:mangrove_swamp"
+								]
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:gameplay/fishing/freshwater_hot_dry",
+					"weight": 85,
+					"quality": -1,
+					"conditions": [
+						{
+							"condition": "minecraft:location_check",
+							"predicate": {
+								"biomes": [
+									"minecraft:savanna",
+									"minecraft:desert",
+									"minecraft:badlands",
+									"minecraft:wooded_badlands",
+									"minecraft:savanna_plateau",
+									"minecraft:eroded_badlands",
+									"minecraft:windswept_savanna"
+								]
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:gameplay/fishing/saltwater_cold",
+					"weight": 85,
+					"quality": -1,
+					"conditions": [
+						{
+							"condition": "minecraft:location_check",
+							"predicate": {
+								"biomes": [
+									"minecraft:frozen_ocean",
+									"minecraft:deep_frozen_ocean"
+								]
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:gameplay/fishing/saltwater_cool",
+					"weight": 85,
+					"quality": -1,
+					"conditions": [
+						{
+							"condition": "minecraft:location_check",
+							"predicate": {
+								"biomes": [
+									"minecraft:cold_ocean",
+									"minecraft:deep_cold_ocean"
+								]
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:gameplay/fishing/saltwater_temperate",
+					"weight": 85,
+					"quality": -1,
+					"conditions": [
+						{
+							"condition": "minecraft:location_check",
+							"predicate": {
+								"biomes": [
+									"minecraft:ocean",
+									"minecraft:deep_ocean",
+									"minecraft:beach"
+								]
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:gameplay/fishing/saltwater_warm",
+					"weight": 85,
+					"quality": -1,
+					"conditions": [
+						{
+							"condition": "minecraft:location_check",
+							"predicate": {
+								"biomes": [
+									"minecraft:lukewarm_ocean",
+									"minecraft:deep_lukewarm_ocean"
+								]
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:gameplay/fishing/saltwater_hot",
+					"weight": 85,
+					"quality": -1,
+					"conditions": [
+						{
+							"condition": "minecraft:location_check",
+							"predicate": {
+								"biomes": [
+									"minecraft:warm_ocean"
+								]
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "minecraft:gameplay/fishing"
+}

@@ -1,0 +1,4 @@
+execute if entity @p[nbt={equipment:{head:{components:{"minecraft:enchantments":{"main:warding_armor":1}}}}}] run execute if stopwatch 3s 3.. run function main:enchantments/apotropaic_head
+execute if entity @p[nbt={equipment:{chest:{components:{"minecraft:enchantments":{"main:warding_armor":1}}}}}] run execute if stopwatch 0.5s 0.5.. run function main:effects/ward_undead
+execute if entity @p[nbt={equipment:{legs:{components:{"minecraft:enchantments":{"main:warding_armor":1}}}}}] run execute if stopwatch 1s 1.. run function main:effects/ward_undead
+execute if entity @p[nbt={equipment:{feet:{components:{"minecraft:enchantments":{"main:warding_armor":1}}}}}] run execute if stopwatch 2s 2.. run function main:effects/ward_undead

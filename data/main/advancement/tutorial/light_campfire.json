@@ -1,0 +1,44 @@
+{
+	"parent": "main:tutorial/root",
+	"criteria": {
+		"get_primary_material": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "minecraft:campfire"
+							}
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": "minecraft:flint_and_steel"
+						}
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"description": {
+			"text": "Light Kindling using a Flint or Stick Fire Starter"
+		},
+		"icon": {
+			"count": 1,
+			"id": "minecraft:campfire"
+		},
+		"title": {
+			"text": "Fire Starter"
+		},
+		"hidden": false
+	},
+	"requirements": [
+		[
+			"get_primary_material"
+		]
+	]
+}

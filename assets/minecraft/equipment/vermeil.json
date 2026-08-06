@@ -1,0 +1,19 @@
+{
+	"layers": {
+		"humanoid": [
+			{
+				"texture": "minecraft:vermeil"
+			}
+		],
+		"humanoid_leggings": [
+			{
+				"texture": "minecraft:vermeil"
+			}
+		],
+		"horse_body": [
+			{
+				"texture": "minecraft:vermeil"
+			}
+		]
+	}
+}

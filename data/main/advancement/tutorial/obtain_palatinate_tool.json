@@ -1,0 +1,75 @@
+{
+	"parent": "main:tutorial/obtain_smithing_table",
+	"criteria": {
+		"rose_axe": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:shakudo_axe"
+			}
+		},
+		"rose_pickaxe": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:shakudo_pickaxe"
+			}
+		},
+		"rose_shovel": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:shakudo_shovel"
+			}
+		},
+		"rose_hoe": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:shakudo_hoe"
+			}
+		},
+		"rose_sword": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:shakudo_sword"
+			}
+		},
+		"rose_dolabra": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:shakudo_dolabra"
+			}
+		},
+		"rose_mattock": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:shakudo_mattock"
+			}
+		}
+	},
+	"display": {
+		"description": {
+			"text": "Craft any piece of Palatinate Equipment"
+		},
+		"icon": {
+			"components": {
+				"minecraft:item_model": "minecraft:shakudo_axe"
+			},
+			"count": 1,
+			"id": "minecraft:wooden_axe"
+		},
+		"title": {
+			"text": "Palatinate Perfection"
+		},
+		"frame": "goal",
+		"hidden": false
+	},
+	"requirements": [
+		[
+			"rose_axe",
+			"rose_pickaxe",
+			"rose_shovel",
+			"rose_hoe",
+			"rose_sword",
+			"rose_dolabra",
+			"rose_mattock"
+		]
+	]
+}

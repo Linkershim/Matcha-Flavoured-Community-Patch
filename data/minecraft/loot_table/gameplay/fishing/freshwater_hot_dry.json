@@ -1,0 +1,54 @@
+{
+	"type": "minecraft:fishing",
+	"pools": [
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+        		{
+					"type": "minecraft:item",
+					"name": "minecraft:cod",
+					"weight": 13,
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_name": "Mediterranean Killifish",
+								"minecraft:item_model": "mediterranean_killifish"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:salmon",
+					"weight": 6,
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_name": "Tunisian Barb",
+								"minecraft:item_model": "tunisian_barb"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cod",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_name": "Lamprey",
+								"minecraft:item_model": "lamprey"
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "minecraft:gameplay/fishing/freshwater_fish"
+}

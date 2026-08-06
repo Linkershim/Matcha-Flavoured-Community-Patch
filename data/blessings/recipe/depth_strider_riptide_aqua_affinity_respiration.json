@@ -1,0 +1,34 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		" S ",
+		"SBS",
+		" S "
+	],
+	"key": {
+		"S": "minecraft:nautilus_shell",
+		"B": "minecraft:enchanted_book"
+	},
+	"result": {
+		"components": {
+			"minecraft:stored_enchantments": {
+				"minecraft:depth_strider": 2,
+				"minecraft:riptide": 1,
+				"minecraft:aqua_affinity": 1,
+				"minecraft:respiration": 2
+			},
+			"minecraft:rarity": "rare",
+			"minecraft:item_name": "Blessing",
+			"minecraft:lore": [
+				{
+					"text": "Prayer of Yamm",
+					"color": "dark_gray",
+					"italic": false
+				}
+			]
+		},
+		"count": 1,
+		"id": "minecraft:enchanted_book"
+	}
+}

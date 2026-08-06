@@ -1,0 +1,8 @@
+{
+    "parent":"block/cross_leaves",
+    "textures": {
+        "all":"block/jungle_leaves",
+        "outer_top": "block/jungle_leaves_outer_top",
+        "outer_bottom": "block/jungle_leaves_outer_bottom"
+    }
+}

@@ -1,0 +1,16 @@
+{
+	"wants": {
+		"id": "minecraft:emerald"
+	},
+	"gives": {
+		"id": "minecraft:brush",
+		"components": {
+			"minecraft:unbreakable": {},
+			"minecraft:item_model": "archeologists_brush",
+			"minecraft:item_name": "Archeologist's Brush"
+		}
+	},
+	"max_uses": 999,
+	"reputation_discount": 0,
+	"xp": 30
+}

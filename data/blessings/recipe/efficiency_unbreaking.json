@@ -1,0 +1,36 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"ESE",
+		"pBd",
+		"EDE"
+	],
+	"key": {
+		"S": "minecraft:nether_star",
+		"B": "minecraft:enchanted_book",
+		"E": "minecraft:glowstone_dust",
+		"D": "minecraft:diamond",
+		"d": "minecraft:diamond_axe",
+		"p": "minecraft:diamond_pickaxe"
+	},
+	"result": {
+		"components": {
+			"minecraft:stored_enchantments": {
+				"minecraft:efficiency": 3,
+				"minecraft:unbreaking": 3
+			},
+			"minecraft:rarity": "rare",
+			"minecraft:item_name": "Blessing",
+			"minecraft:lore": [
+				{
+					"text": "Prayer of Daedalus",
+					"color": "dark_gray",
+					"italic": false
+				}
+			]
+		},
+		"count": 1,
+		"id": "minecraft:enchanted_book"
+	}
+}

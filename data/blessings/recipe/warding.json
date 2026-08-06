@@ -1,0 +1,35 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"SsS",
+		"LBL",
+		"SLS"
+	],
+	"key": {
+		"S": "minecraft:glistering_melon_slice",
+		"B": "minecraft:enchanted_book",
+		"s": "minecraft:prismarine_crystals",
+		"L": "minecraft:lapis_lazuli"
+	},
+	"result": {
+		"components": {
+			"minecraft:stored_enchantments": {
+				"main:warding2": 1,
+				"minecraft:smite": 2
+			},
+			"minecraft:rarity": "rare",
+			"minecraft:item_name": "Blessing",
+			"minecraft:lore": [
+				{
+					"text": "Prayer of Man",
+					"color": "dark_gray",
+					"italic": false
+				}
+			],
+			"minecraft:item_model": "minecraft:blessing_warding"
+		},
+		"count": 1,
+		"id": "minecraft:enchanted_book"
+	}
+}

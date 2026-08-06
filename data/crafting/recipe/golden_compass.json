@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": "minecraft:gold_ingot",
+		"X": "minecraft:iron_nugget"
+	},
+	"pattern": [
+		" # ",
+		"#X#",
+		" # "
+	],
+	"result": {
+		"components": {
+			"minecraft:item_model": "minecraft:golden_compass",
+			"minecraft:item_name": "Golden Compass"
+		},
+		"count": 1,
+		"id": "minecraft:compass"
+	}
+}

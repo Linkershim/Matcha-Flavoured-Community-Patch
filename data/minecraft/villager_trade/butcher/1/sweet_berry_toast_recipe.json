@@ -1,0 +1,22 @@
+{
+	"wants": {
+		"id": "minecraft:emerald"
+	},
+	"gives": {
+		"id": "minecraft:paper",
+		"components": {
+			"minecraft:item_model": "minecraft:sweet_berry_toast_recipe",
+			"minecraft:item_name": "Cooking Recipe",
+			"minecraft:lore": [
+			{
+			"text": "Sweet Berry Toast",
+			"color": "#e85e8f",
+			"italic": false
+			}
+		]
+		}
+	},
+	"max_uses": 999,
+	"reputation_discount": 0,
+	"xp": 20
+}

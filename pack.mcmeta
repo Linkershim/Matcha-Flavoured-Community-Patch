@@ -1,0 +1,19 @@
+{
+  "pack": {
+    "min_format":84,
+    "max_format":84,
+    "description": [
+      {
+        "text": "Klei's Matcha Flavoured",
+        "color": "#56be4e"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "0.1 for 26.1.2",
+        "color": "#908b8b"
+      }
+    ]
+  }
+}

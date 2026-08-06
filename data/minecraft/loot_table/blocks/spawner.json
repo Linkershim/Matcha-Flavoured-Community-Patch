@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:turtle_scute",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:enchantment_glint_override": true,
+								"minecraft:rarity": "epic"
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "minecraft:blocks/spawner"
+}

@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:fishing",
+	"pools": [
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+        		{
+					"type": "minecraft:item",
+					"name": "minecraft:salmon",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:tropical_fish",
+					"weight": 9
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:pufferfish",
+					"weight": 3
+				}
+			]
+		}
+	],
+	"random_sequence": "minecraft:gameplay/fishing/saltwater_warm"
+}

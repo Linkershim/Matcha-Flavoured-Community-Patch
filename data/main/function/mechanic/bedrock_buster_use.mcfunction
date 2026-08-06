@@ -1,0 +1,1 @@
+execute at @n[type=tnt,nbt={Glowing:1b}] run fill ~-1 ~-1 ~-1 ~1 ~1 ~1 minecraft:air replace minecraft:bedrock

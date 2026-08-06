@@ -1,0 +1,18 @@
+{
+	"gives": {
+		"id": "minecraft:emerald",
+		"count": 1
+	},
+	"given_item_modifiers": [],
+	"max_uses": 999,
+	"wants": {
+		"components": {
+			"minecraft:item_model": "arapaima",
+			"minecraft:item_name": "Arapaima"
+		},
+		"count": 8,
+		"id": "minecraft:salmon"
+	},
+	"reputation_discount": 0,
+	"xp": 20
+}

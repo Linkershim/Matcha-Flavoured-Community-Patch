@@ -1,0 +1,26 @@
+{
+    "model":{
+      "type": "select",
+      "property": "custom_model_data",
+      "fallback": {
+        "type": "model",
+        "model": "item/pumpkin_pie"
+      },
+      "cases": [
+        {
+          "when": "apple_pie",
+          "model": {
+            "type": "model",
+            "model": "item/apple_pie"
+          }
+        },
+        {
+          "when": "golden_pie",
+          "model": {
+            "type": "model",
+            "model": "item/golden_pie"
+          }
+        }
+      ]
+    }
+  }

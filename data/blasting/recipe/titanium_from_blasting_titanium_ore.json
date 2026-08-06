@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 2,
+  "group": "diamond",
+  "ingredient": "minecraft:glistering_melon_slice",
+  "result": {
+    "id": "minecraft:diamond"
+  }
+}

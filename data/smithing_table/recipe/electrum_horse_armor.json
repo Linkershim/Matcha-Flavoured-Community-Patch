@@ -1,0 +1,57 @@
+{
+	"type": "minecraft:smithing_transform",
+	"addition": "minecraft:heart_of_the_sea",
+	"base": "minecraft:diamond_horse_armor",
+	"result": {
+		"id": "minecraft:diamond_horse_armor",
+		"components": {
+			"minecraft:lore": [
+				{
+					"text": "⛊ 11",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": "⛨ 2",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": "🏃 +0.02",
+					"color": "dark_green",
+					"italic": false
+				}
+			],
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:movement_speed",
+					"id": "electrum_horse_armor",
+					"amount": 0.02,
+					"operation": "add_value",
+					"slot": "armor"
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:equippable": {
+				"slot": "body",
+				"asset_id": "minecraft:electrum"
+			},
+			"minecraft:item_model": "minecraft:electrum_horse_armor",
+			"minecraft:item_name": {
+				"text": "Electrum Horse Armor",
+				"color": "yellow"
+			},
+      		"minecraft:repairable": {
+				"items": [
+					"minecraft:diamond",
+					"minecraft:gold_ingot"
+				]
+			}
+		}
+	},
+	"template": "minecraft:diamond"
+}

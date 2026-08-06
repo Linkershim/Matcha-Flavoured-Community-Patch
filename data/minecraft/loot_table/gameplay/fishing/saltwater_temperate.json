@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:fishing",
+	"pools": [
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+        		{
+					"type": "minecraft:item",
+					"name": "minecraft:salmon",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cod",
+					"weight": 1
+				}
+			]
+		}
+	],
+	"random_sequence": "minecraft:gameplay/fishing/saltwater_temperate"
+}

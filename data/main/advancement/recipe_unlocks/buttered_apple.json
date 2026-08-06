@@ -1,0 +1,22 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"cooked_the_food": {
+			"conditions": {
+				"recipe_id": "food:buttered_apple"
+			},
+			"trigger": "minecraft:recipe_crafted"
+		}
+	},
+	"requirements": [
+		[
+			"cooked_the_food"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"food:canned_apples",
+			"food:apple_empanada"
+		]
+	}
+}

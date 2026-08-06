@@ -1,0 +1,33 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"CLC",
+		"WBW",
+		"   "
+	],
+	"key": {
+		"B": "minecraft:enchanted_book",
+		"C": "minecraft:emerald",
+		"W": "#minecraft:wool",
+		"L": "minecraft:leather_boots"
+	},
+	"result": {
+		"components": {
+			"minecraft:stored_enchantments": {
+				"matcha_main:traversal": 1
+			},
+			"minecraft:rarity": "rare",
+			"minecraft:item_name": "Blessing",
+			"minecraft:lore": [
+				{
+					"text": "Prayer of St. Clement",
+					"color": "dark_gray",
+					"italic": false
+				}
+			]
+		},
+		"count": 1,
+		"id": "minecraft:enchanted_book"
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"primary_items": [
+		"minecraft:stone_sword"
+	],
+	"anvil_cost": 0,
+	"description": "Sanguine",
+	"effects": {
+		"minecraft:post_attack": [
+			{
+				"effect": {
+					"type": "minecraft:apply_mob_effect",
+					"to_apply": "minecraft:regeneration",
+					"min_duration": 1,
+					"max_duration": 1,
+					"min_amplifier": 2,
+					"max_amplifier": 2
+				},
+				"enchanted": "attacker",
+				"affected": "attacker"
+			}
+		]
+	},
+	"max_cost": {
+		"base": 15,
+		"per_level_above_first": 0
+	},
+	"max_level": 1,
+	"min_cost": {
+		"base": 1,
+		"per_level_above_first": 0
+	},
+	"slots": [
+		"mainhand"
+	],
+	"supported_items": [
+		"minecraft:stone_sword"
+	],
+	"weight": 1
+}

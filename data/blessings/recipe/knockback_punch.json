@@ -1,0 +1,35 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"SbS",
+		"FBF",
+		"sFs"
+	],
+	"key": {
+		"S": "minecraft:frogspawn",
+		"B": "minecraft:enchanted_book",
+		"F": "minecraft:resin_brick",
+		"b": "minecraft:iron_sword",
+		"s": "minecraft:bone"
+	},
+	"result": {
+		"components": {
+			"minecraft:stored_enchantments": {
+				"minecraft:knockback": 2,
+				"minecraft:punch": 2
+			},
+			"minecraft:rarity": "rare",
+			"minecraft:item_name": "Blessing",
+			"minecraft:lore": [
+				{
+					"text": "Prayer of Kali",
+					"color": "dark_gray",
+					"italic": false
+				}
+			]
+		},
+		"count": 1,
+		"id": "minecraft:enchanted_book"
+	}
+}

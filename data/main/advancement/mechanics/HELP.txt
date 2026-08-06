@@ -1,0 +1,6 @@
+I can't find a way for an advancement that detects when the player dies.
+Theres one for when a player is killed by an entity
+one that detects a player falling
+But I can't find one that detects when they die, for example, detecting even if the /kill command is used on them
+
+This would allow me to not have to use a ticking function to detect deaths

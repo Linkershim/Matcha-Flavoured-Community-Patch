@@ -1,0 +1,19 @@
+{
+  "model":{
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/netherite_pickaxe"
+    },
+    "cases": [
+      {
+        "when": "vermeil_pickaxe",
+        "model": {
+          "type": "model",
+          "model": "item/vermeil_pickaxe"
+        }
+      }
+    ]
+  }
+}

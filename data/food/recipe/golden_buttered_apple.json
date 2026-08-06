@@ -1,0 +1,71 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredient": "minecraft:golden_apple",
+  "result": {
+    "id": "minecraft:poisonous_potato",
+    "components": {
+      "minecraft:lore": [
+        {
+          "text": "❤❤",
+          "color": "red",
+          "italic": false
+        },
+        {
+          "text": "❤❤ (2:00)",
+          "color": "aqua",
+          "italic": false
+        },
+        {
+          "text": "❤ Regen II (0:15)",
+          "color": "#e85e8f",
+          "italic": false
+        }
+      ],
+      "minecraft:consumable": {
+        "consume_seconds": 1.6,
+        "on_consume_effects": [
+          {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:regeneration",
+                "amplifier": 1,
+                "duration": 300,
+                "show_particles": false,
+                "show_icon": false
+              },
+              {
+                "id": "minecraft:instant_health",
+                "amplifier": 0,
+                "duration": 1,
+                "show_particles": false,
+                "show_icon": false
+              },
+              {
+                "id": "minecraft:absorption",
+                "amplifier": 0,
+                "duration": 2400,
+                "show_particles": false,
+                "show_icon": false
+              }
+            ],
+            "probability": 1
+          }
+        ]
+      },
+      "minecraft:item_model": "minecraft:golden_buttered_apple",
+      "minecraft:item_name": {
+        "text": "Gilded Buttered Apple",
+        "color": "yellow"
+      },
+      "minecraft:food": {
+        "nutrition": 0,
+        "saturation": 0,
+        "can_always_eat": true
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "copper_ingot",
+	"category": "redstone",
+	"pattern": [
+		"CC",
+		"CC"
+	],
+	"key": {
+		"C": "minecraft:redstone"
+	},
+	"result": {
+		"id": "minecraft:copper_ingot",
+		"count": 1
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"anvil_cost": 0,
+	"description": {
+		"text": "Cleanse Chest",
+		"type": "text"
+	},
+	"effects": {
+		"minecraft:tick": [
+			{
+				"requirements": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {}
+				},
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "main:enchantment_cleanse_armor_chest"
+				}
+			}
+		]
+	},
+	"max_cost": {
+		"base": 15,
+		"per_level_above_first": 0
+	},
+	"max_level": 1,
+	"min_cost": {
+		"base": 1,
+		"per_level_above_first": 0
+	},
+	"slots": [
+		"armor"
+	],
+	"supported_items": "#minecraft:enchantable/chest_armor",
+	"weight": 1
+}

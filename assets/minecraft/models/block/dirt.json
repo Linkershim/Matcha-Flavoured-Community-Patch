@@ -1,0 +1,8 @@
+{
+    "parent": "block/orientable_dirt",
+    "textures": {
+        "top": "block/packed_dirt",
+        "bottom": "block/packed_dirt",
+        "side":"block/dirt"
+    }
+}

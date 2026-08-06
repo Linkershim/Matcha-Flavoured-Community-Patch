@@ -1,0 +1,31 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		" S ",
+		"SBS",
+		" S "
+	],
+	"key": {
+		"S": "minecraft:ender_pearl",
+		"B": "minecraft:enchanted_book"
+	},
+	"result": {
+		"components": {
+			"minecraft:stored_enchantments": {
+				"main:reach": 1
+			},
+			"minecraft:rarity": "rare",
+			"minecraft:item_name": "Blessing",
+			"minecraft:lore": [
+				{
+					"text": "Prayer of Will",
+					"color": "dark_gray",
+					"italic": false
+				}
+			]
+		},
+		"count": 1,
+		"id": "minecraft:enchanted_book"
+	}
+}

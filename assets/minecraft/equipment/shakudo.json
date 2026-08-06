@@ -1,0 +1,19 @@
+{
+	"layers": {
+		"humanoid": [
+			{
+				"texture": "minecraft:shakudo"
+			}
+		],
+		"humanoid_leggings": [
+			{
+				"texture": "minecraft:shakudo"
+			}
+		],
+		"horse_body": [
+			{
+				"texture": "minecraft:shakudo"
+			}
+		]
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:smithing_transform",
+	"addition": "minecraft:resin_brick",
+	"base": "minecraft:shears",
+	"result": {
+		"id": "minecraft:shears",
+		"components": {
+			"minecraft:item_name": "Steel Shears",
+			"minecraft:max_damage": 3000,
+			"minecraft:item_model": "minecraft:steel_shears",
+			"minecraft:repairable": {
+				"items": [
+					"minecraft:iron_nugget",
+					"minecraft:iron_ingot"
+				]
+			}
+		}
+	},
+	"template": "minecraft:iron_ingot"
+}

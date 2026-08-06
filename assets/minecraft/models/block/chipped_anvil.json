@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/template_anvil",
+	"textures": {
+		"top": "minecraft:block/stone_bricks_rotated",
+		"body": "minecraft:block/stone_bricks_rotated"
+	}
+}

@@ -1,0 +1,41 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "equipment",
+	"ingredients": [
+		"minecraft:magma_cream",
+		"minecraft:glowstone_dust",
+		"minecraft:spider_eye",
+		"minecraft:gunpowder"
+	],
+	"result": {
+		"id": "minecraft:splash_potion",
+		"components": {
+			"minecraft:max_stack_size": 64,
+			"minecraft:potion_contents": {
+				"custom_effects": [
+					{
+						"id": "minecraft:infested",
+						"amplifier": 0,
+						"duration": 6000
+					}
+				]
+			},
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:potion_contents"
+				]
+			},
+			"minecraft:lore": [
+				{
+					"text": "🪲 Infested (05:00)",
+					"color": "#9bb0b0",
+					"italic": false
+				}
+			],
+			"minecraft:custom_name": {
+				"text": "Volatile Putrefied Flask",
+				"italic": false
+			}
+		}
+	}
+}

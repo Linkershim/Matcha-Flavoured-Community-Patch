@@ -1,0 +1,16 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"item": {
+					"items": "minecraft:goat_horn",
+					"components": {}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "main:happy_ghast_horn"
+	}
+}
