@@ -106,7 +106,8 @@
 			"components": {
 				"minecraft:stored_enchantments": {
 					"minecraft:flame": 1
-				}
+				},
+				"minecraft:item_model": "minecraft:blessing_prometheus"
 			},
 			"count": 1,
 			"id": "minecraft:enchanted_book"

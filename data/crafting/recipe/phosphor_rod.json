@@ -8,12 +8,12 @@
 		"SES"
 	],
 	"key": {
-		"S": "minecraft:glass",
+		"S": "minecraft:glass_pane",
 		"E": "minecraft:glow_ink_sac"
 	},
 	"result": {
 		"components": {},
-		"count": 4,
+		"count": 6,
 		"id": "minecraft:end_rod"
 	}
 }

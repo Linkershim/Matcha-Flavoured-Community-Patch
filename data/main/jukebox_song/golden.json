@@ -1,0 +1,8 @@
+{
+	"comparator_output": 1,
+	"description": "Ciren - Golden",
+	"length_in_seconds": 188,
+	"sound_event": {
+		"sound_id": "minecraft:custom.golden"
+	}
+}

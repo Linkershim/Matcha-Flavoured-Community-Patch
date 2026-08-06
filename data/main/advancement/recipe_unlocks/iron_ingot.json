@@ -26,7 +26,6 @@
 	],
 	"rewards": {
 		"recipes": [
-			"crafting:red_sand_from_sand_and_iron",
 			"crafting:rail_from_iron",
 			"crafting:minecart_from_iron",
 			"crafting:iron_trapdoor_from_iron",
@@ -53,7 +52,8 @@
 			"crafting:detector_rail_from_iron",
 			"crafting:cauldron_from_iron",
 			"crafting:bucket_from_iron",
-			"crafting:activator_rail_from_iron"
+			"crafting:activator_rail_from_iron",
+			"blasting:steel_alloy"
 		]
 	}
 }

@@ -25,5 +25,14 @@
 				"stream": true
 			}
 		]
+	},
+	"custom.golden": {
+		"sounds": [
+			{
+				"name": "matcha:custom/golden_demo",
+				"volume": 1,
+				"stream": true
+			}
+		]
 	}
 }

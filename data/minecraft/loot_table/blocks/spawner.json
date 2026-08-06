@@ -13,7 +13,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:enchantment_glint_override": true,
-								"minecraft:rarity": "epic"
+								"minecraft:rarity": "rare"
 							}
 						}
 					]

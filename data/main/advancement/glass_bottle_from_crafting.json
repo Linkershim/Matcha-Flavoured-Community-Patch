@@ -116,7 +116,7 @@
 		"made_glow_ink_sac_alternate": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "crafting:glow_ink_sac_alternate"
+				"recipe_id": "crafting:phosphor"
 			}
 			
 		},

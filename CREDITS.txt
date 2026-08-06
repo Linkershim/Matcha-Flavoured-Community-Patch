@@ -1,3 +1,14 @@
+PROPER CREDITS -----------------------------------------------------------------------------------------------
+
+"Golden" music disc composed by Ciren. Added in memory of my dog, Dakota, who died in 2026 a few days after the summer solstice
+
+All Textures and Data currently in the pack were made by me (Klei), so check the license and feel free to steal!!
+If you do credit me, feel free to link my YT page jsjs
+
+
+
+INSPIRATIONAL ARTISTS AND WORKS ------------------------------------------------------------------------------
+
 This data-resource-pack was heavily inspired by Raspmary's wonderful modpack "Raspberry Flavoured"
 
 The modpack is really very good! If you want a cleaner version of this datapack go check it out

@@ -41,8 +41,8 @@
 			"crafting:copper_shears",
 			"crafting:copper_spear",
 			"crafting:copper_compass",
-			"crafting:powered_rail_from_copper"
-
+			"crafting:powered_rail_from_copper",
+			"crafting:bell"
 		]
 	}
 }

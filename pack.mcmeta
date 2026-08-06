@@ -11,7 +11,7 @@
         "text": "\n"
       },
       {
-        "text": "0.7 for 26.2",
+        "text": "1.0 for 26.2",
         "color": "#908b8b"
       }
     ]
@@ -1061,6 +1061,12 @@
 		},{
 			"namespace": "minecraft",
 			"path": "recipe/suspicious_stew_from_wither_rose.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/end_stone_bricks.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/clock.json"
 		}]
 	}
 }
