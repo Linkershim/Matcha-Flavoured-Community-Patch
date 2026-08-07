@@ -1,0 +1,68 @@
+{
+   "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_shovel",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "translate": "item.minecraft.netherite_shovel",
+                  "color": "gold"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "⛏ 15",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "🗡 6.5",
+                    "color": "dark_green",
+                    "italic": false
+                  },
+                  {
+                    "text": "🕒 1",
+                    "color": "dark_green",
+                    "italic": false
+                  }
+                ],
+                "minecraft:max_damage": 5000,
+                "minecraft:tool": {
+                  "rules": [
+                    {
+                      "speed": 15,
+                      "blocks": "#minecraft:mineable/shovel",
+                      "correct_for_drops": true
+                    }
+                  ]
+                },
+                "minecraft:enchantments": {
+                  "main:divinity": 1,
+                  "minecraft:unbreaking": 2
+                },
+                "minecraft:repairable": {
+                  "items": [
+                    "minecraft:diamond_block",
+                    "minecraft:gold_block",
+                    "minecraft:netherite_scrap"
+                  ]
+                },
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:attribute_modifiers"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

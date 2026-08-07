@@ -1,0 +1,61 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "translate": "item.minecraft.golden_pickaxe",
+                  "color": "white"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "⛏ 12",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "🗡 2",
+                    "color": "dark_green",
+                    "italic": false
+                  },
+                  {
+                    "text": "🕒 1.2",
+                    "color": "dark_green",
+                    "italic": false
+                  }
+                ],
+                "minecraft:max_damage": 350,
+                "minecraft:tool": {
+                  "rules": [
+                    {
+                      "speed": 12,
+                      "blocks": "#minecraft:mineable/pickaxe",
+                      "correct_for_drops": true
+                    }
+                  ]
+                },
+                "minecraft:enchantments": {
+                  "minecraft:fortune": 1
+                },
+                "minecraft:enchantment_glint_override": false,
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:attribute_modifiers"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

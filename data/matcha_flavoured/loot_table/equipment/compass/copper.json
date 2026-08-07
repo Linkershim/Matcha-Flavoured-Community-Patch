@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:compass",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "translate": "item.kleispack.copper_compass"
+                },
+                "minecraft:item_model": "minecraft:copper_compass"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+   "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:copper_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:lore": [
+                  {
+                    "text": "⛏ 6",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "🗡 3",
+                    "color": "dark_green",
+                    "italic": false
+                  },
+                  {
+                    "text": "🕒 1.2",
+                    "color": "dark_green",
+                    "italic": false
+                  }
+                ],
+                "minecraft:max_damage": 350,
+                "minecraft:tool": {
+                  "rules": [
+                    {
+                      "speed": 6,
+                      "blocks": "#minecraft:mineable/pickaxe",
+                      "correct_for_drops": true
+                    },
+                    {
+                      "blocks": "#minecraft:emerald_ores",
+                      "correct_for_drops": true
+                    },
+                    {
+                      "blocks": "#minecraft:redstone_ores",
+                      "correct_for_drops": false
+                    },
+                    {
+                      "speed": 4,
+                      "blocks": "#minecraft:diamond_ores",
+                      "correct_for_drops": false
+                    }
+                  ]
+                },
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:attribute_modifiers"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
