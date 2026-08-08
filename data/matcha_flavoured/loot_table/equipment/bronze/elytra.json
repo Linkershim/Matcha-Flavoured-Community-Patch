@@ -1,0 +1,70 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:elytra",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "translate": "item.kleispack.bronze_elytra",
+                  "color": "#ac7b5c"
+                },
+                "minecraft:item_model": "minecraft:bronze_elytra",
+                "minecraft:equippable": {
+                  "slot": "chest",
+                  "asset_id": "minecraft:bronze_elytra"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "⛊ 1",
+                    "color": "dark_green",
+                    "italic": false
+                  },
+                  {
+                    "text": "🏃 +0.016",
+                    "color": "dark_green",
+                    "italic": false
+                  }
+                ],
+                "minecraft:max_damage": 800,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:movement_speed",
+                    "id": "bronze_elytra",
+                    "amount": 0.016,
+                    "operation": "add_value",
+                    "slot": "chest"
+                  },
+                  {
+                    "type": "minecraft:armor",
+                    "id": "minecraft:armor.chestplate",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "chest"
+                  }
+                ],
+                "minecraft:repairable": {
+                  "items": [
+                    "minecraft:honeycomb",
+                    "minecraft:feather"
+                  ]
+                },
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:attribute_modifiers"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

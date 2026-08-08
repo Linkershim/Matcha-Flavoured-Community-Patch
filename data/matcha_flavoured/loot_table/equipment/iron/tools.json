@@ -14,11 +14,19 @@
         },
         {
           "type": "minecraft:loot_table",
+          "value": "matcha_flavoured:equipment/iron/dolabra"
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "matcha_flavoured:equipment/iron/shovel"
         },
         {
           "type": "minecraft:loot_table",
           "value": "matcha_flavoured:equipment/iron/hoe"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha_flavoured:equipment/iron/mattock"
         }
       ]
     }

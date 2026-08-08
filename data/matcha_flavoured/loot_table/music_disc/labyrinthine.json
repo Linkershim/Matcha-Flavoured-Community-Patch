@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_cat",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:jukebox_playable": "main:labyrinthine",
+                "minecraft:item_model": "minecraft:music_disc_labyrinthine"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

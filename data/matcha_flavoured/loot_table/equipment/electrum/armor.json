@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha_flavoured:equipment/electrum/helmet"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha_flavoured:equipment/electrum/chestplate"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha_flavoured:equipment/electrum/leggings"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha_flavoured:equipment/electrum/boots"
+        }
+      ]
+    }
+  ]
+}

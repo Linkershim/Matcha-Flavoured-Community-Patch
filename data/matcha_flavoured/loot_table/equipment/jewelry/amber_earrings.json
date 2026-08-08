@@ -1,0 +1,55 @@
+{
+   "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:copper_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "Amber Earrings",
+                  "color": "#e58904"
+                },
+                "minecraft:item_model": "minecraft:amber_earrings",
+                "minecraft:equippable": {
+                  "slot": "head",
+                  "asset_id": "minecraft:amber_earrings"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "⛊ 1",
+                    "color": "dark_green",
+                    "italic": false
+                  }
+                ],
+                "minecraft:unbreakable": {},
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "minecraft:armor.helmet",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "head"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "main:regeneration": 1
+                },
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:attribute_modifiers"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -6,51 +6,51 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/iron/helmet"
+          "value": "matcha_flavoured:equipment/bronze/helmet"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/iron/chestplate"
+          "value": "matcha_flavoured:equipment/bronze/chestplate"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/iron/leggings"
+          "value": "matcha_flavoured:equipment/bronze/leggings"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/iron/boots"
+          "value": "matcha_flavoured:equipment/bronze/boots"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/iron/pickaxe"
+          "value": "matcha_flavoured:equipment/bronze/pickaxe"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/iron/axe"
+          "value": "matcha_flavoured:equipment/bronze/axe"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/iron/dolabra"
+          "value": "matcha_flavoured:equipment/bronze/dolabra"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/iron/shovel"
+          "value": "matcha_flavoured:equipment/bronze/shovel"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/iron/hoe"
+          "value": "matcha_flavoured:equipment/bronze/hoe"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/iron/mattock"
+          "value": "matcha_flavoured:equipment/bronze/mattock"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/iron/spear"
+          "value": "matcha_flavoured:equipment/bronze/spear"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/iron/sword"
+          "value": "matcha_flavoured:equipment/bronze/sword"
         }
       ]
     }

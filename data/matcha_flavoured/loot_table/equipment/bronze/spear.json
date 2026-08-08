@@ -1,0 +1,74 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_spear",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "translate": "item.kleispack.bronze_spear",
+                  "color": "#ac7b5c"
+                },
+                "minecraft:item_model": "minecraft:bronze_spear",
+                "minecraft:lore": [
+                  {
+                    "text": "🗡 3",
+                    "color": "dark_green",
+                    "italic": false
+                  },
+                  {
+                    "text": "🕒 1.18",
+                    "color": "dark_green",
+                    "italic": false
+                  },
+                  {
+                    "text": "🏃 +0.01",
+                    "color": "dark_green",
+                    "italic": false
+                  }
+                ],
+                "minecraft:max_damage": 1000,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:attack_damage",
+                    "id": "damage",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  },
+                  {
+                    "type": "minecraft:movement_speed",
+                    "id": "bronze_sword",
+                    "amount": 0.0105,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "minecraft:lunge": 3
+                },
+                "minecraft:repairable": {
+                  "items": [
+                    "minecraft:copper_ingot"
+                  ]
+                },
+                "minecraft:enchantment_glint_override": false,
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:attribute_modifiers"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:copper_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "translate": "item.kleispack.shakudo_helmet",
+                  "color": "#c96691"
+                },
+                "minecraft:item_model": "minecraft:shakudo_helmet",
+                "minecraft:equippable": {
+                  "slot": "head",
+                  "asset_id": "minecraft:shakudo"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "    Blindness",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "    Darkness",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "⛊ 2",
+                    "color": "dark_green",
+                    "italic": false
+                  }
+                ],
+                "minecraft:max_damage": 500,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "minecraft:armor.helmet",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "head"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "main:cleanse_armor_head": 1
+                },
+                "minecraft:enchantment_glint_override": false,
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:attribute_modifiers"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

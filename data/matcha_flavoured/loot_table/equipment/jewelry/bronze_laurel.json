@@ -1,0 +1,64 @@
+{
+   "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:copper_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "translate": "item.kleispack.bronze_laurel",
+                  "color": "#ac7b5c"
+                },
+                "minecraft:item_model": "minecraft:bronze_laurel",
+                "minecraft:equippable": {
+                  "slot": "head",
+                  "asset_id": "minecraft:bronze_laurel"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "⛊ 1",
+                    "color": "dark_green",
+                    "italic": false
+                  },
+                  {
+                    "text": "🏃 +0.02",
+                    "color": "dark_green",
+                    "italic": false
+                  }
+                ],
+                "minecraft:unbreakable": {},
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "minecraft:armor.helmet",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "head"
+                  },
+                  {
+                    "type": "minecraft:movement_speed",
+                    "id": "bronze_helmet",
+                    "amount": 0.02,
+                    "operation": "add_value",
+                    "slot": "head"
+                  }
+                ],
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:attribute_modifiers"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

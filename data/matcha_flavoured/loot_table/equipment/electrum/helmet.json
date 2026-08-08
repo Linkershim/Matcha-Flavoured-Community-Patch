@@ -1,0 +1,73 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "translate": "item.kleispack.electrum_helmet",
+                  "color": "yellow"
+                },
+                "minecraft:item_model": "minecraft:electrum_helmet",
+                "minecraft:equippable": {
+                  "slot": "head",
+                  "asset_id": "minecraft:electrum"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "⛊ 3",
+                    "color": "dark_green",
+                    "italic": false
+                  },
+                  {
+                    "text": "⛨ 2",
+                    "color": "dark_green",
+                    "italic": false
+                  }
+                ],
+                "minecraft:max_damage": 1000,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "minecraft:armor.helmet",
+                    "amount": 3,
+                    "operation": "add_value",
+                    "slot": "head"
+                  },
+                  {
+                    "type": "minecraft:armor_toughness",
+                    "id": "minecraft:armor.helmet",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "head"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "main:warding_armour": 1
+                },
+                "minecraft:repairable": {
+                  "items": [
+                    "minecraft:diamond",
+                    "minecraft:gold_ingot"
+                  ]
+                },
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:attribute_modifiers"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

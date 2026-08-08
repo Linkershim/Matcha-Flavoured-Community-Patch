@@ -6,51 +6,51 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/iron/helmet"
+          "value": "matcha_flavoured:equipment/electrum/helmet"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/iron/chestplate"
+          "value": "matcha_flavoured:equipment/electrum/chestplate"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/iron/leggings"
+          "value": "matcha_flavoured:equipment/electrum/leggings"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/iron/boots"
+          "value": "matcha_flavoured:equipment/electrum/boots"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/iron/pickaxe"
+          "value": "matcha_flavoured:equipment/electrum/pickaxe"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/iron/axe"
+          "value": "matcha_flavoured:equipment/electrum/axe"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/iron/dolabra"
+          "value": "matcha_flavoured:equipment/electrum/dolabra"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/iron/shovel"
+          "value": "matcha_flavoured:equipment/electrum/shovel"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/iron/hoe"
+          "value": "matcha_flavoured:equipment/electrum/hoe"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/iron/mattock"
+          "value": "matcha_flavoured:equipment/electrum/mattock"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/iron/spear"
+          "value": "matcha_flavoured:equipment/electrum/spear"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/iron/sword"
+          "value": "matcha_flavoured:equipment/electrum/sword"
         }
       ]
     }

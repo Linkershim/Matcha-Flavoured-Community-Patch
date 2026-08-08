@@ -1,0 +1,74 @@
+{
+   "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "netherite_hoe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "translate": "item.kleispack.adamant_mattock",
+                  "color": "gold"
+                },
+                "minecraft:item_model": "minecraft:adamant_mattock",
+                "minecraft:lore": [
+                  {
+                    "text": "⛏ 13",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "🗡 1",
+                    "color": "dark_green",
+                    "italic": false
+                  },
+                  {
+                    "text": "🕒 4",
+                    "color": "dark_green",
+                    "italic": false
+                  }
+                ],
+                "minecraft:max_damage": 5000,
+                "minecraft:enchantments": {
+                  "main:divinity": 1,
+                  "minecraft:unbreaking": 2
+                },
+                "minecraft:tool": {
+                  "rules": [
+                    {
+                      "speed": 13,
+                      "blocks": "#minecraft:mineable/hoe",
+                      "correct_for_drops": true
+                    },
+                    {
+                      "speed": 13,
+                      "blocks": "#minecraft:mineable/shovel",
+                      "correct_for_drops": true
+                    }
+                  ]
+                },
+                "minecraft:repairable": {
+                  "items": [
+                    "minecraft:diamond_block",
+                    "minecraft:gold_block",
+                    "minecraft:netherite_scrap"
+                  ]
+                },
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:attribute_modifiers"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
