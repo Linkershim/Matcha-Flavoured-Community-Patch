@@ -1,0 +1,58 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_carrot",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:lore": [
+                  {
+                    "text": "❤",
+                    "color": "red",
+                    "italic": false
+                  },
+                  {
+                    "text": "👁 Night Vision (0:30)",
+                    "color": "green",
+                    "italic": false
+                  }
+                ],
+                "!minecraft:food": {},
+                "minecraft:consumable": {
+                  "has_consume_particles": true,
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:regeneration",
+                          "amplifier": 3,
+                          "duration": 15,
+                          "show_particles": false,
+                          "show_icon": false
+                        },
+                        {
+                          "id": "minecraft:night_vision",
+                          "amplifier": 0,
+                          "duration": 600,
+                          "show_particles": false,
+                          "show_icon": false
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

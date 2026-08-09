@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:gnocchi",
+                "minecraft:item_name": {
+                  "translate": "item.kleispack.gnocchi",
+                  "color": "#e1bc62"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "❤❤❤❤❤❤❤❤",
+                    "color": "red",
+                    "italic": false
+                  }
+                ],
+                "!minecraft:food": {},
+                "minecraft:consumable": {
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:regeneration",
+                          "amplifier": 2,
+                          "duration": 192,
+                          "show_particles": false,
+                          "show_icon": false
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "minecraft:use_remainder": {
+                  "id": "minecraft:bowl"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

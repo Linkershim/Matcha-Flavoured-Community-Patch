@@ -1,0 +1,63 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:chorus_mochi",
+                "minecraft:item_name": {
+                  "translate": "item.kleispack.chorus_mochi",
+                  "color": "#ae6cbc"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "❤❤",
+                    "color": "red",
+                    "italic": false
+                  },
+                  {
+                    "text": "🕴 Levitation XXX (0:01)",
+                    "color": "#ae6cbc",
+                    "italic": false
+                  }
+                ],
+                "!minecraft:food": {},
+                "minecraft:consumable": {
+                  "consume_seconds": 0.8,
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:levitation",
+                          "amplifier": 29,
+                          "duration": 20,
+                          "show_particles": false,
+                          "show_icon": true
+                        },
+                        {
+                          "id": "minecraft:regeneration",
+                          "amplifier": 2,
+                          "duration": 48,
+                          "show_particles": false,
+                          "show_icon": false
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
