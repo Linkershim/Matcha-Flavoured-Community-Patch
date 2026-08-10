@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:pickled_red_mushrooms",
+                "minecraft:custom_name": {
+                  "translate": "item.kleispack.pickled_red_mushrooms",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "💀 Poison II (01:00)",
+                    "color": "#48a53b",
+                    "italic": false
+                  }
+                ],
+                "minecraft:potion_contents": {
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:poison",
+                      "amplifier": 1,
+                      "duration": 1200,
+                      "show_icon": true
+                    }
+                  ]
+                },
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:potion_contents"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

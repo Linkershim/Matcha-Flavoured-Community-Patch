@@ -1,0 +1,116 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+
+                "minecraft:item_name": {
+                  "translate": "item.kleispack.adamant_claymore",
+                  "color": "gold"
+                },
+                "minecraft:item_model": "minecraft:adamant_claymore",
+                "minecraft:lore": [
+                  {
+                    "text": "🗡 9",
+                    "color": "dark_green",
+                    "italic": false
+                  },
+                  {
+                    "text": "🕒 0.5",
+                    "color": "dark_green",
+                    "italic": false
+                  },
+                  "",
+                  {
+                    "text": "When Blocking",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "80% Melee Blocking",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "70% Projectile Blocking",
+                    "color": "blue",
+                    "italic": false
+                  }
+                ],
+                "minecraft:max_damage": 5000,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:attack_damage",
+                    "id": "attack_damage",
+                    "amount": 8,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  },
+                  {
+                    "type": "minecraft:attack_speed",
+                    "id": "attack_speed",
+                    "amount": -3.5,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  }
+                ],
+                "minecraft:blocks_attacks": {
+                  "block_sound": "minecraft:entity.zombie.attack_iron_door",
+                  "disabled_sound": "minecraft:item.shield.break",
+                  "disable_cooldown_scale": 1,
+                  "item_damage": {
+                    "threshold": 1,
+                    "base": 0,
+                    "factor": 0.25
+                  },
+                  "damage_reductions": [
+                    {
+                      "type": [
+                        "minecraft:arrow",
+                        "minecraft:mob_projectile"
+                      ],
+                      "base": 0,
+                      "factor": 0.7
+                    },
+                    {
+                      "type": [
+                        "minecraft:mob_attack",
+                        "minecraft:player_attack"
+                      ],
+                      "base": 0,
+                      "factor": 0.8
+                    }
+                  ]
+                },
+                "minecraft:enchantments": {
+                  "main:divinity": 1,
+                  "minecraft:unbreaking": 2
+                },
+                "minecraft:repairable": {
+                  "items": [
+                    "minecraft:diamond_block",
+                    "minecraft:gold_block",
+                    "minecraft:netherite_scrap"
+                  ]
+                },
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:attribute_modifiers"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

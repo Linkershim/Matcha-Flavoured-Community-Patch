@@ -1,0 +1,89 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:honey_ginger_tea",
+                "minecraft:item_name": {
+                  "translate": "item.kleispack.honey_ginger_tea"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "❤",
+                    "color": "red",
+                    "italic": false
+                  },
+                  {
+                    "text": "🏃 +20% (0:30)",
+                    "color": "#37cafb",
+                    "italic": false
+                  },
+                  {
+                    "text": "✨ Cleanse Maleffect",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "!minecraft:food": {},
+                "minecraft:consumable": {
+                  "consume_seconds": 0.8,
+                  "animation": "drink",
+                  "sound": "minecraft:entity.generic.drink",
+                  "has_consume_particles": false,
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:regeneration",
+                          "amplifier": 2,
+                          "duration": 24,
+                          "show_particles": false,
+                          "show_icon": false
+                        },
+                        {
+                          "id": "minecraft:speed",
+                          "duration": 600,
+                          "show_particles": false,
+                          "show_icon": true
+                        }
+                      ]
+                    },
+                    {
+                      "type": "minecraft:remove_effects",
+                      "effects": [
+                        "minecraft:poison",
+                        "minecraft:mining_fatigue",
+                        "minecraft:wither",
+                        "minecraft:weakness",
+                        "minecraft:bad_omen",
+                        "minecraft:blindness",
+                        "minecraft:darkness",
+                        "minecraft:infested",
+                        "minecraft:weaving",
+                        "minecraft:nausea",
+                        "minecraft:oozing",
+                        "minecraft:slowness"
+                      ]
+                    }
+                  ]
+                },
+                "minecraft:use_remainder": {
+                  "id": "minecraft:glass_bottle"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

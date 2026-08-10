@@ -1,0 +1,58 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha_flavoured:equipment/shakudo/helmet"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha_flavoured:equipment/shakudo/chestplate"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha_flavoured:equipment/shakudo/leggings"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha_flavoured:equipment/shakudo/boots"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha_flavoured:equipment/shakudo/pickaxe"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha_flavoured:equipment/shakudo/axe"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha_flavoured:equipment/shakudo/dolabra"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha_flavoured:equipment/shakudo/shovel"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha_flavoured:equipment/shakudo/hoe"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha_flavoured:equipment/shakudo/mattock"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha_flavoured:equipment/shakudo/spear"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha_flavoured:equipment/shakudo/sword"
+        }
+      ]
+    }
+  ]
+}

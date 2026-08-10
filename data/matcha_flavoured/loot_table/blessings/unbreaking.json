@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:blessing_prometheus",
+                "minecraft:item_name": {
+                  "translate": "item.kleispack.blessing"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "item.kleispack.blessing.prometheus",
+                    "color": "dark_gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:stored_enchantments": {
+                  "minecraft:unbreaking": 2
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

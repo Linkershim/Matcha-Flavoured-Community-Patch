@@ -1,0 +1,91 @@
+{
+   "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:copper_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "translate": "item.kleispack.copper_dolabra"
+                },
+                "minecraft:item_model": "minecraft:copper_dolabra",
+                "minecraft:lore": [
+                  {
+                    "text": "⛏ 5",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "🗡 5",
+                    "color": "dark_green",
+                    "italic": false
+                  },
+                  {
+                    "text": "🕒 0.8",
+                    "color": "dark_green",
+                    "italic": false
+                  }
+                ],
+                "minecraft:max_damage": 350,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:attack_damage",
+                    "id": "attack_damage",
+                    "amount": 4,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  },
+                  {
+                    "type": "minecraft:attack_speed",
+                    "id": "attack_speed",
+                    "amount": -3.2,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  }
+                ],
+                "minecraft:tool": {
+                  "rules": [
+                    {
+                      "speed": 5,
+                      "blocks": "#minecraft:mineable/axe",
+                      "correct_for_drops": true
+                    },
+                    {
+                      "speed": 5,
+                      "blocks": "#minecraft:mineable/pickaxe",
+                      "correct_for_drops": true
+                    },
+                    {
+                      "blocks": "#minecraft:emerald_ores",
+                      "correct_for_drops": true
+                    },
+                    {
+                      "blocks": "#minecraft:redstone_ores",
+                      "correct_for_drops": false
+                    },
+                    {
+                      "speed": 4,
+                      "blocks": "#minecraft:diamond_ores",
+                      "correct_for_drops": false
+                    }
+                  ]
+                },
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:attribute_modifiers"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

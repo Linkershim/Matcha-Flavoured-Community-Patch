@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:wooden_cross",
+                "minecraft:item_name": {
+                  "translate": "item.kleispack.wooden_cross",
+                  "color": "white"
+                },
+                "minecraft:enchantments": {
+                  "main:warding0": 1
+                },
+                "!minecraft:food": {},
+                "!minecraft:consumable": {},
+                "minecraft:enchantment_glint_override": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

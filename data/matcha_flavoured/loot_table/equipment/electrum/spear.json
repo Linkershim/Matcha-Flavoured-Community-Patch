@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_spear",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "translate": "item.kleispack.electrum_spear",
+                  "color": "yellow"
+                },
+                "minecraft:item_model": "minecraft:electrum_spear",
+                "minecraft:lore": [
+                  {
+                    "text": "🗡 4",
+                    "color": "dark_green",
+                    "italic": false
+                  },
+                  {
+                    "text": "🕒 1.18",
+                    "color": "dark_green",
+                    "italic": false
+                  }
+                ],
+                "minecraft:max_damage": 3000,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:attack_damage",
+                    "id": "damage",
+                    "amount": 3,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "minecraft:smite": 2,
+                  "minecraft:looting": 2,
+                  "main:warding2": 1
+                },
+                "minecraft:repairable": {
+                  "items": [
+                    "minecraft:gold_ingot",
+                    "minecraft:diamond"
+                  ]
+                },
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:attribute_modifiers"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

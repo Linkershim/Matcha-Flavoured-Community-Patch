@@ -1,0 +1,73 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "translate": "item.kleispack.electrum_leggings",
+                  "color": "yellow"
+                },
+                "minecraft:item_model": "minecraft:electrum_leggings",
+                "minecraft:equippable": {
+                  "slot": "legs",
+                  "asset_id": "minecraft:electrum"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "⛊ 6",
+                    "color": "dark_green",
+                    "italic": false
+                  },
+                  {
+                    "text": "⛨ 2",
+                    "color": "dark_green",
+                    "italic": false
+                  }
+                ],
+                "minecraft:max_damage": 1000,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "minecraft:armor.leggings",
+                    "amount": 6,
+                    "operation": "add_value",
+                    "slot": "legs"
+                  },
+                  {
+                    "type": "minecraft:armor_toughness",
+                    "id": "minecraft:armor.leggings",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "legs"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "main:warding_armour": 1
+                },
+                "minecraft:repairable": {
+                  "items": [
+                    "minecraft:diamond",
+                    "minecraft:gold_ingot"
+                  ]
+                },
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:attribute_modifiers"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

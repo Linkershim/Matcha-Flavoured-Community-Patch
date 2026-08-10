@@ -1,0 +1,55 @@
+{
+   "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "translate": "item.kleispack.ruby_circlet",
+                  "color": "#e63d5f"
+                },
+                "minecraft:item_model": "minecraft:ruby_circlet",
+                "minecraft:equippable": {
+                  "slot": "head",
+                  "asset_id": "minecraft:ruby_circlet"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "⛊ 1",
+                    "color": "dark_green",
+                    "italic": false
+                  }
+                ],
+                "minecraft:unbreakable": {},
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "minecraft:armor.helmet",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "head"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "main:fire_proof": 1
+                },
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:attribute_modifiers"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

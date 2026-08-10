@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:blessing_ares",
+                "minecraft:item_name": {
+                  "translate": "item.kleispack.blessing"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "item.kleispack.blessing.ares",
+                    "color": "dark_gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:stored_enchantments": {
+                  "minecraft:lunge": 2,
+                  "minecraft:breach": 2
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

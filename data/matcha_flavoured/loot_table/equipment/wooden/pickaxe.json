@@ -1,0 +1,83 @@
+{
+   "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:lore": [
+                  {
+                    "text": "⛏ 3",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "🗡 2",
+                    "color": "dark_green",
+                    "italic": false
+                  },
+                  {
+                    "text": "🕒 1.2",
+                    "color": "dark_green",
+                    "italic": false
+                  }
+                ],
+                "minecraft:tool": {
+                  "rules": [
+                    {
+                      "speed": 3,
+                      "blocks": "#minecraft:mineable/pickaxe",
+                      "correct_for_drops": false
+                    },
+                    {
+                      "speed": 3,
+                      "blocks": "#minecraft:copper_ores",
+                      "correct_for_drops": true
+                    },
+                    {
+                      "speed": 3,
+                      "blocks": "#minecraft:coal_ores",
+                      "correct_for_drops": true
+                    },
+                    {
+                      "speed": 3,
+                      "blocks": "minecraft:stone",
+                      "correct_for_drops": true
+                    },
+                    {
+                      "blocks": "minecraft:smoker",
+                      "speed": 4,
+                      "correct_for_drops": true
+                    },
+                    {
+                      "speed": 3,
+                      "blocks": "minecraft:mud_bricks",
+                      "correct_for_drops": true
+                    },
+                    {
+                      "speed": 3,
+                      "blocks": "minecraft:packed_mud",
+                      "correct_for_drops": true
+                    }
+                  ]
+                },
+                "minecraft:max_damage": 600,
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:attribute_modifiers"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+   "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "translate": "item.kleispack.opal_earrings",
+                  "color": "#ab85ad"
+                },
+                "minecraft:item_model": "minecraft:opal_earrings",
+                "minecraft:equippable": {
+                  "slot": "head",
+                  "asset_id": "minecraft:opal_earrings"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "⛊ 1",
+                    "color": "dark_green",
+                    "italic": false
+                  }
+                ],
+                "minecraft:unbreakable": {},
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "minecraft:armor.helmet",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "head"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "main:conduit_power": 1
+                },
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:attribute_modifiers"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

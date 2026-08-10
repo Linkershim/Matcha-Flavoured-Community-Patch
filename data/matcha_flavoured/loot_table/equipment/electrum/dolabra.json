@@ -1,0 +1,90 @@
+{
+   "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "translate": "item.kleispack.electrum_dolabra",
+                  "color": "yellow"
+                },
+                "minecraft:item_model": "minecraft:electrum_dolabra",
+                "minecraft:lore": [
+                  {
+                    "text": "⛏ 10",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "🗡 6",
+                    "color": "dark_green",
+                    "italic": false
+                  },
+                  {
+                    "text": "🕒 1.2",
+                    "color": "dark_green",
+                    "italic": false
+                  }
+                ],
+                "minecraft:max_damage": 3000,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:attack_damage",
+                    "id": "attack_damage",
+                    "amount": 5,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  },
+                  {
+                    "type": "minecraft:attack_speed",
+                    "id": "attack_speed",
+                    "amount": -2.8,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  }
+                ],
+                "minecraft:tool": {
+                  "rules": [
+                    {
+                      "speed": 10,
+                      "blocks": "#minecraft:mineable/pickaxe",
+                      "correct_for_drops": true
+                    },
+                    {
+                      "speed": 10,
+                      "blocks": "#minecraft:mineable/axe",
+                      "correct_for_drops": true
+                    }
+                  ]
+                },
+                "minecraft:enchantments": {
+                  "minecraft:fortune": 2,
+                  "main:warding1": 1,
+                  "minecraft:looting": 1
+                },
+                "minecraft:repairable": {
+                  "items": [
+                    "minecraft:diamond",
+                    "minecraft:gold_ingot"
+                  ]
+                },
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:attribute_modifiers"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

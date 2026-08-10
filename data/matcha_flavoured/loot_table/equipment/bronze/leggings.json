@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:copper_leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "translate": "item.kleispack.bronze_leggings",
+                  "color": "#ac7b5c"
+                },
+                "minecraft:item_model": "minecraft:bronze_leggings",
+                "minecraft:equippable": {
+                  "slot": "legs",
+                  "asset_id": "minecraft:bronze"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "⛊ 5",
+                    "color": "dark_green",
+                    "italic": false
+                  },
+                  {
+                    "text": "🏃 +0.008",
+                    "color": "dark_green",
+                    "italic": false
+                  }
+                ],
+                "minecraft:max_damage": 500,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "minecraft:armor.leggings",
+                    "amount": 5,
+                    "operation": "add_value",
+                    "slot": "legs"
+                  },
+                  {
+                    "type": "minecraft:movement_speed",
+                    "id": "bronze_leggings",
+                    "amount": 0.0085,
+                    "operation": "add_value",
+                    "slot": "legs"
+                  }
+                ],
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:attribute_modifiers"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

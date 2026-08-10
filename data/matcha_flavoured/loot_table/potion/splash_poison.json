@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "Volatile Caustic Flask",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "💀 Poison (02:00)",
+                    "color": "#48a53b",
+                    "italic": false
+                  }
+                ],
+                "minecraft:max_stack_size": 64,
+                "minecraft:potion_contents": {
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:poison",
+                      "amplifier": 0,
+                      "duration": 2400
+                    }
+                  ]
+                },
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:potion_contents"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

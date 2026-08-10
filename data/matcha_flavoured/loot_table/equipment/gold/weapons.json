@@ -1,0 +1,22 @@
+{
+   "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha_flavoured:equipment/gold/axe"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha_flavoured:equipment/gold/spear"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha_flavoured:equipment/gold/sword"
+        }
+      ]
+    }
+  ]
+}

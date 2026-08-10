@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha_flavoured:equipment/copper/helmet"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha_flavoured:equipment/copper/chestplate"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha_flavoured:equipment/copper/leggings"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha_flavoured:equipment/copper/boots"
+        }
+      ]
+    }
+  ]
+}
