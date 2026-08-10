@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:blessing_yamm",
+                "minecraft:item_name": {
+                  "translate": "item.kleispack.blessing"
+                },
+                "minecraft:rarity": "rare",
+                "minecraft:lore": [
+                  {
+                    "translate": "item.kleispack.blessing.yamm",
+                    "color": "dark_gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:stored_enchantments": {
+                  "minecraft:depth_strider": 2,
+                  "minecraft:riptide": 1,
+                  "minecraft:aqua_affinity": 1,
+                  "minecraft:respiration": 2
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

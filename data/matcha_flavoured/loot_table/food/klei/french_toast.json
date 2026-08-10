@@ -24,6 +24,7 @@
                 ],
                 "!minecraft:food": {},
                 "minecraft:consumable": {
+                  "consume_seconds": 1.8,
                   "on_consume_effects": [
                     {
                       "type": "minecraft:apply_effects",

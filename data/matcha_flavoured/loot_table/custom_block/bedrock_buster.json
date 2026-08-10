@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chicken_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:bedrock_buster",
+                "minecraft:item_name": {
+                  "translate": "item.kleispack.bedrock_buster"
+                },
+                "minecraft:rarity": "rare",
+                "minecraft:entity_data": {
+                  "id": "minecraft:tnt",
+                  "explosion_power": 4,
+                  "fuse": 80,
+                  "Glowing": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

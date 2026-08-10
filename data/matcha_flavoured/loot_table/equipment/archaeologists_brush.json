@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shears",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "archaeologists_brush",
+                "minecraft:item_name": {
+                  "translate": "item.kleispack.archaeologists_brush"
+                },
+                "minecraft:unbreakable": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

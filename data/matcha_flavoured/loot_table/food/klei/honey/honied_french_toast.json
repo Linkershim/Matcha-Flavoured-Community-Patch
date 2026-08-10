@@ -26,7 +26,7 @@
                     "color": "#37cafb",
                     "italic": false
                   }
-                ]
+                ],
                 "!minecraft:food": {},
                 "minecraft:consumable": {
                   "consume_seconds": 1.8,

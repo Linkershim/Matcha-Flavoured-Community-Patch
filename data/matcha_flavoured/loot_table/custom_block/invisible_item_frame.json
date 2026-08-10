@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:item_frame",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "invisible_item_frame",
+                "minecraft:item_name": {
+                  "translate": "item.kleispack.invisible_item_frame"
+                },
+                "minecraft:entity_data": {
+                  "id": "minecraft:item_frame",
+                  "Invisible": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

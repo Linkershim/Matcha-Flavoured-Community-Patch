@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:ofuda",
+                "minecraft:item_name": {
+                  "translate": "item.kleispack.ofuda"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "item.kleispack.blessing.ahura_mazda",
+                    "color": "dark_gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:max_stack_size": 64,
+                "minecraft:stored_enchantments": {
+                  "minecraft:efficiency": 2,
+                  "minecraft:unbreaking": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
