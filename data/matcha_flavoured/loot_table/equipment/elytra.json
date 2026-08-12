@@ -13,7 +13,10 @@
               "components": {
                 "minecraft:max_damage": 600,
                 "minecraft:repairable": {
-                  "items": "minecraft:feather"
+                  "items": [
+                    "minecraft:honeycomb",
+                    "minecraft:feather"
+                  ]
                 }
               }
             }

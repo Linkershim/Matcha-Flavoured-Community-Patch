@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 1,
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:tanakh",
+                "minecraft:item_name": {
+                  "translate": "item.kleispack.tanakh"
+                },
+                "minecraft:rarity": "rare",
+                "minecraft:lore": [
+                  {
+                    "translate": "item.kleispack.tanakh.desc",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

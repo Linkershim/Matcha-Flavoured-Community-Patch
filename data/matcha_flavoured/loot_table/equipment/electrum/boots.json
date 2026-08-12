@@ -22,13 +22,28 @@
                 },
                 "minecraft:lore": [
                   {
-                    "text": "⛊ 3",
+                    "text": "🛡 3",
                     "color": "dark_green",
                     "italic": false
                   },
                   {
-                    "text": "⛨ 2",
+                    "text": "\uE008 3",
                     "color": "dark_green",
+                    "italic": false
+                  },
+                  {
+                    "translate": "desc.kleispack.set_bonus",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "enchantment.kleispack.warding3.set_bonus_apotropaic",
+                    "color": "yellow",
+                    "italic": false
+                  },
+                  {
+                    "translate": "enchantment.kleispack.warding3.set_bonus_divinity",
+                    "color": "aqua",
                     "italic": false
                   }
                 ],
@@ -44,11 +59,14 @@
                   {
                     "type": "minecraft:armor_toughness",
                     "id": "minecraft:armor.boots",
-                    "amount": 2,
+                    "amount": 3,
                     "operation": "add_value",
                     "slot": "feet"
                   }
                 ],
+                "minecraft:enchantments": {
+                  "main:warding_armour": 1
+                },
                 "minecraft:repairable": {
                   "items": [
                     "minecraft:diamond",

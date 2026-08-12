@@ -13,12 +13,12 @@
               "components": {
                 "minecraft:lore": [
                   {
-                    "text": "⛊ 3",
+                    "text": "🛡 3",
                     "color": "dark_green",
                     "italic": false
                   },
                   {
-                    "text": "⛨ 2",
+                    "text": "\uE008 2",
                     "color": "dark_green",
                     "italic": false
                   }
