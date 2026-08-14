@@ -16,7 +16,7 @@
 	},
 	"display": {
 		"description": {
-			"text": "Pillage the Remnants of Pandaemonium"
+			"translate": "adv.kleispack.obtain_ruby.desc"
 		},
 		"icon": {
 			"components": {
@@ -26,7 +26,7 @@
 			"id": "minecraft:emerald"
 		},
 		"title": {
-			"text": "Canto II"
+			"translate": "adv.kleispack.obtain_ruby"
 		}
 	},
 	"requirements": [

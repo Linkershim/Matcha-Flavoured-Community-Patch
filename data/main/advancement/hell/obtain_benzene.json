@@ -14,14 +14,14 @@
   },
   "display": {
     "description": {
-      "text": "Obtain Reagents Forbidden by the Old Laws"
+      "translate": "adv.kleispack.hell.obtain_benzene.desc"
     },
     "icon": {
       "count": 1,
       "id": "minecraft:endermite_spawn_egg"
     },
     "title": {
-      "text": "Forbidden Chemistry"
+      "translate": "adv.kleispack.hell.obtain_benzene"
     },
     "hidden": false
   },

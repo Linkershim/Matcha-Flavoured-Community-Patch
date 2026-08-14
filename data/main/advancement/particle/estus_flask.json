@@ -1,0 +1,26 @@
+{
+	"criteria": {
+		"drink_estus": {
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:custom_name": {
+							"translate": "item.kleispack.estus_flask",
+							"color": "gold",
+							"italic": false
+						}
+					}
+				}
+			},
+			"trigger": "minecraft:consume_item"
+		}
+	},
+	"requirements": [
+		[
+			"drink_estus"
+		]
+	],
+	"rewards": {
+		"function": "main:mechanic/estus/estus_flask_particles"
+	}
+}

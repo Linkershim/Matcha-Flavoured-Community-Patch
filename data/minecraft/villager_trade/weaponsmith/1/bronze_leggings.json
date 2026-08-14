@@ -1,0 +1,28 @@
+{
+	"wants": {
+		"id": "minecraft:copper_leggings",
+		"components": {
+			"minecraft:item_model": "minecraft:bronze_leggings"
+		},
+		"count": 1
+	},
+	"gives": {
+		"id": "minecraft:bundle",
+		"components": {
+			"minecraft:bundle_contents": [
+				{
+					"id": "minecraft:phantom_membrane",
+					"count": 1
+				},
+				{
+					"id": "minecraft:copper_ingot",
+					"count": 8
+				}
+			]
+		},
+		"count": 1
+	},
+	"max_uses": 999,
+	"reputation_discount": 0,
+	"xp": 10
+}

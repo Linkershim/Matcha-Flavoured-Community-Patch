@@ -3,7 +3,11 @@
 	"category": "equipment",
 	"ingredients": [
 		"minecraft:stick",
-		"minecraft:short_grass",
+		[
+			"minecraft:short_grass",
+			"minecraft:fern",
+			"minecraft:bush"
+		],
 		"minecraft:stick"
 	],
 	"result": {

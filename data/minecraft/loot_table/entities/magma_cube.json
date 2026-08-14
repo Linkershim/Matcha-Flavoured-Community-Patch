@@ -1,0 +1,41 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"bonus_rolls": 0,
+			"conditions": [
+				{
+					"condition": "minecraft:killed_by_player"
+				}
+			],
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 4,
+								"min": 2
+							},
+							"function": "minecraft:set_count"
+						},
+						{
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 1,
+								"min": 0
+							},
+							"enchantment": "minecraft:looting",
+							"function": "minecraft:enchanted_count_increase"
+						}
+					],
+					"name": "minecraft:magma_block"
+				}
+			],
+			"rolls": 1
+		}
+	],
+	"random_sequence": "minecraft:entities/magma_cube"
+}

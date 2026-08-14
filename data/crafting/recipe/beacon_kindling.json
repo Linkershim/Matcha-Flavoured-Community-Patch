@@ -1,0 +1,33 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"group": "rooted_dirt",
+	"pattern": [
+		" o ",
+		" C ",
+		" X "
+	],
+	"key": {
+		"X": "minecraft:hay_block",
+		"C": "minecraft:campfire",
+		"o": "minecraft:emerald"
+	},
+	"result": {
+		"components": {
+			"minecraft:entity_data": {
+				"id": "minecraft:marker",
+				"NoGravity": true,
+				"Invulnerable": true,
+				"Tags": [
+					"beacon_kindling"
+				]
+			},
+			"minecraft:item_name": {
+				"translate": "item.kleispack.beacon_kindling"
+			},
+			"minecraft:item_model": "minecraft:beacon_kindling"
+		},
+		"count": 1,
+		"id": "minecraft:chicken_spawn_egg"
+	}
+}

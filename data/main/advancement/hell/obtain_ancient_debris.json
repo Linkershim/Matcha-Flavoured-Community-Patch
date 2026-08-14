@@ -24,14 +24,14 @@
 	},
 	"display": {
 		"description": {
-			"text": "Flesh from Long-Dead Gods"
+			"translate": "adv.kleispack.hell.obtain_ancient_debris.desc"
 		},
 		"icon": {
 			"count": 1,
 			"id": "minecraft:ancient_debris"
 		},
 		"title": {
-			"text": "Hidden in the Depths"
+			"translate": "adv.kleispack.hell.obtain_ancient_debris"
 		},
 		"hidden": false
 	},

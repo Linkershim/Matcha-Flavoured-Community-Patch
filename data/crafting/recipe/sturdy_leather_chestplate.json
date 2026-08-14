@@ -14,7 +14,7 @@
 			"minecraft:max_damage": 350,
 			"minecraft:lore": [
 				{
-					"text": "⛊ 4",
+					"text": "⛊ 5",
 					"color": "dark_green",
 					"italic": false
 				},
@@ -41,7 +41,7 @@
 				{
 					"type": "minecraft:armor",
 					"id": "minecraft:armor.chesplate",
-					"amount": 4,
+					"amount": 5,
 					"operation": "add_value",
 					"slot": "chest"
 				}

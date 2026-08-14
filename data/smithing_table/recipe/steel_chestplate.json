@@ -13,12 +13,12 @@
 					"italic": false
 				},
 				{
-					"text": "⛊ 6",
+					"text": "⛊ 7",
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "⛨ 2",
+					"text": "⛨ 1",
 					"color": "dark_green",
 					"italic": false
 				}
@@ -31,14 +31,14 @@
 				{
 					"type": "minecraft:armor_toughness",
 					"id": "minecraft:armor.chestplate",
-					"amount": 2,
+					"amount": 1,
 					"operation": "add_value",
 					"slot": "chest"
 				},
 				{
 					"type": "minecraft:armor",
 					"id": "minecraft:armor.chestplate",
-					"amount": 6,
+					"amount": 7,
 					"operation": "add_value",
 					"slot": "chest"
 				},

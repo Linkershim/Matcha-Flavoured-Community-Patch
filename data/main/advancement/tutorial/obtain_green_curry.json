@@ -10,7 +10,7 @@
 	},
 	"display": {
 		"description": {
-			"text": "Make Green Curry"
+			"translate": "adv.kleispack.obtain_green_curry.desc"
 		},
 		"icon": {
 			"components": {
@@ -20,7 +20,7 @@
 			"id": "minecraft:rabbit_stew"
 		},
 		"title": {
-			"text": "Too Spicy!"
+			"translate": "adv.kleispack.obtain_green_curry"
 		},
 		"hidden": false
 	},

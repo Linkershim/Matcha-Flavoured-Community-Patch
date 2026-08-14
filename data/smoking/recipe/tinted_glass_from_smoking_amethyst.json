@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smoking",
+  "group": "tinted_glass",
+  "category": "blocks",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredient": "minecraft:amethyst_shard",
+  "result": {
+    "id": "minecraft:tinted_glass"
+  }
+}

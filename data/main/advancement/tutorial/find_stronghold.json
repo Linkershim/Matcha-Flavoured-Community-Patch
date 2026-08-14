@@ -20,14 +20,14 @@
 	},
 	"display": {
 		"description": {
-			"text": "Their Time is near"
+			"translate": "adv.kleispack.find_stronghold.desc"
 		},
 		"icon": {
 			"count": 1,
 			"id": "minecraft:ender_eye"
 		},
 		"title": {
-			"text": "The End of Dreams"
+			"translate": "adv.kleispack.find_stronghold"
 		},
 		"frame": "goal"
 	},

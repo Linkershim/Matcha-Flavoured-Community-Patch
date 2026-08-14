@@ -1,2 +1,3 @@
 execute at @a store result score @p sleepTimerScore run data get entity @p SleepTimer
 execute at @a run execute if score @p sleepTimerScore >= 1 sleepTimerScore unless score @p sleepTimerScore >= 100 sleepTimerScore run time add 120
+execute at @a run execute if score @p sleepTimerScore >= 1 sleepTimerScore unless score @p sleepTimerScore >= 100 sleepTimerScore run weather clear

@@ -9,13 +9,13 @@
 	"key": {
 		"S": "minecraft:wind_charge",
 		"B": "minecraft:enchanted_book",
-		"H": "minecraft:heart_of_the_sea"
+		"H": "minecraft:gold_block"
 	},
 	"result": {
 		"components": {
 			"minecraft:stored_enchantments": {
 				"main:anemos": 1,
-				"minecraft:wind_burst": 3
+				"minecraft:wind_burst": 1
 			},
 			"minecraft:item_name": {
 				"translate": "item.kleispack.blessing"

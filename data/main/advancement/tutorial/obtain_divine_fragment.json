@@ -1,7 +1,7 @@
 {
 	"parent": "main:tutorial/obtain_estus",
 	"criteria": {
-		"get_heart": {
+		"get_fragment": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
@@ -14,14 +14,14 @@
 	},
 	"display": {
 		"description": {
-			"text": "A Relic only obtained by breaking Spawners, or vanquishing powerful Forces."
+			"translate": "adv.kleispack.obtain_divine_fragment.desc"
 		},
 		"icon": {
 			"count": 1,
 			"id": "minecraft:turtle_scute"
 		},
 		"title": {
-			"text": "Spark of Divinity"
+			"translate": "adv.kleispack.obtain_divine_fragment"
 		},
 		"frame": "goal",
 		"show_toast": true,
@@ -30,7 +30,7 @@
 	},
 	"requirements": [
 		[
-			"get_heart"
+			"get_fragment"
 		]
 	]
 }

@@ -25,14 +25,14 @@
 	},
 	"display": {
 		"description": {
-			"text": "Light Kindling using Tinder or a Flint Firestarter."
+			"translate": "adv.kleispack.light_campfire.desc"
 		},
 		"icon": {
 			"count": 1,
 			"id": "minecraft:campfire"
 		},
 		"title": {
-			"text": "Prometheus be Damned"
+			"translate": "adv.kleispack.light_campfire"
 		},
 		"hidden": false
 	},

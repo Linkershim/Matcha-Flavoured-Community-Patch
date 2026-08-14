@@ -1,0 +1,10 @@
+{
+  "layers": {
+    "wings": [
+      {
+        "texture": "minecraft:shakudo_elytra",
+        "use_player_texture": false
+      }
+    ]
+  }
+}

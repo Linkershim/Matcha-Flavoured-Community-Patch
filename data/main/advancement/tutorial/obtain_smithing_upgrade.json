@@ -14,14 +14,14 @@
   },
   "display": {
     "description": {
-      "text": "Smithing Upgrades are used to Modify and Upgrade Mattocks and Dolabras."
+      "translate": "adv.kleispack.obtain_smithing_upgrade.desc"
     },
     "icon": {
       "count": 1,
       "id": "minecraft:netherite_upgrade_smithing_template"
     },
     "title": {
-      "text": "Upgrades"
+      "translate": "adv.kleispack.obtain_smithing_upgrade"
     },
     "hidden": false
   },

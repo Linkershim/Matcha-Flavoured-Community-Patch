@@ -10,7 +10,7 @@
 	},
 	"display": {
 		"description": {
-			"text": "Descend Into Hell"
+			"translate": "adv.kleispack.enter_nether.desc"
 		},
 		"icon": {
 			"components": {
@@ -20,7 +20,7 @@
 			"id": "minecraft:blaze_rod"
 		},
 		"title": {
-			"text": "Orpheus"
+			"translate": "adv.kleispack.enter_nether"
 		},
 		"frame": "goal"
 	},
@@ -28,6 +28,5 @@
 		[
 			"entered_nether"
 		]
-	],
-	"sends_telemetry_event": true
+	]
 }

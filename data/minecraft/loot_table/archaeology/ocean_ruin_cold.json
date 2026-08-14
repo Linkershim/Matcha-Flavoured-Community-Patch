@@ -78,7 +78,12 @@
 				{
 					"type": "minecraft:loot_table",
 					"value": "minecraft:chests/equipment/trident",
-					"quality": 2
+					"quality": 3
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:nautilus_shell",
+					"quality": 1
 				}
 			],
 			"rolls": 1

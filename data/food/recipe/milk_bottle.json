@@ -12,7 +12,7 @@
     "components": {
       "minecraft:lore": [
         {
-          "text": "✨ Cleanse",
+          "translate": "desc.kleispack.cleanse",
           "color": "gray",
           "italic": false
         }

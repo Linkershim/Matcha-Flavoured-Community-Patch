@@ -13,6 +13,7 @@
         "minecraft:slime",
         "minecraft:enderman",
         "minecraft:witch",
-        "minecraft:zombie_villager"
+        "minecraft:zombie_villager",
+        "minecraft:silverfish"
     ]
 }

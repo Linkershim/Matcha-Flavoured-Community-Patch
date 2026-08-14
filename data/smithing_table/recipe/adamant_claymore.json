@@ -26,22 +26,32 @@
 					"color": "dark_green",
 					"italic": false
 				},
-				"",
 				{
-					"text": "When Blocking",
-					"color": "gray",
+					"translate": "desc.kleispack.set_bonus",
+					"color": "dark_gray",
+					"italic": false
+				},
+				{
+					"translate": "enchantment.kleispack.divinity.set_bonus",
+					"color": "aqua",
+					"italic": false
+				},
+				{
+					"translate": "desc.kleispack.when_blocking",
+					"color": "dark_gray",
 					"italic": false
 				},
 				{
 					"text": "80% Melee Blocking",
-					"color": "blue",
+					"color": "gray",
 					"italic": false
 				},
 				{
 					"text": "70% Projectile Blocking",
-					"color": "blue",
+					"color": "gray",
 					"italic": false
 				}
+				
 			],
 			"minecraft:blocks_attacks": {
 				"disable_cooldown_scale": 1,

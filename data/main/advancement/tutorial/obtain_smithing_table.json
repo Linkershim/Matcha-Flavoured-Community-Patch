@@ -14,14 +14,14 @@
   },
   "display": {
     "description": {
-      "text": "Smithing Tables allow you to modify Base-Metal tools using Alloys"
+      "translate": "adv.kleispack.obtain_smithing_table.desc"
     },
     "icon": {
       "count": 1,
       "id": "minecraft:smithing_table"
     },
     "title": {
-      "text": "Master Metallurge"
+      "translate": "adv.kleispack.obtain_smithing_table"
     },
     "hidden": false
   },

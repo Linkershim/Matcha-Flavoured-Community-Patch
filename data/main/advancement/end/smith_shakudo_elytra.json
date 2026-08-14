@@ -1,0 +1,33 @@
+{
+	"parent": "main:end/elytra",
+	"criteria": {
+		"shakudo_elytra": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:shakudo_elytra"
+			}
+		}
+	},
+	"display": {
+		"description": {
+			"translate": "adv.kleispack.end.smith_shakudo_elytra.desc"
+		},
+		"icon": {
+			"components": {
+				"minecraft:item_model": "minecraft:shakudo_elytra"
+			},
+			"count": 1,
+			"id": "minecraft:elytra"
+		},
+		"title": {
+			"translate": "adv.kleispack.end.smith_shakudo_elytra"
+		},
+		"frame": "goal",
+		"hidden": false
+	},
+	"requirements": [
+		[
+			"shakudo_elytra"
+		]
+	]
+}

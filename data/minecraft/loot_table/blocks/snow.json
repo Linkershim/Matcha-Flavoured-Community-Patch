@@ -2,7 +2,6 @@
 	"type": "minecraft:block",
 	"pools": [
 		{
-			"bonus_rolls": 0,
 			"conditions": [
 				{
 					"condition": "minecraft:entity_properties",
@@ -30,15 +29,14 @@
 									],
 									"functions": [
 										{
-											"add": false,
-											"count": 1,
-											"function": "minecraft:set_count"
-										},
-										{
 											"function": "minecraft:set_components",
 											"components": {
 												"minecraft:max_stack_size": 64
 											}
+										},
+										{
+											"count": 1,
+											"function": "minecraft:set_count"
 										}
 									],
 									"name": "minecraft:snowball"
@@ -56,15 +54,14 @@
 									],
 									"functions": [
 										{
-											"add": false,
-											"count": 2,
-											"function": "minecraft:set_count"
-										},
-										{
 											"function": "minecraft:set_components",
 											"components": {
 												"minecraft:max_stack_size": 64
 											}
+										},
+										{
+											"count": 2,
+											"function": "minecraft:set_count"
 										}
 									],
 									"name": "minecraft:snowball"
@@ -82,15 +79,14 @@
 									],
 									"functions": [
 										{
-											"add": false,
-											"count": 3,
-											"function": "minecraft:set_count"
-										},
-										{
 											"function": "minecraft:set_components",
 											"components": {
 												"minecraft:max_stack_size": 64
 											}
+										},
+										{
+											"count": 3,
+											"function": "minecraft:set_count"
 										}
 									],
 									"name": "minecraft:snowball"
@@ -108,15 +104,14 @@
 									],
 									"functions": [
 										{
-											"add": false,
-											"count": 4,
-											"function": "minecraft:set_count"
-										},
-										{
 											"function": "minecraft:set_components",
 											"components": {
 												"minecraft:max_stack_size": 64
 											}
+										},
+										{
+											"count": 4,
+											"function": "minecraft:set_count"
 										}
 									],
 									"name": "minecraft:snowball"
@@ -134,15 +129,14 @@
 									],
 									"functions": [
 										{
-											"add": false,
-											"count": 5,
-											"function": "minecraft:set_count"
-										},
-										{
 											"function": "minecraft:set_components",
 											"components": {
 												"minecraft:max_stack_size": 64
 											}
+										},
+										{
+											"count": 5,
+											"function": "minecraft:set_count"
 										}
 									],
 									"name": "minecraft:snowball"
@@ -160,15 +154,14 @@
 									],
 									"functions": [
 										{
-											"add": false,
-											"count": 6,
-											"function": "minecraft:set_count"
-										},
-										{
 											"function": "minecraft:set_components",
 											"components": {
 												"minecraft:max_stack_size": 64
 											}
+										},
+										{
+											"count": 6,
+											"function": "minecraft:set_count"
 										}
 									],
 									"name": "minecraft:snowball"
@@ -186,15 +179,14 @@
 									],
 									"functions": [
 										{
-											"add": false,
-											"count": 7,
-											"function": "minecraft:set_count"
-										},
-										{
 											"function": "minecraft:set_components",
 											"components": {
 												"minecraft:max_stack_size": 64
 											}
+										},
+										{
+											"count": 7,
+											"function": "minecraft:set_count"
 										}
 									],
 									"name": "minecraft:snowball"
@@ -212,15 +204,15 @@
 									],
 									"functions": [
 										{
-											"add": false,
-											"count": 8,
-											"function": "minecraft:set_count"
-										},
-										{
 											"function": "minecraft:set_components",
 											"components": {
 												"minecraft:max_stack_size": 64
 											}
+										},
+										{
+											"count": 8,
+											"function": "minecraft:set_count",
+											"conditions": []
 										}
 									],
 									"name": "minecraft:snowball"
@@ -263,7 +255,6 @@
 									],
 									"functions": [
 										{
-											"add": false,
 											"count": 1,
 											"function": "minecraft:set_count"
 										}
@@ -283,7 +274,6 @@
 									],
 									"functions": [
 										{
-											"add": false,
 											"count": 2,
 											"function": "minecraft:set_count"
 										}
@@ -303,7 +293,6 @@
 									],
 									"functions": [
 										{
-											"add": false,
 											"count": 3,
 											"function": "minecraft:set_count"
 										}
@@ -323,7 +312,6 @@
 									],
 									"functions": [
 										{
-											"add": false,
 											"count": 4,
 											"function": "minecraft:set_count"
 										}
@@ -343,7 +331,6 @@
 									],
 									"functions": [
 										{
-											"add": false,
 											"count": 5,
 											"function": "minecraft:set_count"
 										}
@@ -363,7 +350,6 @@
 									],
 									"functions": [
 										{
-											"add": false,
 											"count": 6,
 											"function": "minecraft:set_count"
 										}
@@ -383,7 +369,6 @@
 									],
 									"functions": [
 										{
-											"add": false,
 											"count": 7,
 											"function": "minecraft:set_count"
 										}

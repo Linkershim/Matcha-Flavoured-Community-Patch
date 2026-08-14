@@ -1,7 +1,7 @@
 {
 	"gives": {
 		"id": "minecraft:emerald",
-		"count": 2
+		"count": 5
 	},
 	"given_item_modifiers": [],
 	"max_uses": 999,

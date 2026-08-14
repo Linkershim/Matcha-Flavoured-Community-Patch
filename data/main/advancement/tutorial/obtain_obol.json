@@ -1,5 +1,5 @@
 {
-  "parent": "main:tutorial/obtain_estus",
+  "parent": "main:tutorial/root",
   "criteria": {
     "get_item": {
       "trigger": "minecraft:inventory_changed",
@@ -14,14 +14,14 @@
   },
   "display": {
     "description": {
-      "text": "Obtain an Obol"
+      "translate": "adv.kleispack.obtain_obol"
     },
     "icon": {
       "count": 1,
       "id": "minecraft:emerald"
     },
     "title": {
-      "text": "You're Rich!"
+      "translate": "adv.kleispack.obtain_obol.desc"
     },
     "hidden": true
   },

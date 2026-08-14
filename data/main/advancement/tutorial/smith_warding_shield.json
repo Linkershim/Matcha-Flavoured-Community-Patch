@@ -10,7 +10,7 @@
 	},
 	"display": {
 		"description": {
-			"text": "Affix a Nazar to an Shield, inlaid with Silver, in a Smithing Table"
+			"translate": "adv.kleispack.smith_warding_shield.desc"
 		},
 		"icon": {
 			"components": {
@@ -46,7 +46,7 @@
 			"id": "minecraft:shield"
 		},
 		"title": {
-			"text": "Convoymaster"
+			"translate": "adv.kleispack.smith_warding_shield"
 		},
 		"frame": "task",
 		"show_toast": true,

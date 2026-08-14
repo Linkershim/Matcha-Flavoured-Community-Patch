@@ -1,0 +1,33 @@
+{
+	"parent": "main:tutorial/obtain_copper",
+	"criteria": {
+		"has_primary_material": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:brush"
+			}
+		}
+	},
+	"display": {
+		"description": {
+			"translate": "adv.kleispack.craft_brush.desc"
+		},
+		"icon": {
+			"components": {
+				"minecraft:item_model": "minecraft:brush"
+			},
+			"count": 1,
+			"id": "minecraft:brush"
+		},
+		"title": {
+			"translate": "adv.kleispack.craft_brush"
+		},
+		"frame": "task",
+		"hidden": false
+	},
+	"requirements": [
+		[
+			"has_primary_material"
+		]
+	]
+}

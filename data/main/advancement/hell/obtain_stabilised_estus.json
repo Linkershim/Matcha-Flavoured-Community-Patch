@@ -10,7 +10,7 @@
 	},
 	"display": {
 		"description": {
-			"text": "Tether Raw Estus into a Stable Form"
+			"translate": "adv.kleispack.hell.obtain_stabilised_estus.desc"
 		},
 		"icon": {
 			"components": {
@@ -20,7 +20,7 @@
 			"id": "minecraft:blaze_rod"
 		},
 		"title": {
-			"text": "Hellish Bindings"
+			"translate": "adv.kleispack.hell.obtain_stabilised_estus"
 		},
 		"frame": "task",
 		"show_toast": true,

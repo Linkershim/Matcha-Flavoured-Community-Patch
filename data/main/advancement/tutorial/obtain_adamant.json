@@ -14,16 +14,15 @@
   },
   "display": {
     "description": {
-      "text": "Adamant grants the weilder a Divine Constitution"
+      "translate": "adv.kleispack.obtain_adamant.desc"
     },
     "icon": {
       "count": 1,
       "id": "minecraft:netherite_ingot"
     },
     "title": {
-      "text": "A Divine Alloy"
-    },
-    "hidden": true
+      "translate": "adv.kleispack.obtain_adamant"
+    }
   },
   "requirements": [
     [

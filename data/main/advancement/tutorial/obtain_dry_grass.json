@@ -24,14 +24,14 @@
 	},
 	"display": {
 		"description": {
-			"text": "Use a Hoe to harvest Grass and dry it on a Campfire"
+			"translate": "adv.kleispack.obtain_dry_grass.desc"
 		},
 		"icon": {
 			"count": 1,
 			"id": "minecraft:tall_dry_grass"
 		},
 		"title": {
-			"text": "Harvester"
+			"translate": "adv.kleispack.obtain_dry_grass"
 		},
 		"show_toast": true,
 		"announce_to_chat": true,

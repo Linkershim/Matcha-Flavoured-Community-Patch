@@ -78,7 +78,7 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:glowstone_dust",
-					"weight": 5,
+					"weight": 10,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -99,32 +99,6 @@
 			"conditions": [
 				{
 					"condition": "minecraft:killed_by_player"
-				}
-			]
-		},
-		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:skeleton_skull",
-					"conditions": [
-						{
-							"condition": "minecraft:random_chance",
-							"chance": 0.025
-						}
-					]
-				}
-			],
-			"conditions": [
-				{
-					"condition": "minecraft:killed_by_player"
-				},
-				{
-					"condition": "minecraft:match_tool",
-					"predicate": {
-						"items": "#minecraft:axes"
-					}
 				}
 			]
 		}

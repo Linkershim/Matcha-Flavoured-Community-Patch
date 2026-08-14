@@ -14,14 +14,14 @@
   },
   "display": {
     "description": {
-      "text": "Electrum enhances the Fortune and Looting Properties of Gold, but only Titanium can host the Alloy"
+      "translate": "adv.kleispack.obtain_electrum.desc"
     },
     "icon": {
       "count": 1,
       "id": "minecraft:heart_of_the_sea"
     },
     "title": {
-      "text": "A Zealous Alloy"
+      "translate": "adv.kleispack.obtain_electrum"
     },
     "hidden": false
   },

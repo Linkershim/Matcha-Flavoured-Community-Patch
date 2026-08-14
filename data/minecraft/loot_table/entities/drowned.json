@@ -40,6 +40,10 @@
 			"rolls": 1,
 			"entries": [
 				{
+					"type": "minecraft:empty",
+					"weight": 10
+				},
+				{
 					"type": "minecraft:item",
 					"name": "minecraft:blaze_powder",
 					"weight": 10,
@@ -76,5 +80,5 @@
 			]
 		}
 	],
-	"random_sequence": "minecraft:entities/zombie"
+	"random_sequence": "minecraft:entities/drowned"
 }

@@ -94,7 +94,7 @@
 	},
 	"display": {
 		"description": {
-			"text": "Preserve Everything!"
+			"translate": "adv.kleispack.preserve_everything.desc"
 		},
 		"icon": {
 			"components": {
@@ -104,7 +104,7 @@
 			"id": "minecraft:poisonous_potato"
 		},
 		"title": {
-			"text": "Doomsday Prepper"
+			"translate": "adv.kleispack.preserve_everything"
 		},
 		"frame": "challenge",
 		"hidden": false

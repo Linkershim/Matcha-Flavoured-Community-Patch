@@ -16,14 +16,14 @@
 	},
 	"display": {
 		"description": {
-			"text": "Craft Carbon-Rich Alloy with Iron and a Coal Block"
+			"translate": "adv.kleispack.obtain_carbon_rich_iron.desc"
 		},
 		"icon": {
 			"count": 1,
 			"id": "minecraft:piglin_brute_spawn_egg"
 		},
 		"title": {
-			"text": "A Brittle Alloy?"
+			"translate": "adv.kleispack.obtain_carbon_rich_iron"
 		},
 		"hidden": false
 	},

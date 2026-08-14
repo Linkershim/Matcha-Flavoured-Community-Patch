@@ -79,7 +79,7 @@
 						{
 							"condition": "minecraft:location_check",
 							"predicate": {
-								"biomes": "#minecraft:freshwater_hot_dry"
+								"biomes": "#minecraft:freshwater_hot_wet"
 							}
 						}
 					]
@@ -240,6 +240,12 @@
 							}
 						}
 					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:gameplay/fishing/junk",
+					"weight": 85,
+					"quality": -2
 				}
 			]
 		}

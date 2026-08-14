@@ -7,14 +7,14 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:rabbit_hide",
+					"name": "minecraft:leather",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
-								"min": 2,
-								"max": 3
+								"min": 1,
+								"max": 2
 							},
 							"add": false
 						},
@@ -37,8 +37,12 @@
 			]
 		},
 		{
-			"rolls": 2,
+			"rolls": 1,
 			"entries": [
+				{
+					"type": "minecraft:empty",
+					"weight": 6
+				},
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:blaze_powder",
@@ -66,7 +70,7 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:emerald",
-					"weight": 1
+					"weight": 2
 				}
 			],
 			"conditions": [
@@ -76,5 +80,5 @@
 			]
 		}
 	],
-	"random_sequence": "minecraft:entities/zombie"
+	"random_sequence": "minecraft:entities/husk"
 }

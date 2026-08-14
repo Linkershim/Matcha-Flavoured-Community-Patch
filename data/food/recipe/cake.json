@@ -13,6 +13,20 @@
 		"CCC"
 	],
 	"result": {
-		"id": "minecraft:cake"
+		"id": "minecraft:cake",
+		"components": {
+			"minecraft:lore": [
+				{
+					"text": "❤❤❤❤",
+					"color": "red",
+					"italic": false
+				},
+				{
+					"text": "❤❤❤❤ (3:00)",
+					"color": "gray",
+					"italic": false
+				}
+			]
+		}
 	}
 }

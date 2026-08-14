@@ -1,0 +1,71 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:shulker_spawn_egg",
+		[
+			"minecraft:cooked_cod",
+			"minecraft:cooked_salmon"
+		],
+		"minecraft:sugar",
+		"minecraft:carrot",
+		"#minecraft:eggs",
+		"minecraft:bowl"
+	],
+	"result": {
+		"id": "minecraft:poisonous_potato",
+		"components": {
+			"minecraft:item_model": "minecraft:pad_thai",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.pad_thai"
+			},
+			"minecraft:food": {
+				"nutrition": 0,
+				"saturation": 0,
+				"can_always_eat": true
+			},
+			"minecraft:consumable": {
+				"sound": "minecraft:entity.generic.eat",
+				"has_consume_particles": true,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+							{
+								"id": "minecraft:night_vision",
+								"amplifier": 0,
+								"duration": 6000,
+								"show_particles": false,
+								"show_icon": true
+							},
+							{
+								"id": "minecraft:regeneration",
+								"amplifier": 2,
+								"duration": 120,
+								"show_particles": false,
+								"show_icon": false
+							}
+						]
+					}
+				]
+			},
+			"minecraft:max_stack_size": 64,
+			"minecraft:lore": [
+				{
+					"text": "❤❤❤❤❤",
+					"color": "red",
+					"italic": false
+				},
+				{
+					"text": "👁 Night Vision (5:00)",
+					"color": "green",
+					"italic": false
+				}
+			],
+			"minecraft:use_remainder": {
+				"id": "minecraft:bowl"
+			}
+		},
+		"count": 1
+	}
+}

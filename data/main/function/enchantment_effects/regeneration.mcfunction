@@ -1,1 +1,1 @@
-effect give @p[nbt=!{active_effects: [{id: "minecraft:regeneration"}]}] minecraft:regeneration 3 0 true
+execute at @p run execute unless entity @p[nbt={active_effects: [{id: "minecraft:regeneration"}]}] run effect give @p minecraft:regeneration 3 0 true

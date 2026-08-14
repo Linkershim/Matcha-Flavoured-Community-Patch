@@ -16,7 +16,7 @@
 	},
 	"display": {
 		"description": {
-			"text": "A Permanent Boon, as long as you don't die"
+			"translate": "adv.kleispack.obtain_heart.desc"
 		},
 		"icon": {
 			"components": {
@@ -26,7 +26,7 @@
 			"id": "minecraft:poisonous_potato"
 		},
 		"title": {
-			"text": "Heart Container!"
+			"translate": "adv.kleispack.obtain_heart"
 		},
 		"frame": "challenge",
 		"show_toast": true,

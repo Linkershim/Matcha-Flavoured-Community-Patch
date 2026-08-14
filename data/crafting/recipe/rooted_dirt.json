@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "building",
+	"group": "rooted_dirt",
+	"ingredients": [
+		"minecraft:hanging_roots",
+		"minecraft:dirt"
+	],
+	"result": {
+		"count": 1,
+		"id": "minecraft:rooted_dirt"
+	}
+}

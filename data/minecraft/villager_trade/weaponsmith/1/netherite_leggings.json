@@ -1,0 +1,25 @@
+{
+	"wants": {
+		"id": "minecraft:netherite_leggings",
+		"count": 1
+	},
+	"gives": {
+		"id": "minecraft:bundle",
+		"components": {
+			"minecraft:bundle_contents": [
+				{
+					"id": "minecraft:netherite_ingot",
+					"count": 1
+				},
+				{
+					"id": "minecraft:diamond",
+					"count": 8
+				}
+			]
+		},
+		"count": 1
+	},
+	"max_uses": 999,
+	"reputation_discount": 0,
+	"xp": 10
+}

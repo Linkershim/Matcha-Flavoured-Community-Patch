@@ -4,7 +4,7 @@
 			"conditions": {
 				"item": {
 					"components": {
-						"minecraft:item_model": "minecraft:glow_mash"
+						"minecraft:item_model": "minecraft:rotten_flesh"
 					}
 				}
 			},

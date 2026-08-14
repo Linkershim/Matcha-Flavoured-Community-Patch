@@ -1,0 +1,49 @@
+{
+	"condition": "minecraft:any_of",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"minecraft:equipment": {
+					"chest": {
+						"items": "minecraft:copper_chestplate"
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"minecraft:equipment": {
+					"head": {
+						"items": "minecraft:copper_helmet"
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"minecraft:equipment": {
+					"legs": {
+						"items": "minecraft:copper_leggings"
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"minecraft:equipment": {
+					"feet": {
+						"items": "minecraft:copper_boots"
+					}
+				}
+			}
+		}
+	]
+}

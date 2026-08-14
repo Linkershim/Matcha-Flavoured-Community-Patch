@@ -76,17 +76,17 @@
 	},
 	"display": {
 		"description": {
-			"text": "Smith a piece of Electrum Equipment"
+			"translate": "adv.kleispack.obtain_electrum_tool.desc"
 		},
 		"icon": {
 			"components": {
-				"minecraft:item_model": "minecraft:electrum_sword"
+				"minecraft:item_model": "minecraft:electrum_pickaxe"
 			},
 			"count": 1,
 			"id": "minecraft:stone_sword"
 		},
 		"title": {
-			"text": "Electric Electrum"
+			"translate": "adv.kleispack.obtain_electrum_tool"
 		},
 		"frame": "challenge",
 		"hidden": false
