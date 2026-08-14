@@ -1,0 +1,41 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_primary_material": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:potion"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"requirements": [
+		[
+			"has_primary_material"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"crafting:mud",
+			"crafting:yellow_concrete_from_concrete_powder",
+			"crafting:magenta_concrete_from_concrete_powder",
+			"crafting:lime_concrete_from_concrete_powder",
+			"crafting:light_gray_concrete_from_concrete_powder",
+			"crafting:light_blue_concrete_from_concrete_powder",
+			"crafting:green_concrete_from_concrete_powder",
+			"crafting:gray_concrete_from_concrete_powder",
+			"crafting:cyan_concrete_from_concrete_powder",
+			"crafting:brown_concrete_from_concrete_powder",
+			"crafting:blue_concrete_from_concrete_powder",
+			"crafting:black_concrete_from_concrete_powder",
+			"crafting:white_concrete_from_concrete_powder",
+			"crafting:red_concrete_from_concrete_powder",
+			"crafting:purple_concrete_from_concrete_powder",
+			"crafting:orange_concrete_from_concrete_powder"
+		]
+	}
+}
+

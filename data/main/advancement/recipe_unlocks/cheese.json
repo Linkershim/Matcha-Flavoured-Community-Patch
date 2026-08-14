@@ -5,31 +5,24 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:carrot"
+						"items": "minecraft:cookie"
 					}
 				]
 			},
 			"trigger": "minecraft:inventory_changed"
-		},
-		"has_the_recipe": {
-			"conditions": {
-				"recipe": "food:steamed_carrots"
-			},
-			"trigger": "minecraft:recipe_unlocked"
 		}
 	},
 	"requirements": [
 		[
-			"has_the_recipe",
 			"has_primary_material"
 		]
 	],
 	"rewards": {
 		"recipes": [
-			"food:steamed_carrots",
-			"food:pad_thai",
-			"food:pickled_carrots",
-			"food:carrot_cupcake"
+			"food:pupusa",
+			"food:cheese_pizza",
+			"food:meat_pizza",
+			"food:mushroom_pizza"
 		]
 	}
 }
