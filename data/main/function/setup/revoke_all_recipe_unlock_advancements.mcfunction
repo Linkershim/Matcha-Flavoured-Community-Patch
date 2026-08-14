@@ -13,6 +13,7 @@ advancement revoke @p only main:recipe_unlocks/sweet_berry_mash
 advancement revoke @p only main:recipe_unlocks/tattered_leather
 advancement revoke @p only main:recipe_unlocks/terracotta
 advancement revoke @p only main:recipe_unlocks/tomato
+advancement revoke @p only main:recipe_unlocks/trial_key
 advancement revoke @p only main:recipe_unlocks/warped_fungus
 advancement revoke @p only main:recipe_unlocks/water_bottle
 advancement revoke @p only main:recipe_unlocks/wheat_and_dry_grass
@@ -152,4 +153,4 @@ advancement revoke @a only main:mechanics/heart_container_obtained
 execute at @a if score @s Hearts <= minimum_hearts Hearts run scoreboard players set @s Hearts 20
 
 #This must be set separately (version number score) because I don't know how to set a score with another score (set players version number to current version)
-execute if score @p version_number < current_version version_number run scoreboard players set @s version_number 111
+execute if score @p version_number < current_version version_number run scoreboard players set @s version_number 112

@@ -1,6 +1,6 @@
 #Fallback, this shouldn't happen, but if somehow their score is set above the max, then set it to the max
 execute as @s if score @s Hearts >= maximum_hearts Hearts run scoreboard players set @s Hearts 60
-execute as @s if score @s Hearts < minumum_hearts Hearts run scoreboard players set @s Hearts 20
+execute as @s if score @s Hearts < minimum_hearts Hearts run scoreboard players set @s Hearts 20
 
 # Check to see if my score corresponds to the other scores, if so, set my health to the corresponding score
 execute as @s if score @s Hearts matches 60 run attribute @s minecraft:max_health base set 60
@@ -23,4 +23,4 @@ execute at @s if score @s Hearts matches 28 run attribute @s minecraft:max_healt
 execute at @s if score @s Hearts matches 26 run attribute @s minecraft:max_health base set 26
 execute at @s if score @s Hearts matches 24 run attribute @s minecraft:max_health base set 24
 execute at @s if score @s Hearts matches 22 run attribute @s minecraft:max_health base set 22
-execute at @s if score @s Hearts matches 30 run attribute @s minecraft:max_health base set 20
+execute at @s if score @s Hearts matches 20 run attribute @s minecraft:max_health base set 20

@@ -13,7 +13,7 @@ execute as @s[type=minecraft:cave_spider] run attribute @s minecraft:movement_sp
 #Fast Zombies (Only regular zombies)
 execute as @s[type=minecraft:zombie,nbt={IsBaby:0b}] run attribute @s minecraft:movement_speed base set 0.35
 execute as @s[type=minecraft:zombie,nbt={IsBaby:0b}] run attribute @s minecraft:max_health base set 15
-execute as @s[type=minecraft:zombie,nbt={IsBaby:0b}] run attribute @s minecraft:step_height base set 2
+execute as @s[type=minecraft:zombie,nbt={IsBaby:0b}] run attribute @s minecraft:step_height base set 1
 execute as @s[type=minecraft:zombie,nbt={IsBaby:0b}] run attribute @s minecraft:attack_damage base set 5
 # Baby Zombies
 execute as @s[type=minecraft:zombie,nbt={IsBaby:1b}] run attribute @s minecraft:max_health base set 5
@@ -22,14 +22,14 @@ execute as @s[type=minecraft:husk,nbt={IsBaby:1b}] run attribute @s minecraft:ma
 execute as @s[type=minecraft:husk,nbt={IsBaby:0b}] run attribute @s minecraft:max_health base set 40
 execute as @s[type=minecraft:husk,nbt={IsBaby:0b}] run data merge entity @s {Health:40}
 execute as @s[type=minecraft:husk,nbt={IsBaby:0b}] run attribute @s minecraft:movement_speed base set 0.25
-execute as @s[type=minecraft:husk,nbt={IsBaby:0b}] run attribute @s minecraft:attack_damage base set 20
+execute as @s[type=minecraft:husk,nbt={IsBaby:0b}] run attribute @s minecraft:attack_damage base set 15
 execute as @s[type=minecraft:husk,nbt={IsBaby:0b}] run attribute @s minecraft:armor base set 14
 execute as @s[type=minecraft:husk,nbt={IsBaby:0b}] run attribute @s minecraft:follow_range base set 60
 execute as @s[type=minecraft:husk,nbt={IsBaby:0b}] run attribute @s minecraft:knockback_resistance base set 1
 execute as @s[type=minecraft:husk,nbt={IsBaby:0b}] run attribute @s minecraft:movement_efficiency base set 1
 execute as @s[type=minecraft:husk,nbt={IsBaby:0b}] run attribute @s minecraft:water_movement_efficiency base set 1
 execute as @s[type=minecraft:husk,nbt={IsBaby:0b}] run attribute @s minecraft:step_height base set 1
-execute as @s[type=minecraft:husk,nbt={IsBaby:0b}] run attribute @s minecraft:spawn_reinforcements base set 1
+execute as @s[type=minecraft:husk,nbt={IsBaby:0b}] run attribute @s minecraft:spawn_reinforcements base set 0.25
 #Weak Silverfish
 execute as @s[type=minecraft:silverfish] run attribute @s minecraft:max_health base set 4
 #Jumping Spiders

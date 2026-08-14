@@ -19,6 +19,13 @@
 	"effects": {
 		"minecraft:tick": [
 			{
+				"requirements": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:entity_type": "minecraft:player"
+					}
+				},
 				"effect": {
 					"type": "minecraft:run_function",
 					"function": "main:enchantment_effects/divinity"

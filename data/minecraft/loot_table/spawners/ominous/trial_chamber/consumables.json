@@ -10,7 +10,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:food/bread",
+					"value": "minecraft:food/pickled_carrots",
 					"weight": 2
 				},
 				{
@@ -22,10 +22,16 @@
 					"type": "minecraft:loot_table",
 					"value": "minecraft:food/pumpkin_empanada",
 					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:ominous_trial_key",
+					"weight": 1,
+					"quality": 1
 				}
 			],
 			"rolls": 1
 		}
 	],
-	"random_sequence": "minecraft:spawners/trial_chamber/consumables"
+	"random_sequence": "minecraft:spawners/ominous/trial_chamber/consumables"
 }

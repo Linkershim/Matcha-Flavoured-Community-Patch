@@ -26,7 +26,7 @@
 	],
 	"rewards": {
 		"recipes": [
-			"potions:estus_flask",
+			"crafting:estus_flask",
 			"crafting:wooden_cross",
 			"crafting:amnestic"
 		]
