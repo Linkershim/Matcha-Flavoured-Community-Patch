@@ -1,0 +1,205 @@
+[
+	{
+		"processor_type": "minecraft:rule",
+		"rules": [
+			{
+				"location_predicate": {
+					"predicate_type": "minecraft:always_true"
+				},
+				"input_predicate": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:magenta_glazed_terracotta",
+					"probability": 0.3
+				},
+				"output_state": {
+					"Name": "minecraft:cobweb"
+				}
+			},
+			{
+				"location_predicate": {
+					"predicate_type": "minecraft:always_true"
+				},
+				"input_predicate": {
+					"predicate_type": "minecraft:block_match",
+					"block": "minecraft:magenta_glazed_terracotta"
+				},
+				"output_state": {
+					"Name": "minecraft:air"
+				}
+			}
+		]
+	},
+    {
+		"processor_type": "minecraft:rule",
+		"rules": [
+			{
+				"location_predicate": {
+					"predicate_type": "minecraft:always_true"
+				},
+				"input_predicate": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:yellow_glazed_terracotta",
+					"probability": 0.203125
+				},
+				"output_state": {
+					"Name": "minecraft:decorated_pot",
+					"Properties": {
+						"cracked": "true"
+					}
+				},
+				"block_entity_modifier": {
+					"type": "minecraft:append_loot",
+					"loot_table": "minecraft:pots/abbey/common"
+				}
+			},
+			{
+				"location_predicate": {
+					"predicate_type": "minecraft:always_true"
+				},
+				"input_predicate": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:yellow_glazed_terracotta",
+					"probability": 0.203125
+				},
+				"output_state": {
+					"Name": "minecraft:flower_pot"
+				}
+			},
+			{
+				"location_predicate": {
+					"predicate_type": "minecraft:always_true"
+				},
+				"input_predicate": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:yellow_glazed_terracotta",
+					"probability": 0.125
+				},
+				"output_state": {
+					"Name": "minecraft:skeleton_skull"
+				}
+			},
+			{
+				"location_predicate": {
+					"predicate_type": "minecraft:always_true"
+				},
+				"input_predicate": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:yellow_glazed_terracotta",
+					"probability": 0.0625
+				},
+				"output_state": {
+					"Name": "minecraft:vault"
+				}
+			},
+			{
+				"location_predicate": {
+					"predicate_type": "minecraft:always_true"
+				},
+				"input_predicate": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:yellow_glazed_terracotta",
+					"probability": 0.203125
+				},
+				"output_state": {
+					"Name": "minecraft:cobweb"
+				}
+			},
+			{
+				"location_predicate": {
+					"predicate_type": "minecraft:always_true"
+				},
+				"input_predicate": {
+					"predicate_type": "minecraft:block_match",
+					"block": "minecraft:yellow_glazed_terracotta"
+				},
+				"output_state": {
+					"Name": "minecraft:air"
+				}
+			}
+		]
+	},
+    {
+		"processor_type": "minecraft:rule",
+		"rules": [
+			{
+				"location_predicate": {
+					"predicate_type": "minecraft:always_true"
+				},
+				"input_predicate": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:brown_glazed_terracotta",
+					"probability": 0.33
+				},
+				"output_state": {
+					"Name": "minecraft:decorated_pot",
+					"Properties": {
+						"cracked": "true"
+					}
+				},
+				"block_entity_modifier": {
+					"type": "minecraft:append_loot",
+					"loot_table": "minecraft:pots/abbey/common"
+				}
+			},
+			{
+				"location_predicate": {
+					"predicate_type": "minecraft:always_true"
+				},
+				"input_predicate": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:brown_glazed_terracotta",
+					"probability": 0.21
+				},
+				"output_state": {
+					"Name": "minecraft:flower_pot"
+				}
+			},
+			{
+				"location_predicate": {
+					"predicate_type": "minecraft:always_true"
+				},
+				"input_predicate": {
+					"predicate_type": "minecraft:block_match",
+					"block": "minecraft:brown_glazed_terracotta"
+				},
+				"output_state": {
+					"Name": "minecraft:air"
+				}
+			}
+		]
+	},
+    {
+		"processor_type": "minecraft:rule",
+		"rules": [
+			{
+				"location_predicate": {
+					"predicate_type": "minecraft:always_true"
+				},
+				"input_predicate": {
+					"predicate_type": "minecraft:block_match",
+					"block": "minecraft:tuff_bricks"
+				},
+				"output_state": {
+					"Name": "minecraft:stone"
+				}
+			}
+		]
+	},
+	{
+		"processor_type": "minecraft:rule",
+		"rules": [
+			{
+				"location_predicate": {
+					"predicate_type": "minecraft:always_true"
+				},
+				"input_predicate": {
+					"predicate_type": "minecraft:block_match",
+					"block": "minecraft:polished_tuff"
+				},
+				"output_state": {
+					"Name": "minecraft:andesite"
+				}
+			}
+		]
+	}
+]

@@ -41,6 +41,16 @@
 					"text": "🕒 4",
 					"color": "dark_green",
 					"italic": false
+				},
+				{
+					"translate": "desc.kleispack.set_bonus",
+					"color": "dark_gray",
+					"italic": false
+				},
+				{
+					"translate": "enchantment.kleispack.divinity.set_bonus",
+					"color": "aqua",
+					"italic": false
 				}
 			],
 			"minecraft:tooltip_display": {

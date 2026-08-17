@@ -10,7 +10,7 @@
 	},
 	"display": {
 		"description": {
-			"text": "Affix a Nazar to an Iron Sword in a Smithing Table"
+			"translate": "adv.kleispack.smith_warding_sword.desc"
 		},
 		"icon": {
 			"components": {
@@ -21,7 +21,7 @@
 			"id": "minecraft:glistering_melon_slice"
 		},
 		"title": {
-			"text": "Fae-Slayer"
+			"translate": "adv.kleispack.smith_warding_sword"
 		},
 		"frame": "task",
 		"show_toast": true,

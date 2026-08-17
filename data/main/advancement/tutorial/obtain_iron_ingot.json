@@ -14,14 +14,14 @@
   },
   "display": {
     "description": {
-      "text": "Iron has no Intrinsic Properties, and can only Host Steel"
+      "translate": "adv.kleispack.obtain_iron_ingot.desc"
     },
     "icon": {
       "count": 1,
       "id": "minecraft:iron_ingot"
     },
     "title": {
-      "text": "The Stalwart Metal"
+      "translate": "adv.kleispack.obtain_iron_ingot"
     },
     "hidden": false
   },

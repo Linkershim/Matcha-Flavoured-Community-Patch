@@ -21,7 +21,8 @@
 		"recipes": [
 			"crafting:slime_ball_from_dough",
 			"food:bread",
-			"food:naan"
+			"food:naan",
+			"food:puerquito"
 		]
 	}
 }

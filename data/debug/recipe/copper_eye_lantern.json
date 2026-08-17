@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "building",
+	"group": "rooted_dirt",
+	"ingredients": [
+		"minecraft:command_block",
+		"minecraft:lantern",
+		"minecraft:target"
+	],
+	"result": {
+		"components": {
+			"minecraft:entity_data": {
+				"id": "minecraft:marker",
+				"NoGravity": true,
+				"Invulnerable": true,
+				"Tags": [
+					"copper_eye_lantern"
+				]
+			},
+			"minecraft:item_name": "Copper Eye Lantern"
+		},
+		"count": 1,
+		"id": "minecraft:chicken_spawn_egg"
+	}
+}

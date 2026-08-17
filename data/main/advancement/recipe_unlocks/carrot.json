@@ -26,7 +26,10 @@
 	],
 	"rewards": {
 		"recipes": [
-			"food:steamed_carrots"
+			"food:steamed_carrots",
+			"food:pad_thai",
+			"food:pickled_carrots",
+			"food:carrot_cupcake"
 		]
 	}
 }

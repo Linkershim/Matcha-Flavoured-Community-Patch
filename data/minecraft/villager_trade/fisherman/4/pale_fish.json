@@ -13,13 +13,13 @@
 			"minecraft:item_model": "pale_fish",
 			"minecraft:lore": [
 				{
-					"text": "⭐⭐",
-					"color": "green",
+					"text": "⭐⭐⭐",
+					"color": "aqua",
 					"italic": false
 				}
 			]
 		},
-		"count": 12,
+		"count": 2,
 		"id": "minecraft:cod"
 	},
 	"reputation_discount": 0,

@@ -1,0 +1,1 @@
+execute as @n[type=minecraft:mannequin] at @s anchored eyes run tp @s ~ ~ ~ facing entity @p eyes

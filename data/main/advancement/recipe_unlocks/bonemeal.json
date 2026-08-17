@@ -33,7 +33,8 @@
 			"crafting:clone_red_tulip",
 			"crafting:clone_spore_blossom",
 			"crafting:clone_white_tulip",
-			"crafting:clone_wither_rose"
+			"crafting:clone_wither_rose",
+			"crafting:white_dye_from_bonemeal"
 		]
 	}
 }

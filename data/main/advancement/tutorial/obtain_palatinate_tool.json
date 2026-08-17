@@ -76,17 +76,17 @@
 	},
 	"display": {
 		"description": {
-			"text": "Craft a piece of Palatinate Equipment"
+			"translate": "adv.kleispack.obtain_palatinate_tool.desc"
 		},
 		"icon": {
 			"components": {
-				"minecraft:item_model": "minecraft:shakudo_axe"
+				"minecraft:item_model": "minecraft:shakudo_pickaxe"
 			},
 			"count": 1,
 			"id": "minecraft:wooden_axe"	
 		},
 		"title": {
-			"text": "Palatinate Perfection"
+			"translate": "adv.kleispack.obtain_palatinate_tool"
 		},
 		"frame": "goal",
 		"hidden": false

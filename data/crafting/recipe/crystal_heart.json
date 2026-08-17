@@ -2,12 +2,13 @@
 	"type": "minecraft:crafting_shaped",
 	"category": "misc",
 	"key": {
-		"#": "minecraft:diamond_block",
+		"d": "minecraft:diamond",
 		"s": "minecraft:turtle_scute"
 	},
 	"pattern": [
-		"#s#",
-		" # "
+		"ddd",
+		"dsd",
+		"ddd"
 	],
 	"result": {
 		"components": {

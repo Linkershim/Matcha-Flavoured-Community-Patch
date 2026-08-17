@@ -26,7 +26,12 @@
 				{
 					"type": "minecraft:loot_table",
 					"value": "minecraft:chests/equipment/trident",
-					"quality": 2
+					"quality": 1
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:kleis_items/crystal_heart",
+					"weight": 1
 				}
 			],
 			"rolls": 1

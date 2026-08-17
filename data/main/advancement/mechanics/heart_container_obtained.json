@@ -20,6 +20,6 @@
 		]
 	],
 	"rewards": {
-		"function": "main:mechanic/process_heart_container"
+		"function": "main:mechanic/heart_container/process_heart_container"
 	}
 }

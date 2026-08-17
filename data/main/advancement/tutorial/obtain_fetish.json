@@ -1,0 +1,51 @@
+{
+	"parent": "main:tutorial/craft_brush",
+	"criteria": {
+		"cheerful_clay_statue": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"components": {
+							"minecraft:item_model": "minecraft:cheerful_clay_statue"
+						}
+					}
+				]
+			}
+		},
+		"mournful_clay_statue": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"components": {
+							"minecraft:item_model": "minecraft:mournful_clay_statue"
+						}
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"description": {
+			"translate": "adv.kleispack.obtain_fetish.desc"
+		},
+		"icon": {
+			"components": {
+				"minecraft:item_model": "minecraft:cheerful_clay_statue"
+			},
+			"count": 1,
+			"id": "minecraft:emerald"
+		},
+		"title": {
+			"translate": "adv.kleispack.obtain_fetish"
+		},
+		"frame": "goal"
+	},
+	"requirements": [
+		[
+			"cheerful_clay_statue",
+			"mournful_clay_statue"
+		]
+	]
+}

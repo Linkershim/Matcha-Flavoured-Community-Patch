@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:campfire_cooking",
+	"category": "food",
+	"cookingtime": 200,
+	"experience": 0.35,
+	"ingredient": [
+		"minecraft:bush"
+	],
+	"result": {
+		"id": "minecraft:dead_bush"
+	}
+}

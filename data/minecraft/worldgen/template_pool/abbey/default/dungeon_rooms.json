@@ -1,0 +1,51 @@
+{
+	"name": "minecraft:abbey/default/dungeon_rooms",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "minecraft:abbey/default/rooms/waterfall",
+				"processors": "minecraft:abbey_dungeon"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "minecraft:abbey/default/rooms/quad_spawn_walkways",
+				"processors": "minecraft:abbey_dungeon"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "minecraft:abbey/default/rooms/spider_triple_walkway",
+				"processors": "minecraft:abbey_dungeon"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "minecraft:abbey/default/rooms/drawbridge",
+				"processors": "minecraft:abbey_dungeon"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "minecraft:abbey/default/rooms/water_and_lava",
+				"processors": "minecraft:abbey_dungeon"
+			}
+		}
+	]
+}

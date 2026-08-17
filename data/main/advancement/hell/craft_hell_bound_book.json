@@ -10,14 +10,14 @@
 	},
 	"display": {
 		"description": {
-			"text": "Craft a Hell-Bound Book"
+			"translate": "adv.kleispack.hell.craft_hell_bound_book.desc"
 		},
 		"icon": {
 			"count": 1,
 			"id": "minecraft:enchanted_book"
 		},
 		"title": {
-			"text": "Unholy Knowledge"
+			"translate": "adv.kleispack.hell.craft_hell_bound_book"
 		},
 		"frame": "task",
 		"hidden": false

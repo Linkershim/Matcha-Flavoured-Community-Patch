@@ -10,7 +10,7 @@
 	},
 	"display": {
 		"description": {
-			"text": "Affix a Nazar to an Iron Sword, inlaid with Silver, in a Smithing Table"
+			"translate": "adv.kleispack.smith_silver_sword.desc"
 		},
 		"icon": {
 			"components": {
@@ -21,7 +21,7 @@
 			"id": "minecraft:glistering_melon_slice"
 		},
 		"title": {
-			"text": "Sabbatarian"
+			"translate": "adv.kleispack.smith_silver_sword"
 		},
 		"frame": "task",
 		"show_toast": true,

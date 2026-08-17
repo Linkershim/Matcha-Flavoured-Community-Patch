@@ -3,7 +3,9 @@
 		"icon": {
 			"id": "minecraft:grass_block"
 		},
-		"title": "From Earth",
+		"title": {
+			"translate": "adv.kleispack.root"
+		},
 		"description": {
 			"text": ""
 		},

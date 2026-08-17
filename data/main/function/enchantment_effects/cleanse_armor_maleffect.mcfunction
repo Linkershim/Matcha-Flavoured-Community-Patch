@@ -1,0 +1,11 @@
+execute as @s run effect clear @s minecraft:poison
+execute as @s run effect clear @s minecraft:wither
+execute as @s run effect clear @s minecraft:mining_fatigue
+execute as @s run effect clear @s minecraft:weakness
+execute as @s run effect clear @s minecraft:blindness
+execute as @s run effect clear @s minecraft:darkness
+execute as @s run effect clear @s minecraft:infested
+execute as @s run effect clear @s minecraft:weaving
+execute as @s run effect clear @s minecraft:nausea
+execute as @s run effect clear @s minecraft:oozing
+execute as @s run effect clear @s minecraft:slowness

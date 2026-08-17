@@ -14,14 +14,14 @@
   },
   "display": {
     "description": {
-      "text": "Anvils, made from Steel or Iron blocks, can repair Equipment with its corresponding Base-Metal Nugget or Ingot."
+      "translate": "adv.kleispack.obtain_anvil.desc"
     },
     "icon": {
       "count": 1,
       "id": "minecraft:anvil"
     },
     "title": {
-      "text": "Repair & Reuse"
+      "translate": "adv.kleispack.obtain_anvil"
     },
     "hidden": false
   },

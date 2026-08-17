@@ -96,7 +96,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:kleis_items/golden_apple",
+					"value": "minecraft:food/golden_apple",
 					"weight": 6,
 					"quality": 1
 				},

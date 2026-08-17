@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:chests/equipment/diamond",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:chests/equipment/diamond_tools",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:chests/equipment/gold",
+					"weight": 1
+				}
+			],
+			"rolls": 1
+		}
+	],
+	"random_sequence": "minecraft:spawners/trial_chamber/consumables"
+}

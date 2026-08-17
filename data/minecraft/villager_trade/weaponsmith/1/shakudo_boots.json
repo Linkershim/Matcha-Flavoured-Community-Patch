@@ -1,0 +1,28 @@
+{
+	"wants": {
+		"id": "minecraft:copper_boots",
+		"components": {
+			"minecraft:item_model": "minecraft:shakudo_boots"
+		},
+		"count": 1
+	},
+	"gives": {
+		"id": "minecraft:bundle",
+		"components": {
+			"minecraft:bundle_contents": [
+				{
+					"id": "minecraft:shulker_shell",
+					"count": 1
+				},
+				{
+					"id": "minecraft:copper_ingot",
+					"count": 5
+				}
+			]
+		},
+		"count": 1
+	},
+	"max_uses": 999,
+	"reputation_discount": 0,
+	"xp": 10
+}

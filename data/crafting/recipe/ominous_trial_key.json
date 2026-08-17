@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:trial_key",
+		"minecraft:turtle_scute"
+	],
+	"result": {
+		"count": 1,
+		"id": "minecraft:ominous_trial_key"
+	}
+}

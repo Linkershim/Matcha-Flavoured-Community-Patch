@@ -1,0 +1,36 @@
+{
+	"gives": {
+		"id": "minecraft:poisonous_potato",
+		"components": {
+			"minecraft:item_model": "minecraft:heart_container",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.crystal_heart"
+			},
+			"minecraft:rarity": "rare",
+			"minecraft:enchantment_glint_override": true,
+			"!minecraft:consumable": {}
+		}
+	},
+	"given_item_modifiers": [],
+	"max_uses": 999,
+	"reputation_discount": 0,
+	"wants": {
+		"count": 1,
+		"id": "minecraft:goat_horn",
+		"components": {
+			"minecraft:item_model": "minecraft:cheerful_clay_statue",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.cheerful_clay_statue"
+			},
+			"minecraft:instrument": {
+				"sound_event": "minecraft:ambient.soul_sand_valley.mood",
+				"range": 16,
+				"use_duration": 30,
+				"description": {
+					"translate": "item.kleispack.cheerful_clay_statue.desc"
+				}
+			}
+		}
+	},
+	"xp": 20
+}

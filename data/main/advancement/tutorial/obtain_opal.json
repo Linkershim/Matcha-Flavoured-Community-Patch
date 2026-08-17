@@ -16,7 +16,7 @@
 	},
 	"display": {
 		"description": {
-			"text": "Defeat the Sea God"
+			"translate": "adv.kleispack.obtain_opal"
 		},
 		"icon": {
 			"components": {
@@ -26,7 +26,7 @@
 			"id": "minecraft:emerald"
 		},
 		"title": {
-			"text": "Canto I"
+			"translate": "adv.kleispack.obtain_opal.desc"
 		}
 	},
 	"requirements": [

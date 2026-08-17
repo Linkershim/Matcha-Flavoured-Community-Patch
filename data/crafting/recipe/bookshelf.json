@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": "#minecraft:wooden_slabs",
+		"X": "minecraft:book"
+	},
+	"pattern": [
+		"###",
+		"XXX",
+		"###"
+	],
+	"result": {
+		"id": "minecraft:bookshelf",
+		"count": 3
+	}
+}

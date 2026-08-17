@@ -1,0 +1,51 @@
+{
+	"name": "minecraft:abbey/default/puzzle_rooms",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "minecraft:abbey/default/rooms/hallway_pitfall",
+				"processors": "minecraft:abbey_dungeon"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "minecraft:abbey/default/rooms/lantern_drop",
+				"processors": "minecraft:abbey_dungeon"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "minecraft:abbey/default/rooms/decision_puzzle",
+				"processors": "minecraft:abbey_dungeon"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "minecraft:abbey/default/rooms/bath",
+				"processors": "minecraft:abbey_dungeon"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "minecraft:abbey/default/rooms/jump_puzzle",
+				"processors": "minecraft:abbey_dungeon"
+			}
+		}
+	]
+}

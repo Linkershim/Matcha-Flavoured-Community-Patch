@@ -10,7 +10,7 @@
 	},
 	"display": {
 		"description": {
-			"text": "Make Japanese Curry"
+			"translate": "adv.kleispack.obtain_japanese_curry.desc"
 		},
 		"icon": {
 			"components": {
@@ -20,7 +20,7 @@
 			"id": "minecraft:rabbit_stew"
 		},
 		"title": {
-			"text": "Hearty Curry"
+			"translate": "adv.kleispack.obtain_japanese_curry"
 		},
 		"hidden": false
 	},

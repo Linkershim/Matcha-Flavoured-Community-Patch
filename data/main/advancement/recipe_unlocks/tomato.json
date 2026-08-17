@@ -28,7 +28,10 @@
 		"recipes": [
 			"crafting:tomato_seeds_from_tomato",
 			"crafting:red_dye_from_tomato",
-			"food:grilled_tomatoes"
+			"food:grilled_tomatoes",
+			"food:kontomire_stew",
+			"food:pickled_tomatoes",
+			"food:bruschetta"
 		]
 	}
 }

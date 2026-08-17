@@ -52,17 +52,17 @@
 	},
 	"display": {
 		"description": {
-			"text": "Upgrade a Mattock or Dolabra"
+			"translate": "adv.kleispack.upgrade_mattock.desc"
 		},
 		"icon": {
 			"components": {
-				"minecraft:item_model": "minecraft:shakudo_dolabra"
+				"minecraft:item_model": "minecraft:steel_dolabra"
 			},
 			"count": 1,
 			"id": "minecraft:wooden_axe"
 		},
 		"title": {
-			"text": "Three in One?"
+			"translate": "adv.kleispack.upgrade_mattock"
 		},
 		"frame": "goal",
 		"hidden": false

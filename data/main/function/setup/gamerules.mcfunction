@@ -5,3 +5,5 @@ gamerule keep_inventory true
 gamerule block_explosion_drop_decay false
 gamerule mob_explosion_drop_decay false
 gamerule ender_pearls_vanish_on_death false
+gamerule max_block_modifications 200000
+gamerule command_block_output false

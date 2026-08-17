@@ -26,6 +26,6 @@
 		]
 	],
 	"rewards": {
-		"function": "main:mechanic/warding_stone_forbidden"
+		"function": "main:mechanic/warding_stone/warding_stone_forbidden"
 	}
 }

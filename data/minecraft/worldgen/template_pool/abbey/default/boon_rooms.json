@@ -1,0 +1,33 @@
+{
+	"name": "minecraft:abbey/default/default_rooms",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "minecraft:abbey/default/rooms/boon_checkpoint",
+				"processors": "minecraft:abbey_dungeon"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "minecraft:abbey/default/rooms/boon_vault",
+				"processors": "minecraft:abbey_dungeon"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "minecraft:abbey/default/rooms/boon_heart",
+				"processors": "minecraft:abbey_dungeon"
+			}
+		}
+	]
+}

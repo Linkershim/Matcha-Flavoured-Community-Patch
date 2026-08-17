@@ -8,12 +8,12 @@
 			"minecraft:max_damage": 500,
 			"minecraft:lore": [
 				{
-					"text": "⛊ 6",
+					"text": "🛡 8",
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "🏃 +0.008",
+					"text": "🏃 +0.01",
 					"color": "dark_green",
 					"italic": false
 				}
@@ -26,14 +26,14 @@
 				{
 					"type": "minecraft:movement_speed",
 					"id": "bronze_chestplate",
-					"amount": 0.0085,
+					"amount": 0.01,
 					"operation": "add_value",
 					"slot": "chest"
 				},
 				{
 					"type": "minecraft:armor",
 					"id": "minecraft:armor.chestplate",
-					"amount": 6,
+					"amount": 8,
 					"operation": "add_value",
 					"slot": "chest"
 				}

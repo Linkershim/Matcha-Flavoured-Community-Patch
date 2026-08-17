@@ -1,0 +1,2 @@
+advancement revoke @s only main:mechanics/opened_oak_door
+execute as @n[type=minecraft:mannequin,tag=haunted] run execute at @n[type=mannequin] run execute if entity @p[distance=..11,gamemode=survival] run tp @s ~ ~-1000 ~

@@ -1,0 +1,156 @@
+{
+	"parent": "main:tutorial/trade_fish",
+	"criteria": {
+		"fisherman": {
+			"trigger": "minecraft:villager_trade",
+			"conditions": {
+				"villager": {
+					"minecraft:nbt": "{VillagerData:{profession:\"minecraft:fisherman\"}}"
+				}
+			}
+		},
+		"armorer": {
+			"trigger": "minecraft:villager_trade",
+			"conditions": {
+				"villager": {
+					"minecraft:nbt": "{VillagerData:{profession:\"minecraft:armorer\"}}"
+				}
+			}
+		},
+		"butcher": {
+			"trigger": "minecraft:villager_trade",
+			"conditions": {
+				"villager": {
+					"minecraft:nbt": "{VillagerData:{profession:\"minecraft:butcher\"}}"
+				}
+			}
+		},
+		"cartographer": {
+			"trigger": "minecraft:villager_trade",
+			"conditions": {
+				"villager": {
+					"minecraft:nbt": "{VillagerData:{profession:\"minecraft:cartographer\"}}"
+				}
+			}
+		},
+		"cleric": {
+			"trigger": "minecraft:villager_trade",
+			"conditions": {
+				"villager": {
+					"minecraft:nbt": "{VillagerData:{profession:\"minecraft:cleric\"}}"
+				}
+			}
+		},
+		"farmer": {
+			"trigger": "minecraft:villager_trade",
+			"conditions": {
+				"villager": {
+					"minecraft:nbt": "{VillagerData:{profession:\"minecraft:farmer\"}}"
+				}
+			}
+		},
+		"fletcher": {
+			"trigger": "minecraft:villager_trade",
+			"conditions": {
+				"villager": {
+					"minecraft:nbt": "{VillagerData:{profession:\"minecraft:fletcher\"}}"
+				}
+			}
+		},
+		"leatherworker": {
+			"trigger": "minecraft:villager_trade",
+			"conditions": {
+				"villager": {
+					"minecraft:nbt": "{VillagerData:{profession:\"minecraft:leatherworker\"}}"
+				}
+			}
+		},
+		"librarian": {
+			"trigger": "minecraft:villager_trade",
+			"conditions": {
+				"villager": {
+					"minecraft:nbt": "{VillagerData:{profession:\"minecraft:librarian\"}}"
+				}
+			}
+		},
+		"mason": {
+			"trigger": "minecraft:villager_trade",
+			"conditions": {
+				"villager": {
+					"minecraft:nbt": "{VillagerData:{profession:\"minecraft:mason\"}}"
+				}
+			}
+		},
+		"shepherd": {
+			"trigger": "minecraft:villager_trade",
+			"conditions": {
+				"villager": {
+					"minecraft:nbt": "{VillagerData:{profession:\"minecraft:shepherd\"}}"
+				}
+			}
+		},
+		"toolsmith": {
+			"trigger": "minecraft:villager_trade",
+			"conditions": {
+				"villager": {
+					"minecraft:nbt": "{VillagerData:{profession:\"minecraft:toolsmith\"}}"
+				}
+			}
+		}
+	},
+	"display": {
+		"description": {
+			"translate": "adv.kleispack.trade_everything.desc"
+		},
+		"icon": {
+			"components": {
+				"minecraft:item_model": "minecraft:heart"
+			},
+			"count": 1,
+			"id": "minecraft:emerald"
+		},
+		"title": {
+			"translate": "adv.kleispack.trade_everything"
+		},
+		"hidden": false,
+		"frame": "challenge"
+	},
+	"requirements": [
+		[
+			"armorer"
+		],
+		[
+			"butcher"
+		],
+		[
+			"cartographer"
+		],
+		[
+			"cleric"
+		],
+		[
+			"farmer"
+		],
+		[
+			"fisherman"
+		],
+		[
+			"fletcher"
+		],
+		[
+			"leatherworker"
+		],
+		[
+			"librarian"
+		],
+		[
+			"mason"
+		],
+		[
+			"shepherd"
+		],
+		[
+			"toolsmith"
+		]
+	]
+}

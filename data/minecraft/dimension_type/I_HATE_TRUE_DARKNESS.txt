@@ -1,0 +1,5 @@
+Thats okay.
+Delete the overworld.json
+rename the overworld_no_true_darkness.txt to overworld.json
+Restart the world server
+Everything should be good

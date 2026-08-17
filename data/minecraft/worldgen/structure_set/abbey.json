@@ -1,0 +1,18 @@
+{
+	"placement": {
+		"type": "minecraft:random_spread",
+		"exclusion_zone": {
+			"chunk_count": 16,
+			"other_set": "minecraft:villages"
+		},
+		"salt": 10187261,
+		"separation": 40,
+		"spacing": 60
+	},
+	"structures": [
+		{
+			"structure": "minecraft:abbey_overgrown",
+			"weight": 1
+		}
+	]
+}

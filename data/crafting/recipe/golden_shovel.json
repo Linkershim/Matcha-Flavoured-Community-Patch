@@ -43,7 +43,8 @@
 				"rules": [
 					{
 						"blocks": "#minecraft:mineable/shovel",
-						"speed": 15
+						"speed": 15,
+						"correct_for_drops": true
 					}
 				],
 				"default_mining_speed": 1,

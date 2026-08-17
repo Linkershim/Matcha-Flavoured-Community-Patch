@@ -15,8 +15,7 @@
 			"minecraft:item_model": "minecraft:ofuda",
 			"minecraft:stored_enchantments": {
 				"minecraft:mending": 1
-			},
-			"minecraft:max_stack_size": 64
+			}
 		}
 	},
 	"given_item_modifiers": [],

@@ -1,0 +1,62 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"quality": 1,
+					"functions": [],
+					"name": "minecraft:emerald"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [],
+					"name": "minecraft:bone_meal",
+					"weight": 4
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [],
+					"name": "minecraft:bone",
+					"weight": 7
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [],
+					"name": "minecraft:skeleton_skull",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"!minecraft:consumable": {},
+								"minecraft:item_model": "minecraft:wooden_cross",
+								"minecraft:item_name": {
+									"translate": "item.kleispack.wooden_cross",
+									"color": "white"
+								},
+								"minecraft:enchantments": {
+									"main:warding0": 1
+								},
+								"minecraft:enchantment_glint_override": false
+							}
+						}
+					],
+					"name": "minecraft:poisonous_potato",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:archaeology/statues",
+					"quality": 1
+				}
+			],
+			"rolls": 1
+		}
+	],
+	"random_sequence": "minecraft:archaeology/abbey/grave"
+}

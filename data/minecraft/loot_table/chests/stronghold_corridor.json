@@ -95,7 +95,15 @@
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:magma_cream"
+					"name": "minecraft:endermite_spawn_egg",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"!minecraft:entity_data": {}
+							}
+						}
+					]
 				},
 				{
 					"type": "minecraft:loot_table",
