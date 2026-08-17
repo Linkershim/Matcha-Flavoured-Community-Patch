@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "copper_hoe",
+          "name": "minecraft:copper_hoe",
           "functions": [
             {
               "function": "minecraft:set_components",
