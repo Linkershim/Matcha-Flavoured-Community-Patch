@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:divine_comedy",
+                "minecraft:item_name": {
+                  "translate": "item.kleispack.divine_comedy"
+                },
+                "minecraft:rarity": "uncommon",
+                "minecraft:lore": [
+                  {
+                    "translate": "item.kleispack.divine_comedy.desc",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

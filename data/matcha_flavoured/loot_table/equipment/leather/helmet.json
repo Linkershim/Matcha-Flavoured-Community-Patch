@@ -17,12 +17,12 @@
                 },
                 "minecraft:lore": [
                   {
-                    "text": "⛊ 1",
+                    "text": "🛡 1",
                     "color": "dark_green",
                     "italic": false
                   },
                   {
-                    "text": "⬇⛊ 1",
+                    "text": "⬇🛡 1",
                     "color": "dark_green",
                     "italic": false
                   }
