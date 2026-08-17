@@ -15,7 +15,7 @@
 	"result": {
 		"components": {
 			"minecraft:stored_enchantments": {
-				"main:warding2": 1,
+				"main:warding1": 1,
 				"minecraft:smite": 2
 			},
 			"minecraft:rarity": "rare",

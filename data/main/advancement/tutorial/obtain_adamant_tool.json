@@ -1,0 +1,117 @@
+{
+	"parent": "main:tutorial/obtain_smithing_table",
+	"criteria": {
+		"adamant_axe": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:adamant_axe"
+			}
+		},
+		"adamant_pickaxe": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:adamant_pickaxe"
+			}
+		},
+		"adamant_shovel": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:adamant_shovel"
+			}
+		},
+		"adamant_hoe": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:adamant_hoe"
+			}
+		},
+		"adamant_sword": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:adamant_sword"
+			}
+		},
+		"adamant_dolabra": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:adamant_dolabra"
+			}
+		},
+		"adamant_mattock": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:adamant_mattock"
+			}
+		},
+		"adamant_spear": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:adamant_spear"
+			}
+		},
+		"adamant_helmet": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:adamant_helmet"
+			}
+		},
+		"adamant_chestplate": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:adamant_chestplate"
+			}
+		},
+		"adamant_leggings": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:adamant_leggings"
+			}
+		},
+		"adamant_boots": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:adamant_boots"
+			}
+		},
+		"adamant_claymore": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:adamant_claymore"
+			}
+		}
+	},
+	"display": {
+		"description": {
+			"translate": "adv.kleispack.obtain_adamant_tool.desc"
+		},
+		"icon": {
+			"components": {
+				"minecraft:item_model": "minecraft:netherite_pickaxe"
+			},
+			"count": 1,
+			"id": "minecraft:stone_sword"
+		},
+		"title": {
+			"translate": "adv.kleispack.obtain_adamant_tool"
+		},
+		"frame": "challenge",
+		"hidden": false
+	},
+	"requirements": [
+		[
+			"adamant_axe",
+			"adamant_pickaxe",
+			"adamant_shovel",
+			"adamant_hoe",
+			"adamant_sword",
+			"adamant_dolabra",
+			"adamant_mattock",
+			"adamant_spear",
+			"adamant_helmet",
+			"adamant_chestplate",
+			"adamant_leggings",
+			"adamant_boots",
+			"adamant_claymore"
+		]
+	]
+}

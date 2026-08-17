@@ -1,0 +1,1 @@
+tp @n[type=minecraft:mannequin,tag=haunted] ~ ~-1000 ~

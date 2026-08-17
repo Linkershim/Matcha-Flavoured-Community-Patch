@@ -1,5 +1,5 @@
 {
-	"parent": "main:tutorial/catch_fish",
+	"parent": "main:tutorial/trade_for_asylum_seeker",
 	"criteria": {
 		"traded": {
 			"trigger": "minecraft:villager_trade",
@@ -15,7 +15,7 @@
 	},
 	"display": {
 		"description": {
-			"text": "Sell caught fish to a Fisherman"
+			"translate": "adv.kleispack.trade_fish.desc"
 		},
 		"icon": {
 			"components": {
@@ -25,7 +25,7 @@
 			"id": "minecraft:emerald"
 		},
 		"title": {
-			"text": "Fishmonger"
+			"translate": "adv.kleispack.trade_fish"
 		},
 		"hidden": false
 	},

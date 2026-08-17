@@ -7,7 +7,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:cod",
+					"name": "minecraft:salmon",
 					"functions": [
 						{
 							"function": "minecraft:set_components",
@@ -18,8 +18,8 @@
 								"minecraft:item_model": "echo_fish",
 								"minecraft:lore": [
 									{
-										"text": "⭐⭐",
-										"color": "green",
+										"text": "⭐⭐⭐⭐",
+										"color": "light_purple",
 										"italic": false
 									}
 								]

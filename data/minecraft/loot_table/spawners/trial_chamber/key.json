@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trial_key",
+					"weight": 80
+        },
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:ominous_trial_key",
+					"weight": 20,
+					"quality": 1
+				}
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:spawners/trial_chamber/key"
+}

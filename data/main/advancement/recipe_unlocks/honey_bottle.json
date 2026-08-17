@@ -26,7 +26,9 @@
 	],
 	"rewards": {
 		"recipes": [
-			"food:honey_ginger_tea"
+			"food:honey_ginger_tea",
+			"food:mead",
+			"food:honied_french_toast"
 		]
 	}
 }

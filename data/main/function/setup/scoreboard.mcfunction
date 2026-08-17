@@ -15,35 +15,79 @@ scoreboard objectives add Hunger food
 
 scoreboard objectives add HealthPoints health
 scoreboard objectives add deaths deathCount
+scoreboard players set 1 deaths 1
 scoreboard objectives add Hearts dummy
 scoreboard players add @a Hearts 0
-execute at @a[scores={Hearts=..20}] run scoreboard players set @p Hearts 20
+scoreboard players set minimum_hearts Hearts 20
+scoreboard players set maximum_hearts Hearts 60
 
 
+#Thank you kind soul, for pointing out the obvious mistake I made. So greatful for you.
+scoreboard objectives add sleepTimerScore dummy
 scoreboard players set 1 sleepTimerScore 1
 scoreboard players set 100 sleepTimerScore 100
-scoreboard objectives add sleepTimerScore dummy
 
 scoreboard objectives add divinity dummy
 scoreboard players set 0 divinity 0
 scoreboard objectives add apotropaic dummy
 scoreboard players set 0 apotropaic 0
+scoreboard objectives add shakudo_regen dummy
+scoreboard players set 0 shakudo_regen 0
 
+#Used for Adamant and Electrum Armour
 stopwatch create divinity30s
-stopwatch create divinity15s
+stopwatch create divinity20s
+
+#Used for Shakudo Armour
+stopwatch create shakudo_regen_1
+stopwatch create shakudo_regen_2
+stopwatch create shakudo_regen_3
+stopwatch create shakudo_regen_4
+stopwatch create shakudo_regen_5
+stopwatch create shakudo_regen_6
+stopwatch create shakudo_regen_7
+stopwatch create shakudo_regen_8
+
+#Used mostly for particles
 stopwatch create 3s
 stopwatch create 2s
 stopwatch create 1s
 stopwatch create 0.5s
-stopwatch create eerie
 
+#Used to clear xp after a cetain time after interacting with an anvil (cannot use schedule, as only the server can run schedule right now)
+stopwatch create xp_timer
+
+#Used for village sounds
+stopwatch create eerie
 scoreboard objectives add eerie dummy
 scoreboard players set 1 eerie 1
 
 scoreboard objectives add boating minecraft.custom:minecraft.boat_one_cm
 
+scoreboard objectives add eat_cake_slice minecraft.custom:minecraft.eat_cake_slice
+scoreboard players set 1 eat_cake_slice 1
+
 scoreboard objectives add anvil_interaction minecraft.custom:minecraft.interact_with_anvil
-scoreboard players set 1 anvil_interaction 1
+scoreboard players set 0 anvil_interaction 0
+
+scoreboard objectives add water_bucket_used minecraft.used:minecraft.water_bucket
+scoreboard players set 1 water_bucket_used 1
+
+#On load, set the wandering trader timer, and reset ALL people who summoned him, becuase if we dont, functions that should be looping wont be
+#and itll never ever fix itself. So if the server crashes, or someone logs out whilst waiting, they will never have a wandering trader arrive :c
+#We will also kill any existing wandering traders, on load. Because again, thatll mess things up
+function main:mechanic/wandering_trader/kill_wandering_trader_early
+scoreboard objectives add wandering_trader_timer_score dummy
+scoreboard players reset @a wandering_trader_timer_score
+tag @a remove SummonedTrader
+scoreboard players set 10min wandering_trader_timer_score 60
+scoreboard players set 15min wandering_trader_timer_score 90
+scoreboard players set 0 wandering_trader_timer_score 0
+
+scoreboard objectives add version_number dummy
+#EX. 104 is 1.04, it represents the current version
+scoreboard players set current_version version_number 112
+scoreboard players set zero version_number 0
 
 scoreboard objectives add gamerule_safe_surface dummy
 
@@ -53,3 +97,9 @@ scoreboard objectives add motion_y1 dummy
 scoreboard objectives add motion_y2 dummy
 scoreboard objectives add motion_z1 dummy
 scoreboard objectives add motion_z2 dummy
+
+scoreboard objectives add difficulty_score dummy
+scoreboard players set easy difficulty_score 1
+scoreboard players set normal difficulty_score 2
+scoreboard players set hard difficulty_score 3
+execute store result score current_world_settings_difficulty difficulty_score run difficulty

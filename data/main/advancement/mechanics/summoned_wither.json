@@ -1,0 +1,20 @@
+{
+	"criteria": {
+		"summon_wither": {
+			"conditions": {
+				"entity": {
+					"minecraft:entity_type": "minecraft:wither"
+				}
+			},
+			"trigger": "minecraft:summoned_entity"
+		}
+	},
+	"requirements": [
+		[
+			"summon_wither"
+		]
+	],
+	"rewards": {
+		"function": "main:mechanic/wither/schedule_check"
+	}
+}

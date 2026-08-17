@@ -32,6 +32,10 @@
 				{
 					"type": "minecraft:loot_table",
 					"value": "minecraft:archaeology/statues"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:kleis_items/avesta"
 				}
 			],
 			"rolls": 1

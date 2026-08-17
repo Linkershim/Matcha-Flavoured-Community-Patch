@@ -1,0 +1,15 @@
+{
+	"name": "minecraft:abbey/default/default_rooms",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "minecraft:abbey/default/entrances/tutorial",
+				"processors": "minecraft:abbey_tower"
+			}
+		}
+	]
+}

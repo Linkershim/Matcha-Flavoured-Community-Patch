@@ -8,12 +8,12 @@
 			"minecraft:max_damage": 500,
 			"minecraft:lore": [
 				{
-					"text": "⛊ 2",
+					"text": "🛡 3",
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "🏃 +0.008",
+					"text": "🏃 +0.01",
 					"color": "dark_green",
 					"italic": false
 				}
@@ -26,14 +26,14 @@
 				{
 					"type": "minecraft:movement_speed",
 					"id": "bronze_helmet",
-					"amount": 0.0085,
+					"amount": 0.01,
 					"operation": "add_value",
 					"slot": "head"
 				},
 				{
 					"type": "minecraft:armor",
 					"id": "minecraft:armor.helmet",
-					"amount": 2,
+					"amount": 3,
 					"operation": "add_value",
 					"slot": "head"
 				}

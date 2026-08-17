@@ -1,7 +1,7 @@
 {
 	"type": "minecraft:smelting",
 	"category": "food",
-	"cookingtime": 200,
+	"cookingtime": 100,
 	"experience": 0.35,
 	"ingredient": "minecraft:shulker_spawn_egg",
 	"result": {
@@ -14,7 +14,7 @@
 					"italic": false
 				},
 				{
-					"text": "✨ Cleanse Maleffect",
+					"translate": "desc.kleispack.cleanses_maleffect",
 					"color": "gray",
 					"italic": false
 				}

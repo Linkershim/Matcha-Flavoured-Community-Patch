@@ -1,0 +1,156 @@
+#For a new version, we wipe their recipe unlock advancemnts so they can learn new things that were added or tweaked (or bugged)
+tellraw @a ["",{"text":"[!]","bold":true,"color":"green"},{"text":":","color":"green"},{"text":" A new player has been ","color":"gray"},{"text":"updated"}]
+
+#I couldn't do advancement revoke @p only main:advancement revoke @p only main:recipe_unlocks/* (Like so that everything under it is revoked, idk how to do that)
+#FUTURE KLEI: Hold shift whilst highligting all files, and Copy as Path, then put that in here
+advancement revoke @p only main:recipe_unlocks/straw
+advancement revoke @p only main:recipe_unlocks/sturdy_leather
+advancement revoke @p only main:recipe_unlocks/sulfur
+advancement revoke @p only main:recipe_unlocks/sulfur_chunk
+advancement revoke @p only main:recipe_unlocks/sunflower
+advancement revoke @p only main:recipe_unlocks/sweet_berries
+advancement revoke @p only main:recipe_unlocks/sweet_berry_mash
+advancement revoke @p only main:recipe_unlocks/tattered_leather
+advancement revoke @p only main:recipe_unlocks/terracotta
+advancement revoke @p only main:recipe_unlocks/tomato
+advancement revoke @p only main:recipe_unlocks/trial_key
+advancement revoke @p only main:recipe_unlocks/warped_fungus
+advancement revoke @p only main:recipe_unlocks/water_bottle
+advancement revoke @p only main:recipe_unlocks/wheat_and_dry_grass
+advancement revoke @p only main:recipe_unlocks/wheat_grain
+advancement revoke @p only main:recipe_unlocks/white_wool
+advancement revoke @p only main:recipe_unlocks/wools
+advancement revoke @p only main:recipe_unlocks/yellow_wool
+advancement revoke @p only main:recipe_unlocks/acacia_leaves
+advancement revoke @p only main:recipe_unlocks/amethyst_shard
+advancement revoke @p only main:recipe_unlocks/ancient_debris
+advancement revoke @p only main:recipe_unlocks/apple
+advancement revoke @p only main:recipe_unlocks/azalea_leaves
+advancement revoke @p only main:recipe_unlocks/baked_apple
+advancement revoke @p only main:recipe_unlocks/baked_potato
+advancement revoke @p only main:recipe_unlocks/baked_pumpkin
+advancement revoke @p only main:recipe_unlocks/benzene
+advancement revoke @p only main:recipe_unlocks/birch_leaves
+advancement revoke @p only main:recipe_unlocks/black_wool
+advancement revoke @p only main:recipe_unlocks/blue_wool
+advancement revoke @p only main:recipe_unlocks/bonemeal
+advancement revoke @p only main:recipe_unlocks/book
+advancement revoke @p only main:recipe_unlocks/bowl
+advancement revoke @p only main:recipe_unlocks/braised_brown_mushroom
+advancement revoke @p only main:recipe_unlocks/braised_red_mushroom
+advancement revoke @p only main:recipe_unlocks/bread
+advancement revoke @p only main:recipe_unlocks/brick
+advancement revoke @p only main:recipe_unlocks/bricks
+advancement revoke @p only main:recipe_unlocks/brown_mushroom
+advancement revoke @p only main:recipe_unlocks/brown_sandstone
+advancement revoke @p only main:recipe_unlocks/brown_wool
+advancement revoke @p only main:recipe_unlocks/calcite
+advancement revoke @p only main:recipe_unlocks/carbon_rich_iron
+advancement revoke @p only main:recipe_unlocks/carrot
+advancement revoke @p only main:recipe_unlocks/cheese
+advancement revoke @p only main:recipe_unlocks/cherry_leaves
+advancement revoke @p only main:recipe_unlocks/chocolate
+advancement revoke @p only main:recipe_unlocks/chorus_fruit
+advancement revoke @p only main:recipe_unlocks/cinnabar
+advancement revoke @p only main:recipe_unlocks/coals
+advancement revoke @p only main:recipe_unlocks/cocoa_beans
+advancement revoke @p only main:recipe_unlocks/copper_ingot
+advancement revoke @p only main:recipe_unlocks/copper_nugget
+advancement revoke @p only main:recipe_unlocks/copper_wire
+advancement revoke @p only main:recipe_unlocks/cornflower
+advancement revoke @p only main:recipe_unlocks/crimson_fungus
+advancement revoke @p only main:recipe_unlocks/cyan_wool
+advancement revoke @p only main:recipe_unlocks/dark_oak_leaves
+advancement revoke @p only main:recipe_unlocks/diamond
+advancement revoke @p only main:recipe_unlocks/divine_favour
+advancement revoke @p only main:recipe_unlocks/divine_fragment
+advancement revoke @p only main:recipe_unlocks/dough
+advancement revoke @p only main:recipe_unlocks/dried_kelp
+advancement revoke @p only main:recipe_unlocks/dried_kelp_block
+advancement revoke @p only main:recipe_unlocks/echo_shard
+advancement revoke @p only main:recipe_unlocks/ender_eye
+advancement revoke @p only main:recipe_unlocks/estus_ash
+advancement revoke @p only main:recipe_unlocks/fern
+advancement revoke @p only main:recipe_unlocks/flint
+advancement revoke @p only main:recipe_unlocks/flour
+advancement revoke @p only main:recipe_unlocks/flowering_azalea_leaves
+advancement revoke @p only main:recipe_unlocks/glass
+advancement revoke @p only main:recipe_unlocks/glass_pane
+advancement revoke @p only main:recipe_unlocks/glow_berries
+advancement revoke @p only main:recipe_unlocks/glow_lichen
+advancement revoke @p only main:recipe_unlocks/glow_mash
+advancement revoke @p only main:recipe_unlocks/gold_ingot
+advancement revoke @p only main:recipe_unlocks/gold_nugget
+advancement revoke @p only main:recipe_unlocks/gray_wool
+advancement revoke @p only main:recipe_unlocks/greater_prayers
+advancement revoke @p only main:recipe_unlocks/green_wool
+advancement revoke @p only main:recipe_unlocks/heavy_core
+advancement revoke @p only main:recipe_unlocks/hell_bound_book
+advancement revoke @p only main:recipe_unlocks/hepatizon
+advancement revoke @p only main:recipe_unlocks/honey_bottle
+advancement revoke @p only main:recipe_unlocks/iron_chain
+advancement revoke @p only main:recipe_unlocks/iron_ingot
+advancement revoke @p only main:recipe_unlocks/iron_nugget
+advancement revoke @p only main:recipe_unlocks/item_frame
+advancement revoke @p only main:recipe_unlocks/jungle_leaves
+advancement revoke @p only main:recipe_unlocks/lapis_lazuli
+advancement revoke @p only main:recipe_unlocks/light_blue_wool
+advancement revoke @p only main:recipe_unlocks/light_gray_wool
+advancement revoke @p only main:recipe_unlocks/lime_wool
+advancement revoke @p only main:recipe_unlocks/logs
+advancement revoke @p only main:recipe_unlocks/magenta_wool
+advancement revoke @p only main:recipe_unlocks/malachite
+advancement revoke @p only main:recipe_unlocks/mangrove_leaves
+advancement revoke @p only main:recipe_unlocks/melon_slice
+advancement revoke @p only main:recipe_unlocks/milk_bottle
+advancement revoke @p only main:recipe_unlocks/milk_bucket
+advancement revoke @p only main:recipe_unlocks/most_prayers
+advancement revoke @p only main:recipe_unlocks/music_disc
+advancement revoke @p only main:recipe_unlocks/music_disc_fragment
+advancement revoke @p only main:recipe_unlocks/nautilus_shell
+advancement revoke @p only main:recipe_unlocks/nazar
+advancement revoke @p only main:recipe_unlocks/nether_wart
+advancement revoke @p only main:recipe_unlocks/oak_leaves
+advancement revoke @p only main:recipe_unlocks/obol
+advancement revoke @p only main:recipe_unlocks/orange_wool
+advancement revoke @p only main:recipe_unlocks/packed_mud
+advancement revoke @p only main:recipe_unlocks/pale_oak_leaves
+advancement revoke @p only main:recipe_unlocks/phosphor
+advancement revoke @p only main:recipe_unlocks/pink_wool
+advancement revoke @p only main:recipe_unlocks/planks
+advancement revoke @p only main:recipe_unlocks/potato
+advancement revoke @p only main:recipe_unlocks/potent_sulfur
+advancement revoke @p only main:recipe_unlocks/pufferfish
+advancement revoke @p only main:recipe_unlocks/pumpkin
+advancement revoke @p only main:recipe_unlocks/purple_wool
+advancement revoke @p only main:recipe_unlocks/quartz
+advancement revoke @p only main:recipe_unlocks/quartz_block
+advancement revoke @p only main:recipe_unlocks/red_mushroom
+advancement revoke @p only main:recipe_unlocks/red_sand
+advancement revoke @p only main:recipe_unlocks/red_wool
+advancement revoke @p only main:recipe_unlocks/redstone
+advancement revoke @p only main:recipe_unlocks/sand
+advancement revoke @p only main:recipe_unlocks/sandstone
+advancement revoke @p only main:recipe_unlocks/sandstones
+advancement revoke @p only main:recipe_unlocks/sculk_vein
+advancement revoke @p only main:recipe_unlocks/short_dry_grass
+advancement revoke @p only main:recipe_unlocks/short_grass
+advancement revoke @p only main:recipe_unlocks/silver_bullion
+advancement revoke @p only main:recipe_unlocks/smooth_stone
+advancement revoke @p only main:recipe_unlocks/snowball
+advancement revoke @p only main:recipe_unlocks/soul_fire_based_blocks
+advancement revoke @p only main:recipe_unlocks/spruce_leaves
+advancement revoke @p only main:recipe_unlocks/stabilised_estus
+advancement revoke @p only main:recipe_unlocks/stable_void
+advancement revoke @p only main:recipe_unlocks/steel_alloy
+advancement revoke @p only main:recipe_unlocks/stick
+
+#Plus this one because the old version didn't revoke proper
+advancement revoke @a only main:mechanics/heart_container_obtained
+
+
+#Players start with Hearts score of 0, which means they would be in-debt 10 hearts before they could earn new ones, so if they are below 20 (the minimum) we set it to the minimum
+execute at @a if score @s Hearts <= minimum_hearts Hearts run scoreboard players set @s Hearts 20
+
+#This must be set separately (version number score) because I don't know how to set a score with another score (set players version number to current version)
+execute if score @p version_number < current_version version_number run scoreboard players set @s version_number 112

@@ -18,6 +18,6 @@
 		]
 	],
 	"rewards": {
-		"function": "main:mechanic/check_if_estus_should_be_processed"
+		"function": "main:mechanic/estus/check_if_estus_should_be_processed"
 	}
 }

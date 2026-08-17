@@ -1,0 +1,195 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bow",
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"type": "minecraft:uniform",
+								"min": 0.1,
+								"max": 0.5
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_model": "minecraft:compound_bow",
+								"minecraft:item_name": {
+									"translate": "item.kleispack.compound_bow"
+								},
+								"minecraft:max_damage": 500,
+								"minecraft:enchantments": {
+									"minecraft:power": 1
+								},
+								"minecraft:enchantment_glint_override": false
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"type": "minecraft:uniform",
+								"min": 0.1,
+								"max": 0.5
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:attribute_modifiers": [
+									{
+										"type": "minecraft:attack_damage",
+										"id": "attack_damage",
+										"amount": 5,
+										"operation": "add_value",
+										"slot": "mainhand"
+									}
+								],
+								"minecraft:lore": [
+									{
+										"text": "🗡 6",
+										"color": "dark_green",
+										"italic": false
+									},
+									{
+										"text": "🕒 1.6",
+										"color": "dark_green",
+										"italic": false
+									}
+								],
+								"minecraft:max_damage": 500,
+								"minecraft:tooltip_display": {
+									"hidden_components": [
+										"minecraft:attribute_modifiers"
+									]
+								},
+								"minecraft:enchantments": {
+									"main:anemos": 1
+								}
+							}
+						}
+					]
+				}
+			],
+			"rolls": {
+				"min": 0,
+				"max": 1
+			}
+		},
+		{
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 4,
+								"min": 1
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:bone",
+					"weight": 10
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 4,
+								"min": 1
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:glowstone_dust",
+					"weight": 10
+				},
+				{
+					"type": "minecraft:item",
+					"quality": 1,
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 1,
+								"min": 1
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:emerald",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:rabbit_hide",
+					"weight": 10,
+					"conditions": [],
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 4,
+								"max": 8
+							}
+						}
+					]
+				}
+			],
+			"rolls": 3
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:arrow",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 8,
+								"max": 16
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:empty",
+					"weight": 66
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:kleis_items/crystal_heart",
+					"weight": 33,
+					"quality": 1
+				}
+			]
+		}
+	],
+	"random_sequence": "minecraft:chests/abbey/tower"
+}

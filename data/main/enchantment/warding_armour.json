@@ -1,11 +1,19 @@
 {
 	"anvil_cost": 0,
 	"description": {
-		"translate": "enchantment.kleispack.warding_armour"
+		"translate": "enchantment.kleispack.warding_armour",
+		"color": "yellow"
 	},
 	"effects": {
 		"minecraft:tick": [
 			{
+				"requirements": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:entity_type": "minecraft:player"
+					}
+				},
 				"effect": {
 					"type": "minecraft:run_function",
 					"function": "main:enchantment_effects/warding_armour"

@@ -1,0 +1,20 @@
+{
+	"criteria": {
+		"summoned_wither": {
+			"conditions": {
+				"entity": {
+					"minecraft:entity_type": "minecraft:wither"
+				}
+			},
+			"trigger": "minecraft:summoned_entity"
+		}
+	},
+	"requirements": [
+		[
+			"eat_glow_jam"
+		]
+	],
+	"rewards": {
+		"summoned_wither": "main:test_function_working"
+	}
+}

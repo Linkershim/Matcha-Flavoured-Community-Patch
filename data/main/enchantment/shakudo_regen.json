@@ -1,0 +1,52 @@
+{
+	"primary_items": [
+		"minecraft:copper_helmet",
+		"minecraft:copper_chestplate",
+		"minecraft:copper_leggings",
+		"minecraft:copper_boots",
+		"minecraft:elytra"
+	],
+	"anvil_cost": 0,
+	"description": {
+		"translate": "enchantment.kleispack.shakudo_regen",
+		"color": "#e85e8f"
+	},
+	"effects": {
+		"minecraft:tick": [
+			{
+				"requirements": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:entity_type": "minecraft:player"
+					}
+				},
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "main:enchantment_effects/shakudo_regen"
+				}
+			}
+		]
+	},
+	"max_cost": {
+		"base": 1,
+		"per_level_above_first": 0
+	},
+	"max_level": 1,
+	"min_cost": {
+		"base": 1,
+		"per_level_above_first": 0
+	},
+	"slots": [
+		"mainhand",
+		"armor"
+	],
+	"supported_items": [
+		"minecraft:copper_helmet",
+		"minecraft:copper_chestplate",
+		"minecraft:copper_leggings",
+		"minecraft:copper_boots",
+		"minecraft:elytra"
+	],
+	"weight": 1
+}

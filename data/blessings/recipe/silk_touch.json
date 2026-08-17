@@ -2,14 +2,15 @@
 	"type": "minecraft:crafting_shaped",
 	"category": "misc",
 	"pattern": [
-		"ASA",
-		"SBS",
-		"ASA"
+		"aSa",
+		"ABA",
+		"aAa"
 	],
 	"key": {
 		"S": "minecraft:shulker_shell",
 		"B": "minecraft:enchanted_book",
-		"A": "minecraft:glowstone_dust"
+		"A": "minecraft:glowstone_dust",
+		"a": "minecraft:arrow"
 	},
 	"result": {
 		"components": {

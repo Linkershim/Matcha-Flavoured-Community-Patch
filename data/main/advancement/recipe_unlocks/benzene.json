@@ -26,7 +26,8 @@
 	],
 	"rewards": {
 		"recipes": [
-			"crafting:stabilised_estus"
+			"crafting:stabilised_estus",
+			"crafting:benzene"
 		]
 	}
 }

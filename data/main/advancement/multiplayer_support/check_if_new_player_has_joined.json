@@ -1,0 +1,22 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"spaced_check": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"minecraft:entity_type": "minecraft:player"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"spaced_check"
+		]
+	],
+	"rewards": {
+		"recipes": [],
+		"function": "main:setup/update_players"
+	}
+}

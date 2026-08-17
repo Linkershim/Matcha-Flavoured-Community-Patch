@@ -10,11 +10,22 @@
 				]
 			},
 			"trigger": "minecraft:inventory_changed"
+		},
+		"has_secondary_material": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:glow_lichen"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
 		}
 	},
 	"requirements": [
 		[
-			"has_primary_material"
+			"has_primary_material",
+			"has_secondary_material"
 		]
 	],
 	"rewards": {
@@ -22,7 +33,8 @@
 			"crafting:phosphor_rod",
 			"crafting:verdant_froglight",
 			"crafting:pearlescent_froglight",
-			"crafting:ochre_froglight"
+			"crafting:ochre_froglight",
+			"crafting:phosphor"
 		]
 	}
 }

@@ -1,0 +1,1 @@
+summon minecraft:marker ~ ~ ~ {Tags:["copper_eye_grate",""],Rotation:[90,0]}

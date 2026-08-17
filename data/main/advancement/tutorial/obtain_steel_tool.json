@@ -76,17 +76,17 @@
 	},
 	"display": {
 		"description": {
-			"text": "Smith a piece of Steel Equipment"
+			"translate": "adv.kleispack.obtain_steel_tool.desc"
 		},
 		"icon": {
 			"components": {
-				"minecraft:item_model": "minecraft:steel_shovel"
+				"minecraft:item_model": "minecraft:steel_pickaxe"
 			},
 			"count": 1,
 			"id": "minecraft:iron_shovel"
 		},
 		"title": {
-			"text": "Sturdy Steel"
+			"translate": "adv.kleispack.obtain_steel_tool"
 		},
 		"frame": "goal",
 		"hidden": false

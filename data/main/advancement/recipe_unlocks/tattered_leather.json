@@ -23,7 +23,8 @@
 			"crafting:leather_chestplate",
 			"crafting:leather_pants",
 			"crafting:leather_helmet",
-			"crafting:bundle"
+			"crafting:bundle",
+			"crafting:item_frame"
 		]
 	}
 }

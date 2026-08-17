@@ -14,7 +14,7 @@
 	},
 	"display": {
 		"description": {
-			"text": "Seize the work of Daedalus"
+			"translate": "adv.kleispack.end.elytra.desc"
 		},
 		"frame": "goal",
 		"icon": {
@@ -22,7 +22,7 @@
 			"id": "minecraft:elytra"
 		},
 		"title": {
-			"text": "Wax Wings"
+			"translate": "adv.kleispack.end.elytra"
 		}
 	},
 	"requirements": [

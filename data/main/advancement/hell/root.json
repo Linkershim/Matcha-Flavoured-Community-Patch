@@ -19,7 +19,7 @@
 		},
 		"show_toast": false,
 		"title": {
-			"text": "Through Hell"
+			"translate": "adv.kleispack.hell.root"
 		}
 	},
 	"requirements": [

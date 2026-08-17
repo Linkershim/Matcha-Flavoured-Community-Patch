@@ -24,7 +24,8 @@
 			"crafting:sturdy_leather_chestplate",
 			"crafting:sturdy_leather_pants",
 			"crafting:sturdy_leather_helmet",
-			"crafting:sack"
+			"crafting:sack",
+			"crafting:leather_from_leather_materials"
 		]
 	}
 }

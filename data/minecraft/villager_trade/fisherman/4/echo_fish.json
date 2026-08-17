@@ -13,14 +13,14 @@
 			"minecraft:item_model": "echo_fish",
 			"minecraft:lore": [
 				{
-					"text": "⭐⭐",
-					"color": "green",
+					"text": "⭐⭐⭐⭐",
+					"color": "light_purple",
 					"italic": false
 				}
 			]
 		},
-		"count": 12,
-		"id": "minecraft:cod"
+		"count": 1,
+		"id": "minecraft:salmon"
 	},
 	"reputation_discount": 0,
 	"xp": 75

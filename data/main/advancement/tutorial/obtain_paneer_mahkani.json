@@ -10,7 +10,7 @@
 	},
 	"display": {
 		"description": {
-			"text": "Make Paneer Makhani, all Foods have viable Vegetarian Options"
+			"translate": "adv.kleispack.obtain_paneer_mahkani.desc"
 		},
 		"icon": {
 			"components": {
@@ -20,7 +20,7 @@
 			"id": "minecraft:rabbit_stew"
 		},
 		"title": {
-			"text": "Sweet and Spicy"
+			"translate": "adv.kleispack.obtain_paneer_mahkani"
 		},
 		"hidden": false
 	},

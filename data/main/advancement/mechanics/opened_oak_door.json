@@ -1,0 +1,28 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"opened_door": {
+			"trigger": "minecraft:any_block_use",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:block_state_property",
+						"block": "minecraft:oak_door",
+						"properties": {
+							"open": "true"
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"opened_door"
+		]
+	],
+	"rewards": {
+		"recipes": [],
+		"function": "main:environmental/check_if_entity_should_die"
+	}
+}

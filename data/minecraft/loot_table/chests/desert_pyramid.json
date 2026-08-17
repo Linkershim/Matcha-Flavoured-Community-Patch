@@ -213,13 +213,17 @@
 		},
 		{
 			"rolls": {
-				"min": 0,
-				"max": 1
+				"type": "minecraft:constant",
+				"value": 1
 			},
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
 					"value": "minecraft:kleis_items/avesta"
+				},
+				{
+					"type": "minecraft:empty",
+					"weight": 2
 				}
 			]
 		}

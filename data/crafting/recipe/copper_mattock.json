@@ -24,7 +24,8 @@
 					},
 					{
 						"blocks": "#minecraft:mineable/shovel",
-						"speed": 5
+						"speed": 5,
+						"correct_for_drops": true
 					}
 				],
 				"default_mining_speed": 1,

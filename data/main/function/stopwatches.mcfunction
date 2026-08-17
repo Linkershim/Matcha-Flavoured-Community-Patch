@@ -2,6 +2,14 @@ execute if stopwatch minecraft:0.5s 0.51.. run stopwatch restart minecraft:0.5s
 execute if stopwatch minecraft:1s 1.1.. run stopwatch restart minecraft:1s
 execute if stopwatch minecraft:2s 2.1.. run stopwatch restart minecraft:2s
 execute if stopwatch minecraft:3s 3.1.. run stopwatch restart minecraft:3s
-execute if stopwatch minecraft:divinity15s 15.1.. run stopwatch restart minecraft:divinity15s
+execute if stopwatch minecraft:divinity20s 20.1.. run stopwatch restart minecraft:divinity20s
 execute if stopwatch minecraft:divinity30s 30.1.. run stopwatch restart minecraft:divinity30s
 execute if stopwatch minecraft:eerie 150.1.. run stopwatch restart minecraft:eerie
+execute if stopwatch minecraft:shakudo_regen_1 30.1.. run stopwatch restart minecraft:shakudo_regen_1
+execute if stopwatch minecraft:shakudo_regen_2 26.1.. run stopwatch restart minecraft:shakudo_regen_2
+execute if stopwatch minecraft:shakudo_regen_3 22.1.. run stopwatch restart minecraft:shakudo_regen_3
+execute if stopwatch minecraft:shakudo_regen_4 18.1.. run stopwatch restart minecraft:shakudo_regen_4
+execute if stopwatch minecraft:shakudo_regen_5 20.1.. run stopwatch restart minecraft:shakudo_regen_5
+execute if stopwatch minecraft:shakudo_regen_6 16.1.. run stopwatch restart minecraft:shakudo_regen_6
+execute if stopwatch minecraft:shakudo_regen_7 12.1.. run stopwatch restart minecraft:shakudo_regen_7
+execute if stopwatch minecraft:shakudo_regen_8 8.1.. run stopwatch restart minecraft:shakudo_regen_8

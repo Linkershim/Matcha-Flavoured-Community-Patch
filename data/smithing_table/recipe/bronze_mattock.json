@@ -49,7 +49,7 @@
 					"italic": false
 				},
 				{
-					"text": "🏃 +0.003",
+					"text": "🏃 +0.01",
 					"color": "dark_green",
 					"italic": false
 				}
@@ -71,8 +71,8 @@
 				},
 				{
 					"type": "minecraft:movement_speed",
-					"id": "bronze_sword",
-					"amount": 0.003,
+					"id": "bronze_mattock",
+					"amount": 0.01,
 					"operation": "add_value",
 					"slot": "mainhand"
 				}

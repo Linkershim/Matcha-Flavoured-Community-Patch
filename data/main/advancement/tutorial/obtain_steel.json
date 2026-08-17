@@ -14,14 +14,14 @@
   },
   "display": {
     "description": {
-      "text": "Made by blasting Carbon-Rich Iron, Steel grants Iron Equipment Knockback and greatly increased Durability"
+      "translate": "adv.kleispack.obtain_steel.desc"
     },
     "icon": {
       "count": 1,
       "id": "minecraft:resin_brick"
     },
     "title": {
-      "text": "A Tough Alloy"
+      "translate": "adv.kleispack.obtain_steel"
     },
     "hidden": false
   },

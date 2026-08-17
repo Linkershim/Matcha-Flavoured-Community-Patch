@@ -1,12 +1,12 @@
 {
 	"parent": "main:tutorial/trade_fish",
 	"criteria": {
-		"alaksa_blackfish": {
+		"alaska_blackfish": {
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
 				"item": {
 					"components": {
-						"minecraft:item_model": "minecraft:alaksa_blackfish"
+						"minecraft:item_model": "minecraft:alaska_blackfish"
 					}
 				}
 			}
@@ -474,7 +474,7 @@
 	},
 	"display": {
 		"description": {
-			"text": "Catch Everything!"
+			"translate": "adv.kleispack.catch_everything.desc"
 		},
 		"icon": {
 			"components": {
@@ -484,14 +484,14 @@
 			"id": "minecraft:emerald"
 		},
 		"title": {
-			"text": "No More Fish in the Sea"
+			"translate": "adv.kleispack.catch_everything"
 		},
 		"frame": "challenge",
 		"hidden": false
 	},
 	"requirements": [
 		[
-			"alaksa_blackfish"
+			"alaska_blackfish"
 		],
         [
 			"anchovy"

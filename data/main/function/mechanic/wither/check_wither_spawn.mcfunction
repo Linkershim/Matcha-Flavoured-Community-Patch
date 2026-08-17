@@ -1,0 +1,2 @@
+execute at @n[type=wither] run execute if entity @n[type=wither,predicate=main:in_the_end] run schedule function main:mechanic/wither/forbid_wither 1s
+advancement revoke @a only main:mechanics/summoned_wither

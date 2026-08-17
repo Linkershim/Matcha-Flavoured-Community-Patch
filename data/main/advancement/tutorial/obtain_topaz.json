@@ -16,7 +16,7 @@
 	},
 	"display": {
 		"description": {
-			"text": "Raid Tartarus"
+			"translate": "adv.kleispack.obtain_topaz.desc"
 		},
 		"icon": {
 			"components": {
@@ -26,7 +26,7 @@
 			"id": "minecraft:emerald"
 		},
 		"title": {
-			"text": "Canto IV"
+			"translate": "adv.kleispack.obtain_topaz"
 		}
 	},
 	"requirements": [

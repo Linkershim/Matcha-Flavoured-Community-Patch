@@ -11,7 +11,7 @@
         "text": "\n"
       },
       {
-        "text": "1.03 for 26.2",
+        "text": "1.12 for 26.2",
         "color": "#908b8b"
       }
     ]
@@ -70,13 +70,13 @@
 			"path": "recipe/redstone_torch.json"
 		},{
 			"namespace": "minecraft",
-			"path": "recipe/acacia_wood.json"
-		},{
-			"namespace": "minecraft",
 			"path": "recipe/glistering_melon_slice.json"
 		},{
 			"namespace": "minecraft",
 			"path": "recipe/magma_cream.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/white_dye.json"
 		},{
 			"namespace": "minecraft",
 			"path": "recipe/iron_nugget_from_smelting.json"
@@ -233,6 +233,9 @@
 		},{
 			"namespace": "minecraft",
 			"path": "recipe/leather_boots.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/bookshelf.json"
 		},{
 			"namespace": "minecraft",
 			"path": "recipe/green_dye.json"
@@ -407,6 +410,12 @@
 		},{
 			"namespace": "minecraft",
 			"path": "recipe/smithing_table.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/enchanting_table.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/fire_charge.json"
 		},{
 			"namespace": "minecraft",
 			"path": "recipe/golden_axe.json"
@@ -713,9 +722,6 @@
 		},{
 			"namespace": "minecraft",
 			"path": "recipe/snow.json"
-		},{
-			"namespace": "minecraft",
-			"path": "recipe/oak_wood.json"
 		},{
 			"namespace": "minecraft",
 			"path": "recipe/jukebox.json"

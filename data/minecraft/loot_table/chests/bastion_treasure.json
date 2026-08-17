@@ -15,19 +15,6 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"quality": 3,
-					"functions": [
-						{
-							"add": false,
-							"count": 1,
-							"function": "minecraft:set_count"
-						}
-					],
-					"name": "minecraft:netherite_ingot",
-					"weight": 15
-				},
-				{
-					"type": "minecraft:item",
 					"quality": 1,
 					"functions": [
 						{

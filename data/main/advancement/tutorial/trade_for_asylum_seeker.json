@@ -13,7 +13,7 @@
 	},
 	"display": {
 		"description": {
-			"text": "Take in an Asylum Seeker"
+			"translate": "adv.kleispack.trade_for_asylum_seeker.desc"
 		},
 		"icon": {
 			"components": {
@@ -23,7 +23,7 @@
 			"id": "minecraft:emerald"
 		},
 		"title": {
-			"text": "A Good Samaritan"
+			"translate": "adv.kleispack.trade_for_asylum_seeker"
 		},
 		"hidden": false
 	},

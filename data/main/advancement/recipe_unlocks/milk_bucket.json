@@ -19,7 +19,8 @@
 	],
 	"rewards": {
 		"recipes": [
-			"food:milk_bottle"
+			"food:milk_bottle",
+			"food:cheese"
 		]
 	}
 }

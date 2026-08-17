@@ -1,0 +1,33 @@
+{
+	"parent": "main:end/elytra",
+	"criteria": {
+		"bronze_elytra": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:bronze_elytra"
+			}
+		}
+	},
+	"display": {
+		"description": {
+			"translate": "adv.kleispack.end.smith_bronze_elytra.desc"
+		},
+		"icon": {
+			"components": {
+				"minecraft:item_model": "minecraft:bronze_elytra"
+			},
+			"count": 1,
+			"id": "minecraft:elytra"
+		},
+		"title": {
+			"translate": "adv.kleispack.end.smith_bronze_elytra"
+		},
+		"frame": "goal",
+		"hidden": false
+	},
+	"requirements": [
+		[
+			"bronze_elytra"
+		]
+	]
+}

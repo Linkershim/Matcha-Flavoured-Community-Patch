@@ -25,6 +25,13 @@
 					"amount": 2,
 					"operation": "add_value",
 					"slot": "mainhand"
+				},
+				{
+					"type": "minecraft:attack_speed",
+					"id": "attack_speed",
+					"amount": -2.82,
+					"operation": "add_value",
+					"slot": "mainhand"
 				}
 			],
 			"minecraft:lore": [

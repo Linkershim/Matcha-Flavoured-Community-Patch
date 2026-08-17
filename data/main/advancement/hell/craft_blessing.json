@@ -100,7 +100,7 @@
 	},
 	"display": {
 		"description": {
-			"text": "Steal Prayers from a long-dead God"
+			"translate": "adv.kleispack.hell.craft_blessing.desc"
 		},
 		"icon": {
 			"components": {
@@ -113,7 +113,7 @@
 			"id": "minecraft:enchanted_book"
 		},
 		"title": {
-			"text": "Apocrypha"
+			"translate": "adv.kleispack.hell.craft_blessing"
 		},
 		"frame": "goal",
 		"hidden": false

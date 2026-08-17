@@ -19,7 +19,7 @@
 					"italic": false
 				},
 				{
-					"text": "✨ Cleanse Maleffect",
+					"translate": "desc.kleispack.cleanses_maleffect",
 					"color": "gray",
 					"italic": false
 				}

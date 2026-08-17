@@ -8,13 +8,28 @@
 			"minecraft:max_damage": 1000,
 			"minecraft:lore": [
 				{
-					"text": "⛊ 8",
+					"text": "🛡 8",
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "⛨ 2",
+					"text": "\uE008 3",
 					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"translate": "desc.kleispack.set_bonus",
+					"color": "dark_gray",
+					"italic": false
+				},
+				{
+					"translate": "enchantment.kleispack.warding3.set_bonus_apotropaic",
+					"color": "yellow",
+					"italic": false
+				},
+				{
+					"translate": "enchantment.kleispack.warding3.set_bonus_divinity",
+					"color": "aqua",
 					"italic": false
 				}
 			],
@@ -26,7 +41,7 @@
 				{
 					"type": "minecraft:armor_toughness",
 					"id": "minecraft:armor.chestplate",
-					"amount": 2,
+					"amount": 3,
 					"operation": "add_value",
 					"slot": "chest"
 				},

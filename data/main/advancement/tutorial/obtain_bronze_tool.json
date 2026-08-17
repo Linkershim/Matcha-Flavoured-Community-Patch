@@ -76,7 +76,7 @@
 	},
 	"display": {
 		"description": {
-			"text": "Smith a piece of Bronze Equipment"
+			"translate": "adv.kleispack.obtain_bronze_tool.desc"
 		},
 		"icon": {
 			"components": {
@@ -86,7 +86,7 @@
 			"id": "minecraft:wooden_pickaxe"
 		},
 		"title": {
-			"text": "Brilliant Bronze"
+			"translate": "adv.kleispack.obtain_bronze_tool"
 		},
 		"frame": "goal",
 		"hidden": false

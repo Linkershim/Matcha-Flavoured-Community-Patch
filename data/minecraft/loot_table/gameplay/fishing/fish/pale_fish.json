@@ -18,8 +18,8 @@
 								"minecraft:item_model": "pale_fish",
 								"minecraft:lore": [
 									{
-										"text": "⭐⭐",
-										"color": "green",
+										"text": "⭐⭐⭐",
+										"color": "aqua",
 										"italic": false
 									}
 								]

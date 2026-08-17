@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"group": "flowers",
+	"ingredients": [
+		"minecraft:small_dripleaf",
+		"minecraft:potion",
+		"minecraft:bone_meal"
+	],
+	"result": {
+		"count": 4,
+		"id": "minecraft:small_dripleaf"
+	}
+}
