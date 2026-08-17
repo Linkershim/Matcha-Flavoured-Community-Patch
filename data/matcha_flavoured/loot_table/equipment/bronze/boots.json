@@ -22,12 +22,12 @@
                 },
                 "minecraft:lore": [
                   {
-                    "text": "⛊ 2",
+                    "text": "🛡 3",
                     "color": "dark_green",
                     "italic": false
                   },
                   {
-                    "text": "🏃 +0.008",
+                    "text": "🏃 +0.01",
                     "color": "dark_green",
                     "italic": false
                   }
@@ -37,14 +37,14 @@
                   {
                     "type": "minecraft:armor",
                     "id": "minecraft:armor.boots",
-                    "amount": 2,
+                    "amount": 3,
                     "operation": "add_value",
                     "slot": "feet"
                   },
                   {
                     "type": "minecraft:movement_speed",
                     "id": "bronze_boots",
-                    "amount": 0.0085,
+                    "amount": 0.01,
                     "operation": "add_value",
                     "slot": "feet"
                   }

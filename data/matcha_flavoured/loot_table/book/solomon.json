@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:solomon",
+                "minecraft:item_name": {
+                  "translate": "item.kleispack.key_of_solomon"
+                },
+                "minecraft:rarity": "epic",
+                "minecraft:lore": [
+                  {
+                    "translate": "item.kleispack.key_of_solomon.desc",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:elytra",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:shakudo_elytra",
+                "minecraft:item_name": {
+                  "translate": "item.kleispack.shakudo_elytra",
+                  "color": "#c96691"
+                },
+                "minecraft:equippable": {
+                  "slot": "chest",
+                  "asset_id": "minecraft:bronze_elytra"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "🛡 3",
+                    "color": "dark_green",
+                    "italic": false
+                  },
+                  {
+                    "translate": "desc.kleispack.elytra_bonus",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "enchantment.kleispack.shakudo_elytra_regen_bonus",
+                    "color": "#e85e8f",
+                    "italic": false
+                  }
+                ],
+                "minecraft:max_damage": 800,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "minecraft:armor.chestplate",
+                    "amount": 3,
+                    "operation": "add_value",
+                    "slot": "chest"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "main:max_magic_protection": 1,
+                  "main:cleanse_armor_maleffect": 1,
+                  "main:shakudo_regen" : 1
+                },
+                "minecraft:repairable": {
+                  "items": [
+                    "minecraft:honeycomb",
+                    "minecraft:feather",
+                    "minecraft:copper_ingot"
+                  ]
+                },
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:attribute_modifiers"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

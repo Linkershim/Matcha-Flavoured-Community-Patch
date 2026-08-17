@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chicken_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "Copper Eye Grate",
+                "minecraft:entity_data": {
+                  "id": "minecraft:marker",
+                  "NoGravity": true,
+                  "Invulnerable": true,
+                  "Tags": [
+                    "copper_eye_grate"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

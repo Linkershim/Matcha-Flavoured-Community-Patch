@@ -22,12 +22,12 @@
                 },
                 "minecraft:lore": [
                   {
-                    "text": "⛊ 1",
+                    "text": "🛡 1",
                     "color": "dark_green",
                     "italic": false
                   },
                   {
-                    "text": "🏃 +0.016",
+                    "text": "🏃 +0.02",
                     "color": "dark_green",
                     "italic": false
                   }
@@ -37,7 +37,7 @@
                   {
                     "type": "minecraft:movement_speed",
                     "id": "bronze_elytra",
-                    "amount": 0.016,
+                    "amount": 0.02,
                     "operation": "add_value",
                     "slot": "chest"
                   },
@@ -52,7 +52,8 @@
                 "minecraft:repairable": {
                   "items": [
                     "minecraft:honeycomb",
-                    "minecraft:feather"
+                    "minecraft:feather",
+                    "minecraft:copper_ingot"
                   ]
                 },
                 "minecraft:tooltip_display": {

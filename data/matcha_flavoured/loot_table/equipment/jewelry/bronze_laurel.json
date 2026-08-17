@@ -22,12 +22,12 @@
                 },
                 "minecraft:lore": [
                   {
-                    "text": "⛊ 1",
+                    "text": "🛡 1",
                     "color": "dark_green",
                     "italic": false
                   },
                   {
-                    "text": "🏃 +0.02",
+                    "text": "🏃 +0.1",
                     "color": "dark_green",
                     "italic": false
                   }
@@ -44,7 +44,7 @@
                   {
                     "type": "minecraft:movement_speed",
                     "id": "bronze_helmet",
-                    "amount": 0.02,
+                    "amount": 0.1,
                     "operation": "add_value",
                     "slot": "head"
                   }

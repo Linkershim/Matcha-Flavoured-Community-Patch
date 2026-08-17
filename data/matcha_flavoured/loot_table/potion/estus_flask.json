@@ -20,8 +20,13 @@
                   "custom_color": 16754964,
                   "minecraft:lore": [
                     {
-                      "text": "❤❤❤❤",
+                      "text": "❤❤",
                       "color": "red",
+                      "italic": false
+                    },
+                    {
+                      "text": "🏃 +60% (0:02)",
+                      "color": "#37cafb",
                       "italic": false
                     }
                   ],
@@ -29,7 +34,13 @@
                   "custom_effects": [
                     {
                       "id": "minecraft:instant_health",
-                      "amplifier": 1,
+                      "amplifier": 0,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:speed",
+                      "amplifier": 2,
+                      "duration": 40,
                       "show_particles": false
                     }
                   ]

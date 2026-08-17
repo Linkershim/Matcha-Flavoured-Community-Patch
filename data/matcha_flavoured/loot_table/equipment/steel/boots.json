@@ -22,17 +22,17 @@
                 },
                 "minecraft:lore": [
                   {
+                    "text": "🛡 2",
+                    "color": "dark_green",
+                    "italic": false
+                  },
+                  {
+                    "text": "\uE008 1",
+                    "color": "dark_green",
+                    "italic": false
+                  },
+                  {
                     "text": "💥🚫 +1",
-                    "color": "dark_green",
-                    "italic": false
-                  },
-                  {
-                    "text": "⛊ 2",
-                    "color": "dark_green",
-                    "italic": false
-                  },
-                  {
-                    "text": "⛨ 1",
                     "color": "dark_green",
                     "italic": false
                   }
