@@ -1,0 +1,61 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:puerquito",
+                "minecraft:item_name": {
+                  "translate": "item.kleispack.puerquito"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "❤",
+                    "color": "red",
+                    "italic": false
+                  },
+                  {
+                    "text": "❤ Regen (0:30)",
+                    "color": "#e85e8f",
+                    "italic": false
+                  }
+                ],
+                "!minecraft:food": {},
+                "minecraft:consumable": {
+                  "has_consume_particles": true,
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:regeneration",
+                          "amplifier": 2,
+                          "duration": 24,
+                          "show_particles": false,
+                          "show_icon": false
+                        },
+                        {
+                          "id": "minecraft:regeneration",
+                          "duration": 600,
+                          "show_particles": false,
+                          "show_icon": true
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

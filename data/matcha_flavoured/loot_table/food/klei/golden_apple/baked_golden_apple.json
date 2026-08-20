@@ -1,0 +1,76 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:baked_golden_apple",
+                "minecraft:item_name": {
+                  "translate": "item.kleispack.baked_golden_apple",
+                  "color": "yellow"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "❤❤❤❤",
+                    "color": "red",
+                    "italic": false
+                  },
+                  {
+                    "text": "❤❤ (2:00)",
+                    "color": "aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": "❤ Regen (1:00)",
+                    "color": "#e85e8f",
+                    "italic": false
+                  }
+                ],
+                "!minecraft:food": {},
+                "minecraft:consumable": {
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:regeneration",
+                          "amplifier": 2,
+                          "duration": 96,
+                          "show_particles": false,
+                          "show_icon": false
+                        },
+                        {
+                          "id": "minecraft:absorption",
+                          "amplifier": 0,
+                          "duration": 2400,
+                          "show_particles": false,
+                          "show_icon": true
+                        },
+                        {
+                          "id": "minecraft:regeneration",
+                          "amplifier": 0,
+                          "duration": 1200,
+                          "show_particles": false,
+                          "show_icon": true
+                        }
+                      ],
+                      "probability": 1
+                    }
+                  ]
+                },
+
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

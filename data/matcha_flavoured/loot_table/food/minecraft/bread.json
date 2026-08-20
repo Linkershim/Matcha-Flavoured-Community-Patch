@@ -1,0 +1,67 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bread",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:lore": [
+                  {
+                    "text": "❤❤",
+                    "color": "red",
+                    "italic": false
+                  },
+                  {
+                    "translate": "desc.kleispack.cleanses_maleffect",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "!minecraft:food": {},
+                "minecraft:consumable": {
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:regeneration",
+                          "amplifier": 2,
+                          "duration": 48,
+                          "show_particles": false,
+                          "show_icon": false
+                        }
+                      ]
+                    },
+                    {
+                      "type": "minecraft:remove_effects",
+                      "effects": [
+                        "minecraft:poison",
+                        "minecraft:mining_fatigue",
+                        "minecraft:wither",
+                        "minecraft:weakness",
+                        "minecraft:bad_omen",
+                        "minecraft:blindness",
+                        "minecraft:darkness",
+                        "minecraft:infested",
+                        "minecraft:weaving",
+                        "minecraft:nausea",
+                        "minecraft:oozing",
+                        "minecraft:slowness"
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

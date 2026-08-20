@@ -1,0 +1,78 @@
+{
+   "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "translate": "item.kleispack.steel_dolabra"
+                },
+                "minecraft:item_model": "minecraft:steel_dolabra",
+                "minecraft:lore": [
+                  {
+                    "text": "⛏ 7",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "🗡 6",
+                    "color": "dark_green",
+                    "italic": false
+                  },
+                  {
+                    "text": "🕒 0.9",
+                    "color": "dark_green",
+                    "italic": false
+                  }
+                ],
+                "minecraft:max_damage": 3000,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:attack_damage",
+                    "id": "attack_damage",
+                    "amount": 5,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  },
+                  {
+                    "type": "minecraft:attack_speed",
+                    "id": "attack_speed",
+                    "amount": -3.1,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  }
+                ],
+                "minecraft:tool": {
+                  "rules": [
+                    {
+                      "speed": 7,
+                      "blocks": "#minecraft:mineable/axe",
+                      "correct_for_drops": true
+                    },
+                    {
+                      "speed": 7,
+                      "blocks": "#minecraft:mineable/pickaxe",
+                      "correct_for_drops": true
+                    }
+                  ]
+                },
+                "minecraft:repairable": {
+                  "items": [
+                    "minecraft:iron_ingot"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

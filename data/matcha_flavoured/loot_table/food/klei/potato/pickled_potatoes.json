@@ -1,0 +1,59 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:pickled_potatoes",
+                "minecraft:item_name": {
+                  "translate": "item.kleispack.pickled_potatoes"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "❤❤❤❤❤",
+                    "color": "red",
+                    "italic": false
+                  }
+                ],
+                "!minecraft:food": {},
+                "minecraft:consumable": {
+                  "has_consume_particles": false,
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:resistance",
+                          "duration": 6000,
+                          "show_particles": false,
+                          "show_icon": true
+                        },
+                        {
+                          "id": "minecraft:regeneration",
+                          "amplifier": 2,
+                          "duration": 120,
+                          "show_particles": false,
+                          "show_icon": false
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "minecraft:use_remainder": {
+                  "id": "minecraft:glass_bottle"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

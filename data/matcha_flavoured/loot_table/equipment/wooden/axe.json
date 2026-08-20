@@ -1,0 +1,44 @@
+{
+   "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:lore": [
+                  {
+                    "text": "⛏ 2",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "🗡 7",
+                    "color": "dark_green",
+                    "italic": false
+                  },
+                  {
+                    "text": "🕒 0.8",
+                    "color": "dark_green",
+                    "italic": false
+                  }
+                ],
+                "minecraft:max_damage": 200,
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:attribute_modifiers"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
