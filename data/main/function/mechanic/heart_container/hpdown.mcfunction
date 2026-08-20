@@ -3,5 +3,5 @@
 execute as @s run scoreboard players set @s deaths 0 
 execute as @s run tag @s remove remove_hearts
 #Remove the hearts and run the set max hp function (This will likley be done as the player is on the death screen)
-execute as @s run scoreboard players remove @s Hearts 2
+execute as @s run execute if score @s Hearts > minimum_hearts Hearts run scoreboard players remove @s Hearts 2
 execute as @s run function main:mechanic/heart_container/set_max_hp
