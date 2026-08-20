@@ -15,7 +15,7 @@
                 "minecraft:item_name": "Asylum Seeker",
                 "minecraft:lore": [
                   {
-                    "text": "Age: Adult",
+                    "text": "Age: Child",
                     "color": "dark_gray",
                     "italic": false
                   },

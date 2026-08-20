@@ -6,18 +6,18 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:shears",
+          "name": "minecraft:chicken_spawn_egg",
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
+                "minecraft:item_model": "minecraft:beacon_kindling",
                 "minecraft:item_name": {
-                  "translate": "item.kleispack.copper_shears"
+                  "translate": "item.kleispack.beacon_kindling"
                 },
-                "minecraft:item_model": "minecraft:copper_shears",
-                "minecraft:max_damage": 300,
-                "minecraft:repairable": {
-                  "items": "minecraft:copper_ingot"
+                "minecraft:entity_data": {
+                  "id": "minecraft:marker",
+                  "Tags": ["beacon_kindling"]
                 }
               }
             }
