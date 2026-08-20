@@ -6,15 +6,15 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/gold/axe"
+          "value": "matcha:equipment/gold/axe"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/gold/spear"
+          "value": "matcha:equipment/gold/spear"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/gold/sword"
+          "value": "matcha:equipment/gold/sword"
         }
       ]
     }

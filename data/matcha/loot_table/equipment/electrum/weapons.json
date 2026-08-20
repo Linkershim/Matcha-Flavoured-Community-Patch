@@ -6,15 +6,15 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/electrum/axe"
+          "value": "matcha:equipment/electrum/axe"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/electrum/spear"
+          "value": "matcha:equipment/electrum/spear"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/electrum/sword"
+          "value": "matcha:equipment/electrum/sword"
         }
       ]
     }

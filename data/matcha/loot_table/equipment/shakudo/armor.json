@@ -6,19 +6,19 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/shakudo/helmet"
+          "value": "matcha:equipment/shakudo/helmet"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/shakudo/chestplate"
+          "value": "matcha:equipment/shakudo/chestplate"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/shakudo/leggings"
+          "value": "matcha:equipment/shakudo/leggings"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/shakudo/boots"
+          "value": "matcha:equipment/shakudo/boots"
         }
       ]
     }

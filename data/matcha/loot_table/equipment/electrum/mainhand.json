@@ -6,35 +6,35 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/electrum/pickaxe"
+          "value": "matcha:equipment/electrum/pickaxe"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/electrum/axe"
+          "value": "matcha:equipment/electrum/axe"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/electrum/dolabra"
+          "value": "matcha:equipment/electrum/dolabra"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/electrum/shovel"
+          "value": "matcha:equipment/electrum/shovel"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/electrum/hoe"
+          "value": "matcha:equipment/electrum/hoe"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/electrum/mattock"
+          "value": "matcha:equipment/electrum/mattock"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/electrum/spear"
+          "value": "matcha:equipment/electrum/spear"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/electrum/sword"
+          "value": "matcha:equipment/electrum/sword"
         }
       ]
     }

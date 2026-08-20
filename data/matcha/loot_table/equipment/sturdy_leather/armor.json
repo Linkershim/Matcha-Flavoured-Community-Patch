@@ -6,19 +6,19 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/sturdy_leather/helmet"
+          "value": "matcha:equipment/sturdy_leather/helmet"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/sturdy_leather/chestplate"
+          "value": "matcha:equipment/sturdy_leather/chestplate"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/sturdy_leather/leggings"
+          "value": "matcha:equipment/sturdy_leather/leggings"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/sturdy_leather/boots"
+          "value": "matcha:equipment/sturdy_leather/boots"
         }
       ]
     }

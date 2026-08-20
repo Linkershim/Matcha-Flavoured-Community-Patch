@@ -6,35 +6,35 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/bronze/pickaxe"
+          "value": "matcha:equipment/bronze/pickaxe"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/bronze/axe"
+          "value": "matcha:equipment/bronze/axe"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/bronze/dolabra"
+          "value": "matcha:equipment/bronze/dolabra"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/bronze/shovel"
+          "value": "matcha:equipment/bronze/shovel"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/bronze/hoe"
+          "value": "matcha:equipment/bronze/hoe"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/bronze/mattock"
+          "value": "matcha:equipment/bronze/mattock"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/bronze/spear"
+          "value": "matcha:equipment/bronze/spear"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/bronze/sword"
+          "value": "matcha:equipment/bronze/sword"
         }
       ]
     }

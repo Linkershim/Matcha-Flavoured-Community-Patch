@@ -6,19 +6,19 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/netherite/pickaxe"
+          "value": "matcha:equipment/netherite/pickaxe"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/netherite/axe"
+          "value": "matcha:equipment/netherite/axe"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/netherite/shovel"
+          "value": "matcha:equipment/netherite/shovel"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/netherite/hoe"
+          "value": "matcha:equipment/netherite/hoe"
         }
       ]
     }

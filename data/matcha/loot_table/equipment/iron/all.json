@@ -6,51 +6,51 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/iron/helmet"
+          "value": "matcha:equipment/iron/helmet"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/iron/chestplate"
+          "value": "matcha:equipment/iron/chestplate"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/iron/leggings"
+          "value": "matcha:equipment/iron/leggings"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/iron/boots"
+          "value": "matcha:equipment/iron/boots"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/iron/pickaxe"
+          "value": "matcha:equipment/iron/pickaxe"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/iron/axe"
+          "value": "matcha:equipment/iron/axe"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/iron/dolabra"
+          "value": "matcha:equipment/iron/dolabra"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/iron/shovel"
+          "value": "matcha:equipment/iron/shovel"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/iron/hoe"
+          "value": "matcha:equipment/iron/hoe"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/iron/mattock"
+          "value": "matcha:equipment/iron/mattock"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/iron/spear"
+          "value": "matcha:equipment/iron/spear"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/iron/sword"
+          "value": "matcha:equipment/iron/sword"
         }
       ]
     }

@@ -6,35 +6,35 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/shakudo/pickaxe"
+          "value": "matcha:equipment/shakudo/pickaxe"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/shakudo/axe"
+          "value": "matcha:equipment/shakudo/axe"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/shakudo/dolabra"
+          "value": "matcha:equipment/shakudo/dolabra"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/shakudo/shovel"
+          "value": "matcha:equipment/shakudo/shovel"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/shakudo/hoe"
+          "value": "matcha:equipment/shakudo/hoe"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/shakudo/mattock"
+          "value": "matcha:equipment/shakudo/mattock"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/shakudo/spear"
+          "value": "matcha:equipment/shakudo/spear"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/shakudo/sword"
+          "value": "matcha:equipment/shakudo/sword"
         }
       ]
     }

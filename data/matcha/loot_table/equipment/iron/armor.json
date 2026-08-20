@@ -6,19 +6,19 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/iron/helmet"
+          "value": "matcha:equipment/iron/helmet"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/iron/chestplate"
+          "value": "matcha:equipment/iron/chestplate"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/iron/leggings"
+          "value": "matcha:equipment/iron/leggings"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/iron/boots"
+          "value": "matcha:equipment/iron/boots"
         }
       ]
     }

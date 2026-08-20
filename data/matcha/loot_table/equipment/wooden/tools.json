@@ -6,19 +6,19 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/wooden/pickaxe"
+          "value": "matcha:equipment/wooden/pickaxe"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/wooden/axe"
+          "value": "matcha:equipment/wooden/axe"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/wooden/shovel"
+          "value": "matcha:equipment/wooden/shovel"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/wooden/hoe"
+          "value": "matcha:equipment/wooden/hoe"
         }
       ]
     }

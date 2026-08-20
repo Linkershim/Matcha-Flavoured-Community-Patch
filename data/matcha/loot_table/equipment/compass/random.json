@@ -7,16 +7,16 @@
         {
           "quality": 2,
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/compass/titanium"
+          "value": "matcha:equipment/compass/titanium"
         },
         {
           "quality": 1,
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/compass/gold"
+          "value": "matcha:equipment/compass/gold"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/compass/copper"
+          "value": "matcha:equipment/compass/copper"
         }
       ]
     }

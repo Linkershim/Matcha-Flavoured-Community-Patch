@@ -6,19 +6,19 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/copper/helmet"
+          "value": "matcha:equipment/copper/helmet"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/copper/chestplate"
+          "value": "matcha:equipment/copper/chestplate"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/copper/leggings"
+          "value": "matcha:equipment/copper/leggings"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/copper/boots"
+          "value": "matcha:equipment/copper/boots"
         }
       ]
     }

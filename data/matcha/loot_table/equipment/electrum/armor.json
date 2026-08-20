@@ -6,19 +6,19 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/electrum/helmet"
+          "value": "matcha:equipment/electrum/helmet"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/electrum/chestplate"
+          "value": "matcha:equipment/electrum/chestplate"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/electrum/leggings"
+          "value": "matcha:equipment/electrum/leggings"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "matcha_flavoured:equipment/electrum/boots"
+          "value": "matcha:equipment/electrum/boots"
         }
       ]
     }
