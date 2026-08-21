@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:item_frame",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:beacon_kindling",
+                "minecraft:item_name": {
+                  "translate": "item.kleispack.beacon_kindling"
+                },
+                "minecraft:entity_data": {
+                  "id":"minecraft:item_frame",
+                  "Tags": ["beacon_kindling"],
+                  "Fixed": true,
+                  "Invulnerable": true,
+                  "Invisible": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

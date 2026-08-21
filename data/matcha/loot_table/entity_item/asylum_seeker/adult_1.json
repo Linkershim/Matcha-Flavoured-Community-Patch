@@ -1,0 +1,54 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armor_stand",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:application",
+                "minecraft:item_name": "Asylum Seeker",
+                "minecraft:lore": [
+                  {
+                    "text": "Age: Adult",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Culture: Desert",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Cause of Emigration: Political Persecution",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Click the ground to summon",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "custom_data": {"entity_item": true},
+                "minecraft:entity_data": {
+                  "id":"minecraft:armor_stand",
+                  "Tags": ["entity_item"],
+                  "data": "{entity:villager,nbt:{VillagerData:{type:\"minecraft:desert\"}}}",
+                  "DisabledSlots":4144959,
+                  "Invulnerable": true,
+                  "Invisible": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

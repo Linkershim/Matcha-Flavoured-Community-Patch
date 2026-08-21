@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armor_stand",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "blue_egg",
+                "minecraft:item_name": {
+                  "translate": "item.kleispack.fertilised_blue_egg"
+                },
+                "minecraft:max_stack_size": 1,
+                "custom_data": {"entity_item": true},
+                "minecraft:entity_data": {
+                  "id": "minecraft:armor_stand",
+                  "Tags": ["entity_item"],
+                  "data": "{entity:chicken,nbt:{variant:\"minecraft:cold\",Age:-24000}}",
+                  "DisabledSlots": 4144959,
+                  "Invulnerable": true,
+                  "Invisible": true,
+                  "Small": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

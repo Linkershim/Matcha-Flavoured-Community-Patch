@@ -1,2 +1,2 @@
-scoreboard players reset @s[type=minecraft:marker,tag=beacon_kindling]
-kill @n[type=marker,tag=beacon_kindling]
+scoreboard players reset @s[type=minecraft:item_frame,tag=beacon_kindling]
+kill @n[type=item_frame,tag=beacon_kindling]

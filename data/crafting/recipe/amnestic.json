@@ -9,36 +9,25 @@
 	],
 	"result": {
 		"components": {
-			"minecraft:max_stack_size": 64,
-			"minecraft:lore": [
-				{
-					"text": "Causes a villager to forget who they are",
-					"color": "gray",
-					"italic": false
-				},
-				{
-					"translate": "Place on the ground next to them",
-					"color": "gray",
-					"italic": false
-				}
-			],
+			"minecraft:item_model": "minecraft:amnestic_wrapped",
 			"minecraft:custom_name": {
 				"translate": "item.kleispack.amnestic",
 				"color": "white",
 				"italic": false
 			},
-			"minecraft:item_model": "minecraft:amnestic_wrapped",
-			"minecraft:entity_data": {
-				"id": "minecraft:armor_stand",
-				"NoGravity": true,
-				"Invulnerable": true,
-				"Tags": [
-					"amnestic"
-				],
-				"Invisible": true
+			"minecraft:lore": [
+				{
+					"text": "Causes a villager to forget who they are",
+					"color": "gray",
+					"italic": false
+				}
+			],
+			"!minecraft:food":{},
+			"minecraft:consumable":{
+				"!on_consume_effects": {}
 			}
 		},
 		"count": 1,
-		"id": "minecraft:chicken_spawn_egg"
+		"id": "minecraft:poisonous_potato"
 	}
 }

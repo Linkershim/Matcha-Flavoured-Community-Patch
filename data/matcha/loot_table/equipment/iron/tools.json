@@ -1,0 +1,34 @@
+{
+   "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/iron/pickaxe"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/iron/axe"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/iron/dolabra"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/iron/shovel"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/iron/hoe"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/iron/mattock"
+        }
+      ]
+    }
+  ]
+}

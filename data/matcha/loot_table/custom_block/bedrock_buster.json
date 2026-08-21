@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:item_frame",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:bedrock_buster",
+                "minecraft:item_name": {
+                  "translate": "item.kleispack.bedrock_buster"
+                },
+                "minecraft:rarity": "rare",
+                "minecraft:entity_data": {
+                  "id":"minecraft:item_frame",
+                  "Tags": ["BedrockBuster"],
+                  "Fixed": true,
+                  "Invulnerable": true,
+                  "Invisible": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

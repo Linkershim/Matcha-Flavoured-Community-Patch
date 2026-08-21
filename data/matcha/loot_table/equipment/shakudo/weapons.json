@@ -1,0 +1,22 @@
+{
+   "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/shakudo/axe"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/shakudo/spear"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/shakudo/sword"
+        }
+      ]
+    }
+  ]
+}

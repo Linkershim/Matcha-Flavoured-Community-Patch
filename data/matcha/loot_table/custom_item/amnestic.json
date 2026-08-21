@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:amnestic_wrapped",
+                "minecraft:custom_name": {
+                  "translate": "item.kleispack.amnestic",
+                  "color": "white",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Causes a villager to forget who they are",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "!minecraft:food":{},
+                "minecraft:consumable":{
+                  "!on_consume_effects": {}
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

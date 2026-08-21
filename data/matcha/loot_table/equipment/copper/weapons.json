@@ -1,0 +1,22 @@
+{
+   "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/copper/axe"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/copper/spear"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/copper/sword"
+        }
+      ]
+    }
+  ]
+}

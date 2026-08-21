@@ -1,19 +1,6 @@
 {
 	"gives": {
 		"components": {
-			"minecraft:entity_data": {
-				"id": "minecraft:villager",
-				"active_effects": [
-					{
-						"id": "minecraft:invisibility",
-						"amplifier": 0,
-						"duration": 1,
-						"show_particles": false
-					}
-				],
-				"Age": -216000,
-				"VillagerData": {}
-			},
 			"minecraft:item_model": "minecraft:application",
 			"minecraft:item_name": "Asylum Seeker",
 			"minecraft:lore": [
@@ -37,10 +24,20 @@
 					"color": "gray",
 					"italic": false
 				}
-			]
+			],
+			"custom_data": {"entity_item": true},
+			"minecraft:entity_data": {
+				"id":"minecraft:armor_stand",
+				"Tags": ["entity_item","baby"],
+				"data": "{entity:villager,nbt:{Age:-24000}}",
+				"DisabledSlots":4144959,
+				"Invulnerable": true,
+				"Invisible": true,
+				"Small": true
+			}
 		},
 		"count": 1,
-		"id": "minecraft:villager_spawn_egg"
+		"id": "minecraft:armor_stand"
 	},
 	"max_uses": 1,
 	"wants": {

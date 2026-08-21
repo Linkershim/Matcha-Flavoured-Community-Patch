@@ -1,0 +1,42 @@
+{
+   "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/shakudo/pickaxe"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/shakudo/axe"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/shakudo/dolabra"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/shakudo/shovel"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/shakudo/hoe"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/shakudo/mattock"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/shakudo/spear"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/shakudo/sword"
+        }
+      ]
+    }
+  ]
+}

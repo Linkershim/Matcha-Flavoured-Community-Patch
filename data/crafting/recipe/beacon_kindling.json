@@ -14,20 +14,19 @@
 	},
 	"result": {
 		"components": {
-			"minecraft:entity_data": {
-				"id": "minecraft:marker",
-				"NoGravity": true,
-				"Invulnerable": true,
-				"Tags": [
-					"beacon_kindling"
-				]
-			},
+			"minecraft:item_model": "minecraft:beacon_kindling",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.beacon_kindling"
 			},
-			"minecraft:item_model": "minecraft:beacon_kindling"
+			"minecraft:entity_data": {
+				"id":"minecraft:item_frame",
+				"Tags": ["beacon_kindling"],
+				"Fixed": true,
+				"Invulnerable": true,
+				"Invisible": true
+			}
 		},
 		"count": 1,
-		"id": "minecraft:chicken_spawn_egg"
+		"id": "minecraft:item_frame"
 	}
 }
