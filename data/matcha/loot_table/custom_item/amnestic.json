@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:chicken_spawn_egg",
+          "name": "minecraft:poisonous_potato",
           "functions": [
             {
               "function": "minecraft:set_components",
@@ -22,22 +22,11 @@
                     "text": "Causes a villager to forget who they are",
                     "color": "gray",
                     "italic": false
-                  },
-                  {
-                    "translate": "Place on the ground next to them",
-                    "color": "gray",
-                    "italic": false
                   }
                 ],
-                "minecraft:max_stack_size": 64,
-                "minecraft:entity_data": {
-                  "id": "minecraft:armor_stand",
-                  "NoGravity": true,
-                  "Invulnerable": true,
-                  "Invisible": true,
-                  "Tags": [
-                    "amnestic"
-                  ]
+                "!minecraft:food":{},
+                "minecraft:consumable":{
+                  "!on_consume_effects": {}
                 }
               }
             }

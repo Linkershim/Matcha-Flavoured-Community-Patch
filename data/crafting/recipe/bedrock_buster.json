@@ -11,19 +11,20 @@
 		"XXX"
 	],
 	"result": {
-		"id": "minecraft:chicken_spawn_egg",
+		"id": "minecraft:item_frame",
 		"components": {
-			"minecraft:entity_data": {
-				"id": "minecraft:tnt",
-				"Glowing": true,
-				"fuse": 80,
-				"explosion_power": 4
-			},
+			"minecraft:item_model": "minecraft:bedrock_buster",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.bedrock_buster"
 			},
 			"minecraft:rarity": "rare",
-			"minecraft:item_model": "minecraft:bedrock_buster"
+			"minecraft:entity_data": {
+				"id":"minecraft:item_frame",
+				"Tags": ["BedrockBuster"],
+				"Fixed": true,
+				"Invulnerable": true,
+				"Invisible": true
+			}
 		}
 	}
 }

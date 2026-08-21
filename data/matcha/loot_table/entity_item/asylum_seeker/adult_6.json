@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:villager_spawn_egg",
+          "name": "minecraft:armor_stand",
           "functions": [
             {
               "function": "minecraft:set_components",
@@ -20,12 +20,12 @@
                     "italic": false
                   },
                   {
-                    "text": "Culture: Jungle",
+                    "text": "Culture: Plains",
                     "color": "dark_gray",
                     "italic": false
                   },
                   {
-                    "text": "Cause of Emigration: Natural Disaster",
+                    "text": "Cause of Emigration: Refused to Disclose",
                     "color": "dark_gray",
                     "italic": false
                   },
@@ -34,21 +34,16 @@
                     "color": "gray",
                     "italic": false
                   }
-                ]
-              },
-              "minecraft:entity_data": {
-                "id": "minecraft:villager",
-                "VillagerData": {
-                  "type": "minecraft:jungle"
-                },
-                "active_effects": [
-                  {
-                    "id": "minecraft:invisibility",
-                    "amplifier": 0,
-                    "duration": 1,
-                    "show_particles": false
-                  }
-                ]
+                ],
+                "custom_data": {"entity_item": true},
+                "minecraft:entity_data": {
+                  "id":"minecraft:armor_stand",
+                  "Tags": ["entity_item"],
+                  "data": "{entity:villager,nbt:{VillagerData:{type:\"minecraft:plains\"}}}",
+                  "DisabledSlots":4144959,
+                  "Invulnerable": true,
+                  "Invisible": true
+                }
               }
             }
           ]

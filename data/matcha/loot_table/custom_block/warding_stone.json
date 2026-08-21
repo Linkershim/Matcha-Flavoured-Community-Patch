@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:chicken_spawn_egg",
+          "name": "minecraft:item_frame",
           "functions": [
             {
               "function": "minecraft:set_components",
@@ -17,13 +17,11 @@
                   "color": "aqua"
                 },
                 "minecraft:entity_data": {
-                  "id": "minecraft:armor_stand",
+                  "id":"minecraft:item_frame",
                   "Tags": ["WardingStone"],
-                  "DisabledSlots": 4144959,
-                  "NoGravity": true,
+                  "Fixed": true,
                   "Invulnerable": true,
-                  "Invisible": true,
-                  "Small": true
+                  "Invisible": true
                 }
               }
             }

@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "use_item": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:item_model": "minecraft:amnestic_wrapped"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "use_item"
+    ]
+  ],
+  "rewards": {
+    "function": "main:mechanic/amnestic/player"
+  }
+}

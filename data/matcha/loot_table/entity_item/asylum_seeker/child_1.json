@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:villager_spawn_egg",
+          "name": "minecraft:armor_stand",
           "functions": [
             {
               "function": "minecraft:set_components",
@@ -15,17 +15,17 @@
                 "minecraft:item_name": "Asylum Seeker",
                 "minecraft:lore": [
                   {
-                    "text": "Age: Adult",
+                    "text": "Age: Child",
                     "color": "dark_gray",
                     "italic": false
                   },
                   {
-                    "text": "Culture: Taiga",
+                    "text": "Culture: None",
                     "color": "dark_gray",
                     "italic": false
                   },
                   {
-                    "text": "Cause of Emigration: The Dead God",
+                    "text": "Cause of Emigration: Famine",
                     "color": "dark_gray",
                     "italic": false
                   },
@@ -34,21 +34,17 @@
                     "color": "gray",
                     "italic": false
                   }
-                ]
-              },
-              "minecraft:entity_data": {
-                "id": "minecraft:villager",
-                "VillagerData": {
-                  "type": "minecraft:taiga"
-                },
-                "active_effects": [
-                  {
-                    "id": "minecraft:invisibility",
-                    "amplifier": 0,
-                    "duration": 1,
-                    "show_particles": false
-                  }
-                ]
+                ],
+                "custom_data": {"entity_item": true},
+                "minecraft:entity_data": {
+                  "id":"minecraft:armor_stand",
+                  "Tags": ["entity_item","baby"],
+                  "data": "{entity:villager,nbt:{Age:-24000}}",
+                  "DisabledSlots":4144959,
+                  "Invulnerable": true,
+                  "Invisible": true,
+                  "Small": true
+                }
               }
             }
           ]

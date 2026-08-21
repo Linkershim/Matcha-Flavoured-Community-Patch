@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "use_item": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:item_model": "minecraft:amnestic_wrapped"
+          }
+        },
+        "entity": {
+          "minecraft:entity_type": "minecraft:villager"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "use_item"
+    ]
+  ],
+  "rewards": {
+    "function": "main:mechanic/amnestic/villager"
+  }
+}

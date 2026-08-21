@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:chicken_spawn_egg",
+          "name": "minecraft:item_frame",
           "functions": [
             {
               "function": "minecraft:set_components",
@@ -17,10 +17,11 @@
                 },
                 "minecraft:rarity": "rare",
                 "minecraft:entity_data": {
-                  "id": "minecraft:tnt",
-                  "explosion_power": 4,
-                  "fuse": 80,
-                  "Glowing": true
+                  "id":"minecraft:item_frame",
+                  "Tags": ["BedrockBuster"],
+                  "Fixed": true,
+                  "Invulnerable": true,
+                  "Invisible": true
                 }
               }
             }

@@ -13,24 +13,20 @@
 	],
 	"result": {
 		"components": {
-			"minecraft:entity_data": {
-				"id": "minecraft:armor_stand",
-				"NoGravity": true,
-				"Invulnerable": true,
-				"Tags": [
-					"WardingStone"
-				],
-				"Invisible": true,
-				"Small": true,
-				"DisabledSlots": 4144959
-			},
+			"minecraft:item_model": "minecraft:warding_stone",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.warding_stone",
 				"color": "aqua"
 			},
-			"minecraft:item_model": "minecraft:warding_stone"
+			"minecraft:entity_data": {
+				"id":"minecraft:item_frame",
+				"Tags": ["WardingStone"],
+				"Fixed": true,
+				"Invulnerable": true,
+				"Invisible": true
+			}
 		},
 		"count": 1,
-		"id": "minecraft:chicken_spawn_egg"
+		"id": "minecraft:item_frame"
 	}
 }

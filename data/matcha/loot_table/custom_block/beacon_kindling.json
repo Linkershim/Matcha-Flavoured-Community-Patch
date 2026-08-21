@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:chicken_spawn_egg",
+          "name": "minecraft:item_frame",
           "functions": [
             {
               "function": "minecraft:set_components",
@@ -16,8 +16,11 @@
                   "translate": "item.kleispack.beacon_kindling"
                 },
                 "minecraft:entity_data": {
-                  "id": "minecraft:marker",
-                  "Tags": ["beacon_kindling"]
+                  "id":"minecraft:item_frame",
+                  "Tags": ["beacon_kindling"],
+                  "Fixed": true,
+                  "Invulnerable": true,
+                  "Invisible": true
                 }
               }
             }
