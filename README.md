@@ -35,7 +35,7 @@ A planned feature for Matcha that Klei mentioned not knowing how to do yet.
 ### Multiplayer Support: Player Updating
 Changed the implementation to be more efficient: using less commands and improving performance
 * The server now checks all players using a looping function instead of each player triggering an advancement to initiate the check
-* Checks if each player is below the latest version once per loop, then runs all functions based on that instead of checking for each function
+* Checks if each player is below the latest version once per loop, then runs all functions based on that instead of checking for every function
 * Works without having to set the player's version score to 0 upon first join
 * Revokes all recipe Advancements with one command instead of doing each one individually
 * Sets the updated version score directly
