@@ -60,12 +60,10 @@
                           "show_particles": false,
                           "show_icon": true
                         }
-                      ],
-                      "probability": 1
+                      ]
                     }
                   ]
-                },
-
+                }
               }
             }
           ]

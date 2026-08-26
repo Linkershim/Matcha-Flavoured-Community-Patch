@@ -27,7 +27,7 @@
                     "italic": false
                   }
                 ],
-                "minecraft:food": {},
+                "!minecraft:food": {},
                 "minecraft:consumable": {
                   "consume_seconds": 3,
                   "animation": "drink",
