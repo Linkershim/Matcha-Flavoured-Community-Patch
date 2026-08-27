@@ -3,6 +3,10 @@ This fork of Klei's Matcha Flavoured serves as a place for bugfixes, implementat
 The aim is to provide an easier base for people to fork into their own remixes and addons, in a place where Klei and other developers can look through our contributions.
 
 ## Bugfixes
+### Bloodrage Multiplayer Compat
+In Multiplayer if one person held a weapon enchanted with Bloodrage while at below half hp, all players would get the Bloodrage buff.
+* Now only affects the player who triggered the enchantment
+* Also improved the efficiency of the imlementation
 ### Eggsploit fix
 Matcha uses Spawn Eggs with custom stored entities for many of it's Custom Items, and gives out normal spawn eggs from trades.
 These Spawn Eggs can be used on Mob Spawners and Trial Spawners to change their spawned entity to the one stored in the egg.
