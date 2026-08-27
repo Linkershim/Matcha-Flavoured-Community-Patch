@@ -43,6 +43,10 @@ Changed the implementation to be more efficient: using less commands and improvi
 * Works without having to set the player's version score to 0 upon first join
 * Revokes all recipe Advancements with one command instead of doing each one individually
 * Sets the updated version score directly
+### Sleeping
+Modified sleep function to use Target Selectors instead of "execute if score" for better performance, also:
+* No longer accelerates time faster the more people are sleeping at once (Any faster than it already is is too fast)
+* Now only runs the weather clear command once per tick, instead of once per sleeping player per tick
 
 
 ## Development Utilities

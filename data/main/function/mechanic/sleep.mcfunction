@@ -1,3 +1,6 @@
-execute at @a store result score @p sleepTimerScore run data get entity @p SleepTimer
-execute at @a run execute if score @p sleepTimerScore >= 1 sleepTimerScore unless score @p sleepTimerScore >= 100 sleepTimerScore run time add 120
-execute at @a run execute if score @p sleepTimerScore >= 1 sleepTimerScore unless score @p sleepTimerScore >= 100 sleepTimerScore run weather clear
+# Store everyone's SleepTimer NBT as a Score
+execute as @a store result score @s sleepTimerScore run data get entity @s SleepTimer
+
+# If at least one person is sleeping, accelerate time and set the Weather to Clear
+execute as @p[scores={sleepTimerScore=1..100}] run time add 120
+execute as @p[scores={sleepTimerScore=1..100}] run weather clear
