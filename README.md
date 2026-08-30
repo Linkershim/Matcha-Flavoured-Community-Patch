@@ -3,6 +3,9 @@ This fork of Klei's Matcha Flavoured serves as a place for bugfixes, implementat
 The aim is to provide an easier base for people to fork into their own remixes and addons, in a place where Klei and other developers can look through our contributions.
 
 ## Bugfixes
+### Amber Earrings not working in Multiplayer
+Previously they would fail to apply Regen to the user if any player on the server currently had the Regeration effect.
+* Fixed by applying regen directly to the user with @s instead of using @p
 ### Bloodrage Multiplayer Compat
 In Multiplayer if one person held a weapon enchanted with Bloodrage while at below half hp, all players would get the Bloodrage buff.
 * Now only affects the player who triggered the enchantment
