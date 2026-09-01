@@ -25,6 +25,8 @@ scoreboard players set maximum_hearts Hearts 60
 #Thank you kind soul, for pointing out the obvious mistake I made. So grateful for you.
 scoreboard objectives add sleepTimerScore dummy
 
+scoreboard objectives add AnemosCooldown dummy
+
 scoreboard objectives add divinity dummy
 scoreboard players set 0 divinity 0
 scoreboard objectives add apotropaic dummy
